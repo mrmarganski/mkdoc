@@ -1,4 +1,4 @@
-# Welcome to FRC Robotics, Where YOU Rule
+# Welcome to FRC Robotics, Where YOU Rule!!!!
 
 Welcome to the team! This guide is for new members of our FRC robotics club.
 
@@ -10,3 +10,5 @@ Welcome to the team! This guide is for new members of our FRC robotics club.
 - How to contribute to the team
 
 Stay curious, ask questions, and have fun!
+
+Dont be a stinker!
