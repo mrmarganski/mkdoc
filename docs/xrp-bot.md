@@ -61,10 +61,6 @@ public class Robot extends TimedRobot {
 }
 ```
 
-
-
-
-
 <!-- Go Back Button -->
 [Go Back to Launch Page](index.md)
 
