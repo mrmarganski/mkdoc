@@ -1,6 +1,6 @@
 # Welcome to FRC Robotics, Where YOU Rule!!!!
 
-Welcome to the team! This guide is for new members of our FRC robotics club.
+Welcome to the team stinker! This guide is for new members of our FRC robotics club.
 
 ## What You'll Learn
 
