@@ -67,4 +67,4 @@ public class Robot extends TimedRobot {
 ---
 
 <!-- Next Page Button -->
-[Next Step: Programming the XRP Bot](next-step.md)
+[Next Step: Programming the XRP Bot](Programming.md)
