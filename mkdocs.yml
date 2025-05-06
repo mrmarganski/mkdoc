@@ -32,3 +32,4 @@ markdown_extensions:
 nav:
   - Home: index.md
   - XRP Bot Creation: xrp-bot.md
+  - Build: Build.md
