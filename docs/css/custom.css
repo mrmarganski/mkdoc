@@ -1,37 +1,38 @@
-/* Style all links in .md-typeset */
+/* Style all links within the main content area */
 .md-typeset a {
-  text-decoration: none; /* Removes underlines for a cleaner look */
-  color: #007bff; /* A more modern blue for links */
-  font-weight: 400; /* Slightly lighter font weight */
-  transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
-  padding: 0.1em 0; /* Minimal padding to affect only the text height */
-  margin: 0; /* Remove unnecessary margins */
-  background-color: transparent; /* No background color by default */
-  border-bottom: 1px solid transparent; /* Subtle underline on hover */
+  text-decoration: none !important; /* Removes underlines */
+  color: #007bff !important; /* Modern blue for links */
+  font-weight: 400 !important; /* Slightly lighter font weight */
+  transition: color 0.3s ease-in-out !important; /* Smooth color transition */
+  padding: 0.1em 0 !important; /* Minimal padding */
+  margin: 0 !important; /* Remove unnecessary margins */
+  background-color: transparent !important; /* No background color */
+  border-bottom: 1px solid transparent !important; /* Subtle underline on hover */
+  font-size: inherit !important; /* Inherit the surrounding text size */
 }
 
 .md-typeset a:hover {
-  color: #0056b3; /* Darker blue on hover */
-  border-bottom: 1px solid #0056b3; /* Underline on hover */
+  color: #0056b3 !important; /* Darker blue on hover */
+  border-bottom: 1px solid #0056b3 !important; /* Underline on hover */
 }
 
-/* Style for custom buttons (if you still use them elsewhere) */
+/* If you still use custom buttons elsewhere */
 .md-typeset .custom-button a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 0.7em 1.5em; /* More standard button padding */
-  margin: 0.5em 0.2em; /* Adjusted margins */
-  background-color: #007bff; /* Modern blue for buttons */
-  color: white;
-  font-size: 1em; /* Use em for relative sizing */
-  font-weight: 500;
-  border-radius: 0.3em; /* More subtle rounded corners */
-  box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.15); /* Softer shadow */
-  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  text-decoration: none !important;
+  display: inline-block !important;
+  padding: 0.7em 1.5em !important;
+  margin: 0.5em 0.2em !important;
+  background-color: #007bff !important;
+  color: white !important;
+  font-size: 1em !important;
+  font-weight: 500 !important;
+  border-radius: 0.3em !important;
+  box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.15) !important;
+  transition: background-color 0.3s ease-in-out !important, transform 0.2s ease-in-out !important, box-shadow 0.2s ease-in-out !important;
 }
 
 .md-typeset .custom-button a:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  transform: translateY(-0.1em); /* Slight lift on hover */
-  box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+  background-color: #0056b3 !important;
+  transform: translateY(-0.1em) !important;
+  box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.2) !important;
 }
