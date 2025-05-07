@@ -33,20 +33,20 @@ features:
 # extra_css:
   # - css/custom.css  # Temporarily disabled for testing
 
-markdown_extensions:
-  - pymdownx.highlight:
-      use_pygments: true
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - admonition
-  - pymdownx.details
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - attr_list
+# markdown_extensions:
+#  - pymdownx.highlight:
+#      use_pygments: true
+#      anchor_linenums: true
+#     line_spans: __span
+#      pygments_lang_class: true
+#  - admonition
+#  - pymdownx.details
+#  - pymdownx.snippets
+#  - pymdownx.superfences
+#  - attr_list
 
-plugins:
-  - search
+# plugins:
+#  - search
 
 nav:
   - Home: index.md

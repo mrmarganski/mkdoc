@@ -445,10 +445,8 @@
 <p>The wheels have a diameter of 60mm (2.3622"). They have a trackwidth of 155mm (6.1").</p>
 <p>The encoders are connected directly to the motor output shaft and have 12 Counts Per Revolution (CPR). With the provided gear ratio, this nets 585 counts per wheel revolution.</p>
 <p>The motor channels are listed in the table below.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>We use "motor channels" here instead of "PWM channels" as the XRP requires the use of a special <code>XRPMotor</code> object in WPILib code to interact with the hardware.</p>
-</div>
+<p>!!! note
+    We use "motor channels" here instead of "PWM channels" as the XRP requires the use of a special <code>XRPMotor</code> object in WPILib code to interact with the hardware.</p>
 <table>
 <thead>
 <tr>
@@ -475,15 +473,11 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The right motor will spin in a backward direction when positive output is applied. Thus the corresponding motor controller needs to be inverted in robot code.</p>
-</div>
+<p>!!! note
+    The right motor will spin in a backward direction when positive output is applied. Thus the corresponding motor controller needs to be inverted in robot code.</p>
 <p>The servo channels are listed in the table below.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>We use "servo channels" here instead of "PWM channels" as the XRP requires the use of a special <code>XRPServo</code> object in WPILib code to interact with the hardware.</p>
-</div>
+<p>!!! note
+    We use "servo channels" here instead of "PWM channels" as the XRP requires the use of a special <code>XRPServo</code> object in WPILib code to interact with the hardware.</p>
 <table>
 <thead>
 <tr>
@@ -545,10 +539,8 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>By default, the encoders count up when the XRP moves forward.</p>
-</div>
+<p>!!! note
+    By default, the encoders count up when the XRP moves forward.</p>
 <h3 id="inertial-measurement-unit">Inertial Measurement Unit</h3>
 <p>The XRP includes an STMicroelectronics LSM6DSOX Inertial Measurement Unit (IMU) which contains a 3-axis gyro and a 3-axis accelerometer.</p>
 <p>The XRP will calibrate the gyro and accelerometer upon each boot (the onboard LED will quickly flash for about 3-5 seconds at startup time).</p>
@@ -572,10 +564,8 @@
 </tr>
 </tbody>
 </table>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>DIO 2 and 3 are reserved for future system use.</p>
-</div>
+<p>!!! note
+    DIO 2 and 3 are reserved for future system use.</p>
 <h3 id="line-following-reflectance-sensor">Line Following (Reflectance) Sensor</h3>
 <p>When assembled according to the instructions, the XRP supports a line following sensor with 2 sensing elements. Each sensing element measures reflectance and exposes these as AnalogInput channels to robot code. The returned values range from 0V (pure white) to 5V (pure black).</p>
 <table>
