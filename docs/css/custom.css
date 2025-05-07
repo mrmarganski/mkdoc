@@ -25,20 +25,3 @@
   transform: translateY(-0.1em) !important;
   box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.2) !important;
 }
-.code-container {
-  position: relative;
-  margin-bottom: 1.5rem;
-}
-.copy-btn {
-  position: absolute;
-  top: 8px;
-  right: 12px;
-  background: #2d2d2d;
-  color: #fff;
-  border: none;
-  padding: 4px 8px;
-  font-size: 0.8em;
-  border-radius: 4px;
-  cursor: pointer;
-  z-index: 10;
-}
