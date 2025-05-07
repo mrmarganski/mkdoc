@@ -44,7 +44,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - glightbox
+  # - glightbox
 
 nav:
   - Home: index.md
