@@ -13,7 +13,7 @@ The purpose of the course is to take you from zero to being able to model a full
 !!! warning "Warning"
     Before starting, remember to take a look at the [website feature guide](../website-feature-guide.md){ target=_blank } to gain an understanding of the different features used throughout the learning course!
 
-![Onshape Signup](/img/learning-course/stage0/setup/signup.webp){ style="width:25%; float:right; border:5px solid #ADADAD; border-radius: 2%" }
+![Onshape Signup](/img/signup.webp){ style="width:25%; float:right; border:5px solid #ADADAD; border-radius: 2%" }
 
 ### [Stage 0](stage0/0A/what-and-why-CAD.md)
 
@@ -25,7 +25,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-![Exercise 2 Assembly](/img/learning-course/stage1b/Exercise%202%20Assembly.webp){ style="width:35%; float:left" }
+![Exercise 2 Assembly](/img/Exercise%202%20Assembly.webp){ style="width:35%; float:left" }
 
 ### [Stage 1](stage1/1A/introduction.md)
 
@@ -36,7 +36,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-![Stage 2 Intake](/img/learning-course/stage2-slapdown/intakeTopLevel.webp){ style="width:32%; float:right" }
+![Stage 2 Intake](/img/intakeTopLevel.webp){ style="width:32%; float:right" }
 
 ### [Stage 2](stage2/2A/introduction.md)
 
@@ -47,7 +47,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-![Stage 3 Layout](/img/learning-course/stage3/1778-2024-MS.webp){ style="width:30%; float:left; border:5px solid #ADADAD; border-radius: 2%" }
+![Stage 3 Layout](/img/1778-2024-MS.webp){ style="width:30%; float:left; border:5px solid #ADADAD; border-radius: 2%" }
 
 ### [Stage 3](stage3/3A/introduction.md) **(Under Construction)**
 
