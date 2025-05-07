@@ -4,13 +4,9 @@ title: FRC Design Learning Course
 
 # FRC Design Learning Course
 
-<div class="code-container">
-
-```python
+```python { .copy }
 print("Hello, world!")
 ```
-  <button class="custom-copy-button sleek">Copy</button>
-</div>
 
 Welcome to the design learning course, the main purpose and content of the website! Keep in mind that it's always a work in progress, so if you find any issues or have difficulty understanding something, please reach out to a member!
 
