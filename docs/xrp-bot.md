@@ -27,36 +27,8 @@ XRP Bots are specialized robots designed for the FIRST Robotics Competition (FRC
 
 ## Building Your XRP Bot
 
-### 1. Designing the Chassis
+### Put Build here
 
-Start by sketching your robot's layout and defining the shape of your chassis. Ensure it meets the competition's size requirements.
+## Getting to know your XRP bot
 
-### 2. Assembling the Drive Train
-
-Choose between different drive systems. For example, if you're building a tank drive, you’ll need two motors for the left and right sides. Ensure that you select the correct motor controllers and wiring.
-
-### 3. Programming Your XRP Bot
-
-Programming the robot requires writing code to control movement, sensors, and actuators. Start by configuring the robot's inputs and outputs.
-
-#### Example Code (in Java):
-## Programming Your XRP Bot
-
-Programming the robot requires writing code to control movement, sensors, and actuators. Start by configuring the robot's inputs and outputs.
-
-### Example Code (in Java):
-
-```java
-public class Robot extends TimedRobot {
-    private Spark leftMotor = new Spark(0);
-    private Spark rightMotor = new Spark(1);
-
-    @Override
-    public void teleopPeriodic() {
-        double moveSpeed = joystick.getY();
-        double turnSpeed = joystick.getX();
-        leftMotor.set(moveSpeed + turnSpeed);
-        rightMotor.set(moveSpeed - turnSpeed);
-    }
-}
-```
+### [Go to Getting to know your XRP Bot Page](gettingtoknow.md)
