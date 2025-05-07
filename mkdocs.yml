@@ -35,16 +35,18 @@ extra_javascript:
   - js/image-zoom.js
   - js/custom.js
   - javascripts/extra.js
-  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/javascript.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/java.min.js
 
 extra_css:
     - css/custom.css
     - css/image-zoom.css
-    - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css
+    - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/base16/material-darker.min.css
 
 markdown_extensions:
   - pymdownx.highlight:
-      use_pygments: true
+      use_pygments: false
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true

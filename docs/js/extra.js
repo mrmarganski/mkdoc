@@ -10,11 +10,13 @@ function zoomCode(element) {
   zoomedContainer.classList.add('zoomed-code-container');
   modal.appendChild(zoomedContainer);
 
-  const codeText = element.querySelector('code').innerText;
+  const originalCode = element.querySelector('code');
+  const codeText = originalCode.innerText;
+  const languageClass = originalCode.className || 'language-javascript'; // Fallback to JS
 
   const newPre = document.createElement('pre');
   const newCode = document.createElement('code');
-  newCode.className = 'language-java'; // or use original class dynamically
+  newCode.className = languageClass; // Use the original language class
   newCode.textContent = codeText;
   newPre.appendChild(newCode);
   zoomedContainer.appendChild(newPre);
@@ -44,9 +46,10 @@ function zoomCode(element) {
   }
 }
 
-// ✅ This should be outside the function:
+// Highlight all code blocks on page load
 document.addEventListener('DOMContentLoaded', () => {
   if (typeof hljs !== 'undefined') {
+    hljs.configure({ languages: ['javascript', 'java'] }); // Optional: for better auto-detection
     document.querySelectorAll('pre code').forEach((block) => {
       hljs.highlightElement(block);
     });
