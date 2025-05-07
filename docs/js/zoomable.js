@@ -1,20 +1,20 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const zoomableImages = document.querySelectorAll('.zoomable');
+document.addEventListener('DOMContentLoaded', () => {
+  const images = document.querySelectorAll('.md-typeset img');
   const overlay = document.createElement('div');
-  overlay.classList.add('zoomable-overlay');
+  overlay.className = 'image-overlay';
   document.body.appendChild(overlay);
 
-  zoomableImages.forEach(img => {
-    img.addEventListener('click', function() {
-      this.classList.toggle('zoomed');
-      overlay.classList.toggle('active');
-      document.body.classList.toggle('no-scroll', this.classList.contains('zoomed'));
+  images.forEach((img) => {
+    img.addEventListener('click', () => {
+      const clonedImg = img.cloneNode();
+      clonedImg.className = 'zoomed';
+      overlay.innerHTML = '';
+      overlay.appendChild(clonedImg);
+      overlay.classList.add('active');
     });
   });
 
-  overlay.addEventListener('click', function() {
-    document.querySelector('.zoomable.zoomed')?.classList.remove('zoomed');
-    this.classList.remove('active');
-    document.body.classList.remove('no-scroll');
+  overlay.addEventListener('click', () => {
+    overlay.classList.remove('active');
   });
 });

@@ -27,6 +27,10 @@ The purpose of the course is to take you from zero to being able to model a full
   <img src="img/signup.webp" alt="Your Image Description4" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
 </div>
 
+![Sample Image](img/signup.webp)
+
+[Next Step: Programming the XRP Bot](gettingtoknow.md)
+
 ### [Stage 0](stage0/0A/what-and-why-CAD.md)
 
 - For people that haven't used CAD or Onshape before  
