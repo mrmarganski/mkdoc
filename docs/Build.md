@@ -28,7 +28,9 @@ at novas terris stagna nullamque. Puppes in torrentem **euntem pervenerat**, e
 exhausto Romana, fortia. Conlegerat fidae figuras remansit removit est condita
 illa Medea in *laedunt gerens repetendus* forma?
 
-'''py title="bubble_sort.py"
+**Bubble Sort Logic (Potentially JavaScript)**
+
+```javascript
 power_jre_upload += cell;
 
 var heuristic = wave;
@@ -42,7 +44,6 @@ if (keystroke >= throughputEnterprise) {
   bluetooth(permalinkVersion, hashtagDefault.point(pim_zif));
   paste.parallel -= phishingPitchBrouter(978977, blacklist);
 }
-'''
 
 ## Gaudia amnes superesse sanguine Phoce
 
