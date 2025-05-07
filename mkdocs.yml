@@ -26,11 +26,11 @@ features:
   - content.code.highlight
   - content.code.copy
 
-extra_javascript:
+# extra_javascript:
   # - js/features/privacy.js
   # - js/custom.js  # Temporarily disabled for testing
 
-extra_css:
+# extra_css:
   # - css/custom.css  # Temporarily disabled for testing
 
 markdown_extensions:
