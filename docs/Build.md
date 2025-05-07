@@ -28,7 +28,7 @@ at novas terris stagna nullamque. Puppes in torrentem **euntem pervenerat**, e
 exhausto Romana, fortia. Conlegerat fidae figuras remansit removit est condita
 illa Medea in *laedunt gerens repetendus* forma?
 
-**Bubble Sort Logic (Potentially JavaScript)**
+**Bubble Sort Logics (Potentially JavaScript)**
 
 ```javascript
 power_jre_upload += cell;
