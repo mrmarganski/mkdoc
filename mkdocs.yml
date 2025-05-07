@@ -16,9 +16,8 @@ theme:
     code: Roboto Mono
   logo: null
   favicon: null
-  extra_css:
-    - css/custom.css
-  features:
+
+features:
     - content.code.copy
     - content.tabs.link
     - navigation.sections
@@ -31,6 +30,13 @@ theme:
     - privacy.cookies
     - toc.integrate
     - content.lightbox
+    
+extra_javascript:
+  - js/image-zoom.js
+
+extra_css:
+    - css/custom.css
+    - css/image-zoom.css
 
 markdown_extensions:
   - pymdownx.highlight:

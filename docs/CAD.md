@@ -20,7 +20,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-[![Stage 0 Setup](img/learning-course/stage0/setup/signup.webp){ style="width:25%; float:right; border:4px solid #ADADAD; border-radius:5px; margin-left:1rem;" }](img/learning-course/stage0/setup/signup.webp)
+![Stage 0 Setup](img/learning-course/stage0/setup/signup.webp){ .zoomable style="width:35%; float:left; margin-right:1rem;" }
 
 ### [Stage 0](stage0/0A/what-and-why-CAD.md)
 
@@ -34,7 +34,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-[![Exercise 2 Assembly](img/learning-course/stage1b/Exercise-2-Assembly.webp){ style="width:35%; float:left; margin-right:1rem;" }](img/learning-course/stage1b/Exercise-2-Assembly.webp)
+![Exercise 2 Assembly](img/learning-course/stage1b/Exercise-2-Assembly.webp){ .zoomable style="width:35%; float:left; margin-right:1rem;" }
 
 ### [Stage 1](stage1/1A/introduction.md)
 
@@ -47,7 +47,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-[![Intake Top Level](img/learning-course/stage2-slapdown/intakeTopLevel.webp){ style="width:32%; float:right; margin-left:1rem;" }](img/learning-course/stage2-slapdown/intakeTopLevel.webp)
+![Intake Top Level](img/learning-course/stage2-slapdown/intakeTopLevel.webp){ .zoomable style="width:35%; float:left; margin-right:1rem;" }
 
 ### [Stage 2](stage2/2A/introduction.md)
 
@@ -60,7 +60,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-[![1778 2024 MS](img/learning-course/stage3/1778-2024-MS.webp){ style="width:30%; float:left; border:4px solid #ADADAD; border-radius:5px; margin-right:1rem;" }](img/learning-course/stage3/1778-2024-MS.webp)
+!![1778 2024 MS](img/learning-course/stage3/1778-2024-MS.webp){ .zoomable style="width:35%; float:left; margin-right:1rem;" }
 
 ### [Stage 3](stage3/3A/introduction.md) **(Under Construction)**
 
