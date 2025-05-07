@@ -95,17 +95,26 @@
     color: #f5f5f5 !important;
   }
 }
-/* Copy button */
+
 .copy-btn {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background-color: #ccc;
+  background-color: #444;
+  color: white;
   border: none;
-  padding: 6px 10px;
-  border-radius: 4px;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
   cursor: pointer;
+  transition: background 0.3s ease;
+  z-index: 10;
 }
+
+.copy-btn:hover {
+  background-color: #666;
+}
+
 /* Syntax highlight fix inside modal */
 .zoomed-code-container pre code {
   font-family: 'Fira Code', monospace;

@@ -14,7 +14,7 @@ function zoomCode(element) {
 
   const newPre = document.createElement('pre');
   const newCode = document.createElement('code');
-  newCode.className = 'language-java'; // change this dynamically if needed
+  newCode.className = 'language-java'; // or use original class dynamically
   newCode.textContent = codeText;
   newPre.appendChild(newCode);
   zoomedContainer.appendChild(newPre);
@@ -38,8 +38,17 @@ function zoomCode(element) {
     modal.remove();
   });
 
-  // Apply syntax highlighting if highlight.js is loaded
+  // Apply syntax highlighting to the zoomed block
   if (typeof hljs !== 'undefined') {
     hljs.highlightElement(newCode);
   }
 }
+
+// ✅ This should be outside the function:
+document.addEventListener('DOMContentLoaded', () => {
+  if (typeof hljs !== 'undefined') {
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightElement(block);
+    });
+  }
+});
