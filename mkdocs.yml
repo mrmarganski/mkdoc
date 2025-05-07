@@ -19,6 +19,7 @@ theme:
 
 features:
     - content.code.copy
+    - content.code.annotate
     - content.tabs.link
     - navigation.sections
     - navigation.expand
