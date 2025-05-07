@@ -39,7 +39,11 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-![Image title](img/intakeTopLevel.webp){ align=left }
+![Image title](img/intakeTopLevel.webp)
+
+<div class="zoomable-container">
+  <img src="img/intakeTopLevel.webp" alt="Image title" class="zoomable">
+</div>
 
 ### [Stage 1](stage1/1A/introduction.md)
 
