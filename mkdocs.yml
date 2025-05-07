@@ -7,6 +7,8 @@ copyright: Copyright &copy; 2025 FRC Team 2064
 
 theme:
   name: material
+  js:
+    - features/privacy.js
   palette:
     scheme: slate
     primary: red
