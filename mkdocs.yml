@@ -16,14 +16,14 @@ theme:
   favicon: img/favicon.ico
 
 features:
-  - content.tabs.link
-  - navigation.sections
-  - navigation.expand
-  - navigation.top
-  - navigation.path
-  - navigation.footer
-  - toc.integrate
-  - content.code.highlight
+ # - content.tabs.link
+ # - navigation.sections
+ # - navigation.expand
+ # - navigation.top
+ # - navigation.path
+ # - navigation.footer
+ # - toc.integrate
+ # - content.code.highlight
   - content.code.copy
 
 # extra_javascript:
@@ -33,12 +33,12 @@ features:
 # extra_css:
   # - css/custom.css  # Temporarily disabled for testing
 
-# markdown_extensions:
-#  - pymdownx.highlight:
-#      use_pygments: true
-#      anchor_linenums: true
-#     line_spans: __span
-#      pygments_lang_class: true
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
 #  - admonition
 #  - pymdownx.details
 #  - pymdownx.snippets
