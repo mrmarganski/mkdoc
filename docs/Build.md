@@ -28,6 +28,7 @@ at novas terris stagna nullamque. Puppes in torrentem **euntem pervenerat**, e
 exhausto Romana, fortia. Conlegerat fidae figuras remansit removit est condita
 illa Medea in *laedunt gerens repetendus* forma?
 
+''' py title="bubble_sort.py"
     power_jre_upload += cell;
     var heuristic = wave;
     cBoot(bpsCorrectionProxy.developmentUp(frozen_cd, 4, database),
@@ -40,7 +41,7 @@ illa Medea in *laedunt gerens repetendus* forma?
         bluetooth(permalinkVersion, hashtagDefault.point(pim_zif));
         paste.parallel -= phishingPitchBrouter(978977, blacklist);
     }
-
+'''
 ## Gaudia amnes superesse sanguine Phoce
 
 Urbem me quibus ad mihi, est radiis mihi. Acumina leto: iugo illic felix visum
