@@ -4,6 +4,10 @@ title: FRC Design Learning Course
 
 # FRC Design Learning Course
 
+``` python
+print("Hello, world!")
+```
+
 Welcome to the design learning course, the main purpose and content of the website! Keep in mind that it's always a work in progress, so if you find any issues or have difficulty understanding something, please reach out to a member!
 
 The purpose of the course is to take you from zero to being able to model a full robot. The content focuses on FRC-relevant features and tools, using engaging projects that not only introduce new CAD skills and practice old ones but also introduce engineering concepts. These projects gradually get less guided as you progress.
