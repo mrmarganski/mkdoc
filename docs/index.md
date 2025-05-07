@@ -1,4 +1,4 @@
-# Welcome to FRC Robotics, Where YOU Rule!!!!
+# Welcome to FRC Robotics - Panther Project!
 
 Welcome to the team stinkers! This guide is for new members of our FRC robotics club.
 
