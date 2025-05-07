@@ -1,38 +1,27 @@
-/* Style all links within the main content area */
-.md-typeset a {
-  text-decoration: none !important; /* Removes underlines */
-  color: #007bff !important; /* Modern blue for links */
-  font-weight: 400 !important; /* Slightly lighter font weight */
-  transition: color 0.3s ease-in-out !important; /* Smooth color transition */
-  padding: 0.1em 0 !important; /* Minimal padding */
-  margin: 0 !important; /* Remove unnecessary margins */
-  background-color: transparent !important; /* No background color */
-  border-bottom: 1px solid transparent !important; /* Subtle underline on hover */
-  font-size: inherit !important; /* Inherit the surrounding text size */
-}
-
-.md-typeset a:hover {
-  color: #0056b3 !important; /* Darker blue on hover */
-  border-bottom: 1px solid #0056b3 !important; /* Underline on hover */
-}
-
-/* If you still use custom buttons elsewhere */
-.md-typeset .custom-button a {
+.md-content__inner .md-typeset a {
   text-decoration: none !important;
+  color: #b71c1c !important; /* Deep red color */
+}
+
+.md-content__inner .md-typeset a:hover {
+  color: #d32f2f !important; /* Slightly lighter red on hover for contrast */
+  text-decoration: underline !important;
+}
+
+/* For any custom buttons you might have within the content */
+.md-content__inner .md-typeset .custom-button a {
   display: inline-block !important;
   padding: 0.7em 1.5em !important;
   margin: 0.5em 0.2em !important;
-  background-color: #007bff !important;
+  background-color: #b71c1c !important; /* Deep red for button background */
   color: white !important;
-  font-size: 1em !important;
-  font-weight: 500 !important;
   border-radius: 0.3em !important;
   box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.15) !important;
-  transition: background-color 0.3s ease-in-out !important, transform 0.2s ease-in-out !important, box-shadow 0.2s ease-in-out !important;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
 }
 
-.md-typeset .custom-button a:hover {
-  background-color: #0056b3 !important;
+.md-content__inner .md-typeset .custom-button a:hover {
+  background-color: #d32f2f !important; /* Slightly lighter red on button hover */
   transform: translateY(-0.1em) !important;
   box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.2) !important;
 }
