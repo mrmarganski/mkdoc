@@ -16,8 +16,6 @@ theme:
   favicon: img/favicon.ico
 
 features:
-  - content.code.copy
-  - content.code.annotate
   - content.tabs.link
   - navigation.sections
   - navigation.expand
@@ -26,6 +24,7 @@ features:
   - navigation.footer
   - toc.integrate
   - content.code.highlight
+  - content.code.copy
 
 extra_javascript:
   - js/features/privacy.js
