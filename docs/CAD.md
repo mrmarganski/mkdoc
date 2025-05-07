@@ -38,7 +38,9 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-![Exercise 2 Assembly](img/Exercise%202%20Assembly.webp){ .zoomable style="width:35%; float:left; margin-right:1rem;" }
+<div class="zoomable-container">
+  <img src="img/Exercise%202%20Assembly.webp" alt="Your Image Description" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
+</div>
 
 ### [Stage 1](stage1/1A/introduction.md)
 
@@ -51,7 +53,9 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-![Intake Top Level](img/intakeTopLevel.webp){ .zoomable style="width:35%; float:left; margin-right:1rem;" }
+<div class="zoomable-container">
+  <img src="img/intakeTopLevel.webp" alt="Your Image Description" class="zoomable" style="width:35%; float:right; margin-right:1rem;">
+</div>
 
 ### [Stage 2](stage2/2A/introduction.md)
 
@@ -64,7 +68,9 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-![1778 2024 MS](img/1778-2024-MS.webp){ .zoomable style="width:35%; float:left; margin-right:1rem;" }
+<div class="zoomable-container">
+  <img src="img/1778-2024-MS.webp" alt="Your Image Description" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
+</div>
 
 ### [Stage 3](stage3/3A/introduction.md) **(Under Construction)**
 
