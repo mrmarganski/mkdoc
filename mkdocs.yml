@@ -66,12 +66,10 @@ extra:
   cookies:
     analytics:
       name: Google Analytics
-      checked: false
       description: >-
         Allows us to analyze how our site is used and improve user experience.
     marketing:
       name: Marketing Cookies
-      checked: false
       description: Used for targeted advertising and tracking across sites.
 
 plugins:
