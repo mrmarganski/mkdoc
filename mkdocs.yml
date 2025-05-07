@@ -5,8 +5,6 @@ copyright: FRC Team 2064 ~ The Panther Project
 
 theme:
   name: material
-  js:
-    - features/privacy.js
   palette:
     scheme: slate
     primary: red
@@ -18,22 +16,23 @@ theme:
   favicon: img/favicon.ico
 
 features:
-    - content.code.copy
-    - content.code.annotate
-    - content.tabs.link
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - navigation.path
-    - navigation.footer
-    - toc.integrate
-    - content.code.highlight
+  - content.code.copy
+  - content.code.annotate
+  - content.tabs.link
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - navigation.path
+  - navigation.footer
+  - toc.integrate
+  - content.code.highlight
 
 extra_javascript:
-  - js/custom.js
+  - js/features/privacy.js
+  # - js/custom.js  # Temporarily disabled for testing
 
 extra_css:
-    - css/custom.css
+  # - css/custom.css  # Temporarily disabled for testing
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -49,6 +48,7 @@ markdown_extensions:
 
 plugins:
   - search
+
 nav:
   - Home: index.md
   - XRP Bot Creation: xrp-bot.md
