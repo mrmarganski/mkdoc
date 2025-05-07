@@ -1,22 +1,27 @@
-.zoom-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
-    cursor: zoom-out;
-  }
-  
-  .zoomed-image {
-    max-width: 90%;
-    max-height: 90%;
-    border: 5px solid #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-  }
-  
+.zoomed-code-container {
+  position: relative;
+  background: #fff; /* Change to light background for better readability */
+  color: #000;       /* Set text to dark */
+  padding: 2rem;
+  border-radius: 10px;
+  max-height: 80vh;
+  max-width: 90vw;
+  overflow: auto;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  z-index: 10000;
+  font-size: 0.95rem;
+}
+
+/* Optional: Set pre/code background to white and dark text */
+.zoomed-code-container pre {
+  background: #f5f5f5 !important;
+  color: #111 !important;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.zoomed-code-container code {
+  color: #111 !important;
+  font-family: 'Fira Code', monospace;
+}
