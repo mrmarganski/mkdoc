@@ -23,8 +23,9 @@ The purpose of the course is to take you from zero to being able to model a full
     Before starting, remember to take a look at the [website feature guide](../website-feature-guide.md) to gain an understanding of the different features used throughout the learning course!
 
 ---
-
-![Stage 0 Setup](img/signup.webp){ .zoomable style="width:35%; float:left; margin-right:1rem;" }
+<div class="zoomable-container">
+  <img src="img/signup.webp" alt="Your Image Description4" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
+</div>
 
 ### [Stage 0](stage0/0A/what-and-why-CAD.md)
 
@@ -39,7 +40,7 @@ The purpose of the course is to take you from zero to being able to model a full
 ---
 
 <div class="zoomable-container">
-  <img src="img/Exercise%202%20Assembly.webp" alt="Your Image Description" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
+  <img src="img/Exercise%202%20Assembly.webp" alt="Your Image Description2" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
 </div>
 
 ### [Stage 1](stage1/1A/introduction.md)
@@ -54,7 +55,7 @@ The purpose of the course is to take you from zero to being able to model a full
 ---
 
 <div class="zoomable-container">
-  <img src="img/intakeTopLevel.webp" alt="Your Image Description" class="zoomable" style="width:35%; float:right; margin-right:1rem;">
+  <img src="img/intakeTopLevel.webp" alt="Your Image Description3" class="zoomable" style="width:35%; float:right; margin-right:1rem;">
 </div>
 
 ### [Stage 2](stage2/2A/introduction.md)
@@ -69,7 +70,7 @@ The purpose of the course is to take you from zero to being able to model a full
 ---
 
 <div class="zoomable-container">
-  <img src="img/1778-2024-MS.webp" alt="Your Image Description" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
+  <img src="img/1778-2024-MS.webp" alt="Your Image Description1" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
 </div>
 
 ### [Stage 3](stage3/3A/introduction.md) **(Under Construction)**
