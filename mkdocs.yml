@@ -48,7 +48,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - XRP Bot Creation: xrp-bot.md
+  - XRP Bot: xrp-bot.md
   - Build: Build.md
-  - Programming: Programming.md
   - CAD: CAD.md

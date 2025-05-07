@@ -5,7 +5,6 @@ Welcome to the team stinkers! This guide is for new members of our FRC robotics 
 ## What You'll Learn
 
 # Welcome
-[Test Link](https://example.com)
 
 - The basics of FIRST Robotics Competition (FRC)
 - Safety and tools
@@ -13,5 +12,3 @@ Welcome to the team stinkers! This guide is for new members of our FRC robotics 
 - How to contribute to the team
 
 Stay curious, ask questions, and have fun!
-
-Dont be a stinker!
