@@ -30,7 +30,8 @@ illa Medea in *laedunt gerens repetendus* forma?
 
 **Bubble Sort Logics (Potentially JavaScript)**
 
-<h3>Bubble Sort Logics (Potentially JavaScript)</h3>
+### Bubble Sort Logics (Potentially JavaScript)
+
 <div class="code-container">
   <button class="copy-btn" onclick="copyCode(this)">📋 Copy</button>
   <pre onclick="zoomCode(this)"><code class="language-javascript">
