@@ -23,13 +23,8 @@ The purpose of the course is to take you from zero to being able to model a full
     Before starting, remember to take a look at the [website feature guide](../website-feature-guide.md) to gain an understanding of the different features used throughout the learning course!
 
 ---
-<div class="zoomable-container">
-  <img src="img/signup.webp" alt="Your Image Description4" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
-</div>
 
 ![Sample Image](img/signup.webp)
-
-[Next Step: Programming the XRP Bot](gettingtoknow.md)
 
 ### [Stage 0](stage0/0A/what-and-why-CAD.md)
 
@@ -45,8 +40,6 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ![Image title](img/intakeTopLevel.webp)
 
-<img src="img/intakeTopLevel.webp" alt="Image title" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
-
 ### [Stage 1](stage1/1A/introduction.md)
 
 - Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises  
@@ -58,10 +51,6 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-<div class="zoomable-container">
-  <img src="img/intakeTopLevel.webp" alt="Your Image Description3" class="zoomable" style="width:35%; float:right; margin-right:1rem;">
-</div>
-
 ### [Stage 2](stage2/2A/introduction.md)
 
 - Learn about common mechanisms in FRC and model them  
@@ -72,10 +61,6 @@ The purpose of the course is to take you from zero to being able to model a full
 <div style="clear: both;"></div>
 
 ---
-
-<div class="zoomable-container">
-  <img src="img/1778-2024-MS.webp" alt="Your Image Description1" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
-</div>
 
 ### [Stage 3](stage3/3A/introduction.md) **(Under Construction)**
 
