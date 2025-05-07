@@ -34,10 +34,12 @@ extra_javascript:
   - js/image-zoom.js
   - js/custom.js
   - javascripts/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js
 
 extra_css:
     - css/custom.css
     - css/image-zoom.css
+    - https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css
 
 markdown_extensions:
   - pymdownx.highlight:

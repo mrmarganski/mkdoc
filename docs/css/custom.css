@@ -42,40 +42,72 @@
   cursor: pointer;
   z-index: 10;
 }
+/* General zoom container styling */
 .zoom-modal {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
+  inset: 0;
   z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .zoom-overlay {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
 }
+
 .zoomed-code-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #1e1e1e;
-  color: #fff;
+  position: relative;
+  background: var(--zoom-bg);
+  color: var(--zoom-text);
   padding: 2rem;
-  border-radius: 8px;
-  width: 80%;
+  border-radius: 10px;
   max-height: 80vh;
+  max-width: 90vw;
   overflow: auto;
-  box-shadow: 0 0 30px rgba(0,0,0,0.8);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  z-index: 10000;
+  font-size: 0.95rem;
 }
-.zoomed-code-container .copy-btn {
+
+/* Light mode (default) */
+:root {
+  --zoom-bg: #ffffff;
+  --zoom-text: #111111;
+}
+
+/* Dark mode support (based on OS) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --zoom-bg: #1e1e1e;
+    --zoom-text: #f5f5f5;
+  }
+
+  .copy-btn {
+    background-color: #444;
+    color: #fff;
+  }
+
+  .zoomed-code-container pre {
+    background-color: #2d2d2d !important;
+    color: #f5f5f5 !important;
+  }
+}
+/* Copy button */
+.copy-btn {
   position: absolute;
-  top: 10px;
-  right: 14px;
+  top: 1rem;
+  right: 1rem;
+  background-color: #ccc;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.zoomed-code-container pre {
-  margin-top: 2em;
-  white-space: pre-wrap;
+/* Syntax highlight fix inside modal */
+.zoomed-code-container pre code {
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95rem;
 }
