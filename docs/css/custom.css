@@ -1,4 +1,9 @@
 /* ========== Copy Button ========== */
+.code-container {
+  position: relative;
+  margin-bottom: 1em;
+}
+
 .custom-copy-button.sleek {
   position: absolute;
   top: 0.5em;
