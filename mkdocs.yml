@@ -30,6 +30,7 @@ theme:
     - privacy.consent
     - privacy.cookies
     - toc.integrate
+    - content.lightbox
 
 markdown_extensions:
   - pymdownx.highlight:
