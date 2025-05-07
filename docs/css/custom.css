@@ -37,8 +37,8 @@
  .md-typeset a {
   text-decoration: none;
   display: inline-block;
-  padding: 6px 12px; /* Slimmer padding */
-  margin: 4px 2px; /* Tighter spacing */
+  padding: 3px 6px; /* Slimmer padding */
+  margin: 2px 1px; /* Tighter spacing */
   background-color: rgba(211, 47, 47, 0.2); /* Semi-transparent red */
   color: #d32f2f; /* Red text for visibility */
   border: 1px solid rgba(211, 47, 47, 0.5); /* Subtle red border */
