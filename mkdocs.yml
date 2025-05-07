@@ -4,7 +4,7 @@ site_author: Team 2064 - The Panther Project
 copyright: FRC Team 2064 ~ The Panther Project
 
 theme:
-  name: cayman
+  name: material
   palette:
     scheme: slate
     primary: red
