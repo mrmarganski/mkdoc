@@ -1,7 +1,7 @@
 site_name: FRC Team 2064 Robotics Guide
 site_description: Getting started in FRC is AMAZING!!
 site_author: Team 2064 - The Panther Project
-copyright: Copyright &copy; 2025 FRC Team 2064
+copyright: FRC Team 2064 ~ The Panther Project
 
 theme:
   name: material
@@ -23,7 +23,6 @@ features:
     - navigation.sections
     - navigation.expand
     - navigation.top
-    - navigation.instant
     - navigation.path
     - navigation.footer
     - privacy.consent
