@@ -34,7 +34,7 @@ illa Medea in *laedunt gerens repetendus* forma?
 
 # My Documentation
 
-```javascript
+``` javascript
 function greet(name) {
     console.log(`Hello, ${name}!`);
 }
