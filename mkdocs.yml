@@ -1,6 +1,7 @@
 site_name: FRC Team 2064 Robotics Guide
 site_description: Getting started in FRC is AMAZING!!
 site_author: Team 2064 - The Panther Project
+copyright: Copyright &copy; 2025 FRC Team 2064
 
 theme:
   name: material
@@ -18,6 +19,7 @@ theme:
   features:
     - content.code.copy
     - navigation.top
+    - navigation.footer
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -38,7 +40,10 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-      
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/frc2064/
+      name: frc2064
 nav:
   - Home: index.md
   - XRP Bot Creation: xrp-bot.md
