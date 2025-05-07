@@ -2,8 +2,6 @@ site_name: FRC Team 2064 Robotics Guide
 site_description: Getting started in FRC is AMAZING!!
 site_author: Team 2064 - The Panther Project
 copyright: Copyright &copy; 2025 FRC Team 2064
-  </br>
-  <a href="#__consent">Change cookie settings</a>
 
 theme:
   name: material
@@ -54,25 +52,6 @@ markdown_extensions:
   - md_in_html
 
 extra:
-  consent:
-    title: Cookie consent
-    description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
-  social:
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/frc2064/
-      name: frc2064
-  cookies:
-    analytics:
-      name: Google Analytics
-      description: >-
-        Allows us to analyze how our site is used and improve user experience.
-    marketing:
-      name: Marketing Cookies
-      description: Used for targeted advertising and tracking across sites.
 
 plugins:
   - search
