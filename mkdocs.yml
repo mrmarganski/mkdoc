@@ -17,13 +17,13 @@ theme:
 
 features:
   - content.code.copy
- # - content.tabs.link
- # - navigation.sections
- # - navigation.expand
- # - navigation.top
- # - navigation.path
- # - navigation.footer
- # - toc.integrate
+  - content.tabs.link
+  - navigation.sections
+  - navigation.expand
+  - navigation.top
+  - navigation.path
+  - navigation.footer
+  - toc.integrate
 
 # extra_javascript:
   # - js/features/privacy.js
