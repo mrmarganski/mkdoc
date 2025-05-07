@@ -14,7 +14,7 @@ theme:
   logo: null
   favicon: null
   extra_css:
-    - css/extra.css
+    - css/custom.css
   features:
     - content.code.copy
 
