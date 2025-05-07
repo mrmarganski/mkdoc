@@ -1,44 +1,37 @@
 /* Style all links in .md-typeset */
 .md-typeset a {
-  text-decoration: none;
-  padding: 10px;
-  margin: 10px;
-  background-color: #d32f2f;
-  color: white;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-.md-typeset a:hover {
-  background-color: #c2185b; /* Darker red for regular links */
+  text-decoration: none; /* Removes underlines for a cleaner look */
+  color: #007bff; /* A more modern blue for links */
+  font-weight: 400; /* Slightly lighter font weight */
+  transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+  padding: 0.1em 0; /* Minimal padding to affect only the text height */
+  margin: 0; /* Remove unnecessary margins */
+  background-color: transparent; /* No background color by default */
+  border-bottom: 1px solid transparent; /* Subtle underline on hover */
 }
 
-/* Override for next/previous buttons */
-.md-typeset .md-nav__link--next,
-.md-typeset .md-nav__link--prev {
-  padding: 10px 15px; /* Slightly different padding for distinction */
-  background-color: #d32f2f;
-  color: white;
+.md-typeset a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  border-bottom: 1px solid #0056b3; /* Underline on hover */
 }
-.md-typeset .md-nav__link--next:hover,
-.md-typeset .md-nav__link--prev:hover {
-  background-color: #757575; /* Grey for nav buttons */
-}
+
+/* Style for custom buttons (if you still use them elsewhere) */
 .md-typeset .custom-button a {
   text-decoration: none;
   display: inline-block;
-  padding: 12px 20px;
-  margin: 8px 4px;
-  background-color: #d32f2f;
+  padding: 0.7em 1.5em; /* More standard button padding */
+  margin: 0.5em 0.2em; /* Adjusted margins */
+  background-color: #007bff; /* Modern blue for buttons */
   color: white;
-  font-size: 16px;
+  font-size: 1em; /* Use em for relative sizing */
   font-weight: 500;
-  border-radius: 8px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
+  border-radius: 0.3em; /* More subtle rounded corners */
+  box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.15); /* Softer shadow */
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .md-typeset .custom-button a:hover {
-  background-color: #757575;
-  transform: translateY(-2px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-0.1em); /* Slight lift on hover */
+  box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
 }
