@@ -1,3 +1,4 @@
+/* Style all links in .md-typeset */
 .md-typeset a {
   text-decoration: none;
   padding: 10px;
@@ -5,8 +6,20 @@
   background-color: #d32f2f;
   color: white;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 .md-typeset a:hover {
-  background-color: #c2185b;
+  background-color: #c2185b; /* Darker red for regular links */
+}
+
+/* Override for next/previous buttons */
+.md-typeset .md-nav__link--next,
+.md-typeset .md-nav__link--prev {
+  padding: 10px 15px; /* Slightly different padding for distinction */
+  background-color: #d32f2f;
+  color: white;
+}
+.md-typeset .md-nav__link--next:hover,
+.md-typeset .md-nav__link--prev:hover {
+  background-color: #757575; /* Grey for nav buttons */
 }
