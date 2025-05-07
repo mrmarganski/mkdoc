@@ -29,6 +29,7 @@ features:
     - privacy.cookies
     - toc.integrate
     - content.lightbox
+    - content.code.highlight
 
 extra_javascript:
   - js/image-zoom.js
@@ -43,6 +44,7 @@ extra_css:
 
 markdown_extensions:
   - pymdownx.highlight:
+      use_pygments: true
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
