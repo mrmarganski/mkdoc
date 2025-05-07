@@ -16,6 +16,9 @@ theme:
   favicon: img/favicon.ico
 
 features:
+  - content.code.copy
+  - content.code.highlight
+  - content.code.select
  # - content.tabs.link
  # - navigation.sections
  # - navigation.expand
@@ -23,8 +26,6 @@ features:
  # - navigation.path
  # - navigation.footer
  # - toc.integrate
- # - content.code.highlight
-  - content.code.copy
 
 # extra_javascript:
   # - js/features/privacy.js
@@ -35,18 +36,15 @@ features:
 
 markdown_extensions:
   - pymdownx.highlight:
-      use_pygments: true
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-#  - admonition
-#  - pymdownx.details
-#  - pymdownx.snippets
-#  - pymdownx.superfences
-#  - attr_list
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
-# plugins:
-#  - search
+plugins:
+  - search
 
 nav:
   - Home: index.md
