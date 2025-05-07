@@ -46,7 +46,7 @@ extra_css:
 
 markdown_extensions:
   - pymdownx.highlight:
-      use_pygments: false
+      use_pygments: true
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true

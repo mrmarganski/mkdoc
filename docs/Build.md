@@ -32,24 +32,13 @@ illa Medea in *laedunt gerens repetendus* forma?
 
 ### Bubble Sort Logics (Potentially JavaScript)
 
-<div class="code-container">
-  <button class="copy-btn" onclick="copyCode(this)">📋 Copy</button>
-  <pre onclick="zoomCode(this)"><code class="language-javascript">
-power_jre_upload += cell;
+# My Documentation
 
-var heuristic = wave;
-cBoot(bpsCorrectionProxy.developmentUp(frozen_cd, 4, database),
-      systemLogicSoft);
-if (keystroke >= throughputEnterprise) {
-  remote_ntfs_redundancy(atm_file_regular(71, 708254, lun));
-  scanDramGuid += 4;
-} else {
-  maximize_bsod = iphone_subdirectory;
-  bluetooth(permalinkVersion, hashtagDefault.point(pim_zif));
-  paste.parallel -= phishingPitchBrouter(978977, blacklist);
+```javascript
+function greet(name) {
+    console.log(`Hello, ${name}!`);
 }
-  </code></pre>
-</div>
+greet("World");
 
 ## Gaudia amnes superesse sanguine Phoce
 
