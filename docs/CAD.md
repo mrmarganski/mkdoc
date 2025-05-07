@@ -39,9 +39,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-<div class="zoomable-container">
-  <img src="img/Exercise%202%20Assembly.webp" alt="Your Image Description2" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
-</div>
+![Image title](img/intakeTopLevel.webp){ align=left }
 
 ### [Stage 1](stage1/1A/introduction.md)
 
