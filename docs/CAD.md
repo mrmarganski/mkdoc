@@ -4,7 +4,7 @@ title: FRC Design Learning Course
 
 # FRC Design Learning Course
 
-``` python
+```python
 print("Hello, world!")
 ```
 
@@ -28,22 +28,13 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ## Onshape for Students and Educators
 
-<div class="custom-container" style="display: flex; align-items: flex-start; gap: 20px;">
-  <div class="list-container">
-    <ul>
-      <li>For people that haven't used CAD or Onshape before</li>
-      <li>Introduction to CAD to read or skim</li>
-      <li>Walkthrough to set up Onshape account and add necessary tools</li>
-      <li>Guide on navigating Onshape</li>
-      <li>Basic theory that helps develop a good mindset</li>
-    </ul>
-  </div>
-  <div class="image-container">
-    <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/main/docs/img/signup.webp" alt="Sign up form" />
-  </div>
-</div>
+- For people that haven't used CAD or Onshape before  
+- Introduction to CAD to read or skim  
+- Walkthrough to set up Onshape account and add necessary tools  
+- Guide on navigating Onshape  
+- Basic theory that helps develop a good mindset  
 
-<div style="clear: both;"></div>
+![Sign up form](https://raw.githubusercontent.com/mrmarganski/mkdoc/main/docs/img/signup.webp)
 
 ---
 
@@ -56,8 +47,6 @@ The purpose of the course is to take you from zero to being able to model a full
 - Model a swerve drivebase  
 - Start learning top-down design workflow for FRC
 
-<div style="clear: both;"></div>
-
 ---
 
 ### [Stage 2](stage2/2A/introduction.md)
@@ -67,8 +56,6 @@ The purpose of the course is to take you from zero to being able to model a full
 - Learn engineering concepts and mechanism design  
 - Learn layout sketches for different mechanisms
 
-<div style="clear: both;"></div>
-
 ---
 
 ### [Stage 3](stage3/3A/introduction.md) **(Under Construction)**
@@ -76,8 +63,6 @@ The purpose of the course is to take you from zero to being able to model a full
 - Practice full robot main layout sketches  
 - Replicate simple robots  
 - Practice top-down workflow and integration
-
-<div style="clear: both;"></div>
 
 ---
 
