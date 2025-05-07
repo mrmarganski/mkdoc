@@ -27,7 +27,7 @@ features:
   - content.code.copy
 
 extra_javascript:
-  - js/features/privacy.js
+  # - js/features/privacy.js
   # - js/custom.js  # Temporarily disabled for testing
 
 extra_css:
