@@ -25,12 +25,11 @@ features:
   - navigation.footer
   - toc.integrate
 
-# extra_javascript:
-  # - js/features/privacy.js
-  # - js/custom.js  # Temporarily disabled for testing
+extra_javascript:
+   - js/custom.js  
 
-# extra_css:
-  # - css/custom.css  # Temporarily disabled for testing
+extra_css:
+  - css/custom.css  
 
 markdown_extensions:
   - pymdownx.highlight:

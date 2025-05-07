@@ -108,6 +108,9 @@ When assembled according to the instructions, the XRP supports an ultrasonic, PI
 |---------------------|---------------------------|
 | AnalogInput 2       | Ultrasonic Rangefinder    |
 
+
+<div class="code-container">
+
 ```java
 // Copyright (c) FIRST and other WPILib contributors.
 // Open Source Software; you can modify and/or share it under the terms of
@@ -135,5 +138,8 @@ public final class Main {
   }
 }
 ```
+
+  <button class="custom-copy-button sleek">Copy</button>
+</div>
 
 ## Code is cool

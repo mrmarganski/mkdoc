@@ -1,0 +1,33 @@
+.code-container {
+    position: relative; /* Needed for absolute positioning of the button */
+    margin-bottom: 1em; /* Adjust spacing as needed */
+  }
+  
+  .custom-copy-button.sleek {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    color: #ccc; /* Light grey text */
+    border: none;
+    padding: 0.2em 0.5em;
+    font-size: 0.8em;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .code-container:hover .custom-copy-button.sleek {
+    opacity: 1; /* Show on hover */
+    background: rgba(255, 255, 255, 0.2); /* Slightly darker on hover */
+  }
+  
+  .custom-copy-button.sleek:focus {
+    outline: none; /* Remove default focus outline */
+    background: rgba(255, 255, 255, 0.3); /* Even darker on focus */
+  }
+  
+  .custom-copy-button.sleek:active {
+    background: rgba(255, 255, 255, 0.4); /* Darker when clicked */
+  }
