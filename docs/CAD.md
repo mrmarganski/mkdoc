@@ -24,15 +24,22 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-![Sample Image](img/signup.webp)
-
 ### [Stage 0](stage0/0A/what-and-why-CAD.md)
 
-- For people that haven't used CAD or Onshape before  
-- Introduction to CAD to read or skim  
-- Walkthrough to set up Onshape account and add necessary tools  
-- Guide on navigating Onshape  
-- Basic theory that helps develop a good mindset
+# Onshape for Students and Educators
+
+<div class="custom-container">
+  <div class="list-container">
+    - For people that haven't used CAD or Onshape before
+    - Introduction to CAD to read or skim
+    - Walkthrough to set up Onshape account and add necessary tools
+    - Guide on navigating Onshape
+    - Basic theory that helps develop a good mindset
+  </div>
+  <div class="image-container">
+    <img src="img/signup.webp" alt="Sign up form" />
+  </div>
+</div>
 
 <div style="clear: both;"></div>
 

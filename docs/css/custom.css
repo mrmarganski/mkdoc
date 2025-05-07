@@ -83,3 +83,22 @@
 .image-overlay.active {
   display: flex;
 }
+
+.custom-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.list-container {
+  flex: 1;
+}
+
+.image-container {
+  flex: 0 0 auto;
+}
+
+.image-container img {
+  width: 300px;
+  height: auto;
+}
