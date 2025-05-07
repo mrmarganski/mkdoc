@@ -39,7 +39,7 @@ The purpose of the course is to take you from zero to being able to model a full
     </ul>
   </div>
   <div class="image-container">
-    <img src="img/signup.webp" alt="Sign up form" style="max-width: 100%; height: auto;" />
+    <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/main/docs/img/signup.webp" alt="Sign up form" />
   </div>
 </div>
 
