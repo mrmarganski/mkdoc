@@ -60,5 +60,3 @@ public class Robot extends TimedRobot {
     }
 }
 ```
-<div class="custom-button">[Go Back to Launch Page](index.md)</div>
-<div class="custom-button">[Next Step: Programming the XRP Bot](Programming.md)</div>
