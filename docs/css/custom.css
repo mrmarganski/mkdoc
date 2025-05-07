@@ -94,8 +94,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
-  background: #fff;
-  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.75); /* Semi-transparent white */
+  backdrop-filter: blur(8px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* Soft white border */
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -108,9 +110,33 @@
   flex: 1 1 300px;
 }
 
+.list-container {
+  flex: 1 1 300px;
+  color: #333; /* Dark gray for body text */
+}
+
 .list-container ul {
   padding-left: 20px;
   margin: 0;
+  list-style: none; /* Remove default bullets */
+}
+
+.list-container ul li {
+  position: relative;
+  margin-bottom: 0.6em;
+  padding-left: 1.2em;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Custom red bullet using ::before */
+.list-container ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #d32f2f; /* Accent red */
+  font-size: 1.2em;
+  line-height: 1;
 }
 
 .image-container img {
