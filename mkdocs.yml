@@ -32,6 +32,7 @@ features:
 
 extra_javascript:
   - js/image-zoom.js
+  - js/custom.js
 
 extra_css:
     - css/custom.css

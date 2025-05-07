@@ -30,7 +30,10 @@ illa Medea in *laedunt gerens repetendus* forma?
 
 **Bubble Sort Logics (Potentially JavaScript)**
 
-```javascript
+<h3>Bubble Sort Logics (Potentially JavaScript)</h3>
+<div class="code-container">
+  <button class="copy-btn" onclick="copyCode(this)">📋 Copy</button>
+  <pre onclick="zoomCode(this)"><code class="language-javascript">
 power_jre_upload += cell;
 
 var heuristic = wave;
@@ -44,7 +47,8 @@ if (keystroke >= throughputEnterprise) {
   bluetooth(permalinkVersion, hashtagDefault.point(pim_zif));
   paste.parallel -= phishingPitchBrouter(978977, blacklist);
 }
-```
+  </code></pre>
+</div>
 
 ## Gaudia amnes superesse sanguine Phoce
 
