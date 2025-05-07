@@ -41,9 +41,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ![Image title](img/intakeTopLevel.webp)
 
-<div class="zoomable-container">
-  <img src="img/intakeTopLevel.webp" alt="Image title" class="zoomable">
-</div>
+<img src="img/intakeTopLevel.webp" alt="Image title" class="zoomable" style="width:35%; float:left; margin-right:1rem;">
 
 ### [Stage 1](stage1/1A/introduction.md)
 
