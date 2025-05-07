@@ -1,0 +1,44 @@
+.md-content__inner .md-typeset a {
+  text-decoration: none !important;
+  color: #b71c1c !important; /* Deep red color */
+}
+
+.md-content__inner .md-typeset a:hover {
+  color: #d32f2f !important; /* Slightly lighter red on hover for contrast */
+  text-decoration: underline !important;
+}
+
+/* For any custom buttons you might have within the content */
+.md-content__inner .md-typeset .custom-button a {
+  display: inline-block !important;
+  padding: 0.7em 1.5em !important;
+  margin: 0.5em 0.2em !important;
+  background-color: #b71c1c !important; /* Deep red for button background */
+  color: white !important;
+  border-radius: 0.3em !important;
+  box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.15) !important;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out !important;
+}
+
+.md-content__inner .md-typeset .custom-button a:hover {
+  background-color: #d32f2f !important; /* Slightly lighter red on button hover */
+  transform: translateY(-0.1em) !important;
+  box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.2) !important;
+}
+.code-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: #2d2d2d;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 10;
+}
