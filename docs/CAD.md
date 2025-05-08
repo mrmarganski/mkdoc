@@ -29,41 +29,83 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ## Onshape Stage 0 Pathway
 
-<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/signup.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
+<div class="row" style="display: flex; align-items: center; gap: 20px;">
 
-<a href="stage0.md" style="font-size: 1.2em;">Stage 0 Pathway</a>
+  <!-- Image Section -->
+  <div style="flex: 1; text-align: center;">
+    <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/signup.webp" 
+         alt="Stage 0 Signup" style="max-width: 100%; height: auto; border-radius: 8px; border: 5px solid #ADADAD;">
+  </div>
 
-- For people that haven't used CAD or Onshape before
-- Introduction to CAD to read or skim
-- Walkthrough to set up Onshape account and add necessary tools
-- Guide on navigating Onshape
-- Basic theory that helps develop a good mindset
+  <!-- Text Section -->
+  <div style="flex: 2;">
+    <a href="stage0.md" style="font-size: 1.2em; font-weight: bold; color: #ff5252; text-decoration: none;">
+      Stage 0 Pathway
+    </a>
+
+  <ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
+      <li>For people that haven't used CAD or Onshape before</li>
+      <li>Introduction to CAD to read or skim</li>
+      <li>Walkthrough to set up Onshape account and add necessary tools</li>
+      <li>Guide on navigating Onshape</li>
+      <li>Basic theory that helps develop a good mindset</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
 ## Onshape Stage 1 Pathway
 
-<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/intakeTopLevel.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
+<div class="row" style="display: flex; align-items: center; gap: 20px;">
 
-<a href="stage1.md" style="font-size: 1.2em;">Stage 1 Pathway</a>
+  <!-- Image Section -->
+  <div style="flex: 1; text-align: center;">
+    <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/intakeTopLevel.webp" 
+         alt="Stage 1 Intake" style="max-width: 100%; height: auto; border-radius: 8px; border: 5px solid #ADADAD;">
+  </div>
 
-- Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises  
-- Learn about power transmission and modeling gearboxes  
-- Model a swerve drivebase  
-- Start learning top-down design workflow for FRC
+  <!-- Text Section -->
+  <div style="flex: 2;">
+    <a href="stage1.md" style="font-size: 1.2em; font-weight: bold; color: #ff5252; text-decoration: none;">
+      Stage 1 Pathway
+    </a>
+
+  <ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
+      <li>Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises</li>
+      <li>Learn about power transmission and modeling gearboxes</li>
+      <li>Model a swerve drivebase</li>
+      <li>Start learning top-down design workflow for FRC</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
 ## Onshape Stage 2 Pathway
 
-<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/Exercise%202%20Assembly.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
+<div class="row" style="display: flex; align-items: center; gap: 20px;">
 
-<a href="stage2.md" style="font-size: 1.2em;">Stage 2 Pathway</a>
+  <!-- Image Section -->
+  <div style="flex: 1; text-align: center;">
+    <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/Exercise%202%20Assembly.webp" 
+         alt="Stage 2 Assembly" style="max-width: 100%; height: auto; border-radius: 8px; border: 5px solid #ADADAD;">
+  </div>
 
-- Learn about common mechanisms in FRC and model them  
-- Practice CAD skills until you're significantly more comfortable with Onshape  
-- Learn engineering concepts and mechanism design  
-- Learn layout sketches for different mechanisms
+  <!-- Text Section -->
+  <div style="flex: 2;">
+    <a href="stage2.md" style="font-size: 1.2em; font-weight: bold; color: #ff5252; text-decoration: none;">
+      Stage 2 Pathway
+    </a>
+
+  <ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
+      <li>Learn about common mechanisms in FRC and model them</li>
+      <li>Practice CAD skills until you're significantly more comfortable with Onshape</li>
+      <li>Learn engineering concepts and mechanism design</li>
+      <li>Learn layout sketches for different mechanisms</li>
+    </ul>
+  </div>
+</div>
 
 ---
 
@@ -79,40 +121,43 @@ The purpose of the course is to take you from zero to being able to model a full
 
   <!-- Text Section -->
   <div style="flex: 2;">
-
-  <!-- Header Link -->
-  <a href="stage3.md" style="font-size: 1.2em; font-weight: bold; color: #ff5252; text-decoration: none;">
-    Stage 3 Pathway
+    <a href="stage3.md" style="font-size: 1.2em; font-weight: bold; color: #ff5252; text-decoration: none;">
+      Stage 3 Pathway
     </a>
 
-  <!-- Warning Notice -->
-!!! warning
-    Under Construction
-
-<!-- Bulleted List -->
-<ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
-     <li>Practice full robot main layout sketches</li>
-    <li>Replicate simple robots</li>
-    <li>Practice top-down workflow and integration</li>
-  </ul>
-</div>
+  <ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
+      <li>Practice full robot main layout sketches</li>
+      <li>Replicate simple robots</li>
+      <li>Practice top-down workflow and integration</li>
+    </ul>
+  </div>
 </div>
 
 ---
 
 ## Onshape Stage 4 Pathway
 
-<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
+<div class="row" style="display: flex; align-items: center; gap: 20px;">
 
-<a href="stage4.md" style="font-size: 1.2em;">Stage 4 Pathway</a>
+  <!-- Image Section -->
+  <div style="flex: 1; text-align: center;">
+    <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" 
+         alt="Stage 4 Robot" style="max-width: 100%; height: auto; border-radius: 8px; border: 5px solid #ADADAD;">
+  </div>
 
-**(Under Construction)**
+  <!-- Text Section -->
+  <div style="flex: 2;">
+    <a href="stage4.md" style="font-size: 1.2em; font-weight: bold; color: #ff5252; text-decoration: none;">
+      Stage 4 Pathway
+    </a>
 
-- Master mechanism design  
-- Practice integration and workflow  
-- Master practices that optimize load time and make collaboration easier  
-- Study game history  
-- Learn strategic design  
-- Make more robots and mechanisms and get review and feedback
-
----
+   <ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
+      <li>Master mechanism design</li>
+      <li>Practice integration and workflow</li>
+      <li>Master practices that optimize load time and make collaboration easier</li>
+      <li>Study game history</li>
+      <li>Learn strategic design</li>
+      <li>Make more robots and mechanisms and get review and feedback</li>
+    </ul>
+  </div>
+</div>
