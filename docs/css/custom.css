@@ -46,15 +46,15 @@
   font-size: 13px; /* Slightly smaller font size */
   font-weight: 400;
   border-radius: 8px; /* Slightly rounded corners */
-  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+  box-shadow: none; /* Subtle shadow for depth */
   box-sizing: border-box; /* Prevent additional layout impact */
   transition: all 0.2s ease; /* Smooth hover effect */
   border: none; /* Removed border */
 }
 
 .md-typeset a:hover {
-  background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent grey on hover */
-  color: white; /* White text on hover for readability */
+  background-color: rgba(110, 96, 96, 0.247); /* Semi-transparent grey on hover */
+  color: rgb(204, 50, 50); /* White text on hover for readability */
   transform: translateY(-1px); /* Subtle movement effect on hover */
   box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); /* Larger shadow on hover */
 }
