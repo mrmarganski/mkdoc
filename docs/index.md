@@ -4,6 +4,10 @@ Welcome to the team! This guide is for new members of our FRC robotics club.
 
 ## Under Construction
 
+!!! danger
+    Despite how it looks, this site is not ready and just a test of all the cool mkdoc features. 
+    **Links to many pages are broken and just for visuals** This site is to get a grasp on mkdocs and the potential benefits while we integrate markdown for documentation.
+
 This site is under development for testing mkdocs and not to be used at the moment - An official 2064 team page will be development from what is learned with mkdocs. 
 
 ## What You'll Learn
