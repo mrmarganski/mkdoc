@@ -31,7 +31,8 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/signup.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
-### <a href="stage0.md" style="font-size: 1.2em;">Stage 0 Pathway</a>
+<a href="stage0.md" style="font-size: 1.2em;">Stage 0 Pathway</a>
+
 - For people that haven't used CAD or Onshape before
 - Introduction to CAD to read or skim
 - Walkthrough to set up Onshape account and add necessary tools
@@ -44,7 +45,8 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/intakeTopLevel.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
-### <a href="stage1.md" style="font-size: 1.2em;">Stage 1 Pathway</a>
+<a href="stage1.md" style="font-size: 1.2em;">Stage 1 Pathway</a>
+
 - Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises  
 - Learn about power transmission and modeling gearboxes  
 - Model a swerve drivebase  
@@ -56,7 +58,8 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/Exercise%202%20Assembly.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
-### <a href="stage2.md" style="font-size: 1.2em;">Stage 2 Pathway</a>
+<a href="stage2.md" style="font-size: 1.2em;">Stage 2 Pathway</a>
+
 - Learn about common mechanisms in FRC and model them  
 - Practice CAD skills until you're significantly more comfortable with Onshape  
 - Learn engineering concepts and mechanism design  
@@ -68,7 +71,8 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
-### <a href="stage3.md" style="font-size: 1.2em;">Stage 3 Pathway</a>
+<a href="stage3.md" style="font-size: 1.2em;">Stage 3 Pathway</a>
+
 **(Under Construction)**
 - Practice full robot main layout sketches  
 - Replicate simple robots  
@@ -80,7 +84,8 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
-### <a href="stage4.md" style="font-size: 1.2em;">Stage 4 Pathway</a>
+<a href="stage4.md" style="font-size: 1.2em;">Stage 4 Pathway</a>
+
 **(Under Construction)**
 - Master mechanism design  
 - Practice integration and workflow  
