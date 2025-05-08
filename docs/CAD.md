@@ -69,14 +69,21 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ## Onshape Stage 3 Pathway
 
-<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
+<div markdown="1" class="row">
 
 <a href="stage3.md" style="font-size: 1.2em;">Stage 3 Pathway</a>
 
-**(Under Construction)**
+> :bug: **(Under Construction)**
+
 - Practice full robot main layout sketches  
 - Replicate simple robots  
 - Practice top-down workflow and integration
+
+---
+
+<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
+
+</div>
 
 ---
 
@@ -87,6 +94,7 @@ The purpose of the course is to take you from zero to being able to model a full
 <a href="stage4.md" style="font-size: 1.2em;">Stage 4 Pathway</a>
 
 **(Under Construction)**
+
 - Master mechanism design  
 - Practice integration and workflow  
 - Master practices that optimize load time and make collaboration easier  
