@@ -1,5 +1,8 @@
 # Getting to know your XRP
 
+!!! note
+    This page was copied from the FRC wpilib page - to practice editing from their sources - this way we can take what we like and adapt and also keep everything useful for new members in a single location without having to redirect constantly.  This method may be beneficial... Unsure... 
+
 ## Booting up the XRP
 
 Upon start up (when power is applied to the XRP either via battery or USB), the following will happen:
