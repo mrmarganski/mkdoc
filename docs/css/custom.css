@@ -34,25 +34,27 @@
 }
 
 /* ========== Button-like Links ========== */
+/* Custom link styles for Material for MkDocs */
 .md-typeset a {
   text-decoration: none;
   display: inline-block;
-  padding: 3px 6px;
-  margin: 2px 1px;
-  background-color: rgba(211, 47, 47, 0.2);
-  color: #d32f2f;
-  border: 1px solid rgba(211, 47, 47, 0.5);
-  font-size: 14px;
+  padding: 2px 4px; /* Minimal padding for compact design */
+  margin: 1px 0; /* Very small vertical margin */
+  background-color: transparent; /* Transparent background by default */
+  color: #ff5252; /* Bright red for good contrast on dark backgrounds */
+  border: 1px solid rgba(255, 82, 82, 0.5); /* Transparent red border */
+  font-size: 13px; /* Slightly smaller font size */
   font-weight: 400;
-  border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease;
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+  box-sizing: border-box; /* Prevent border from affecting layout */
+  transition: all 0.2s ease; /* Smooth hover effect */
 }
 
 .md-typeset a:hover {
-  background-color: rgba(117, 117, 117, 0.5);
-  color: white;
-  border-color: rgba(117, 117, 117, 0.7);
-  transform: translateY(-1px);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent grey on hover */
+  color: white; /* White text on hover for readability */
+  border-color: rgba(128, 128, 128, 0.7); /* Grey border on hover */
+  transform: translateY(-1px); /* Subtle movement effect on hover */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); /* Larger shadow on hover */
 }
