@@ -35,6 +35,7 @@
 
 /* ========== Button-like Links ========== */
 /* Custom link styles for Material for MkDocs */
+/* Custom link styles for Material for MkDocs */
 .md-typeset a {
   text-decoration: none;
   display: inline-block;
@@ -42,19 +43,18 @@
   margin: 1px 0; /* Very small vertical margin */
   background-color: transparent; /* Transparent background by default */
   color: #ff5252; /* Bright red for good contrast on dark backgrounds */
-  border: 1px solid rgba(255, 82, 82, 0.5); /* Transparent red border */
   font-size: 13px; /* Slightly smaller font size */
   font-weight: 400;
   border-radius: 8px; /* Slightly rounded corners */
   box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
-  box-sizing: border-box; /* Prevent border from affecting layout */
+  box-sizing: border-box; /* Prevent additional layout impact */
   transition: all 0.2s ease; /* Smooth hover effect */
+  border: none; /* Removed border */
 }
 
 .md-typeset a:hover {
   background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent grey on hover */
   color: white; /* White text on hover for readability */
-  border-color: rgba(128, 128, 128, 0.7); /* Grey border on hover */
   transform: translateY(-1px); /* Subtle movement effect on hover */
   box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); /* Larger shadow on hover */
 }
