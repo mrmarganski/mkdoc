@@ -25,6 +25,11 @@ features:
   - navigation.footer
   - toc.integrate
 
+extra:
+ social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/frc2064/
+
 extra_javascript:
    - js/custom.js  
 
