@@ -65,7 +65,8 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
-# [Stage 3](stage3/3A/introduction.md) **(Under Construction)**
+# [Stage 3](stage3/3A/introduction.md) 
+### **(Under Construction)**
 - Practice full robot main layout sketches  
 - Replicate simple robots  
 - Practice top-down workflow and integration
@@ -76,7 +77,8 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
-# [Stage 4](stage4.md) **(Under Construction)**
+# [Stage 4](stage4.md) 
+### **(Under Construction)**
 - Master mechanism design  
 - Practice integration and workflow  
 - Master practices that optimize load time and make collaboration easier  
