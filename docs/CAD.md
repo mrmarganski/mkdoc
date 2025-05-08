@@ -86,16 +86,16 @@ The purpose of the course is to take you from zero to being able to model a full
     </a>
 
   <!-- Warning Notice -->
-  !!! warning
-      **(Under Construction)**
+!!! warning
+    Under Construction
 
-  <!-- Bulleted List -->
-  <ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
-      <li>Practice full robot main layout sketches</li>
-      <li>Replicate simple robots</li>
-      <li>Practice top-down workflow and integration</li>
-    </ul>
-  </div>
+<!-- Bulleted List -->
+<ul style="list-style: disc; padding-left: 20px; margin-top: 10px;">
+     <li>Practice full robot main layout sketches</li>
+    <li>Replicate simple robots</li>
+    <li>Practice top-down workflow and integration</li>
+  </ul>
+</div>
 </div>
 
 ---
