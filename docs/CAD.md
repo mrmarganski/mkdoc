@@ -4,6 +4,9 @@ title: FRC Design Learning Course
 
 # FRC Design Learning Course
 
+!!! note
+    This page was copied from the frcdesign.org for practice in implementing their markdown formatting - we also want to look at created a team hub where members can get information from a singular source instead of bouncing around sites - we will giv credit to frcdesign.org at all times we implement their content if this is a direction we take. 
+
 ```python { .copy }
 print("Hello, world!")
 ```
