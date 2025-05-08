@@ -73,7 +73,8 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <a href="stage3.md" style="font-size: 1.2em;">Stage 3 Pathway</a>
 
-> :bug: **(Under Construction)**
+!!! warning 
+    **(Under Construction)**
 
 - Practice full robot main layout sketches  
 - Replicate simple robots  
