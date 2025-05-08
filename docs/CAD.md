@@ -28,7 +28,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="img/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
 
-### [Stage 0](stage0/0A/what-and-why-CAD.md "Stage 0 Page")
+# [Stage 0](stage0/0A/what-and-why-CAD.md "Stage 0 Page")
 
 - For people that haven't used CAD or Onshape before
 - Introduction to CAD to read or skim
@@ -40,7 +40,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 <img src="img/intakeTopLevel.webp" align="left" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
 
-### [Stage 1](stage1/1A/introduction.md)
+# [Stage 1](stage1/1A/introduction.md)
 
 - Learn the fundamentals of sketching, part design, multi-part modeling, and assemblies through Onshape Learning Courses and FRC-relevant exercises  
 - Learn about power transmission and modeling gearboxes  
