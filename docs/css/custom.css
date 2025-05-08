@@ -33,28 +33,32 @@
   background: rgba(255, 255, 255, 0.4);
 }
 
-/* ========== Button-like Links ========== */
-/* Custom link styles for Material for MkDocs */
-/* Custom link styles for Material for MkDocs */
+/* Modern and sleek button styles */
 .md-typeset a {
   text-decoration: none;
   display: inline-block;
-  padding: 2px 4px; /* Minimal padding for compact design */
-  margin: 1px 0; /* Very small vertical margin */
-  background-color: transparent; /* Transparent background by default */
-  color: #ff5252; /* Bright red for good contrast on dark backgrounds */
-  font-size: 13px; /* Slightly smaller font size */
-  font-weight: 400;
-  border-radius: 8px; /* Slightly rounded corners */
-  box-shadow: none; /* Subtle shadow for depth */
-  box-sizing: border-box; /* Prevent additional layout impact */
-  transition: all 0.2s ease; /* Smooth hover effect */
-  border: none; /* Removed border */
+  padding: 12px 20px; /* Comfortable padding for a modern look */
+  margin: 5px 0; /* Add spacing between elements */
+  background-color: #1c1c1c; /* Dark grey/black background */
+  color: #ffffff; /* White text for contrast */
+  font-size: 16px; /* Modern font size */
+  font-weight: 500; /* Slightly bold for emphasis */
+  border: 2px solid transparent; /* Border for hover effect */
+  border-radius: 8px; /* Rounded corners for a sleek look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+  text-align: center; /* Center-align text */
 }
 
 .md-typeset a:hover {
-  background-color: rgba(110, 96, 96, 0.247); /* Semi-transparent grey on hover */
-  color: rgb(204, 50, 50); /* White text on hover for readability */
-  transform: translateY(-1px); /* Subtle movement effect on hover */
-  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); /* Larger shadow on hover */
+  background-color: #ff5252; /* Bright red hover background */
+  color: #1c1c1c; /* Dark text on hover for contrast */
+  border-color: #ff5252; /* Red border transition on hover */
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.md-typeset a:active {
+  transform: translateY(0); /* Reset lift effect on click */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Slightly smaller shadow */
 }
