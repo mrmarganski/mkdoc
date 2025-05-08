@@ -84,12 +84,12 @@ The purpose of the course is to take you from zero to being able to model a full
       Stage 3 Pathway
     </a>
 
-    <!-- Warning Box -->
-    !!! warning
+  <!-- Warning Box -->
+  !!! warning
         **(Under Construction)**
 
-    <!-- Inline Bulleted List -->
-    <ul style="list-style: disc; display: flex; gap: 15px; padding: 0; margin: 10px 0;">
+   <!-- Inline Bulleted List -->
+  <ul style="list-style: disc; display: flex; gap: 15px; padding: 0; margin: 10px 0;">
       <li style="flex: 1;">Practice full robot main layout sketches</li>
       <li style="flex: 1;">Replicate simple robots</li>
       <li style="flex: 1;">Practice top-down workflow and integration</li>
