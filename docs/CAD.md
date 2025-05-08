@@ -79,16 +79,21 @@ The purpose of the course is to take you from zero to being able to model a full
 
   <!-- Text Section -->
   <div style="flex: 2;">
+    <!-- Link Header -->
     <a href="stage3.md" style="font-size: 1.2em; font-weight: bold; color: #ff5252; text-decoration: none;">
       Stage 3 Pathway
     </a>
 
-  !!! warning
+    <!-- Warning Box -->
+    !!! warning
         **(Under Construction)**
 
-    - Practice full robot main layout sketches  
-    - Replicate simple robots  
-    - Practice top-down workflow and integration
+    <!-- Inline Bulleted List -->
+    <ul style="list-style: disc; display: flex; gap: 15px; padding: 0; margin: 10px 0;">
+      <li style="flex: 1;">Practice full robot main layout sketches</li>
+      <li style="flex: 1;">Replicate simple robots</li>
+      <li style="flex: 1;">Practice top-down workflow and integration</li>
+    </ul>
   </div>
 
 </div>
