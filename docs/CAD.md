@@ -24,7 +24,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-## Onshape for Students and Educators
+## Onshape Stage 0 Pathway
 
 <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/signup.webp" align="right" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
@@ -40,7 +40,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ## Onshape Stage 1 Pathway
 
-<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/intakeTopLevel.webp" align="left" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
+<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/intakeTopLevel.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
 # [Stage 1](stage1/1A/introduction.md)
 
@@ -53,6 +53,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ## Onshape Stage 2 Pathway
 
+<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/Exercise%202%20Assembly.webp" align="right" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
 ### [Stage 2](stage2/2A/introduction.md)
 
@@ -63,6 +64,10 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
+## Onshape Stage 3 Pathway
+
+<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" align="left" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
+
 ### [Stage 3](stage3/3A/introduction.md) **(Under Construction)**
 
 - Practice full robot main layout sketches  
@@ -70,6 +75,8 @@ The purpose of the course is to take you from zero to being able to model a full
 - Practice top-down workflow and integration
 
 ---
+
+## Onshape Stage 4 Pathway
 
 ### [Stage 4](stage4.md) **(Under Construction)**
 
