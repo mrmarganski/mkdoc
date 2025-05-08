@@ -69,20 +69,27 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ## Onshape Stage 3 Pathway
 
-<div markdown="1" class="row">
+<div class="row" style="display: flex; align-items: center; gap: 20px;">
 
-<a href="stage3.md" style="font-size: 1.2em;">Stage 3 Pathway</a>
+  <!-- Image Section -->
+  <div style="flex: 1; text-align: center;">
+    <img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp" 
+         alt="Stage 3 Robot" style="max-width: 100%; height: auto; border-radius: 8px;">
+  </div>
 
-!!! warning 
-    **(Under Construction)**
+  <!-- Text Section -->
+  <div style="flex: 2;">
+    <a href="stage3.md" style="font-size: 1.2em; font-weight: bold; color: #ff5252; text-decoration: none;">
+      Stage 3 Pathway
+    </a>
 
-- Practice full robot main layout sketches  
-- Replicate simple robots  
-- Practice top-down workflow and integration
+  !!! warning
+        **(Under Construction)**
 
----
-
-![](https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp){.small}
+    - Practice full robot main layout sketches  
+    - Replicate simple robots  
+    - Practice top-down workflow and integration
+  </div>
 
 </div>
 
