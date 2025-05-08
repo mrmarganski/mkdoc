@@ -86,7 +86,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
   <!-- Warning Box -->
   !!! warning
-        **(Under Construction)**
+      **(Under Construction)**
 
    <!-- Inline Bulleted List -->
   <ul style="list-style: disc; display: flex; gap: 15px; padding: 0; margin: 10px 0;">
