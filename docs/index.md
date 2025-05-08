@@ -2,7 +2,9 @@
 
 Welcome to the team! This guide is for new members of our FRC robotics club.
 
-#### This site is under development for testing mkdocs and not to be used at the moment - An official 2064 team page will be development from what is learned with mkdocs. 
+## Under Construction
+
+This site is under development for testing mkdocs and not to be used at the moment - An official 2064 team page will be development from what is learned with mkdocs. 
 
 ## What You'll Learn
 
