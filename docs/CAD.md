@@ -26,7 +26,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ## Onshape for Students and Educators
 
-<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
+<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/signup.webp" align="right" style="width:40%; border:5px solid #ADADAD; border-radius: 2%">
 
 # [Stage 0](stage0/0A/what-and-why-CAD.md "Stage 0 Page")
 
@@ -38,7 +38,9 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ---
 
-<img src="img/intakeTopLevel.webp" align="left" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
+## Onshape Stage 1 Pathway
+
+<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/intakeTopLevel.webp" align="left" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
 
 # [Stage 1](stage1/1A/introduction.md)
 
@@ -48,6 +50,9 @@ The purpose of the course is to take you from zero to being able to model a full
 - Start learning top-down design workflow for FRC
 
 ---
+
+## Onshape Stage 2 Pathway
+
 
 ### [Stage 2](stage2/2A/introduction.md)
 
