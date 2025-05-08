@@ -27,7 +27,7 @@ XRP Bots are specialized robots designed for the FIRST Robotics Competition (FRC
 
 ## Building Your XRP Bot
 
-### Put Build here
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JQyKhzlMSms?si=561L5BCk3N_JiaZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Getting to know your XRP bot
 
