@@ -26,7 +26,7 @@ The purpose of the course is to take you from zero to being able to model a full
 
 ## Onshape for Students and Educators
 
-<img src="img/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
+<img src="https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/signup.webp" align="right" style="width:25%; border:5px solid #ADADAD; border-radius: 2%">
 
 # [Stage 0](stage0/0A/what-and-why-CAD.md "Stage 0 Page")
 
