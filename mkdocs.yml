@@ -59,20 +59,26 @@ nav:
       - Build Guide: Build.md
       - Wiring & Hardware: gettingtoknow.md
       - Basic Movement: basicdriveXRP.md
+      - Show your skills: XRPdrivechallenge.md
   - XRP Ping Pong Challenge:
       - Design Concepts: Ping-Pong-Launcher-Challenge.md
       - Assembly Guide: PingPongAssemble.md
       - Coding XRP for Challenge: pingpongcode.md
+      - Show Your Skills: PingPongCompetition.md
   - CAD & Design:
       - FRC Design CAD: CAD.md
+      - Show Your Skills: cadonshapecourse.md
   - Programming:
       - FRC JAVA & WPIlib: WPIlib.md
+      - Show Your Skills: advancedjava.md
   - Safety:
       - Safety Overview: Safety.md
+      - Show Your Skills: Safetyquiz.md
   - Hand Tools:
       - Closet Organization Method: Closet.md
       - Hand Tools Overview: Handtools.md
       - Crimping: crimping.md
+      - Show Your Skills: handtoolsquiz.md 
   - Machine Tools:
       - 3D Printing: 3dprinting.md
       - Bandsaw: bandsaw.md
@@ -80,3 +86,4 @@ nav:
       - Milling Machine: millingmachine.md
       - CNC Router: cncrouter.md
       - Laser Engraver: laserengraver.md
+      - Show Your Skills: machinelessons.md
