@@ -63,6 +63,7 @@ nav:
   - XRP Ping Pong Challenge:
       - Design Concepts: Ping-Pong-Launcher-Challenge.md
       - Assembly Guide: PingPongAssemble.md
+      - Wiring Guide: wiringpingpongxrp.md 
       - Coding XRP for Challenge: pingpongcode.md
       - Show Your Skills: PingPongCompetition.md
   - CAD & Design:
