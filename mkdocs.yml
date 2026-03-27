@@ -62,6 +62,7 @@ nav:
   - XRP Ping Pong Challenge:
       - Design Concepts: Ping-Pong-Launcher-Challenge.md
       - Assembly Guide: PingPongAssemble.md
+      - Coding XRP for Challenge: pingpongcode.md
   - CAD & Design:
       - FRC Design CAD: CAD.md
   - Programming:
