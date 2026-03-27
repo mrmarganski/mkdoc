@@ -2,6 +2,7 @@ site_name: FRC Team 2064 Robotics Guide
 site_description: Getting started in FRC!!
 site_author: Team 2064 - The Panther Project
 copyright: FRC Team 2064 ~ The Panther Project
+repo_url: https://github.com/mrmarganski/mkdoc
 
 theme:
   name: material
