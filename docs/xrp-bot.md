@@ -1,3 +1,8 @@
+---
+prev: index.md
+next: build.md
+---
+
 # XRP Bot Creation and Development
 
 ## Introduction to XRP Bots
