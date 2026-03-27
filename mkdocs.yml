@@ -15,27 +15,26 @@ theme:
     code: Roboto Mono
   logo: img/logo.png
   favicon: img/favicon.ico
-
-features:
-  - content.code.copy
-  - content.tabs.link
-  - navigation.sections
-  - navigation.expand
-  - navigation.top
-  - navigation.path
-  - navigation.footer
-  - toc.integrate
+  features:  # <- THIS MUST BE INDENTED HERE
+    - content.code.copy
+    - content.tabs.link
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.path
+    - navigation.footer
+    - toc.integrate
 
 extra:
- social:
+  social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/frc2064/
 
 extra_javascript:
-   - js/custom.js  
+  - js/custom.js
 
 extra_css:
-  - css/custom.css  
+  - css/custom.css
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -49,11 +48,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
-  # - pwndownx.details
 
 plugins:
   - search
-  # - glightbox
 
 nav:
   - Home: index.md
@@ -63,4 +60,3 @@ nav:
   - Assemble XRP for Ping Pong: PingPongAssemble.md
   - Coding XRP for Ping Pong: gettingtoknow.md
   - FRC Design CAD: CAD.md
-  
