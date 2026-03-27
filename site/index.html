@@ -480,7 +480,21 @@
         <script src="js/custom.js"></script>
       
         <script src="js/zoomable.js"></script>
-      
+      <script>
+  // This waits for your Markdown to load, then fixes the links
+  window.addEventListener('load', function() {
+    // Find all links on the page
+    const links = document.querySelectorAll('a');
+    
+    links.forEach(link => {
+      // If the link is external (starts with http), open in new tab
+      if (link.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  });
+</script>
     
   </body>
 </html>
