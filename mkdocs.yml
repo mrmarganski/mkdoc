@@ -57,6 +57,9 @@ plugins:
 nav:
   - Home: index.md
   - XRP Bot: xrp-bot.md
-  - Build: Build.md
-  - CAD: CAD.md
-  - Getting to Know XRP: gettingtoknow.md
+  - XRP Build: Build.md
+  - XRP Design for Ping Pong: Ping-Pong-Launcher-Challenge.md
+  - Assemble XRP for Ping Pong: PingPongAssemble.md
+  - Coding XRP for Ping Pong: gettingtoknow.md
+  - FRC Design CAD: CAD.md
+  
