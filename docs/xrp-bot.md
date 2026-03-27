@@ -25,11 +25,4 @@ XRP Bots are specialized robots designed for the FIRST Robotics Competition (FRC
    - Use sensors like encoders, cameras, and gyros to gather data and control the robot.
    - Actuators control movement, like motors and servos.
 ---
-## Building Your XRP Bot
-!!! note
-   You should already have an assembled XRP bot - but this video is a good reference in case troubleshooting or repairs are needed - Watch if this is your first time using XRP.
 
-!!! warning
-    Stop the video at 10:00 marker. We will not be coding in Python or Block format
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JQyKhzlMSms?si=561L5BCk3N_JiaZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
