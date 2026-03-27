@@ -2,6 +2,8 @@
 
 This manifest defines the wiring for an **Arduino Pro Micro** acting as a sub-controller for the **XRP**. It uses a **Logic Level Converter** to bridge the 3.3V (XRP) and 5V (Arduino) logic levels.
 
+!!! note This step is assuming you have your robot wired currently from the base XRP steps, this is an addon required for the High-RPM motors to be able to be run which are required to get a ball to launch.  It also provides expansion slots for addiitonal add-ons in the future.
+
 #### **Master Wiring Table**
 
 | Connection Group | From (Component: Pin) | To (Component: Pin) | Logic/Voltage | Purpose |
