@@ -1,1 +1,8 @@
+# Shooter Design
+We will make the shooter concept together, to follow a design process for a physical product we will all make together.  Following these steps will help you successufully achieve a working product, but feel free to iterate on your own as well -just be sure to not veer to far off and return to this tutorial to complete this challenge.
 
+# There are 4 Main Components to Create
+#### 1: CAD Magazone and Shooter Frame
+#### 2: CAD Flywheels with Gears
+#### 3: CAD Pinion Gear
+#### 4: CAD Feeder Wheel
