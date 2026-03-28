@@ -29,7 +29,7 @@ Before we can write any code for the new servo, we need to tell the robot where 
 
 ---
 
-### Step 2: Creating the Second Servo Object
+### Step 2: Creating the Second Servo Object (`Servo.java`)
 
 Now, open your `Servo.java` subsystem file. At the very top, where we declare our hardware, we need to add the second servo.
 
@@ -48,7 +48,7 @@ public class Servo extends SubsystemBase {
 
 ---
 
-### Step 3: Writing the Mirrored Math
+### Step 3: Writing the Mirrored Math (`Servo.java`)
 
 This is where the magic happens. We want our Commands to be simple. When a command says "Go to 45 degrees", the subsystem should be smart enough to handle the complex math of moving *both* servos correctly at the same time.
 
@@ -75,7 +75,7 @@ Find your `setAngle()` method and update it to look like this:
 
 ---
 
-### Step 4: Adding Telemetry for Debugging
+### Step 4: Adding Telemetry for Debugging (`Servo.java`)
 
 Finally, we want to prove that our math is working without having to guess by looking at the physical robot. We will update the `periodic()` method to post the live angles of both servos to our Driver Station screen.
 
