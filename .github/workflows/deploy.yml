@@ -30,5 +30,5 @@ jobs:
           REMOTE_HOST: frc2064.com
           REMOTE_USER: brimar70
           SOURCE: "site/"
-          TARGET: "/home/brimar70/frc2064.com/"
+          TARGET: "/home/brimar70/frc2064.com/mkdoc"
           ARGS: "-rlgoDzvc --delete"
