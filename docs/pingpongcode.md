@@ -4,6 +4,8 @@ If you are building a symmetrical mechanism like a grabbing claw or a dual-sided
 
 However, because the servos are usually mounted facing *opposite* directions on the robot, sending them the exact same angle will make your claw twist instead of open and close! We need to write code that makes the second servo act as a **mirror** to the first one.
 
+(add gif of cad model simulation visualizing the movement described here)
+
 Here is how to update our `Servo.java` subsystem to handle two mirrored servos.
 
 ---
