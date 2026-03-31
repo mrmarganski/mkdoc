@@ -24,9 +24,9 @@ In a real FRC robot, the RoboRIO (the XRP) does not power the motors directly. I
 
 | Connection Group | From (Component: Pin) | To (Component: Pin) | Logic/Voltage | Purpose |
 | :--- | :--- | :--- | :--- | :--- |
-| **Control Signal** | **XRP SERVO2: Signal (IO17)** | **Pro Micro: Pin 2** | 5v PWM | Signal from WPILib |
+| **Control Signal** | **XRP SERVO2: Signal (IO17)** | **Pro Micro: Pin 2** | PWM | Signal from WPILib |
 | **Ground** | **L9110S: Ground (GND)** | **XRP SERVO2: Ground (GND)** | 0V | **Common Ground** |
-| **Arduino Power** | **XRP Servo2: Red (Center)** | **Pro Micro: RAW** | 6-7.2V | Powers Arduino |
+| **Arduino Power** | **XRP Servo2: Red (Center)** | **Pro Micro: RAW** | 5V | Powers Arduino |
 | **Motor A Drive** | **Pro Micro: Pin 5 & 6** | **L9110S: A-1A & A-1B** | 5V Logic | Speed/Direction A |
 | **Motor B Drive** | **Pro Micro: Pin 9 & 10** | **L9110S: B-1A & B-1B** | 5V Logic | Speed/Direction B |
 | **Motor Power** | **XRP Battery: Red** | **L9110S: VCC** | 6V Battery | **High Current Supply** |
