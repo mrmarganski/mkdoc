@@ -7,6 +7,8 @@ To run this, download ZIP, unpack, and open folder through vscode while connecte
 
 Make sure XRP bot is on at this point.
 
+Connect a PS4 bluetooth controller, needs to be triangle/square/circle/cross for code methods to work, or you will need to rewrite the controller bindings if using a different controller.  Bluetooth allows you to be fully wireless.
+
 Once BUILD is complete, you have to switch your computers wifi to the XRP signal being sent, the password is: xrp-wpilib
 
 Next step, click the WPI logo at the top of the VSCode screen, and search for "SIMULATE" - Which will deploy the code and open a virtual Driver Station to control the robot like a real FRC bot!
