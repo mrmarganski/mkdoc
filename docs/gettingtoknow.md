@@ -1,7 +1,7 @@
 # Getting to know your XRP
 
 !!! note
-    This page was copied from the FRC wpilib page - to practice editing from their sources - this way we can take what we like and adapt and also keep everything useful for new members in a single location without having to redirect constantly.  This method may be beneficial... Unsure... 
+    Your wiring should be good to go if you watched the video, this page is for technical reference and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are, this page is a good start. 
 
 ## Booting up the XRP
 
