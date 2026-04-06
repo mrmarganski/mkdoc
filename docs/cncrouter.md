@@ -10,14 +10,14 @@
 Before heading to the machine, you must prepare your G-Code.
 
 1. **CAD Software:** Create your 3D model in Onshape, Export as **STEP File**.
-2. **CAM Software** Import your model **STEP File** into Fusion360.
+2. **CAM Software:** Import your model **STEP File** into Fusion 360.
 3. **Setup:** Set your **Work Home (WCS)**. For most PHS projects, this is the **Top-Left-Front** corner of the stock.
 4. **Toolpaths:** Select appropriate bits (Endmills/Drills). 
 5. **Post Process:** Use the [Stepcraft UCNC Post Processor](https://cam.autodesk.com/posts/download.php?name=stepcraft%20uccnc&type=post).
-6. **Verify** Use Simulation to check toolpath in Fusion, and have a mentor review the CAM before Exporting/Post Processins G-Code.
+6. **Verify:** Use Simulation to check toolpath in Fusion, and have a mentor review the CAM before Exporting/Post Processing G-Code.
 7. **Transfer:** Save the `.nc` file to a USB drive.
 
-![Fusion 360 CAM Setup](img/placeholder-cam.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
+![Fusion 360 CAM Setup](img/placeholder-cam.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 <p align="center">*Screencap of the WCS orientation and Post-Process menu.*</p>
 
 ---
@@ -25,7 +25,7 @@ Before heading to the machine, you must prepare your G-Code.
 ## 1. Safety & Machine Inspection 🛡️
 * [x] **Safety Glasses:** Must be worn at all times when near the machine.
 * [x] **Clear Path:** Ensure the 4'x8' gantry path is clear of bags, chairs, or people and any debris.
-* [x] **E-Stop Check:** Locate the physical E-Stop on the machine and the software stop (You should know where it is).
+* [x] **E-Stop Check:** Locate the physical E-Stop on the machine and the software stop.
 
 ---
 
@@ -43,7 +43,7 @@ How we hold the material down is critical for accuracy.
 * **GOAT Board:** Our custom fixturing system for smaller parts or aluminum.
 * **Mechanical Clamps:** Use only if the toolpath stays at least 1" away from clamp locations.
 
-![Workholding Setup](img/placeholder-workholding.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
+![Workholding Setup](img/placeholder-workholding.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 <p align="center">*Photo of the Vacuum Table zones or GOAT board setup.*</p>
 
 ---
@@ -61,8 +61,8 @@ You must tell the machine where your material is located.
 
 1. **Jogging:** Use the keyboard to move the bit to your stock's **Top-Left Corner**.
 2. **Zero X/Y:** Set these values to zero in UCNC.
-3. **Zero Z:** Use the **Touch Plate** to find the exact top of the material.  **TLS Button On Software**
-   
+3. **Zero Z:** Use the **Touch Plate** to find the exact top of the material. Use the **TLS Button** in the software.
+
 ---
 
 ## 6. Feed & Speed Reference
@@ -71,15 +71,15 @@ Stepcraft Q.408 handles aluminum and wood differently. Reference this table befo
 | Material | Tool | Spindle RPM | Feedrate (mm/min) | Max Depth (DOC) |
 | :--- | :--- | :--- | :--- | :--- |
 | Plywood | 1/4" Upcut | 15,000 | 1200 | 18mm (3/4") |
-| Aluminum | 1/8" Single Flute | 9,000 | 200 | Full Depth/Trichoidal (0.01") Stepover |
-| Polycarbonate/Lexan | 1/4" O-Flute | 12,000 | 700 | 6mm (1/4") |
+| Aluminum | 1/8" Single Flute | 9,000 | 200 | Full Depth/Trochoidal (0.01") |
+| Polycarbonate | 1/4" O-Flute | 12,000 | 700 | 6mm (1/4") |
 
 ---
 
 ## 7. Run the Operation 🚀
 1. **Air Run:** (Optional but Recommended) Run the code 20mm above the material to check for errors.
-3. **Dust Boot:** Lower the dust boot to the material surface.
-4. **Start:** Click **Cycle Start**. Keep one hand near the E-Stop for the first 30 seconds.
+2. **Dust Boot:** Lower the dust boot to the material surface.
+3. **Start:** Click **Cycle Start**. Keep one hand near the E-Stop for the first 30 seconds.
 
 !!! danger "Router Height Restrictions"
     Because this is a router and not a mill, the Z-height is limited. Ensure your retract height in Fusion 360 doesn't cause the gantry to "top out" or hit a clamp.
@@ -95,6 +95,8 @@ Stepcraft Q.408 handles aluminum and wood differently. Reference this table befo
 ---
 
 ## Operation Workflow
+
+```mermaid
 graph TD
     A[Onshape Design] --> B[CAM Fusion Toolpaths]
     B --> C[Post Process to G-Code]
@@ -103,10 +105,6 @@ graph TD
     E --> F[Insert EndMill/Drill - Set Work Zero - Z TLS]
     F --> G[Execute Cut]
     
-    G --> H{Tool Change Required?}
-    
-    H -- Yes --> F
-    H -- No --> I[Complete Job / Cleanup]
     G --> H{Tool Change Required?}
     
     H -- Yes --> F
