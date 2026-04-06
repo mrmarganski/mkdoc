@@ -13,6 +13,9 @@ Before we even use the machine, we need a 2D PDF file of our contours of the sha
 2. Create a drawing of the file (Ensure scaling is 1:1)
 3. Export the file as PDF (Turn off.delete unnecessary lines/centerlines labels/text you do not want - only should see the lines you actually want to cut)
 4. Verify file opens and save to a USB drive to transfer to the machine later on step 3 below.
+   
+![PDF FILE Creation](img/placeholder-startup.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
+<p align="center">*Place a photo or GIF of a screencapture of this process to make a PDF.*</p>
 
 ---
 
