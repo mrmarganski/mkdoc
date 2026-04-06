@@ -104,8 +104,8 @@ Stepcraft Q.408 handles aluminum and wood differently. Reference this table befo
 graph TD
     A[Onshape/Fusion Design] --> B[CAM Toolpaths]
     B --> C[Post Process to G-Code]
-    C --> D[Home Machine & Set Work Zero]
-    D --> E[Secure Workholding/Vacuum]
-    E --> F[Run Air Test]
+    C --> D[Turn Machine On/Home Machine]
+    D --> E[Secure Workholding]
+    E --> F[Set Work Zero]
     F --> G[Execute Cut]
     G --> H[Cleanup]
