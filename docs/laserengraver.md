@@ -70,10 +70,10 @@ Refer to the **Material Library** at the tool station. Common starting points:
 
 ---
 
-## 6. The "Frame" Check
+## 6. The "Perimeter" Check
 Before firing the laser, press the **[PERIMETER STEPS]** button in the software.
 
-> **Why?** This moves the laser head in a rectangle around your design area. Check to make sure the laser won't hit any clamps or go off the edge of the material.
+> **Why?** This moves the laser head in a rectangle around your design area. Check to make sure the laser won't hit machine limits or go off the edge of the material.
 
 ---
 
