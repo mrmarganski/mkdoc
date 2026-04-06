@@ -1,3 +1,47 @@
+/* --- 1. Existing Copy Button Styles --- */
 .copy-button {
-  /* Your existing copy button styles here */
+  /* Your existing styles stay here */
+}
+
+/* --- 2. Mermaid Diagram Customization (Team 2064 Theme) --- */
+
+/* Force all text in the diagram to be white for Dark Mode */
+.mermaid text {
+    fill: #ffffff !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Style the boxes (nodes) with a subtle grey background and Red border */
+.mermaid .node rect, 
+.mermaid .node polygon, 
+.mermaid .node circle, 
+.mermaid .node path {
+    fill: #2e2e2e !important;
+    stroke: #ff0000 !important; /* Panther Project Red */
+    stroke-width: 2px !important;
+}
+
+/* Style the decision diamond (Tool Change Required?) */
+.mermaid .node.question rect {
+    fill: #424242 !important;
+}
+
+/* Style the connecting lines (arrows) */
+.mermaid .edgePath .path {
+    stroke: #ffffff !important;
+    stroke-width: 2px !important;
+}
+
+/* Style the arrowheads */
+.mermaid .marker {
+    fill: #ffffff !important;
+    stroke: #ffffff !important;
+}
+
+/* Center the diagram on the page */
+.mermaid {
+    display: flex;
+    justify-content: center;
+    background-color: transparent !important;
+    margin: 30px 0;
 }
