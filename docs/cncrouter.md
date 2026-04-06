@@ -96,7 +96,7 @@ Stepcraft Q.408 handles aluminum and wood differently. Reference this table befo
 
 ## Operation Workflow
 
-```mermaid
+<div class="mermaid">
 graph TD
     A[Onshape Design] --> B[CAM Fusion Toolpaths]
     B --> C[Post Process to G-Code]
@@ -109,3 +109,4 @@ graph TD
     
     H -- Yes --> F
     H -- No --> I[Complete Job / Cleanup]
+</div>
