@@ -39,6 +39,7 @@ Follow this specific power-on sequence:
 5. Open **Retina Engrave** Software and ensure **Connected** in lower left corner.
 6. Home the Machine pressing **Home** Icon
 7. Wait for the laser head to **Home** (move to the corner).
+8. After machine is homes, yout can use **Arrow Keys** on the laptop to move the laser head to a new position. 
 
 ![Machine Startup Placement](img/placeholder-startup.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
 <p align="center">*Place a photo or GIF of the power switch and E-Stop here.*</p>
@@ -63,8 +64,9 @@ Projects start in **Retina Engrave**, but need to be **Printed** to send file to
 This is the most important step for a clean result.
 
 1. Place your material flat on the bed (12"x20" MAX BUILD SIZE).
-2. Use the **Focus Tool** to set the correct distance between the lens and the material.
-3. Manually move the laser head to the "Origin" (where you want the job to start **Typically Top Left Corner of Job**).
+2. Use the **Focus Tool** to set the correct distance between the lens and the material.  (You may have to move machine head to a different location to be on your workpiece and can fit the focus tool under the laser head)
+3. There is a **Turn Handle** Underneath the machine, turn it to move the machine **Floor** to the proper height so the Focus Tool is just below the laser head when resting on your workpiece.
+ 4. Manually move the laser head to the "Origin" (where you want the job to start **Typically Top Left Corner of Job**).
 
 ![Focusing Method](img/placeholder-focus.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
 <p align="center">*Insert a photo of the focus tool in use here.*</p>
