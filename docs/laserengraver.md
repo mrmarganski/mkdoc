@@ -29,10 +29,11 @@ Follow this specific power-on sequence:
 ---
 
 ## 3. Preparing Your File
-Most projects start in **LightBurn** or **LaserGRBL**.
+Projects start in **Retina Engrave**.
 
-* **Importing:** Drag and drop your `.svg` or `.dxf` file into the software.
-* **Scaling:** Ensure your dimensions match your physical material.
+* **Opening:** Open `.pdf` file to **Preview It in Google Chrome**.
+* **Importing:** Print `.pdf` file to **Full Sprecturm Engraver** Which is a printer selected in the menu.
+* **Scaling:** Ensure your dimensions match your physical material 1:1.
 * **Layers:** Assign different colors for **Cutting** (Line) vs. **Engraving** (Fill).
 
 !!! tip "Layer Logic"
@@ -43,9 +44,9 @@ Most projects start in **LightBurn** or **LaserGRBL**.
 ## 4. Material Setup & Focusing
 This is the most important step for a clean result.
 
-1. Place your material flat on the bed.
+1. Place your material flat on the bed (12"x20" MAX BUILD SIZE).
 2. Use the **Focus Tool** to set the correct distance between the lens and the material.
-3. Manually move the laser head to the "Origin" (where you want the job to start).
+3. Manually move the laser head to the "Origin" (where you want the job to start **Typically Top Left Corner of Job**).
 
 ![Focusing Method](img/placeholder-focus.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
 <p align="center">*Insert a photo of the focus tool in use here.*</p>
@@ -55,16 +56,16 @@ This is the most important step for a clean result.
 ## 5. Speed & Power Settings
 Refer to the **Material Library** at the tool station. Common starting points:
 
-| Material | Mode | Speed (mm/min) | Power (%) |
-| :--- | :--- | :--- | :--- |
-| 1/8" Plywood | Cut | 300 | 85% |
-| 1/8" Plywood | Engrave | 3000 | 20% |
-| Acrylic | Cut | 200 | 90% |
+| Material | Mode | Speed (%) | Power (%) | Passes (#) |
+| :--- | :--- | :--- | :--- | :--- |
+| 1/8" Plywood | Cut | 10% | 100% | 3 |
+| 1/8" Plywood | Engrave | 80% | 50% | 1 |
+| 1/8" Acrylic | Cut | 15% | 100% | 3 |
 
 ---
 
 ## 6. The "Frame" Check
-Before firing the laser, press the **[FRAME]** button in the software.
+Before firing the laser, press the **[PERIMETER STEPS]** button in the software.
 
 > **Why?** This moves the laser head in a rectangle around your design area. Check to make sure the laser won't hit any clamps or go off the edge of the material.
 
