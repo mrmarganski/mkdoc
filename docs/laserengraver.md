@@ -19,9 +19,11 @@ Before you even turn the machine on, perform these checks:
 ## 2. Machine Startup
 Follow this specific power-on sequence:
 
-1. Turn on the main power switch.
-2. Unlock the Emergency Stop (E-Stop) if depressed.
-3. Wait for the laser head to "Home" (move to the corner).
+1. Turn on the main power switch **Keyed Lock to ON Position**.
+2. Unlock the Emergency Stop **E-Stop** if depressed.
+3. Open **Retina Engrave** Software and ensure **Connected** in lower left corner.
+4. Home the Machine pressing **Home** Icon
+5. Wait for the laser head to **Home** (move to the corner).
 
 ![Machine Startup Placement](img/placeholder-startup.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
 <p align="center">*Place a photo or GIF of the power switch and E-Stop here.*</p>
@@ -29,9 +31,10 @@ Follow this specific power-on sequence:
 ---
 
 ## 3. Preparing Your File
-Projects start in **Retina Engrave**.
+Projects start in **Retina Engrave**, but need to be **Printed** to send file to Software.
 
-* **Opening:** Open `.pdf` file to **Preview It in Google Chrome**.
+* **Insert USB:** Plug `USB` Drive into laptop **Open folder files are stored in to be lasered**.
+* **Opening:** Open `.pdf` file (Double-Click/Right-Click - Open) to **Preview It in Google Chrome**.
 * **Importing:** Print `.pdf` file to **Full Sprecturm Engraver** Which is a printer selected in the menu.
 * **Scaling:** Ensure your dimensions match your physical material 1:1.
 * **Layers:** Assign different colors for **Cutting** (Line) vs. **Engraving** (Fill).
