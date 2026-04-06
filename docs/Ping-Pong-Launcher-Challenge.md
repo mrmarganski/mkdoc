@@ -1,15 +1,26 @@
 # Shooter Design
 We will make the shooter concept together, to follow a design process for a physical product we will all make together.  Following these steps will help you successufully achieve a working product, but feel free to iterate on your own as well -just be sure to not veer to far off and return to this tutorial to complete this challenge.
 
-# Main Components to Create
-1: Magazine/Hopper and Shooter Structure with Feeder mount
-2: Pinion Gear
-3: Winch Roller
-4: Electronics Board
-4: Feeder Wheel
-5: Flywheels with Gears
-6: Pivot Mount
-7: Winch Mount
+## Main Components to Create
+
+1. **Magazine/Hopper and Shooter Structure**
+    * The primary assembly for ball storage and shooter mounting; includes the feeder mount.
+2. **Pinion Gear**
+    * Small gear that attaches to the 6V motor shaft to drive the flywheel system.
+3. **Winch Roller**
+    * Custom roller designed to manage the string used for shooter angle adjustment.
+4. **Electronics Board**
+    * Mounting plate for the Arduino and additional circuitry.
+5. **Feeder Wheel**
+    * Mechanism that moves balls from the hopper into the flywheel path.
+6. **Flywheels with Gears**
+    * High-speed wheels wrapped in rubber bands with a 4:1 gear mesh assembly.
+7. **Pivot Mount**
+    * Main interface to the XRP chassis that allows the launcher to tilt on a 10-32 axle.
+8. **Winch Mount**
+    * Dedicated bracket to secure the winch motor to the XRP frame using zipties.
+
+---
 
 We will be assembling these parts in Onshape as well, and some will need to be created in the assembly to derive off of existing geometry of other parts existing in the project as we build it.
 
