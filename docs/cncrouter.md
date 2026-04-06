@@ -1,31 +1,111 @@
+# 🛠️ Stepcraft Q.408 CNC: Beginner's Guide
+*A step-by-step tutorial for Full-Sheet Machining.*
 
-# PHS Stepcraft CNC
-<img src="https://cdn11.bigcommerce.com/s-byznwdb8us/images/stencil/1280x1280/products/29025/90862/STEPCRAFT-Q.408__71948.1730997000.jpg?c=1" alt="StepcraftCNC" width="600" height="400">
+!!! info "Target Audience"
+    This tutorial is for students using the PHS Stepcraft Q.408. CNC machining is "subtractive"—errors can break expensive bits or the machine itself. **Always verify your toolpaths with an instructor before hitting Cycle Start.**
 
-Stepcraft CNC is a Full Sheet Capable (4'x8') Router CNC - The CNC at PHS has an upgraded spindle and vacuum table option.  The machine is a very capable tool, with tolerances capable less than .001.  For accurate aluminium machining the machine needs better workholding and strategic machining operations due to the height restrictions as a router.    
+---
 
-#### Machine Details/Specs
-- [x] 4 feet x 8 feet table size
-- [ ] Height Allowance below Collet
-- [ ] Spindle Speed Min/Max
-- [x] Machine reads values in mm/when exported from MasterCAM
-- [x] Needs testing with post processor from fusion
+## 0. CAM & Post-Processing
+Before heading to the machine, you must prepare your G-Code.
 
-#### Post Processor
-- [x] [Post Processor for Stepcraft and Fusion](https://cam.autodesk.com/posts/download.php?name=stepcraft%20uccnc&type=post) 
-This file would need to be downloaded and applied to the CAM software in fusion in order to output gcode from Fusion to Stepcraft
+1. **Software:** Create your 3D model in Onshape or Fusion 360.
+2. **Setup:** Set your **Work Home (WCS)**. For most PHS projects, this is the **Top-Left-Front** corner of the stock.
+3. **Toolpaths:** Select appropriate bits (Endmills vs. V-Bits). 
+4. **Post Process:** Use the [Stepcraft UCNC Post Processor](https://cam.autodesk.com/posts/download.php?name=stepcraft%20uccnc&type=post).
+5. **Transfer:** Save the `.nc` or `.tap` file to a USB drive.
 
-#### Workholding - Fixturing
-GOAT Board explanation
+![Fusion 360 CAM Setup](img/placeholder-cam.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
+<p align="center">*Screencap of the WCS orientation and Post-Process menu.*</p>
 
-#### Tooling
-Common tools used listed here
+---
 
-#### Toolpaths
-Common toolpath examples with a sample part video to each to help people see the process
+## 1. Safety & Machine Inspection 🛡️
+* [ ] **Safety Glasses:** Must be worn at all times while the spindle is powered.
+* [ ] **Clear Path:** Ensure the 4'x8' gantry path is clear of bags, chairs, or people.
+* [ ] **E-Stop Check:** Locate the physical E-Stop on the machine and the software stop.
+* [ ] **Dust Collection:** Ensure the vacuum hose is connected and the blast gate is open.
 
-#### CAM Settings / Material Choice
-Settings to look for before cutting
+---
 
-#### Operation Workflow
-My preferred workflow here - flowchart?
+## 2. Machine Startup & Homing
+1. Turn on the main Stepcraft power switch.
+2. Launch the **UCNC** software on the control PC.
+3. Reset the E-Stop in the software (click the flashing "Reset" button).
+4. Press **Home All**. The machine will move to its mechanical limits to find "Machine Zero."
+
+!!! warning "Vacuum Table"
+    If using the vacuum table, ensure the zones are correctly toggled for your material size to avoid losing suction.
+
+---
+
+## 3. Workholding (The GOAT Board)
+How we hold the material down is critical for accuracy.
+
+* **Vacuum Table:** Best for large sheets of plywood or plastic. 
+* **GOAT Board:** Our custom fixturing system for smaller parts or aluminum.
+* **Mechanical Clamps:** Use only if the toolpath stays at least 1" away from clamp locations.
+
+![Workholding Setup](img/placeholder-workholding.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
+<p align="center">*Photo of the Vacuum Table zones or GOAT board setup.*</p>
+
+---
+
+## 4. Tooling & Bit Changes
+1. Select the collet that matches your bit diameter (typically 1/4" or 1/8").
+2. Clean the collet and nut of any dust.
+3. Insert the bit so the flutes are NOT inside the collet (grip the shank only).
+4. Tighten using the dual-wrench method. **Do not over-tighten.**
+
+---
+
+## 5. Setting Work Home (Zeroing)
+You must tell the machine where your material is located.
+
+1. **Jogging:** Use the pendant or keyboard to move the bit to your stock's **Top-Left Corner**.
+2. **Zero X/Y:** Set these values to zero in UCNC.
+3. **Zero Z:** Use the **Touch Plate** or the "Paper Method" to find the exact top of the material.
+4. **Verification:** Jog the Z-axis up 10mm and move the head to ensure it aligns with your stock correctly.
+
+---
+
+## 6. Feed & Speed Reference
+Stepcraft Q.408 handles aluminum and wood differently. Reference this table before running:
+
+| Material | Tool | Spindle RPM | Feedrate (mm/min) | Max Depth (DOC) |
+| :--- | :--- | :--- | :--- | :--- |
+| Plywood | 1/4" Upcut | 18,000 | 2500 | 3.175mm (1/8") |
+| Aluminum | 1/8" Single Flute | 20,000 | 600 | 0.5mm |
+| Acrylic | 1/4" O-Flute | 15,000 | 1800 | 2.0mm |
+
+---
+
+## 7. Run the Operation 🚀
+1. **Air Run:** (Optional but Recommended) Run the code 20mm above the material to check for errors.
+2. **Vacuum/Pumps:** Ensure the vacuum table or clamps are secure.
+3. **Dust Boot:** Lower the dust boot to the material surface.
+4. **Start:** Click **Cycle Start**. Keep one hand near the E-Stop for the first 30 seconds.
+
+!!! danger "Router Height Restrictions"
+    Because this is a router and not a mill, the Z-height is limited. Ensure your retract height in Fusion 360 doesn't cause the gantry to "top out" or hit a clamp.
+
+---
+
+## 8. Cleanup & Teardown
+* [ ] Wait for the spindle to come to a complete stop.
+* [ ] Vacuum the entire 4'x8' bed—dust in the tracks causes mechanical wear.
+* [ ] Remove the bit and return it to the proper storage slot.
+* [ ] Power down the controller and PC.
+
+---
+
+## Operation Workflow
+```mermaid
+graph TD
+    A[Onshape/Fusion Design] --> B[CAM Toolpaths]
+    B --> C[Post Process to G-Code]
+    C --> D[Home Machine & Set Work Zero]
+    D --> E[Secure Workholding/Vacuum]
+    E --> F[Run Air Test]
+    F --> G[Execute Cut]
+    G --> H[Cleanup]
