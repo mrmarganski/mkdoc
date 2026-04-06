@@ -46,6 +46,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - attr_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - md_in_html
   - admonition
 
