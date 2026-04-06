@@ -1,18 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
     
-    // --- 1. Mermaid Initialization ---
+// This specific trigger is for the Material theme's instant loading
+if (typeof document$ !== "undefined") {
+  document$.subscribe(function() {
+    mermaid.run();
+  });
+}
+
+// Fallback for standard loads
+document.addEventListener('DOMContentLoaded', function() {
     if (typeof mermaid !== "undefined") {
-        mermaid.initialize({
+        mermaid.initialize({ 
             startOnLoad: true,
-            theme: 'dark',
-            securityLevel: 'loose',
-            flowchart: {
-                useMaxWidth: true,
-                htmlLabels: true,
-                curve: 'basis'
-            }
+            theme: 'dark' 
         });
     }
+});
 
     // --- 2. Existing Custom Copy Button Logic ---
     const codeContainers = document.querySelectorAll('.code-container');
