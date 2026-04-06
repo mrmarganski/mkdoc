@@ -1,49 +1,63 @@
-document.addEventListener('DOMContentLoaded', function() {
-    
-// This specific trigger is for the Material theme's instant loading
-if (typeof document$ !== "undefined") {
-  document$.subscribe(function() {
-    mermaid.run();
-  });
-}
-
-// Fallback for standard loads
-document.addEventListener('DOMContentLoaded', function() {
+// Function to initialize and run Mermaid with a retry fallback
+function startMermaid() {
     if (typeof mermaid !== "undefined") {
         mermaid.initialize({ 
-            startOnLoad: true,
-            theme: 'dark' 
+            startOnLoad: true, 
+            theme: 'dark',
+            securityLevel: 'loose'
         });
+        // This forces a re-render for Material's instant-loading
+        mermaid.run();
+    } else {
+        // If mermaid isn't ready yet (CDN delay), try again in 200ms
+        setTimeout(startMermaid, 200);
     }
-});
+}
 
-    // --- 2. Existing Custom Copy Button Logic ---
+// Main logic runner
+function initCustomScripts() {
+    // 1. Initialize Mermaid
+    startMermaid();
+
+    // 2. Custom Copy Button Logic
     const codeContainers = document.querySelectorAll('.code-container');
     
     codeContainers.forEach(container => {
-      const codeBlock = container.querySelector('pre code');
-      const copyButton = container.querySelector('.custom-copy-button.sleek');
+        const codeBlock = container.querySelector('pre code');
+        const copyButton = container.querySelector('.custom-copy-button.sleek');
   
-      if (codeBlock && copyButton) {
-        copyButton.addEventListener('click', function() {
-          const codeText = codeBlock.innerText;
+        if (codeBlock && copyButton) {
+            copyButton.addEventListener('click', function() {
+                const codeText = codeBlock.innerText;
   
-          navigator.clipboard.writeText(codeText)
-            .then(() => {
-              const originalText = this.innerText;
-              this.innerText = 'Copied!';
-              setTimeout(() => {
-                this.innerText = originalText;
-              }, 1500);
-            })
-            .catch(err => {
-              console.error('Failed to copy text: ', err);
-              this.innerText = 'Error';
-              setTimeout(() => {
-                this.innerText = 'Copy';
-              }, 1500);
+                navigator.clipboard.writeText(codeText)
+                    .then(() => {
+                        const originalText = this.innerText;
+                        this.innerText = 'Copied!';
+                        setTimeout(() => {
+                            this.innerText = originalText;
+                        }, 1500);
+                    })
+                    .catch(err => {
+                        console.error('Failed to copy text: ', err);
+                        this.innerText = 'Error';
+                        setTimeout(() => {
+                            this.innerText = 'Copy';
+                        }, 1500);
+                    });
             });
-        });
-      }
+        }
     });
-});
+}
+
+// --- Theme Triggers ---
+
+// Support for Material theme's "instant" navigation
+if (typeof document$ !== "undefined") {
+    document$.subscribe(function() {
+        initCustomScripts();
+    });
+}
+
+// Support for initial/standard page load
+document.addEventListener('DOMContentLoaded', initCustomScripts);
