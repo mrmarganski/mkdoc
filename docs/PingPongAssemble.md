@@ -3,6 +3,16 @@
     We will put images/video here for assembly of this robot.  It is not too bad but does require custom wiring that goes beyond the scope of the base XRP instructions and will require an Arduino to run a sketch to interpret the codes ability to run the 6V shooter motors running the flywheels.
 
 ## Ping Pong Launcher Main Part
+![Ping Pong Launcher](img/PingPongLauncher.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.5);" }
+<p align="center">*The Main Assembly Part to attach the Shooter Flywheels and Motor.*</p>
+
+---
+
+## Motor Driving Pinion
+![Pinion](img/Pinion.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.5);" }
+<p align="center">*Attaches to the small 6v motor shaft.*</p>
+
+## Ping Pong Launcher Main Part
 ![Ping Pong Launcher](img/PingPongLauncher.png){: style="max-width:350px; display:block; margin: 0 auto;" }
 The Main Assembly Part to attach the Shooter Flywheels and Motor to, 6v motors have friction fit, and red motor uses zipties to attach to frame.
 
