@@ -82,8 +82,8 @@ Before firing the laser, press the **[PERIMETER STEPS]** button in the software.
 2. Double-check that the air assist is blowing.
 3. Click **Start**.
 
-!!! danger "Never Leave the Machine"
-    You must stay within arm's reach of the laser at all times during operation. If you see a flame, hit the E-Stop immediately.
+!!! danger "Never Leave the Machine Unattended"
+    You must stay within **line of sight** of the laser at all times during operation. Do not leave the woodshop area, or the laser unsupervised. If you see a flame, hit the E-Stop immediately.
 
 ---
 
