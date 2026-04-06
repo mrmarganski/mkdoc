@@ -1,13 +1,25 @@
-// --- 1. Mermaid Initialization ---
-function initMermaid() {
+function renderPantherFlowchart() {
     if (typeof mermaid !== "undefined") {
         mermaid.initialize({ 
-            startOnLoad: false, 
-            theme: 'dark' 
+            startOnLoad: true, 
+            theme: 'dark',
+            securityLevel: 'loose'
         });
-        mermaid.run();
+        // This command forces Mermaid to scan specifically for <div> tags with class "mermaid"
+        mermaid.contentLoaded();
     }
 }
+
+// Material Theme "Instant" Navigation Support
+if (typeof document$ !== "undefined") {
+    document$.subscribe(function() {
+        renderPantherFlowchart();
+    });
+} else {
+    document.addEventListener('DOMContentLoaded', renderPantherFlowchart);
+}
+
+/* --- Keep your Copy Button Logic below this line --- */
 
 // --- 2. Filtered Copy Button Logic ---
 function initCopyButtons() {
