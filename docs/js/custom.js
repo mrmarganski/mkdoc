@@ -1,63 +1,25 @@
-// Function to initialize and run Mermaid with a retry fallback
-function startMermaid() {
-    if (typeof mermaid !== "undefined") {
-        mermaid.initialize({ 
-            startOnLoad: true, 
-            theme: 'dark',
-            securityLevel: 'loose'
-        });
-        // This forces a re-render for Material's instant-loading
-        mermaid.run();
-    } else {
-        // If mermaid isn't ready yet (CDN delay), try again in 200ms
-        setTimeout(startMermaid, 200);
-    }
-}
-
-// Main logic runner
-function initCustomScripts() {
-    // 1. Initialize Mermaid
-    startMermaid();
-
-    // 2. Custom Copy Button Logic
-    const codeContainers = document.querySelectorAll('.code-container');
-    
-    codeContainers.forEach(container => {
-        const codeBlock = container.querySelector('pre code');
-        const copyButton = container.querySelector('.custom-copy-button.sleek');
-  
-        if (codeBlock && copyButton) {
-            copyButton.addEventListener('click', function() {
-                const codeText = codeBlock.innerText;
-  
-                navigator.clipboard.writeText(codeText)
-                    .then(() => {
-                        const originalText = this.innerText;
-                        this.innerText = 'Copied!';
-                        setTimeout(() => {
-                            this.innerText = originalText;
-                        }, 1500);
-                    })
-                    .catch(err => {
-                        console.error('Failed to copy text: ', err);
-                        this.innerText = 'Error';
-                        setTimeout(() => {
-                            this.innerText = 'Copy';
-                        }, 1500);
-                    });
-            });
-        }
+// Function to handle the drawing
+function drawPantherCharts() {
+  if (typeof mermaid !== "undefined") {
+    mermaid.initialize({ 
+      startOnLoad: false, 
+      theme: 'dark',
+      securityLevel: 'loose'
     });
+    // Force mermaid to find any elements with class "mermaid" and render them
+    mermaid.run();
+  }
 }
 
-// --- Theme Triggers ---
+// 1. Trigger for initial page load
+document.addEventListener("DOMContentLoaded", function() {
+  drawPantherCharts();
+});
 
-// Support for Material theme's "instant" navigation
+// 2. Trigger for Material Theme "Instant" Navigation
+// This is the CRITICAL part for the live site
 if (typeof document$ !== "undefined") {
-    document$.subscribe(function() {
-        initCustomScripts();
-    });
+  document$.subscribe(function() {
+    drawPantherCharts();
+  });
 }
-
-// Support for initial/standard page load
-document.addEventListener('DOMContentLoaded', initCustomScripts);
