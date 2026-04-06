@@ -19,11 +19,13 @@ Before you even turn the machine on, perform these checks:
 ## 2. Machine Startup
 Follow this specific power-on sequence:
 
-1. Turn on the main power switch **Keyed Lock to ON Position**.
-2. Unlock the Emergency Stop **E-Stop** if depressed.
-3. Open **Retina Engrave** Software and ensure **Connected** in lower left corner.
-4. Home the Machine pressing **Home** Icon
-5. Wait for the laser head to **Home** (move to the corner).
+1. Ensure power strip is on and all components plugged in, **Should hear pumps running**
+2. Verify water is in 5 -Gallon Bucket and water is running through the pump
+3. Turn on the main power switch **Keyed Lock to ON Position**.
+4. Unlock the Emergency Stop **E-Stop** if depressed.
+5. Open **Retina Engrave** Software and ensure **Connected** in lower left corner.
+6. Home the Machine pressing **Home** Icon
+7. Wait for the laser head to **Home** (move to the corner).
 
 ![Machine Startup Placement](img/placeholder-startup.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px;" }
 <p align="center">*Place a photo or GIF of the power switch and E-Stop here.*</p>
