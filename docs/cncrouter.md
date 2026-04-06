@@ -11,11 +11,12 @@ Before heading to the machine, you must prepare your G-Code.
 
 1. **CAD Software:** Create your 3D model in Onshape, Export as **STEP File**.
 2. **CAM Software:** Import your model **STEP File** into Fusion 360.
-3. **Setup:** Set your **Work Home (WCS)**. For most PHS projects, this is the **Top-Left-Front** corner of the stock.
-4. **Toolpaths:** Select appropriate bits (Endmills/Drills). 
-5. **Post Process:** Use the [Stepcraft UCNC Post Processor](https://cam.autodesk.com/posts/download.php?name=stepcraft%20uccnc&type=post).
+3. **Setup:** Set your **Work Home (WCS)**. For most PHS projects, this is the **Top-Left-Front** corner of the stock but sometimes is the center, just be sure you know what you have set for the machine preperation.
+4. **Toolpaths:** Select appropriate bits (Endmills/Drills) You will be using in the project. 
+5. **Post Process:** Use the [Stepcraft UCNC Post Processor](https://cam.autodesk.com/posts/download.php?name=stepcraft%20uccnc&type=post). This is to talk to the machine you are using.
 6. **Verify:** Use Simulation to check toolpath in Fusion, and have a mentor review the CAM before Exporting/Post Processing G-Code.
-7. **Transfer:** Save the `.nc` file to a USB drive.
+7. **Editing** After Processing, a window will load previewing the **G-Code** - You will need to edit this file and remove the **X0 Y0 G53** Lines which are referencing a home positition that does not exist. 
+8. **Transfer:** Save the `.nc` file to a USB drive.
 
 ![Fusion 360 CAM Setup](img/placeholder-cam.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 <p align="center">*Screencap of the WCS orientation and Post-Process menu.*</p>
@@ -90,7 +91,7 @@ Stepcraft Q.408 handles aluminum and wood differently. Reference this table befo
 * [x] Wait for the spindle to come to a complete stop.
 * [x] Vacuum the entire 4'x8' bed—dust in the tracks causes mechanical wear.
 * [x] Remove the bit and return it to the proper storage slot.
-* [x] Power down the controller and PC.
+* [x] Power down the controller if leaving overnight. (You may leave machine on if running more parts)
 
 ---
 
