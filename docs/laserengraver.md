@@ -22,10 +22,10 @@ Before we even use the machine, we need a 2D PDF file of our contours of the sha
 ## 1. Safety First 🛡️
 Before you even turn the machine on, perform these checks:
 
-* [ ] **Safety Glasses:** Never look at laser while cutting, Lid must be closed to operate.
-* [ ] **Exhaust System:** Ensure the machine is in the **Paint Room** with vent fan **ON** and clear of obstructions.
-* [ ] **Fire Extinguisher:** Locate the nearest extinguisher.
-* [ ] **Workspace:** Ensure no flammable scraps are sitting on the honeycomb bed.
+* [x] **Safety Glasses:** Never look at laser while cutting, Lid must be closed to operate.
+* [x] **Exhaust System:** Ensure the machine is in the **Paint Room** with vent fan **ON** and clear of obstructions.
+* [x] **Fire Extinguisher:** Locate the nearest extinguisher.
+* [x] **Workspace:** Ensure no flammable scraps are sitting on the honeycomb bed.
 
 ---
 
@@ -103,10 +103,10 @@ Before firing the laser, press the **[PERIMETER STEPS]** button in the software.
 ---
 
 ## 8. Cleanup
-* [ ] Wait 30 seconds for smoke to clear before opening the lid.
-* [ ] Remove your project and any small "drop" scraps from the bed.
-* [ ] Turn off the machine and exhaust fan.
-* [ ] Clean the work area for the next student.
+* [x] Wait 30 seconds for smoke to clear before opening the lid.
+* [x] Remove your project and any small "drop" scraps from the bed.
+* [x] Turn off the machine and exhaust fan.
+* [x] Clean the work area for the next student.
 
 ---
 
