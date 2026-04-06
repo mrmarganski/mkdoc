@@ -31,6 +31,7 @@ extra:
       link: https://www.instagram.com/frc2064/
 
 extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
   - js/custom.js
 
 extra_css:
