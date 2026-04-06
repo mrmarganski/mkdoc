@@ -67,6 +67,7 @@ Refer to the **Material Library** at the tool station. Common starting points:
 | Plywood | Engrave | 80% | 50% | 1 |
 | 1/8" Acrylic | Cut | 15% | 100% | 3 |
 | Acrylic | Engrave | 80% | 50% | 1 |
+
 ---
 
 ## 6. The "Frame" Check
