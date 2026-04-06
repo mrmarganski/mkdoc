@@ -10,7 +10,7 @@
 Before you even turn the machine on, perform these checks:
 
 * [ ] **Safety Glasses:** Never look at laser while cutting, Lid must be closed to operate.
-* [ ] **Exhaust System:** Ensure the vent fan is ON and clear of obstructions.
+* [ ] **Exhaust System:** Ensure the machine is in the **Paint Room** with vent fan **ON** and clear of obstructions.
 * [ ] **Fire Extinguisher:** Locate the nearest extinguisher.
 * [ ] **Workspace:** Ensure no flammable scraps are sitting on the honeycomb bed.
 
