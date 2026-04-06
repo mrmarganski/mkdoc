@@ -38,23 +38,23 @@ extra_css:
   - css/custom.css
 
 markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
   - pymdownx.highlight:
-      use_pygments: true
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - attr_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - md_in_html
-  - admonition
-  - pymdownx.superfences:  # Combined into one single entry
+  - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - search
