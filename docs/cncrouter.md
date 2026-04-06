@@ -23,9 +23,9 @@ Before heading to the machine, you must prepare your G-Code.
 ---
 
 ## 1. Safety & Machine Inspection 🛡️
-* [ ] **Safety Glasses:** Must be worn at all times when near the machine.
-* [ ] **Clear Path:** Ensure the 4'x8' gantry path is clear of bags, chairs, or people and any debris.
-* [ ] **E-Stop Check:** Locate the physical E-Stop on the machine and the software stop (You should know where it is).
+* [x] **Safety Glasses:** Must be worn at all times when near the machine.
+* [x] **Clear Path:** Ensure the 4'x8' gantry path is clear of bags, chairs, or people and any debris.
+* [x] **E-Stop Check:** Locate the physical E-Stop on the machine and the software stop (You should know where it is).
 
 ---
 
@@ -87,10 +87,10 @@ Stepcraft Q.408 handles aluminum and wood differently. Reference this table befo
 ---
 
 ## 8. Cleanup & Teardown
-* [ ] Wait for the spindle to come to a complete stop.
-* [ ] Vacuum the entire 4'x8' bed—dust in the tracks causes mechanical wear.
-* [ ] Remove the bit and return it to the proper storage slot.
-* [ ] Power down the controller and PC.
+* [x] Wait for the spindle to come to a complete stop.
+* [x] Vacuum the entire 4'x8' bed—dust in the tracks causes mechanical wear.
+* [x] Remove the bit and return it to the proper storage slot.
+* [x] Power down the controller and PC.
 
 ---
 
