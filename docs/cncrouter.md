@@ -101,7 +101,7 @@ graph TD
     B --> C[Post Process to G-Code]
     C --> D[Turn Machine On/Home Machine]
     D --> E[Secure Workholding/Determine WorkPiece Zero Location X,Y]
-    E --> F[Insert EndMill/Drill - Set Work Zero -Z **TLS**]
+    E --> F[Insert EndMill/Drill - Set Work Zero - Z TLS]
     F --> G[Execute Cut]
     
     G --> H{Tool Change Required?}
