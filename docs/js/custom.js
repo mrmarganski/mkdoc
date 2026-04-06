@@ -1,6 +1,22 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
+    // --- 1. Mermaid Initialization ---
+    if (typeof mermaid !== "undefined") {
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            securityLevel: 'loose',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis'
+            }
+        });
+    }
+
+    // --- 2. Existing Custom Copy Button Logic ---
     const codeContainers = document.querySelectorAll('.code-container');
-  
+    
     codeContainers.forEach(container => {
       const codeBlock = container.querySelector('pre code');
       const copyButton = container.querySelector('.custom-copy-button.sleek');
@@ -11,12 +27,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
           navigator.clipboard.writeText(codeText)
             .then(() => {
-              // Provide feedback to the user
               const originalText = this.innerText;
               this.innerText = 'Copied!';
               setTimeout(() => {
                 this.innerText = originalText;
-              }, 1500); // Revert text after 1.5 seconds
+              }, 1500);
             })
             .catch(err => {
               console.error('Failed to copy text: ', err);
@@ -28,4 +43,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
       }
     });
-  });
+});
