@@ -6,6 +6,16 @@
 
 ---
 
+## 0. File Creation to Be Lasered
+Before we even use the machine, we need a 2D PDF file of our contours of the shapes we will want to cut:
+
+1. On a computer, create a file on OnShape you plan to make
+2. Create a drawing of the file (Ensure scaling is 1:1)
+3. Export the file as PDF (Turn off.delete unnecessary lines/centerlines labels/text you do not want - only should see the lines you actually want to cut)
+4. Verify file opens and save to a USB drive to transfer to the machine later on step 3 below.
+
+---
+
 ## 1. Safety First 🛡️
 Before you even turn the machine on, perform these checks:
 
