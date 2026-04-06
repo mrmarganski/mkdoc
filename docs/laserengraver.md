@@ -64,9 +64,9 @@ Refer to the **Material Library** at the tool station. Common starting points:
 | Material | Mode | Speed (%) | Power (%) | Passes (#) |
 | :--- | :--- | :--- | :--- | :--- |
 | 1/8" Plywood | Cut | 10% | 100% | 3 |
-| 1/8" Plywood | Engrave | 80% | 50% | 1 |
+| Plywood | Engrave | 80% | 50% | 1 |
 | 1/8" Acrylic | Cut | 15% | 100% | 3 |
-
+| Acrylic | Engrave | 80% | 50% | 1 |
 ---
 
 ## 6. The "Frame" Check
