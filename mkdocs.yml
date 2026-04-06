@@ -44,13 +44,12 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
   - attr_list
   - pymdownx.tasklist:
       custom_checkbox: true
   - md_in_html
   - admonition
-  - pymdownx.superfences:
+  - pymdownx.superfences:  # Combined into one single entry
       custom_fences:
         - name: mermaid
           class: mermaid
