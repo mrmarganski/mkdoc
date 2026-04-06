@@ -64,7 +64,7 @@ Projects start in **Retina Engrave**, but need to be **Printed** to send file to
 This is the most important step for a clean result.
 
 1. Place your material flat on the bed (12"x20" MAX BUILD SIZE).
-2. Use the **Focus Tool** to set the correct distance between the lens and the material.  (You may have to move machine head to a different location to be on your workpiece and can fit the focus tool under the laser head)
+2. Use the **Focus Tool** to set the correct distance between the lens and the material.  (You may have to move machine head **Laptop Arrow Keys** to a different location to be on your workpiece and can fit the focus tool under the laser head)
 3. There is a **Turn Handle** Underneath the machine, turn it to move the machine **Floor** to the proper height so the Focus Tool is just below the laser head when resting on your workpiece.
  4. Manually move the laser head to the "Origin" (where you want the job to start **Typically Top Left Corner of Job**).
 
