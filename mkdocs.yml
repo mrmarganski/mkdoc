@@ -82,6 +82,8 @@ nav:
   - Safety:
       - Safety Overview: Safety.md
       - Show Your Skills: Safetyquiz.md
+  - FRC Robot:
+      - Bumpers: bumpers.md
   - Hand Tools:
       - Closet Organization Method: Closet.md
       - Hand Tools Overview: Handtools.md
@@ -95,3 +97,9 @@ nav:
       - CNC Router: cncrouter.md
       - Laser Engraver: laserengraver.md
       - Show Your Skills: machinelessons.md
+  - Design and Media:
+      - Cricut Vinyl Cutter: cricut.md
+      - Buttom Maker: buttonmaker.md
+      - Photoshop: photoshop.md
+      - Adobe Illustrator: illustrator.md
+      - Branding: branding.md
