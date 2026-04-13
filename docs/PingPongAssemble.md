@@ -30,19 +30,20 @@ Requires the Gear Generator Featurescript - [Access Gear Generator Onshape Featu
 
 ---
 
-<video 
-  width="100%" 
-  height="auto" 
-  autoplay 
-  loop 
-  muted 
-  controls 
-  playsinline 
-  style="cursor: pointer; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
->
-  <source src="../videos/Recording 4-12 at 19.49 (1).webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+<div style="max-width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe 
+            src="https://region15-my.sharepoint.com/personal/bmarganski_region15_org/_layouts/15/embed.aspx?UniqueId=5057a62b-b379-467a-9144-e96acc22630b&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create&autoplay=true&loop=true" 
+            width="1280" 
+            height="720" 
+            frameborder="0" 
+            scrolling="no" 
+            allowfullscreen 
+            title="Onshape FeatureScript Demo" 
+            style="border:none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
 
 ---
 
