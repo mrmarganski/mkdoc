@@ -15,20 +15,7 @@
 
 Requires the Gear Generator Featurescript - [Access Gear Generator Onshape Featurescript](https://cad.onshape.com/documents/72d1bb826437a60af1fdd59c/w/2f2531a9f27d31cb4ee169d4/e/8f3bf9d133ff3fe42be9ab1e)
 
-<div style="max-width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-        <iframe 
-            src="https://youtu.be/2q2hagoLq2M?si=sXpuPIWkwsDyIVGu" 
-            width="1280" 
-            height="720" 
-            frameborder="0" 
-            scrolling="no" 
-            allowfullscreen 
-            title="Onshape FeatureScript Demo" 
-            style="border:none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-        </iframe>
-    </div>
-</div>
+[Testing OBS - Onshape FeatureScript Demo](https://www.youtube.com/watch?v=2q2hagoLq2M)
 ---
 
 <div style="max-width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
