@@ -29,6 +29,7 @@ Requires the Gear Generator Featurescript - [Access Gear Generator Onshape Featu
 </video>
 
 ---
+
 <video 
   width="100%" 
   height="auto" 
@@ -42,6 +43,7 @@ Requires the Gear Generator Featurescript - [Access Gear Generator Onshape Featu
   <source src="../videos/Recording 4-12 at 19.49 (1).webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
+
 ---
 
 ## Winch Roller
