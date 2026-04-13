@@ -14,6 +14,10 @@
 <p align="center">Attaches to the small 6v motor shaft to allow for driving the flywheel.</p>
 
 Requires the Gear Generator Featurescript - [Access Gear Generator Onshape Featurescript](https://cad.onshape.com/documents/72d1bb826437a60af1fdd59c/w/2f2531a9f27d31cb4ee169d4/e/8f3bf9d133ff3fe42be9ab1e)
+<video width="100%" height="auto" autoplay loop muted playsinline onclick="this.paused ? this.play() : this.pause();" style="cursor: pointer;">
+  <source src="../videos/Recording%204-12%20at%2019.49.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
