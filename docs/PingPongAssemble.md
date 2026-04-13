@@ -29,6 +29,20 @@ Requires the Gear Generator Featurescript - [Access Gear Generator Onshape Featu
 </video>
 
 ---
+<video 
+  width="100%" 
+  height="auto" 
+  autoplay 
+  loop 
+  muted 
+  controls 
+  playsinline 
+  style="cursor: pointer; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"
+>
+  <source src="../videos/Recording 4-12 at 19.49 (1).webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+---
 
 ## Winch Roller
 ![Winch](img/Winch.png){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
