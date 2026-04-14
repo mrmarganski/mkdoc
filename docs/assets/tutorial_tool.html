@@ -2,288 +2,133 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Machine Tutorial</title>
     <style>
-        * { -webkit-tap-highlight-color: transparent; user-select: none; box-sizing: border-box; }
-        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); color: white; font-family: -apple-system, system-ui, sans-serif; overflow: hidden; }
-        
-        #stage { position: relative; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
-        #image-container { position: relative; line-height: 0; display: inline-block; }
-        
-        #main-img { max-width: 90vw; max-height: 80vh; display: block; border-radius: 8px; box-shadow: 0 20px 60px rgba(0,0,0,0.6); pointer-events: auto; transition: opacity 0.6s ease, filter 0.6s ease; cursor: pointer; }
-        
-        /* Hardware Synced Engine */
-        #magnifier { position: absolute; border: 4px solid #3b82f6; box-shadow: 0 0 100px rgba(0,0,0,0.9), inset 0 0 30px rgba(0,0,0,0.5); overflow: hidden; z-index: 100; pointer-events: none; opacity: 0; visibility: hidden; background: #000;
-            transition: left 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), width 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), height 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), border-radius 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s ease, visibility 0.4s; }
-        #magnifier.active { opacity: 1; visibility: visible; }
-        
-        #mag-content { position: absolute; display: block; max-width: none !important; max-height: none !important; min-width: 0 !important; min-height: 0 !important; margin: 0 !important; padding: 0 !important; transform-origin: 0 0 !important; transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); -webkit-transition: -webkit-transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); }
-        
-        /* Interactive Hotspots */
-        .hotspot { position: absolute; width: 36px; height: 36px; background: rgba(59, 130, 246, 0.4); border: 2px solid rgba(255,255,255,0.9); border-radius: 50%; z-index: 50; cursor: pointer; transform: translate(-50%, -50%); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(3px); }
-        .hotspot::after { content: ''; width: 12px; height: 12px; background: #fff; border-radius: 50%; box-shadow: 0 0 12px rgba(255,255,255,1); animation: pulse 2s infinite; }
-        .hotspot:hover { background: #3b82f6; transform: translate(-50%, -50%) scale(1.3); z-index: 60; }
-        @keyframes pulse { 0% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.6); opacity: 0.4; } 100% { transform: scale(1); opacity: 1; } }
-        
-        body.stepping .hotspot { opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0); }
-        body.stepping #main-img { opacity: 0.15 !important; filter: grayscale(0.5) !important; }
-        
-        /* Perspective Map */
-        #perspective-map { position: fixed; top: 50%; left: 2rem; width: 220px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; padding: 0.5rem; overflow: hidden; z-index: 900; opacity: 0; transform: translateY(-50%) translateX(-50px); transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); pointer-events: none; }
-        #perspective-map.visible { opacity: 1; transform: translateY(-50%) translateX(0); }
-        #perspective-map img { width: 100%; height: auto; display: block; opacity: 0.4; border-radius: 0.5rem; }
-        #radar-icon { position: absolute; width: 16px; height: 16px; background: #3b82f6; border: 2px solid white; border-radius: 50%; transform: translate(-50%, -50%); z-index: 2; transition: left 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); box-shadow: 0 0 10px rgba(59, 130, 246, 0.8); }
-        
-        /* Note Panel */
-        #note-panel { position: fixed; top: 2rem; right: 2rem; width: 360px; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(20px); padding: 2rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.1); transform: translateX(400px); transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); z-index: 1100; box-shadow: -20px 20px 50px rgba(0,0,0,0.5); }
-        #note-panel.visible { transform: translateX(0); }
-        
-        /* Bottom UI */
-        .ui-dock { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(20px); padding: 1rem 2rem; border-radius: 4rem; display: flex; gap: 2rem; align-items: center; border: 1px solid rgba(255,255,255,0.15); z-index: 1000; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8); }
-        
-        .btn { padding: 0.8rem 2.5rem; background: #3b82f6; border-radius: 2rem; font-weight: 700; font-size: 1rem; cursor: pointer; border: none; color: white; white-space: nowrap; transition: all 0.2s; box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3); }
-        .btn:hover { background: #2563eb; transform: translateY(-2px); }
-        .btn-nav { width: 50px; height: 50px; border-radius: 50%; background: rgba(255,255,255,0.1); color: white; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s; }
-        .btn-nav:hover { background: rgba(255,255,255,0.2); }
-
-        .hidden { display: none !important; }
-
-        /* Responsive Layout */
-        @media (max-width: 768px) {
-            #main-img { max-height: 55vh; }
-            #perspective-map { display: none; }
-            #note-panel { top: 1rem; right: 1rem; left: 1rem; width: auto; transform: translateY(-300px); padding: 1.25rem; }
-            #note-panel.visible { transform: translateY(0); }
-            .ui-dock { width: 95%; max-width: 450px; padding: 0.8rem 1.5rem; bottom: 1rem; gap: 1rem; }
-        }
+        body, html { margin:0; padding:0; width:100%; height:100%; background:#020617; color:white; font-family:sans-serif; overflow:hidden; }
+        #stage { position:relative; width:100%; height:100%; display:flex; align-items:center; justify-content:center; }
+        #main-img { max-width:90vw; max-height:80vh; border-radius:8px; box-shadow:0 20px 50px rgba(0,0,0,0.5); transition: opacity 0.5s; cursor:pointer; }
+        #lens { position:absolute; border:4px solid #3b82f6; box-shadow:0 0 50px rgba(0,0,0,0.8); overflow:hidden; z-index:100; pointer-events:none; opacity:0; transform:scale(0.8); transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); }
+        #lens.active { opacity:1; transform:scale(1); }
+        #lens-img { position:absolute; transform-origin:0 0; transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); }
+        .hotspot { position:absolute; width:30px; height:30px; background:rgba(59,130,246,0.3); border:2px solid white; border-radius:50%; transform:translate(-50%, -50%); cursor:pointer; z-index:50; }
+        .hotspot:hover { background: #3b82f6; }
+        #ui { position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:rgba(15,23,42,0.9); padding:15px 30px; border-radius:50px; border:1px solid rgba(255,255,255,0.1); display:flex; align-items:center; gap:20px; z-index:200; }
+        button { background:#3b82f6; color:white; border:none; padding:10px 20px; border-radius:20px; font-weight:bold; cursor:pointer; }
+        #panel { position:fixed; top:20px; right:20px; width:300px; background:rgba(15,23,42,0.9); padding:20px; border-radius:15px; border:1px solid rgba(255,255,255,0.1); transform:translateX(400px); transition:0.5s; z-index:200; }
+        #panel.active { transform:translateX(0); }
+        body.focus #main-img { opacity: 0.2; }
+        body.focus .hotspot { display:none; }
     </style>
 </head>
-<body class="overview">
-    <div id="stage" onclick="handleStageClick(event)">
-        <div id="image-container">
-            <img id="main-img" src="../img/machine.png" onerror="showError()">
-            <div id="magnifier"><img id="mag-content" src="../img/machine.png"></div>
-            <div id="hotspot-layer"></div>
+<body>
+    <div id="stage" onclick="reset()">
+        <div style="position:relative; line-height:0;">
+            <img id="main-img" src="img/machine.png">
+            <div id="lens"><img id="lens-img" src="img/machine.png"></div>
+            <div id="hotspots"></div>
         </div>
     </div>
-
-    <div id="perspective-map">
-        <div style="position: relative; width: 100%; height: 100%; border-radius: 0.5rem; overflow: hidden;">
-            <img src="../img/machine.png">
-            <div id="radar-icon"></div>
+    <div id="panel"><h3 id="p-name"></h3><p id="p-note"></p></div>
+    <div id="ui"><button id="start-btn" onclick="goTo(0)">Start Tutorial</button>
+        <div id="nav" style="display:none; align-items:center; gap:15px;">
+            <button onclick="move(-1)">Prev</button>
+            <span id="counter">1/1</span>
+            <button onclick="move(1)">Next</button>
         </div>
     </div>
-
-    <div id="note-panel">
-        <button onclick="resetView()" style="position:absolute; top:1.5rem; right:1.5rem; width:2.5rem; height:2.5rem; display:flex; align-items:center; justify-content:center; border-radius:50%; background:rgba(255,255,255,0.1); color:white; border:none; cursor:pointer;">
-            <svg style="width:16px;height:16px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-        </button>
-        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
-            <div style="height: 4px; width: 32px; background: #3b82f6; border-radius: 4px;"></div>
-            <span id="panel-step" style="font-size: 12px; font-weight: 900; color: #3b82f6; letter-spacing: 0.1em; text-transform: uppercase;">STEP 01</span>
-        </div>
-        <h3 id="panel-name" style="font-size: 24px; font-weight: bold; margin: 0 0 16px 0; padding-right: 32px;">Part Name</h3>
-        <p id="panel-note" style="color: #cbd5e1; font-size: 15px; line-height: 1.6; margin: 0 0 20px 0;">Instructions...</p>
-    </div>
-
-    <div class="ui-dock">
-        <button id="btn-start" onclick="startTutorial()" class="btn" style="width: 100%;">Start Interactive Tutorial</button>
-        <div id="nav-group" class="hidden" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem;">
-            <button onclick="move(-1)" class="btn-nav">
-                <svg style="width:24px;height:24px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7"></path></svg>
-            </button>
-            <div style="text-align: center; flex: 1;">
-                <div id="pres-step" style="font-size: 10px; font-weight: 900; color: #3b82f6; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px;">PART 1/5</div>
-                <div id="pres-name" style="font-size: 16px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; margin: 0 auto;">Component</div>
-            </div>
-            <button onclick="move(1)" class="btn-nav" style="background: #3b82f6; box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3);">
-                <svg style="width:24px;height:24px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
-            </button>
-        </div>
-    </div>
-
     <script>
-        const regions = [
+        const steps = [
   {
-    "name": "fsdafsa",
-    "note": "fsafdsaf",
-    "shape": "rect",
-    "x": 0.6390818143575505,
-    "y": 0.4529214280904277,
-    "w": null,
-    "h": null
+    "name": "Handle",
+    "note": "fdhjlhfdsajklhfsdjkla",
+    "cx": 0.5336468055594935,
+    "cy": 0.28688733332406896,
+    "span": 0.2,
+    "shape": "circle"
   },
   {
-    "name": "fdsfsda",
-    "note": "fasfsa",
-    "shape": "lens",
-    "x": 0.3865096687321092,
-    "y": 0.5813479506927779,
-    "w": null,
-    "h": null
+    "name": "Speed",
+    "note": "fhdsjkhfdsjklhfasjkdl",
+    "cx": 0.3968508287004511,
+    "cy": 0.18984299127866647,
+    "span": 0.15,
+    "shape": "circle"
   },
   {
-    "name": "fsafas",
-    "note": "fsafsdaf",
-    "shape": "lens",
-    "x": 0.6687961844311319,
-    "y": 0.2855777774267593,
-    "w": null,
-    "h": null
+    "name": "Knee",
+    "note": "fdjshlhfsdjklahfsdjkla",
+    "cx": 0.18310711485819736,
+    "cy": 0.6526698533413554,
+    "span": 0.26,
+    "shape": "circle"
   }
 ];
-        let currentIdx = -1;
-        
-        const container = document.getElementById('image-container');
-        const mainImg = document.getElementById('main-img');
-        const magImg = document.getElementById('mag-content');
-        const magnifier = document.getElementById('magnifier');
-        const hotspotLayer = document.getElementById('hotspot-layer');
-        const radar = document.getElementById('radar-icon');
-
-        function showError() {
-            document.body.innerHTML = '<div style="color:white; padding: 20px; text-align:center; font-family:sans-serif;"><h2>Image Load Error</h2><p>Cannot find image at path: <b>../img/machine.png</b></p></div>';
-        }
+        let cur = -1;
+        const img = document.getElementById('main-img');
+        const lens = document.getElementById('lens');
+        const lensImg = document.getElementById('lens-img');
+        const hotspots = document.getElementById('hotspots');
 
         function init() {
-            hotspotLayer.innerHTML = '';
-            regions.forEach((r, idx) => {
+            hotspots.innerHTML = '';
+            steps.forEach((s, i) => {
                 const h = document.createElement('div');
                 h.className = 'hotspot';
-                h.style.left = ((r.x + r.w/2) * 100) + '%';
-                h.style.top = ((r.y + r.h/2) * 100) + '%';
-                h.onclick = (e) => { e.stopPropagation(); jumpToAsset(idx); };
-                hotspotLayer.appendChild(h);
+                h.style.left = (s.cx * 100) + '%';
+                h.style.top = (s.cy * 100) + '%';
+                h.onclick = (e) => { e.stopPropagation(); goTo(i); };
+                hotspots.appendChild(h);
             });
         }
 
-        function startTutorial() { jumpToAsset(0); }
-
-        function jumpToAsset(idx) {
-            document.body.classList.remove('overview');
-            document.body.classList.add('stepping');
-            document.getElementById('btn-start').classList.add('hidden');
-            document.getElementById('nav-group').classList.remove('hidden');
-            document.getElementById('nav-group').style.display = 'flex';
-            currentIdx = idx;
-            updateDisplay();
+        function reset() {
+            document.body.classList.remove('focus');
+            lens.classList.remove('active');
+            document.getElementById('panel').classList.remove('active');
+            document.getElementById('nav').style.display = 'none';
+            document.getElementById('start-btn').style.display = 'block';
+            cur = -1;
         }
 
-        function resetView() {
-            document.body.classList.add('overview');
-            document.body.classList.remove('stepping');
-            magnifier.classList.remove('active');
-            document.getElementById('note-panel').classList.remove('visible');
-            document.getElementById('perspective-map').classList.remove('visible');
-            currentIdx = -1;
-            document.getElementById('btn-start').classList.remove('hidden');
-            document.getElementById('nav-group').classList.add('hidden');
-            document.getElementById('nav-group').style.display = '';
-        }
+        function move(d) { goTo((cur + d + steps.length) % steps.length); }
 
-        function handleStageClick(e) {
-            if (document.body.classList.contains('stepping') && e.target === mainImg) resetView();
-        }
-
-        function move(dir) {
-            currentIdx += dir;
-            if (currentIdx < 0) currentIdx = regions.length - 1;
-            if (currentIdx >= regions.length) currentIdx = 0;
-            updateDisplay();
-        }
-
-        function updateDisplay() {
-            if (!regions.length || currentIdx < 0) return;
-            const r = regions[currentIdx];
-            const imgRect = mainImg.getBoundingClientRect();
-            if (imgRect.width === 0) return;
+        function goTo(i) {
+            cur = i;
+            document.body.classList.add('focus');
+            document.getElementById('nav').style.display = 'flex';
+            document.getElementById('start-btn').style.display = 'none';
+            document.getElementById('counter').innerText = (cur+1) + '/' + steps.length;
             
-            document.getElementById('pres-step').innerText = 'PART ' + (currentIdx+1) + ' / ' + regions.length;
-            document.getElementById('pres-name').innerText = r.name;
-            document.getElementById('panel-step').innerText = 'STEP ' + String(currentIdx+1).padStart(2, '0');
-            document.getElementById('panel-name').innerText = r.name;
-            document.getElementById('panel-note').innerText = r.note;
+            const s = steps[cur];
+            document.getElementById('p-name').innerText = s.name;
+            document.getElementById('p-note').innerText = s.note;
+            document.getElementById('panel').classList.add('active');
 
-            const boxW = r.w * imgRect.width;
-            const boxH = r.h * imgRect.height;
-            const cx = r.x * imgRect.width + boxW/2;
-            const cy = r.y * imgRect.height + boxH/2;
-
-            let lensW, lensH, zoom, borderRadius;
-
-            if (r.shape === 'rect' || r.shape === 'circle') {
-                const targetMultiplier = 1.4;
-                if (r.shape === 'circle') {
-                    const maxDim = Math.max(boxW, boxH);
-                    lensW = maxDim * targetMultiplier;
-                    lensH = maxDim * targetMultiplier;
-                    borderRadius = '50%';
-                } else {
-                    lensW = boxW * targetMultiplier;
-                    lensH = boxH * targetMultiplier;
-                    borderRadius = '12px';
-                }
-                const maxW = window.innerWidth * 0.9;
-                const maxH = window.innerHeight * 0.5;
-                if (lensW > maxW) { lensH = lensH * (maxW / lensW); lensW = maxW; }
-                if (lensH > maxH) { lensW = lensW * (maxH / lensH); lensH = maxH; }
-                const minW = window.innerWidth < 768 ? 200 : 250;
-                if (lensW < minW) { lensH = lensH * (minW / lensW); lensW = minW; }
-                
-                zoom = (lensW * 0.8) / (r.shape === 'circle' ? Math.max(boxW, boxH) : boxW);
-            } else {
-                lensW = window.innerWidth < 768 ? 240 : 350;
-                lensH = lensW;
-                borderRadius = '50%';
-                let origSize = Math.max(boxW, boxH, 20);
-                zoom = (lensW * 0.7) / origSize;
-            }
-
-            zoom = Math.max(1.2, Math.min(zoom, 4.0));
-
-            let lensLeft = cx - lensW/2;
-            let lensTop = cy - lensH/2;
-            lensLeft = Math.max(0, Math.min(lensLeft, imgRect.width - lensW));
-            lensTop = Math.max(0, Math.min(lensTop, imgRect.height - lensH));
-
-            magnifier.style.setProperty('width', lensW + 'px', 'important');
-            magnifier.style.setProperty('height', lensH + 'px', 'important');
-            magnifier.style.setProperty('border-radius', borderRadius, 'important');
-            magnifier.style.setProperty('left', lensLeft + 'px', 'important');
-            magnifier.style.setProperty('top', lensTop + 'px', 'important');
-            magnifier.classList.add('active');
-
-            const tx = (lensW / 2) - (cx * zoom);
-            const ty = (lensH / 2) - (cy * zoom);
-            const transformStr = 'translate(' + tx + 'px, ' + ty + 'px) scale(' + zoom + ')';
-
-            magImg.style.setProperty('width', imgRect.width + 'px', 'important');
-            magImg.style.setProperty('height', imgRect.height + 'px', 'important');
-            magImg.style.setProperty('left', '0px', 'important');
-            magImg.style.setProperty('top', '0px', 'important');
-            magImg.style.setProperty('transform-origin', '0 0', 'important');
-            magImg.style.setProperty('-webkit-transform', transformStr, 'important');
-            magImg.style.setProperty('transform', transformStr, 'important');
-
-            document.getElementById('note-panel').classList.add('visible');
-            document.getElementById('perspective-map').classList.add('visible');
-            document.getElementById('radar-icon').style.left = ((r.x + r.w/2) * 100) + '%';
-            document.getElementById('radar-icon').style.top = ((r.y + r.h/2) * 100) + '%';
+            const rect = img.getBoundingClientRect();
+            const isCircle = s.shape === 'circle';
+            const L = window.innerWidth < 768 ? 200 : 300;
+            const w = isCircle ? L : L*1.2;
+            const h = isCircle ? L : L*0.8;
+            
+            lens.style.width = w + 'px';
+            lens.style.height = h + 'px';
+            lens.style.borderRadius = isCircle ? '50%' : '15px';
+            
+            const pxCx = s.cx * rect.width;
+            const pxCy = s.cy * rect.height;
+            lens.style.left = (pxCx - w/2) + 'px';
+            lens.style.top = (pxCy - h/2) + 'px';
+            
+            const zoom = w / (s.span * rect.width);
+            lensImg.style.width = (rect.width * zoom) + 'px';
+            lensImg.style.height = (rect.height * zoom) + 'px';
+            lensImg.style.transform = 'translate(' + (w/2 - pxCx*zoom) + 'px,' + (h/2 - pxCy*zoom) + 'px)';
+            lens.classList.add('active');
         }
 
-        window.onresize = () => { if (currentIdx >= 0) updateDisplay(); init(); };
-        window.onkeydown = (e) => { 
-            if (currentIdx >= 0) {
-                if (e.key === 'ArrowRight') move(1); 
-                if (e.key === 'ArrowLeft') move(-1);
-                if (e.key === 'Escape') resetView();
-            }
-        };
-
-        mainImg.onload = init;
-        if(mainImg.complete) init();
-
+        img.onload = init;
+        if(img.complete) init();
     </script>
 </body>
 </html>
