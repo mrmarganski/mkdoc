@@ -18,26 +18,23 @@
         .hotspot:hover { background: #3b82f6; transform: translate(-50%, -50%) scale(1.3); z-index: 60; }
         
         #magnifier { position: absolute; border-radius: 50%; border: 4px solid #3b82f6; box-shadow: 0 0 100px rgba(0,0,0,0.9), inset 0 0 20px rgba(0,0,0,0.5); overflow: hidden; z-index: 100; pointer-events: none; opacity: 0; visibility: hidden; transform: scale(0.8); background: #000;
-            transition: left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s ease, visibility 0.4s, transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); }
+            transition: left 0.8s cubic-bezier(0.25, 1, 0.5, 1), top 0.8s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease, visibility 0.4s, transform 0.6s cubic-bezier(0.25, 1, 0.5, 1); }
         #magnifier.active { opacity: 1; visibility: visible; transform: scale(1); }
         
-        #mag-content { position: absolute; transform-origin: 0 0; max-width: none; border: none; transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+        #mag-content { position: absolute; transform-origin: 0 0; max-width: none; border: none; transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
         
-        /* States */
         body.stepping .hotspot { opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0); }
         body.stepping #main-img { opacity: 0.15; filter: grayscale(0.5); }
         
-        /* Mini Map */
-        #perspective-map { position: fixed; bottom: 8rem; left: 2rem; width: 180px; background: #0f172a; border: 1px solid rgba(255,255,255,0.1); border-radius: 0.75rem; padding: 4px; z-index: 900; opacity: 0; transform: translateY(30px) scale(0.9); transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5); pointer-events: none; }
+        #perspective-map { position: fixed; bottom: 8rem; left: 2rem; width: 180px; background: #0f172a; border: 1px solid rgba(255,255,255,0.1); border-radius: 0.75rem; padding: 4px; z-index: 900; opacity: 0; transform: translateY(30px) scale(0.9); transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5); pointer-events: none; }
         #perspective-map.visible { opacity: 1; transform: translateY(0) scale(1); }
         #perspective-map img { width: 100%; height: auto; display: block; opacity: 0.4; border-radius: 0.5rem; }
-        #radar-icon { position: absolute; width: 14px; height: 14px; background: #3b82f6; border: 2px solid white; border-radius: 50%; transform: translate(-50%, -50%); z-index: 2; transition: left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+        #radar-icon { position: absolute; width: 14px; height: 14px; background: #3b82f6; border: 2px solid white; border-radius: 50%; transform: translate(-50%, -50%); z-index: 2; transition: left 0.8s cubic-bezier(0.25, 1, 0.5, 1), top 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
         
-        /* UI */
-        #note-panel { position: fixed; top: 2rem; right: 2rem; width: 320px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(16px); padding: 1.5rem; border-radius: 1.25rem; border: 1px solid rgba(255,255,255,0.1); transform: translateX(400px); transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); z-index: 1100; box-shadow: -20px 0 50px rgba(0,0,0,0.3); }
+        #note-panel { position: fixed; top: 2rem; right: 2rem; width: 340px; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(16px); padding: 1.8rem; border-radius: 1.25rem; border: 1px solid rgba(255,255,255,0.1); transform: translateX(400px); transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1); z-index: 1100; box-shadow: -20px 0 50px rgba(0,0,0,0.5); }
         #note-panel.visible { transform: translateX(0); }
         
-        .ui-dock { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(20px); padding: 0.75rem 1.5rem; border-radius: 2rem; display: flex; gap: 1.5rem; align-items: center; border: 1px solid rgba(255,255,255,0.1); z-index: 1000; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8); }
+        .ui-dock { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(20px); padding: 0.8rem 1.5rem; border-radius: 2rem; display: flex; gap: 1.5rem; align-items: center; border: 1px solid rgba(255,255,255,0.15); z-index: 1000; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8); }
         
         .btn { padding: 0.6rem 1.4rem; border-radius: 0.75rem; font-weight: 700; font-size: 0.85rem; cursor: pointer; border: none; white-space: nowrap; transition: all 0.2s; }
         .btn-primary { background: #3b82f6; color: white; padding: 0.8rem 2rem; border-radius: 1.5rem; box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3); }
@@ -73,14 +70,17 @@
     </div>
 
     <div id="note-panel">
+        <button onclick="resetView()" style="position:absolute; top:1rem; right:1rem; width:2rem; height:2rem; display:flex; align-items:center; justify-content:center; border-radius:50%; background:rgba(255,255,255,0.1); color:white; border:none; cursor:pointer;">
+            <svg style="width:16px;height:16px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
         <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
             <div style="height: 4px; width: 30px; background: #3b82f6; border-radius: 4px;"></div>
             <span id="panel-step" style="font-size: 10px; font-weight: 900; color: #60a5fa; letter-spacing: 0.1em; text-transform: uppercase;">Step 01</span>
         </div>
-        <h3 id="panel-name" style="font-size: 20px; font-weight: bold; margin: 0 0 12px 0;">Part Name</h3>
+        <h3 id="panel-name" style="font-size: 20px; font-weight: bold; margin: 0 0 12px 0; padding-right: 24px;">Part Name</h3>
         <p id="panel-note" style="color: #cbd5e1; font-size: 14px; line-height: 1.6; margin: 0 0 16px 0;">Instructions...</p>
         <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 10px; font-weight: bold; text-transform: uppercase; color: #64748b; text-align: center;">
-            Click background to close
+            Click background to exit focus
         </div>
     </div>
 
@@ -104,41 +104,33 @@
         const regions = [
   {
     "name": "Table",
-    "note": "A Flat Surface",
-    "x": 0.9367670364500793,
-    "y": 0.6116645678706668,
+    "note": "werqwqe",
+    "x": 0.9621236133122029,
+    "y": 0.636571167173171,
     "w": null,
     "h": null
   },
   {
-    "name": "Spindle",
-    "note": "Spinny Things",
-    "x": 0.6134706814580032,
-    "y": 0.41863842327625883,
-    "w": null,
-    "h": null
-  },
-  {
-    "name": "Quill",
-    "note": "The Head of the Machine",
-    "x": 0.6039619651347069,
-    "y": 0.4539227722881399,
-    "w": null,
-    "h": null
-  },
-  {
-    "name": "Knee",
-    "note": "The Up Down Thing",
-    "x": 0.39793977812995246,
-    "y": 0.7403486642669387,
+    "name": "Head",
+    "note": "No specific instructions provided.",
+    "x": 0.5849445324881142,
+    "y": 0.4207139732181342,
     "w": null,
     "h": null
   },
   {
     "name": "Motor",
-    "note": "Spins the Machine",
-    "x": 0.6546751188589541,
-    "y": 0.21938562885622492,
+    "note": "fdsjljfdska;l",
+    "x": 0.597622820919176,
+    "y": 0.2339144784493524,
+    "w": null,
+    "h": null
+  },
+  {
+    "name": "Knee",
+    "note": "fdjsal;hjsd;fla",
+    "x": 0.3630744849445325,
+    "y": 0.7528019639181909,
     "w": null,
     "h": null
   }
@@ -153,7 +145,7 @@
         const radar = document.getElementById('radar-icon');
 
         function showError() {
-            document.body.innerHTML = '<div style="color:white; padding: 20px; text-align:center; font-family:sans-serif;"><h2>Image Load Error</h2><p>Cannot find image at path: <b>../img/machine.png</b></p><p>Ensure your exported HTML file is in the correct folder relative to your images.</p></div>';
+            document.body.innerHTML = '<div style="color:white; padding: 20px; text-align:center; font-family:sans-serif;"><h2>Image Load Error</h2><p>Cannot find image at path: <b>../img/machine.png</b></p></div>';
         }
 
         function init() {
@@ -193,9 +185,7 @@
         }
 
         function handleStageClick(e) {
-            if (document.body.classList.contains('stepping') && e.target === mainImg) {
-                resetView();
-            }
+            if (document.body.classList.contains('stepping') && e.target === mainImg) resetView();
         }
 
         function move(dir) {
@@ -208,7 +198,7 @@
         function updateDisplay() {
             if (!regions.length || currentIdx < 0) return;
             const r = regions[currentIdx];
-            const contRect = mainImg.getBoundingClientRect();
+            const contRect = container.getBoundingClientRect();
             if (contRect.width === 0) return;
             
             document.getElementById('pres-step').innerText = 'Step ' + (currentIdx+1) + ' of ' + regions.length;
@@ -238,10 +228,11 @@
             magImg.style.width = contRect.width + 'px';
             magImg.style.height = contRect.height + 'px';
             
-            const tx = (radius / zoom) - cx;
-            const ty = (radius / zoom) - cy;
-            const transformStr = 'scale(' + zoom + ') translate(' + tx + 'px, ' + ty + 'px)';
+            const tx = radius - (cx * zoom);
+            const ty = radius - (cy * zoom);
+            const transformStr = 'translate(' + tx + 'px, ' + ty + 'px) scale(' + zoom + ')';
             
+            magImg.style.transformOrigin = "0 0";
             magImg.style.webkitTransform = transformStr;
             magImg.style.transform = transformStr;
 
