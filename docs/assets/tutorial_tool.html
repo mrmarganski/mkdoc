@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Machine Tutorial</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { background: #000; color: white; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; overflow: hidden; margin: 0; }
         #container { position: relative; display: inline-block; }
@@ -31,7 +30,15 @@
         <button onclick="move(1)" class="btn">Next →</button>
     </div>
     <script>
-        const regions = [];
+        const regions = [
+  {
+    "name": "tyui",
+    "pctX": 0.25873787741570947,
+    "pctY": 0.3244949054880775,
+    "pctW": 0.5289157873097478,
+    "pctH": 0.3833337114039846
+  }
+];
         let idx = 0;
         const bgImg = document.getElementById('bg-img');
         const magImg = document.getElementById('mag-img');
@@ -44,6 +51,7 @@
             document.getElementById('name').innerText = r.name;
             
             const rect = bgImg.getBoundingClientRect();
+            if (rect.width === 0) return;
             const rad = 190;
             const x = r.pctX * rect.width;
             const y = r.pctY * rect.height;
