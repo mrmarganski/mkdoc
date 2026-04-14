@@ -1,1 +1,200 @@
-<!DOCTYPE html>\n<html lang='en'>\n<head>\n    <meta charset='UTF-8'>\n    <meta name='viewport' content='width=device-width, initial-scale=1.0'>\n    <title>Interactive Machine Tutorial Viewer</title>\n    <script src='https://cdn.tailwindcss.com'></script>\n    <style>\n        body, html { margin:0; padding:0; width:100%; height:100%; background:#020617; color:white; font-family:sans-serif; overflow:hidden; }\n        #viewer-root { display:flex; width:100%; height:100%; flex-direction:row; }\n        #viewport { flex:1; position:relative; overflow:hidden; display:flex; align-items:center; justify-content:center; background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); }\n        #canvas-wrap { position:relative; transition: transform 0.8s cubic-bezier(0.2, 0, 0.2, 1); will-change: transform; transform-origin: center; }\n        #main-bg { max-width:90vw; max-height:85vh; border-radius:12px; transition: opacity 0.5s, filter 0.8s; cursor:pointer; box-shadow: 0 40px 80px rgba(0,0,0,0.7); }\n        #lens { position:absolute; border:4px solid #3b82f6; box-shadow:0 0 0 9999px rgba(0,0,0,0.85), 0 0 50px rgba(59,130,246,0.6); overflow:hidden; z-index:100; pointer-events:none; opacity:0; transform:scale(0.5); transition: all 0.8s cubic-bezier(0.2, 0, 0.2, 1); }\n        #lens.active { opacity:1; transform:scale(1); }\n        /* BULLETPROOF INNER IMAGE CSS */\n        #lens-img { position:absolute; transform-origin:0 0; max-width:none !important; max-height:none !important; min-width:0 !important; min-height:0 !important; margin:0 !important; padding:0 !important; transition: transform 0.8s cubic-bezier(0.2, 0, 0.2, 1); }\n        .hotspot { position:absolute; width:28px; height:28px; background:rgba(59,130,246,0.3); border:2px solid white; border-radius:50%; transform:translate(-50%, -50%); cursor:pointer; z-index:50; transition: transform 0.2s; }\n        .hotspot:hover { transform:translate(-50%, -50%) scale(1.3); background: #3b82f6; }\n        #sidebar { width:350px; background:rgba(15,23,42,0.95); backdrop-filter:blur(30px); border-left:1px solid rgba(255,255,255,0.1); padding:40px 25px; display:flex; flex-direction:column; z-index:200; box-shadow: -20px 0 50px rgba(0,0,0,0.5); }\n        .focus-mode #main-bg { opacity: 0.15; filter: blur(5px); }\n        .focus-mode .hotspot { opacity: 0; pointer-events:none; }\n        #step-card { transform: translateX(20px); opacity:0; transition: 0.6s cubic-bezier(0.2, 0, 0.2, 1); }\n        #step-card.active { transform: translateX(0); opacity:1; }\n        .prog-bar { height:4px; background:rgba(255,255,255,0.05); border-radius:10px; flex:1; overflow:hidden; }\n        .prog-fill { height:100%; background:#3b82f6; width:0%; transition: width 0.6s cubic-bezier(0.2, 0, 0.2, 1); }\n        /* FLAWLESS MOBILE RESPONSIVENESS */\n        @media (max-width: 768px) {\n            #viewer-root { flex-direction:column; }\n            #sidebar { width:100%; height:auto; max-height:45vh; padding:20px; border-left:none; border-top:1px solid rgba(255,255,255,0.1); box-shadow: 0 -20px 50px rgba(0,0,0,0.5); overflow-y:auto; }\n            #step-card { transform: translateY(20px); }\n            #step-card.active { transform: translateY(0); }\n            #viewport { max-height:55vh; }\n            #main-bg { max-width:95vw; max-height:50vh; }\n        }\n    </style>\n</head>\n<body class='bg-slate-950'>\n    <div id='viewer-root'>\n        <div id='viewport' onclick='reset()'>\n            <div id='canvas-wrap'>\n                <img id='main-bg' src='img/machine.png' onerror="this.src='https://placehold.co/1200x800/1e293b/white?text=Hosted+Image+Not+Found'">\n                <div id='lens'><img id='lens-img' src='img/machine.png'></div>\n                <div id='hotspots'></div>\n            </div>\n        </div>\n        <div id='sidebar'>\n            <div class='mb-10'>\n                <div class='flex items-center gap-2 text-blue-500 mb-2'>\n                    <svg class='w-4 h-4' fill='currentColor' viewBox='0 0 20 20'><path d='M10 12a2 2 0 100-4 2 2 0 000 4z'></path><path fill-rule='evenodd' d='M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z' clip-rule='evenodd'></path></svg>\n                    <span class='text-[10px] font-black uppercase tracking-[0.3em]'>Interactive Training</span>\n                </div>\n                <h1 class='text-3xl font-black text-white leading-tight'>Assembly Guide</h1>\n            </div>\n            <div id='step-card' class='flex-1'>\n                <div class='mb-8'>\n                    <div id='step-num' class='text-7xl font-black text-white/5 mb-[-25px]'>01</div>\n                    <h3 id='step-name' class='text-2xl font-bold text-white mb-6 relative z-10'>Select a component...</h3>\n                    <div class='h-1 bg-gradient-to-r from-blue-600 to-transparent mb-8 w-24 rounded-full'></div>\n                    <p id='step-note' class='text-slate-400 leading-relaxed text-base'></p>\n                </div>\n            </div>\n            <div class='mt-auto pt-6 border-t border-white/5'>\n                <div class='flex items-center justify-between mb-4'>\n                    <div class='text-[10px] font-black text-slate-500 uppercase tracking-widest'>Progress</div>\n                    <div id='count-label' class='text-xs font-bold text-blue-400'>0 / 0</div>\n                </div>\n                <div class='prog-bar mb-8'><div id='p-fill' class='prog-fill'></div></div>\n                <div class='grid grid-cols-2 gap-3'>\n                    <button onclick='move(-1)' class='py-3 px-4 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 font-bold text-sm transition-all'>Previous</button>\n                    <button id='next-btn' onclick='move(1)' class='py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 font-bold text-sm shadow-lg shadow-blue-900/40 transition-all'>Start Tour</button>\n                </div>\n                <button onclick='reset()' class='w-full mt-4 text-[10px] font-black text-slate-600 hover:text-slate-400 uppercase tracking-widest transition-colors'>Reset Overview</button>\n            </div>\n        </div>\n    </div>\n    <script>\n        const steps = [{"name":"fsaf","note":"fsfsdadsa","cx":0.8357379211232121,"cy":0.544428087213791,"span":0.15,"shape":"circle"},{"name":"fsdafsa","note":"fsdafsdaf","cx":0.18880694722732413,"cy":0.6545360906883824,"span":0.26,"shape":"circle"},{"name":"fsdafsad","note":"fsdafsdaf","cx":0.5336468055594935,"cy":0.28315485863001505,"span":0.15,"shape":"circle"}];\n        let cur = -1;\n        const root = document.getElementById('viewer-root');\n        const img = document.getElementById('main-bg');\n        const lens = document.getElementById('lens');\n        const lensImg = document.getElementById('lens-img');\n        const canvas = document.getElementById('canvas-wrap');\n        const hContainer = document.getElementById('hotspots');\n        function init() {\n            hContainer.innerHTML = '';\n            steps.forEach((s, i) => {\n                const h = document.createElement('div');\n                h.className = 'hotspot';\n                h.style.left = (s.cx * 100) + '%';\n                h.style.top = (s.cy * 100) + '%';\n                h.onclick = (e) => { e.stopPropagation(); goTo(i); };\n                hContainer.appendChild(h);\n            });\n            document.getElementById('count-label').innerText = '0 / ' + steps.length;\n            if(steps.length > 0) document.getElementById('next-btn').innerText = 'Begin Training';\n        }\n        function reset() {\n            root.classList.remove('focus-mode');\n            lens.classList.remove('active');\n            document.getElementById('step-card').classList.remove('active');\n            canvas.style.transform = 'translate(0,0) scale(1)';\n            cur = -1;\n            document.getElementById('next-btn').innerText = 'Begin Training';\n            document.getElementById('step-name').innerText = 'Select a component...';\n            document.getElementById('step-note').innerText = '';\n            document.getElementById('p-fill').style.width = '0%';\n        }\n        function move(d) {\n            if(cur === -1 && d === 1) return goTo(0);\n            let next = cur + d;\n            if(next < 0) next = steps.length - 1;\n            if(next >= steps.length) next = 0;\n            goTo(next);\n        }\n        function goTo(i) {\n            cur = i;\n            const s = steps[cur];\n            root.classList.add('focus-mode');\n            document.getElementById('step-card').classList.remove('active');\n            setTimeout(() => {\n                document.getElementById('step-num').innerText = (cur+1).toString().padStart(2, '0');\n                document.getElementById('step-name').innerText = s.name;\n                document.getElementById('step-note').innerText = s.note;\n                document.getElementById('count-label').innerText = (cur+1) + ' / ' + steps.length;\n                document.getElementById('p-fill').style.width = ((cur+1)/steps.length * 100) + '%';\n                document.getElementById('next-btn').innerText = cur === steps.length-1 ? 'Finish' : 'Next Step';\n                document.getElementById('step-card').classList.add('active');\n            }, 200);\n            const rect = img.getBoundingClientRect();\n            if(rect.width === 0) return;\n            const isMobile = window.innerWidth < 768;\n            const L = isMobile ? 220 : (window.innerWidth < 1200 ? 300 : 420);\n            const isCircle = s.shape === 'circle';\n            const w = isCircle ? L : L*1.4;\n            const h = isCircle ? L : L*0.9;\n            lens.style.width = w + 'px';\n            lens.style.height = h + 'px';\n            lens.style.borderRadius = isCircle ? '50%' : '20px';\n            const pxCx = s.cx * rect.width;\n            const pxCy = s.cy * rect.height;\n            const viewW = isMobile ? window.innerWidth : window.innerWidth - 380;\n            const viewH = isMobile ? window.innerHeight * 0.55 : window.innerHeight;\n            const offsetX = (viewW / 2) - pxCx;\n            const offsetY = (viewH / 2) - pxCy;\n            canvas.style.transform = 'translate(' + offsetX + 'px, ' + offsetY + 'px) scale(1.15)';\n            lens.style.left = (pxCx - w/2) + 'px';\n            lens.style.top = (pxCy - h/2) + 'px';\n            const zoom = w / (s.span * rect.width);\n            lensImg.style.setProperty('width', (rect.width * zoom) + 'px', 'important');\n            lensImg.style.setProperty('height', (rect.height * zoom) + 'px', 'important');\n            lensImg.style.setProperty('transform', 'translate(' + (w/2 - pxCx*zoom) + 'px,' + (h/2 - pxCy*zoom) + 'px)', 'important');\n            lens.classList.add('active');\n        }\n        img.onload = init;\n        window.onresize = () => { if(cur !== -1) goTo(cur); };\n        if(img.complete) init();\n    </script>\n</body>\n</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Machine Tutorial Viewer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body, html { margin:0; padding:0; width:100%; height:100%; background:#020617; color:white; font-family:sans-serif; overflow:hidden; }
+        #viewer-root { display:flex; width:100%; height:100%; flex-direction:row; }
+        
+        #viewport { flex:1; position:relative; overflow:hidden; display:flex; align-items:center; justify-content:center; background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); }
+        #canvas-wrap { position:relative; transition: transform 0.8s cubic-bezier(0.2, 0, 0.2, 1); will-change: transform; transform-origin: center; }
+        #main-bg { max-width:90vw; max-height:85vh; border-radius:12px; transition: opacity 0.5s, filter 0.8s; cursor:pointer; box-shadow: 0 40px 80px rgba(0,0,0,0.7); }
+        
+        #lens { position:absolute; border:4px solid #3b82f6; box-shadow:0 0 0 9999px rgba(0,0,0,0.85), 0 0 50px rgba(59,130,246,0.6); overflow:hidden; z-index:100; pointer-events:none; opacity:0; transform:scale(0.5); transition: all 0.8s cubic-bezier(0.2, 0, 0.2, 1); }
+        #lens.active { opacity:1; transform:scale(1); }
+        
+        /* BULLETPROOF INNER IMAGE CSS */
+        #lens-img { position:absolute; transform-origin:0 0; max-width:none !important; max-height:none !important; min-width:0 !important; min-height:0 !important; margin:0 !important; padding:0 !important; transition: transform 0.8s cubic-bezier(0.2, 0, 0.2, 1); }
+        
+        .hotspot { position:absolute; width:28px; height:28px; background:rgba(59,130,246,0.3); border:2px solid white; border-radius:50%; transform:translate(-50%, -50%); cursor:pointer; z-index:50; transition: transform 0.2s; }
+        .hotspot:hover { transform:translate(-50%, -50%) scale(1.3); background: #3b82f6; }
+        
+        #sidebar { width:350px; background:rgba(15,23,42,0.95); backdrop-filter:blur(30px); border-left:1px solid rgba(255,255,255,0.1); padding:40px 25px; display:flex; flex-direction:column; z-index:200; box-shadow: -20px 0 50px rgba(0,0,0,0.5); }
+        
+        .focus-mode #main-bg { opacity: 0.15; filter: blur(5px); }
+        .focus-mode .hotspot { opacity: 0; pointer-events:none; }
+        
+        #step-card { transform: translateX(20px); opacity:0; transition: 0.6s cubic-bezier(0.2, 0, 0.2, 1); }
+        #step-card.active { transform: translateX(0); opacity:1; }
+        
+        .prog-bar { height:4px; background:rgba(255,255,255,0.05); border-radius:10px; flex:1; overflow:hidden; }
+        .prog-fill { height:100%; background:#3b82f6; width:0%; transition: width 0.6s cubic-bezier(0.2, 0, 0.2, 1); }
+        
+        /* FLAWLESS MOBILE RESPONSIVENESS */
+        @media (max-width: 768px) {
+            #viewer-root { flex-direction:column; }
+            #sidebar { width:100%; height:auto; max-height:45vh; padding:20px; border-left:none; border-top:1px solid rgba(255,255,255,0.1); box-shadow: 0 -20px 50px rgba(0,0,0,0.5); overflow-y:auto; }
+            #step-card { transform: translateY(20px); }
+            #step-card.active { transform: translateY(0); }
+            #viewport { max-height:55vh; }
+            #main-bg { max-width:95vw; max-height:50vh; }
+        }
+    </style>
+</head>
+<body class="bg-slate-950">
+    <div id="viewer-root">
+        <div id="viewport" onclick="reset()">
+            <div id="canvas-wrap">
+                <img id="main-bg" src="img/machine.png" onerror="this.src='https://placehold.co/1200x800/1e293b/white?text=Hosted+Image+Not+Found'">
+                <div id="lens"><img id="lens-img" src="img/machine.png"></div>
+                <div id="hotspots"></div>
+            </div>
+        </div>
+        <div id="sidebar">
+            <div class="mb-10">
+                <div class="flex items-center gap-2 text-blue-500 mb-2">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                    <span class="text-[10px] font-black uppercase tracking-[0.3em]">Interactive Training</span>
+                </div>
+                <h1 class="text-3xl font-black text-white leading-tight">Assembly Guide</h1>
+            </div>
+            <div id="step-card" class="flex-1">
+                <div class="mb-8">
+                    <div id="step-num" class="text-7xl font-black text-white/5 mb-[-25px]">01</div>
+                    <h3 id="step-name" class="text-2xl font-bold text-white mb-6 relative z-10">Select a component...</h3>
+                    <div class="h-1 bg-gradient-to-r from-blue-600 to-transparent mb-8 w-24 rounded-full"></div>
+                    <p id="step-note" class="text-slate-400 leading-relaxed text-base"></p>
+                </div>
+            </div>
+            <div class="mt-auto pt-6 border-t border-white/5">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="text-[10px] font-black text-slate-500 uppercase tracking-widest">Progress</div>
+                    <div id="count-label" class="text-xs font-bold text-blue-400">0 / 0</div>
+                </div>
+                <div class="prog-bar mb-8"><div id="p-fill" class="prog-fill"></div></div>
+                <div class="grid grid-cols-2 gap-3">
+                    <button onclick="move(-1)" class="py-3 px-4 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 font-bold text-sm transition-all text-white">Previous</button>
+                    <button id="next-btn" onclick="move(1)" class="py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 font-bold text-sm shadow-lg shadow-blue-900/40 transition-all text-white">Start Tour</button>
+                </div>
+                <button onclick="reset()" class="w-full mt-4 text-[10px] font-black text-slate-600 hover:text-slate-400 uppercase tracking-widest transition-colors">Reset Overview</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const steps = [
+  {
+    "name": "fdgsgs",
+    "note": "gsdgds",
+    "cx": 0.6675928662339725,
+    "cy": 0.3578043525110939,
+    "span": 0.15,
+    "shape": "circle"
+  },
+  {
+    "name": "gdfsgfd",
+    "note": "gsgdsgfd",
+    "cx": 0.4623989009454089,
+    "cy": 0.5388293751727101,
+    "span": 0.15,
+    "shape": "circle"
+  }
+];
+        let cur = -1;
+        const root = document.getElementById('viewer-root');
+        const img = document.getElementById('main-bg');
+        const lens = document.getElementById('lens');
+        const lensImg = document.getElementById('lens-img');
+        const canvas = document.getElementById('canvas-wrap');
+        const hContainer = document.getElementById('hotspots');
+        
+        function init() {
+            hContainer.innerHTML = '';
+            steps.forEach((s, i) => {
+                const h = document.createElement('div');
+                h.className = 'hotspot';
+                h.style.left = (s.cx * 100) + '%';
+                h.style.top = (s.cy * 100) + '%';
+                h.onclick = (e) => { e.stopPropagation(); goTo(i); };
+                hContainer.appendChild(h);
+            });
+            document.getElementById('count-label').innerText = '0 / ' + steps.length;
+            if(steps.length > 0) document.getElementById('next-btn').innerText = 'Begin Training';
+        }
+        
+        function reset() {
+            root.classList.remove('focus-mode');
+            lens.classList.remove('active');
+            document.getElementById('step-card').classList.remove('active');
+            canvas.style.transform = 'translate(0,0) scale(1)';
+            cur = -1;
+            document.getElementById('next-btn').innerText = 'Begin Training';
+            document.getElementById('step-name').innerText = 'Select a component...';
+            document.getElementById('step-note').innerText = '';
+            document.getElementById('p-fill').style.width = '0%';
+        }
+        
+        function move(d) {
+            if(cur === -1 && d === 1) return goTo(0);
+            let next = cur + d;
+            if(next < 0) next = steps.length - 1;
+            if(next >= steps.length) next = 0;
+            goTo(next);
+        }
+        
+        function goTo(i) {
+            cur = i;
+            const s = steps[cur];
+            root.classList.add('focus-mode');
+            document.getElementById('step-card').classList.remove('active');
+            
+            setTimeout(() => {
+                document.getElementById('step-num').innerText = (cur+1).toString().padStart(2, '0');
+                document.getElementById('step-name').innerText = s.name;
+                document.getElementById('step-note').innerText = s.note;
+                document.getElementById('count-label').innerText = (cur+1) + ' / ' + steps.length;
+                document.getElementById('p-fill').style.width = ((cur+1)/steps.length * 100) + '%';
+                document.getElementById('next-btn').innerText = cur === steps.length-1 ? 'Finish' : 'Next Step';
+                document.getElementById('step-card').classList.add('active');
+            }, 200);
+            
+            const rect = img.getBoundingClientRect();
+            if(rect.width === 0) return;
+            
+            const isMobile = window.innerWidth < 768;
+            const L = isMobile ? 220 : (window.innerWidth < 1200 ? 300 : 420);
+            const isCircle = s.shape === 'circle';
+            const w = isCircle ? L : L*1.4;
+            const h = isCircle ? L : L*0.9;
+            
+            lens.style.width = w + 'px';
+            lens.style.height = h + 'px';
+            lens.style.borderRadius = isCircle ? '50%' : '20px';
+            
+            const pxCx = s.cx * rect.width;
+            const pxCy = s.cy * rect.height;
+            const viewW = isMobile ? window.innerWidth : window.innerWidth - 380;
+            const viewH = isMobile ? window.innerHeight * 0.55 : window.innerHeight;
+            const offsetX = (viewW / 2) - pxCx;
+            const offsetY = (viewH / 2) - pxCy;
+            
+            canvas.style.transform = 'translate(' + offsetX + 'px, ' + offsetY + 'px) scale(1.15)';
+            lens.style.left = (pxCx - w/2) + 'px';
+            lens.style.top = (pxCy - h/2) + 'px';
+            
+            const zoom = w / (s.span * rect.width);
+            lensImg.style.setProperty('width', (rect.width * zoom) + 'px', 'important');
+            lensImg.style.setProperty('height', (rect.height * zoom) + 'px', 'important');
+            lensImg.style.setProperty('transform', 'translate(' + (w/2 - pxCx*zoom) + 'px,' + (h/2 - pxCy*zoom) + 'px)', 'important');
+            
+            lens.classList.add('active');
+        }
+        
+        img.onload = init;
+        window.onresize = () => { if(cur !== -1) goTo(cur); else init(); };
+        if(img.complete) init();
+    </script>
+</body>
+</html>
