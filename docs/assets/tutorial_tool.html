@@ -14,10 +14,11 @@
         #main-img { max-width: 90vw; max-height: 80vh; display: block; border-radius: 8px; box-shadow: 0 20px 60px rgba(0,0,0,0.6); pointer-events: auto; transition: opacity 0.6s ease, filter 0.6s ease; cursor: pointer; }
         
         /* Hardware Synced Engine */
-        #magnifier { position: absolute; border-radius: 50%; border: 4px solid #3b82f6; box-shadow: 0 0 100px rgba(0,0,0,0.9), inset 0 0 30px rgba(0,0,0,0.5); overflow: hidden; z-index: 100; pointer-events: none; opacity: 0; visibility: hidden; transform: scale(0.8); background: #000;
-            transition: left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s ease, visibility 0.4s, transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); }
-        #magnifier.active { opacity: 1; visibility: visible; transform: scale(1); }
-        #mag-content { position: absolute; display: block; transition: width 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), height 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
+        #magnifier { position: absolute; border-radius: 50%; border: 4px solid #3b82f6; box-shadow: 0 0 100px rgba(0,0,0,0.9), inset 0 0 30px rgba(0,0,0,0.5); overflow: hidden; z-index: 100; pointer-events: none; opacity: 0; visibility: hidden; background: #000;
+            transition: left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s ease, visibility 0.4s; }
+        #magnifier.active { opacity: 1; visibility: visible; }
+        
+        #mag-content { position: absolute; display: block; max-width: none !important; max-height: none !important; min-width: 0 !important; min-height: 0 !important; transition: width 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), height 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
         
         /* Interactive Hotspots */
         .hotspot { position: absolute; width: 36px; height: 36px; background: rgba(59, 130, 246, 0.4); border: 2px solid rgba(255,255,255,0.9); border-radius: 50%; z-index: 50; cursor: pointer; transform: translate(-50%, -50%); transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(3px); }
@@ -28,13 +29,13 @@
         body.stepping .hotspot { opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0); }
         body.stepping #main-img { opacity: 0.15 !important; filter: grayscale(0.5) !important; }
         
-        /* Perspective Map - Left Side */
+        /* Perspective Map */
         #perspective-map { position: fixed; top: 50%; left: 2rem; width: 220px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.1); border-radius: 1rem; padding: 0.5rem; overflow: hidden; z-index: 900; opacity: 0; transform: translateY(-50%) translateX(-50px); transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); pointer-events: none; }
         #perspective-map.visible { opacity: 1; transform: translateY(-50%) translateX(0); }
         #perspective-map img { width: 100%; height: auto; display: block; opacity: 0.4; border-radius: 0.5rem; }
         #radar-icon { position: absolute; width: 16px; height: 16px; background: #3b82f6; border: 2px solid white; border-radius: 50%; transform: translate(-50%, -50%); z-index: 2; transition: left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); box-shadow: 0 0 10px rgba(59, 130, 246, 0.8); }
         
-        /* Note Panel - Top Right */
+        /* Note Panel */
         #note-panel { position: fixed; top: 2rem; right: 2rem; width: 360px; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(20px); padding: 2rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.1); transform: translateX(400px); transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); z-index: 1100; box-shadow: -20px 20px 50px rgba(0,0,0,0.5); }
         #note-panel.visible { transform: translateX(0); }
         
@@ -106,34 +107,34 @@
     <script>
         const regions = [
   {
-    "name": "Head",
-    "note": "fsdafdsa",
-    "x": 0.6004531332618948,
-    "y": 0.40232916161071397,
-    "w": null,
-    "h": null
-  },
-  {
-    "name": "Knee",
-    "note": "No specific instructions provided.",
-    "x": 0.33599523960702093,
-    "y": 0.7447998885503144,
-    "w": null,
-    "h": null
-  },
-  {
     "name": "Table",
-    "note": "fdsafdsa",
-    "x": 0.2676521884377839,
-    "y": 0.44319214607509816,
+    "note": "This is a table",
+    "x": 0.9481112631227964,
+    "y": 0.6066440839326347,
     "w": null,
     "h": null
   },
   {
     "name": "Quill",
-    "note": "fsdafsafdsa",
-    "x": 0.5974816962545366,
-    "y": 0.42567943844750494,
+    "note": "This is a quill",
+    "x": 0.24090925537156066,
+    "y": 0.08320968443610605,
+    "w": null,
+    "h": null
+  },
+  {
+    "name": "Motor",
+    "note": "This is a motor",
+    "x": 0.6153103182986854,
+    "y": 0.23887722375317744,
+    "w": null,
+    "h": null
+  },
+  {
+    "name": "Knee",
+    "note": "This is a knee",
+    "x": 0.359766735665886,
+    "y": 0.7350706065349849,
     "w": null,
     "h": null
   }
@@ -201,8 +202,8 @@
         function updateDisplay() {
             if (!regions.length || currentIdx < 0) return;
             const r = regions[currentIdx];
-            const contRect = mainImg.getBoundingClientRect();
-            if (contRect.width === 0) return;
+            const imgRect = mainImg.getBoundingClientRect();
+            if (imgRect.width === 0) return;
             
             document.getElementById('pres-step').innerText = 'PART ' + (currentIdx+1) + ' / ' + regions.length;
             document.getElementById('pres-name').innerText = r.name;
@@ -213,13 +214,13 @@
             const lSize = window.innerWidth < 768 ? 280 : 380;
             const radius = lSize / 2;
             
-            const cx = (r.x + r.w/2) * contRect.width;
-            const cy = (r.y + r.h/2) * contRect.height;
+            const cx = (r.x + r.w/2) * imgRect.width;
+            const cy = (r.y + r.h/2) * imgRect.height;
 
             let lensLeft = cx - radius;
             let lensTop = cy - radius;
-            lensLeft = Math.max(0, Math.min(lensLeft, contRect.width - lSize));
-            lensTop = Math.max(0, Math.min(lensTop, contRect.height - lSize));
+            lensLeft = Math.max(0, Math.min(lensLeft, imgRect.width - lSize));
+            lensTop = Math.max(0, Math.min(lensTop, imgRect.height - lSize));
 
             magnifier.style.setProperty('width', lSize + 'px', 'important');
             magnifier.style.setProperty('height', lSize + 'px', 'important');
@@ -227,31 +228,29 @@
             magnifier.style.setProperty('top', lensTop + 'px', 'important');
             magnifier.classList.add('active');
 
-            /* FLAWLESS HARDWARE ZOOM MATH */
-            const regionMax = Math.max(r.w * contRect.width, r.h * contRect.height, 10);
-            const zoom = (radius * 1.6) / regionMax;
+            let zoom = (radius * 1.6) / Math.max(r.w * imgRect.width, r.h * imgRect.height);
+            zoom = Math.max(1.2, Math.min(zoom, 3.5));
             
-            const newW = contRect.width * zoom;
-            const newH = contRect.height * zoom;
-            const tx = radius - (cx * zoom);
-            const ty = radius - (cy * zoom);
+            const newW = imgRect.width * zoom;
+            const newH = imgRect.height * zoom;
+            const tx = cx - lensLeft - (cx * zoom);
+            const ty = cy - lensTop - (cy * zoom);
 
-            magImg.style.setProperty('position', 'absolute', 'important');
             magImg.style.setProperty('width', newW + 'px', 'important');
             magImg.style.setProperty('height', newH + 'px', 'important');
             magImg.style.setProperty('left', tx + 'px', 'important');
             magImg.style.setProperty('top', ty + 'px', 'important');
-            magImg.style.setProperty('max-width', 'none', 'important');
-            magImg.style.setProperty('max-height', 'none', 'important');
-            magImg.style.setProperty('transform', 'none', 'important');
 
             document.getElementById('note-panel').classList.add('visible');
             document.getElementById('perspective-map').classList.add('visible');
-            radar.style.left = ((r.x + r.w/2) * 100) + '%';
-            radar.style.top = ((r.y + r.h/2) * 100) + '%';
+            document.getElementById('radar-icon').style.left = ((r.x + r.w/2) * 100) + '%';
+            document.getElementById('radar-icon').style.top = ((r.y + r.h/2) * 100) + '%';
         }
 
-        window.onresize = () => { if (currentIdx >= 0) updateDisplay(); };
+        window.onresize = () => {
+            if (currentIdx >= 0) updateDisplay();
+            init();
+        };
         window.onkeydown = (e) => { 
             if (currentIdx >= 0) {
                 if (e.key === 'ArrowRight') move(1); 
