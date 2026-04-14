@@ -1,70 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8"><title>Machine Tutorial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Tutorial</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { background: #000; color: white; overflow: hidden; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; }
+        body { background: #000; color: white; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; overflow: hidden; margin: 0; }
         #container { position: relative; display: inline-block; }
-        #main-img { max-width: 95vw; max-height: 85vh; opacity: 0.15; transition: opacity 0.5s; background: #111; display: block; }
-        #lens { position: absolute; width: 320px; height: 320px; border-radius: 50%; border: 3px solid #3b82f6; overflow: hidden; z-index: 100; box-shadow: 0 0 80px #000; background: #000; top: 0; left: 0; pointer-events: none; }
-        #mag-img { position: absolute; transform-origin: 0 0; max-width: none; display: block; }
-        .ui { position: fixed; bottom: 2.5rem; left: 50%; transform: translateX(-50%); background: rgba(15,23,42,0.85); backdrop-filter: blur(20px); padding: 0.6rem 1.2rem; border-radius: 2rem; display: flex; gap: 1rem; align-items: center; border: 1px solid rgba(255,255,255,0.1); width: 360px; justify-content: space-between; z-index: 1000; }
-        .btn-next { padding: 0.6rem 2rem; background: #3b82f6; border-radius: 1.5rem; cursor: pointer; font-weight: 800; border: none; color: white; flex: 1; margin-left: 10px; }
-        .btn-prev { width: 44px; height: 44px; background: rgba(255,255,255,0.1); border-radius: 50%; border: none; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 20px; }
+        #bg-img { max-width: 95vw; max-height: 85vh; opacity: 0.1; transition: opacity 0.5s; display: block; }
+        #lens { position: absolute; width: 320px; height: 320px; border-radius: 50%; border: 4px solid #3b82f6; overflow: hidden; z-index: 100; box-shadow: 0 0 100px #000; background: #000; pointer-events: none; }
+        #mag-img { position: absolute; transform-origin: 0 0; max-width: none; }
+        .ui { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(15,23,42,0.9); backdrop-filter: blur(20px); padding: 0.8rem 1.5rem; border-radius: 3rem; display: flex; gap: 1.5rem; align-items: center; border: 1px solid rgba(255,255,255,0.1); width: 400px; justify-content: space-between; z-index: 1000; }
+        .btn { padding: 0.6rem 2rem; background: #3b82f6; border-radius: 2rem; cursor: pointer; font-weight: 800; border: none; color: white; transition: 0.2s; }
+        .btn:hover { background: #2563eb; transform: scale(1.05); }
+        .btn-back { width: 44px; height: 44px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; border: none; color: white; }
     </style>
 </head>
 <body>
     <div id="container">
-        <img id="main-img" src="docs/img/machine.png">
+        <img id="bg-img" src="docs/img/machine.png">
         <div id="lens"><img id="mag-img" src="docs/img/machine.png"></div>
     </div>
     <div class="ui">
-        <button onclick="change(-1)" class="btn-prev">←</button>
-        <div style="text-align:center; flex: 1">
-            <div id="count" style="font-size: 9px; color: #60a5fa; font-weight: 900; letter-spacing: 0.1em;">PART 1</div>
-            <div id="name" style="font-weight: 700; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 120px; margin: 0 auto;">Loading...</div>
+        <button onclick="move(-1)" class="btn-back">←</button>
+        <div style="text-align:center">
+            <div id="count" style="font-size: 10px; color: #60a5fa; font-weight: 900; letter-spacing: 0.1em; text-transform: uppercase;">PART 1</div>
+            <div id="name" style="font-weight: 700; font-size: 16px;">Component</div>
         </div>
-        <button onclick="change(1)" class="btn-next">Next →</button>
+        <button onclick="move(1)" class="btn">Next →</button>
     </div>
     <script>
         const regions = [
   {
-    "name": "fgjh",
-    "x": 93,
-    "y": 134,
-    "w": 234,
-    "h": 233
-  },
-  {
-    "name": "dfgh",
-    "x": 83,
-    "y": 61,
-    "w": 139,
-    "h": 153
-  },
-  {
-    "name": "fcghj",
-    "x": -39,
-    "y": 259,
-    "w": 222,
-    "h": 148
+    "name": "fdsa",
+    "x": 59,
+    "y": 140,
+    "w": 121,
+    "h": 106
   }
 ];
         let idx = 0;
         function update() {
+            if(!regions.length) return;
             const r = regions[idx];
             document.getElementById('count').innerText = "PART " + (idx + 1) + "/" + regions.length;
             document.getElementById('name').innerText = r.name;
-            const cx = r.x + (r.w/2), cy = r.y + (r.h/2), rad = 160;
+            const rad = 160;
+            const cx = r.x + (r.w/2);
+            const cy = r.y + (r.h/2);
             const lens = document.getElementById('lens');
-            lens.style.left = (cx - rad) + "px"; 
+            lens.style.left = (cx - rad) + "px";
             lens.style.top = (cy - rad) + "px";
-            const zoom = (rad * 1.8) / Math.max(r.w, r.h);
+            const zoom = (rad * 1.6) / Math.max(r.w, r.h);
             document.getElementById('mag-img').style.transform = "scale(" + zoom + ") translate(" + ((rad/zoom) - cx) + "px," + ((rad/zoom) - cy) + "px)";
         }
-        function change(n) { if(!regions.length) return; idx = Math.max(0, Math.min(regions.length - 1, idx + n)); update(); }
+        function move(n) { idx = (idx + n + regions.length) % regions.length; update(); }
         window.onload = update;
-        window.onkeydown = (e) => { if(e.key === 'ArrowRight') change(1); if(e.key === 'ArrowLeft') change(-1); };
+        window.onkeydown = (e) => { if(e.key === 'ArrowRight') move(1); if(e.key === 'ArrowLeft') move(-1); };
     </script>
 </body></html>
