@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8"><title>Tutorial</title>
+    <meta charset="UTF-8"><title>Machine Tutorial</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { background: #000; color: white; overflow: hidden; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; }
@@ -16,8 +16,8 @@
 </head>
 <body>
     <div id="container">
-        <img id="main-img" src="https://raw.githubusercontent.com/username/repo/main/machine.png">
-        <div id="lens"><img id="mag-img" src="https://raw.githubusercontent.com/username/repo/main/machine.png"></div>
+        <img id="main-img" src="docs/img/machine.png">
+        <div id="lens"><img id="mag-img" src="docs/img/machine.png"></div>
     </div>
     <div class="ui">
         <button onclick="change(-1)" class="btn-prev">←</button>
@@ -31,31 +31,31 @@
         const regions = [
   {
     "name": "Head",
-    "x": 76,
-    "y": 38,
-    "w": 151,
-    "h": 119
-  },
-  {
-    "name": "Travel",
-    "x": 20,
-    "y": 245,
-    "w": 309,
-    "h": 75
+    "x": 70,
+    "y": 48,
+    "w": 169,
+    "h": 189
   },
   {
     "name": "Knee",
-    "x": 3,
-    "y": 295,
-    "w": 134,
-    "h": 104
+    "x": 18,
+    "y": 300,
+    "w": 161,
+    "h": 110
+  },
+  {
+    "name": "Travel",
+    "x": 12,
+    "y": 253,
+    "w": 323,
+    "h": 74
   },
   {
     "name": "Quill",
-    "x": 90,
-    "y": 44,
-    "w": 111,
-    "h": 169
+    "x": 106,
+    "y": 124,
+    "w": 68,
+    "h": 93
   }
 ];
         let idx = 0;
