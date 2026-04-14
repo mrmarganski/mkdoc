@@ -13,9 +13,9 @@
         
         #main-img { max-width: 90vw; max-height: 80vh; display: block; border-radius: 8px; box-shadow: 0 20px 60px rgba(0,0,0,0.6); pointer-events: auto; transition: opacity 0.6s ease, filter 0.6s ease; cursor: pointer; }
         
-        /* Hardware Synced Engine */
-        #magnifier { position: absolute; border-radius: 50%; border: 4px solid #3b82f6; box-shadow: 0 0 100px rgba(0,0,0,0.9), inset 0 0 30px rgba(0,0,0,0.5); overflow: hidden; z-index: 100; pointer-events: none; opacity: 0; visibility: hidden; background: #000;
-            transition: left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s ease, visibility 0.4s; }
+        /* Dynamic Shape Lens Engine */
+        #magnifier { position: absolute; border: 4px solid #3b82f6; box-shadow: 0 0 100px rgba(0,0,0,0.9), inset 0 0 30px rgba(0,0,0,0.5); overflow: hidden; z-index: 100; pointer-events: none; opacity: 0; visibility: hidden; background: #000;
+            transition: left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), width 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), height 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), border-radius 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.4s ease, visibility 0.4s; }
         #magnifier.active { opacity: 1; visibility: visible; }
         
         #mag-content { position: absolute; display: block; max-width: none !important; max-height: none !important; min-width: 0 !important; min-height: 0 !important; transition: width 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), height 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), left 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); }
@@ -108,33 +108,28 @@
         const regions = [
   {
     "name": "Table",
-    "note": "This is a table",
-    "x": 0.9481112631227964,
-    "y": 0.6066440839326347,
-    "w": null,
-    "h": null
-  },
-  {
-    "name": "Quill",
-    "note": "This is a quill",
-    "x": 0.24090925537156066,
-    "y": 0.08320968443610605,
-    "w": null,
-    "h": null
-  },
-  {
-    "name": "Motor",
-    "note": "This is a motor",
-    "x": 0.6153103182986854,
-    "y": 0.23887722375317744,
+    "note": "fjsdkl;hfdsjkl;ajl;a",
+    "shape": "rect",
+    "x": 0.939196952100722,
+    "y": 0.6105357967387666,
     "w": null,
     "h": null
   },
   {
     "name": "Knee",
-    "note": "This is a knee",
-    "x": 0.359766735665886,
-    "y": 0.7350706065349849,
+    "note": "fdsafsdafsda",
+    "shape": "rect",
+    "x": 0.33599523960702093,
+    "y": 0.7370164629380508,
+    "w": null,
+    "h": null
+  },
+  {
+    "name": "fsdafsad",
+    "note": "fsdafdsafa",
+    "shape": "rect",
+    "x": 0.5915388222398203,
+    "y": 0.423733582044439,
     "w": null,
     "h": null
   }
@@ -211,30 +206,60 @@
             document.getElementById('panel-name').innerText = r.name;
             document.getElementById('panel-note').innerText = r.note;
 
-            const lSize = window.innerWidth < 768 ? 280 : 380;
-            const radius = lSize / 2;
-            
-            const cx = (r.x + r.w/2) * imgRect.width;
-            const cy = (r.y + r.h/2) * imgRect.height;
+            const origW = r.w * imgRect.width;
+            const origH = r.h * imgRect.height;
+            const cx = r.x * imgRect.width + origW/2;
+            const cy = r.y * imgRect.height + origH/2;
 
-            let lensLeft = cx - radius;
-            let lensTop = cy - radius;
-            lensLeft = Math.max(0, Math.min(lensLeft, imgRect.width - lSize));
-            lensTop = Math.max(0, Math.min(lensTop, imgRect.height - lSize));
+            let lensW, lensH, zoom, borderRadius;
 
-            magnifier.style.setProperty('width', lSize + 'px', 'important');
-            magnifier.style.setProperty('height', lSize + 'px', 'important');
+            if (r.shape === 'rect' || r.shape === 'circle') {
+                const targetMultiplier = 2.0;
+                let targetW, targetH;
+                if (r.shape === 'circle') {
+                    const maxDim = Math.max(origW, origH);
+                    targetW = maxDim * targetMultiplier;
+                    targetH = maxDim * targetMultiplier;
+                    borderRadius = '50%';
+                } else {
+                    targetW = origW * targetMultiplier;
+                    targetH = origH * targetMultiplier;
+                    borderRadius = '16px';
+                }
+                const maxW = window.innerWidth * 0.8;
+                const maxH = window.innerHeight * 0.8;
+                lensW = Math.min(targetW, maxW);
+                lensH = lensW * (targetH / targetW);
+                if (lensH > maxH) {
+                    lensH = maxH;
+                    lensW = lensH * (targetW / targetH);
+                }
+                zoom = lensW / (r.shape === 'circle' ? Math.max(origW, origH) : origW);
+            } else {
+                lensW = window.innerWidth < 768 ? 280 : 380;
+                lensH = lensW;
+                borderRadius = '50%';
+                let origSize = Math.max(origW, origH, 20);
+                zoom = (lensW * 0.8) / origSize;
+                zoom = Math.max(1.2, Math.min(zoom, 4.0));
+            }
+
+            let lensLeft = cx - lensW/2;
+            let lensTop = cy - lensH/2;
+            lensLeft = Math.max(0, Math.min(lensLeft, imgRect.width - lensW));
+            lensTop = Math.max(0, Math.min(lensTop, imgRect.height - lensH));
+
+            magnifier.style.setProperty('width', lensW + 'px', 'important');
+            magnifier.style.setProperty('height', lensH + 'px', 'important');
+            magnifier.style.setProperty('border-radius', borderRadius, 'important');
             magnifier.style.setProperty('left', lensLeft + 'px', 'important');
             magnifier.style.setProperty('top', lensTop + 'px', 'important');
             magnifier.classList.add('active');
 
-            let zoom = (radius * 1.6) / Math.max(r.w * imgRect.width, r.h * imgRect.height);
-            zoom = Math.max(1.2, Math.min(zoom, 3.5));
-            
             const newW = imgRect.width * zoom;
             const newH = imgRect.height * zoom;
-            const tx = cx - lensLeft - (cx * zoom);
-            const ty = cy - lensTop - (cy * zoom);
+            const tx = (cx - lensLeft) - (cx * zoom);
+            const ty = (cy - lensTop) - (cy * zoom);
 
             magImg.style.setProperty('width', newW + 'px', 'important');
             magImg.style.setProperty('height', newH + 'px', 'important');
@@ -247,10 +272,7 @@
             document.getElementById('radar-icon').style.top = ((r.y + r.h/2) * 100) + '%';
         }
 
-        window.onresize = () => {
-            if (currentIdx >= 0) updateDisplay();
-            init();
-        };
+        window.onresize = () => { if (currentIdx >= 0) updateDisplay(); init(); };
         window.onkeydown = (e) => { 
             if (currentIdx >= 0) {
                 if (e.key === 'ArrowRight') move(1); 
