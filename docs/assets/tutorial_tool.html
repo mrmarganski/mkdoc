@@ -5,13 +5,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { background: #000; color: white; overflow: hidden; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; }
-        #container { position: relative; }
-        #main-img { max-width: 95vw; max-height: 85vh; opacity: 0.15; transition: opacity 0.5s; }
-        #lens { position: absolute; width: 320px; height: 320px; border-radius: 50%; border: 3px solid #3b82f6; overflow: hidden; z-index: 100; box-shadow: 0 0 80px #000; background: #000; top: 0; left: 0; }
-        #mag-img { position: absolute; transform-origin: 0 0; max-width: none; }
-        .ui { position: fixed; bottom: 2.5rem; left: 50%; transform: translateX(-50%); background: rgba(15,23,42,0.85); backdrop-filter: blur(20px); padding: 0.6rem 1.2rem; border-radius: 2rem; display: flex; gap: 1rem; align-items: center; border: 1px solid rgba(255,255,255,0.1); width: 360px; justify-content: space-between; }
+        #container { position: relative; display: inline-block; }
+        #main-img { max-width: 95vw; max-height: 85vh; opacity: 0.15; transition: opacity 0.5s; background: #111; display: block; }
+        #lens { position: absolute; width: 320px; height: 320px; border-radius: 50%; border: 3px solid #3b82f6; overflow: hidden; z-index: 100; box-shadow: 0 0 80px #000; background: #000; top: 0; left: 0; pointer-events: none; }
+        #mag-img { position: absolute; transform-origin: 0 0; max-width: none; display: block; }
+        .ui { position: fixed; bottom: 2.5rem; left: 50%; transform: translateX(-50%); background: rgba(15,23,42,0.85); backdrop-filter: blur(20px); padding: 0.6rem 1.2rem; border-radius: 2rem; display: flex; gap: 1rem; align-items: center; border: 1px solid rgba(255,255,255,0.1); width: 360px; justify-content: space-between; z-index: 1000; }
         .btn-next { padding: 0.6rem 2rem; background: #3b82f6; border-radius: 1.5rem; cursor: pointer; font-weight: 800; border: none; color: white; flex: 1; margin-left: 10px; }
-        .btn-prev { width: 44px; height: 44px; background: rgba(255,255,255,0.1); border-radius: 50%; border: none; color: white; cursor: pointer; }
+        .btn-prev { width: 44px; height: 44px; background: rgba(255,255,255,0.1); border-radius: 50%; border: none; color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 20px; }
     </style>
 </head>
 <body>
@@ -30,32 +30,25 @@
     <script>
         const regions = [
   {
-    "name": "Head",
-    "x": 70,
-    "y": 48,
-    "w": 169,
-    "h": 189
+    "name": "fgjh",
+    "x": 93,
+    "y": 134,
+    "w": 234,
+    "h": 233
   },
   {
-    "name": "Knee",
-    "x": 18,
-    "y": 300,
-    "w": 161,
-    "h": 110
+    "name": "dfgh",
+    "x": 83,
+    "y": 61,
+    "w": 139,
+    "h": 153
   },
   {
-    "name": "Travel",
-    "x": 12,
-    "y": 253,
-    "w": 323,
-    "h": 74
-  },
-  {
-    "name": "Quill",
-    "x": 106,
-    "y": 124,
-    "w": 68,
-    "h": 93
+    "name": "fcghj",
+    "x": -39,
+    "y": 259,
+    "w": 222,
+    "h": 148
   }
 ];
         let idx = 0;
@@ -65,11 +58,12 @@
             document.getElementById('name').innerText = r.name;
             const cx = r.x + (r.w/2), cy = r.y + (r.h/2), rad = 160;
             const lens = document.getElementById('lens');
-            lens.style.left = (cx - rad) + "px"; lens.style.top = (cy - rad) + "px";
+            lens.style.left = (cx - rad) + "px"; 
+            lens.style.top = (cy - rad) + "px";
             const zoom = (rad * 1.8) / Math.max(r.w, r.h);
             document.getElementById('mag-img').style.transform = "scale(" + zoom + ") translate(" + ((rad/zoom) - cx) + "px," + ((rad/zoom) - cy) + "px)";
         }
-        function change(n) { idx = Math.max(0, Math.min(regions.length - 1, idx + n)); update(); }
+        function change(n) { if(!regions.length) return; idx = Math.max(0, Math.min(regions.length - 1, idx + n)); update(); }
         window.onload = update;
         window.onkeydown = (e) => { if(e.key === 'ArrowRight') change(1); if(e.key === 'ArrowLeft') change(-1); };
     </script>
