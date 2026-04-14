@@ -5,134 +5,254 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Interactive Machine Tutorial</title>
     <style>
-        body { background: #000; color: white; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: -apple-system, system-ui, sans-serif; overflow: hidden; margin: 0; }
-        #container { position: relative; display: inline-block; background: #111; min-width: 300px; min-height: 300px; }
-        #bg-img { max-width: 95vw; max-height: 75vh; opacity: 1; display: block; cursor: pointer; transition: opacity 0.8s; -webkit-tap-highlight-color: transparent; }
-        #lens { 
-            position: absolute; width: 380px; height: 380px; border-radius: 50%; border: 4px solid #3b82f6; 
-            overflow: hidden; z-index: 100; box-shadow: 0 0 100px #000; background: #000; pointer-events: none; 
-            opacity: 0; transition: left 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.5s ease;
-        }
-        #mag-img { position: absolute; transform-origin: 0 0; max-width: none; border: none; transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }
-
-        .ui-nav { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(15,23,42,0.9); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: 1rem 2rem; border-radius: 4rem; display: flex; gap: 1.5rem; align-items: center; border: 1px solid rgba(255,255,255,0.1); min-width: 320px; justify-content: space-between; z-index: 1000; }
-        .btn { padding: 0.8rem 2rem; background: #3b82f6; border-radius: 2.5rem; cursor: pointer; font-weight: 800; border: none; color: white; transition: 0.2s; font-size: 0.9rem; touch-action: manipulation; }
-        .btn:hover { background: #2563eb; transform: translateY(-2px); }
-        .btn-nav { width: 45px; height: 45px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; border: none; color: white; }
-
-        #note-card {
-            position: fixed; top: 2rem; right: 2rem; width: 300px; background: rgba(30, 41, 59, 0.85); 
-            backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(255,255,255,0.1);
-            transform: translateX(400px); transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); z-index: 1001;
-        }
-        #note-card.active { transform: translateX(0); }
+        * { -webkit-tap-highlight-color: transparent; user-select: none; box-sizing: border-box; }
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); color: white; font-family: -apple-system, system-ui, sans-serif; overflow: hidden; }
+        
+        #stage { position: relative; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+        #image-container { position: relative; line-height: 0; }
+        
+        #main-img { max-width: 85vw; max-height: 70vh; display: block; border-radius: 4px; box-shadow: 0 0 50px rgba(0,0,0,0.5); pointer-events: auto; transition: opacity 0.6s ease, filter 0.6s ease; cursor: pointer; }
+        
+        .hotspot { position: absolute; width: 32px; height: 32px; background: rgba(59, 130, 246, 0.3); border: 2px solid rgba(255,255,255,0.8); border-radius: 50%; z-index: 50; cursor: pointer; transform: translate(-50%, -50%); transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); display: flex; align-items: center; justify-content: center; backdrop-filter: blur(2px); }
+        .hotspot::after { content: ''; width: 10px; height: 10px; background: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(255,255,255,1); animation: pulse 2s infinite; }
+        .hotspot:hover { background: #3b82f6; transform: translate(-50%, -50%) scale(1.3); z-index: 60; }
+        
+        #magnifier { position: absolute; border-radius: 50%; border: 4px solid #3b82f6; box-shadow: 0 0 100px rgba(0,0,0,0.8), 0 0 20px rgba(59, 130, 246, 0.3); overflow: hidden; z-index: 100; pointer-events: none; opacity: 0; visibility: hidden; transform: scale(0.8); background: #000;
+            transition: left 0.8s cubic-bezier(0.25, 1, 0.5, 1), top 0.8s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease, visibility 0.4s, transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); }
+        #magnifier.active { opacity: 1; visibility: visible; transform: scale(1); }
+        #mag-content { position: absolute; transform-origin: 0 0; max-width: none; display: block; transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
+        
+        /* States */
+        body.stepping .hotspot { opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(0); }
+        body.stepping #main-img { opacity: 0.15; filter: grayscale(0.5); }
+        
+        /* Mini Map */
+        #perspective-map { position: fixed; bottom: 8rem; left: 2rem; width: 180px; background: #0f172a; border: 1px solid rgba(255,255,255,0.1); border-radius: 0.75rem; padding: 4px; z-index: 900; opacity: 0; transform: translateY(30px) scale(0.9); transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5); pointer-events: none; }
+        #perspective-map.visible { opacity: 1; transform: translateY(0) scale(1); }
+        #perspective-map img { width: 100%; height: auto; display: block; opacity: 0.4; border-radius: 0.5rem; }
+        #radar-icon { position: absolute; width: 14px; height: 14px; background: #3b82f6; border: 2px solid white; border-radius: 50%; transform: translate(-50%, -50%); z-index: 2; transition: left 0.8s cubic-bezier(0.25, 1, 0.5, 1), top 0.8s cubic-bezier(0.25, 1, 0.5, 1); }
+        
+        /* UI */
+        #note-panel { position: fixed; top: 2rem; right: 2rem; width: 320px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(16px); padding: 1.5rem; border-radius: 1.25rem; border: 1px solid rgba(255,255,255,0.1); transform: translateX(400px); transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1); z-index: 1100; box-shadow: -20px 0 50px rgba(0,0,0,0.3); }
+        #note-panel.visible { transform: translateX(0); }
+        
+        .ui-dock { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(20px); padding: 0.75rem 1.5rem; border-radius: 2rem; display: flex; gap: 1.5rem; align-items: center; border: 1px solid rgba(255,255,255,0.1); z-index: 1000; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8); }
+        
+        .btn { padding: 0.6rem 1.4rem; border-radius: 0.75rem; font-weight: 700; font-size: 0.85rem; cursor: pointer; border: none; white-space: nowrap; transition: all 0.2s; }
+        .btn-primary { background: #3b82f6; color: white; padding: 0.8rem 2rem; border-radius: 1.5rem; box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3); }
+        .btn-primary:hover { background: #2563eb; transform: translateY(-2px); }
+        .btn-nav { width: 44px; height: 44px; border-radius: 50%; background: rgba(255,255,255,0.1); color: white; border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: 0.2s; }
+        .btn-nav:hover { background: rgba(255,255,255,0.2); }
+        
+        .hidden { display: none !important; }
+        @keyframes pulse { 0% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.6); opacity: 0.4; } 100% { transform: scale(1); opacity: 1; } }
 
         @media (max-width: 768px) {
-            #note-card { top: 1rem; right: 1rem; left: 1rem; width: auto; transform: translateY(-200%); }
-            #note-card.active { transform: translateY(0); }
-            #lens { width: 280px; height: 280px; }
-            .ui-nav { width: 90%; bottom: 1rem; padding: 0.8rem; }
+            #note-panel { top: 1rem; right: 1rem; left: 1rem; width: auto; transform: translateY(-300px); }
+            #note-panel.visible { transform: translateY(0); }
+            #perspective-map { width: 120px; bottom: 7.5rem; left: 1rem; }
+            .ui-dock { width: 90%; gap: 0.5rem; }
         }
     </style>
 </head>
-<body>
-    <div id="container"><img id="bg-img" src="../img/machine.png" onclick="reset()"><div id="lens"><img id="mag-img" src="../img/machine.png"></div></div>
-    <div id="note-card">
-        <div id="n-count" style="font-size: 10px; color: #60a5fa; font-weight: 900; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 5px;">STEP 1</div>
-        <h2 id="n-name" style="margin: 0 0 10px 0; font-size: 18px;">Part</h2>
-        <p id="n-text" style="margin: 0; color: #cbd5e1; font-size: 14px; line-height: 1.6;">Desc...</p>
-    </div>
-    <div class="ui-nav">
-        <button id="start-btn" onclick="start()" class="btn" style="width: 100%">Start Learning Tutorial</button>
-        <div id="controls" style="display:none; width:100%; display:flex; align-items:center; justify-content:space-between;">
-            <button onclick="move(-1)" class="btn-nav">←</button>
-            <div style="text-align:center"><div id="ui-name" style="font-weight: 700; font-size: 16px;">Name</div></div>
-            <button onclick="move(1)" class="btn">Next Step →</button>
+<body class="overview">
+    <div id="stage" onclick="handleStageClick(event)">
+        <div id="image-container">
+            <img id="main-img" src="../img/machine.png" onerror="showError()">
+            <div id="magnifier"><img id="mag-content" src="../img/machine.png"></div>
+            <div id="hotspot-layer"></div>
         </div>
     </div>
+
+    <div id="perspective-map">
+        <div style="position: relative; width: 100%; height: 100%;">
+            <img src="../img/machine.png">
+            <div id="radar-icon"></div>
+        </div>
+    </div>
+
+    <div id="note-panel">
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 12px;">
+            <div style="height: 4px; width: 30px; background: #3b82f6; border-radius: 4px;"></div>
+            <span id="panel-step" style="font-size: 10px; font-weight: 900; color: #60a5fa; letter-spacing: 0.1em; text-transform: uppercase;">Step 01</span>
+        </div>
+        <h3 id="panel-name" style="font-size: 20px; font-weight: bold; margin: 0 0 12px 0;">Part Name</h3>
+        <p id="panel-note" style="color: #cbd5e1; font-size: 14px; line-height: 1.6; margin: 0 0 16px 0;">Instructions...</p>
+        <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 10px; font-weight: bold; text-transform: uppercase; color: #64748b; text-align: center;">
+            Click background to close
+        </div>
+    </div>
+
+    <div class="ui-dock">
+        <button id="btn-start" onclick="startTutorial()" class="btn btn-primary" style="width: 100%;">Start Interactive Tutorial</button>
+        <div id="nav-group" class="hidden" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem;">
+            <button onclick="move(-1)" class="btn-nav">
+                <svg style="width:20px;height:20px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7"></path></svg>
+            </button>
+            <div style="text-align: center; flex: 1;">
+                <div id="pres-step" style="font-size: 9px; font-weight: 900; color: #3b82f6; text-transform: uppercase;">Part 1/5</div>
+                <div id="pres-name" style="font-size: 14px; font-weight: bold; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Component</div>
+            </div>
+            <button onclick="move(1)" class="btn-nav" style="background: #3b82f6;">
+                <svg style="width:20px;height:20px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+        </div>
+    </div>
+
     <script>
         const regions = [
   {
-    "name": "Quill",
-    "note": "Up Down",
-    "pctX": 0.30266666666666664,
-    "pctY": 0.09926613261218176,
-    "pctW": 0.20333333333333334,
-    "pctH": 0.3024406392664624
+    "name": "1",
+    "note": "123",
+    "x": 0.6012242770117817,
+    "y": 0.4239439422635338,
+    "w": null,
+    "h": null
   },
   {
-    "name": "Motor",
-    "note": "Goes Spin",
-    "pctX": 0.27599999999999997,
-    "pctY": 0.02587980102546659,
-    "pctW": 0.31333333333333335,
-    "pctH": 0.2068160253807427
+    "name": "123",
+    "note": "123123",
+    "x": 0.5638680763818062,
+    "y": 0.628536139414376,
+    "w": null,
+    "h": null
   },
   {
-    "name": "Start",
-    "note": "Reverse for high Speed",
-    "pctX": 0.376,
-    "pctY": 0.5128970714595522,
-    "pctW": 0.17333333333333334,
-    "pctH": 0.13787735025382847
+    "name": "123",
+    "note": "123123",
+    "x": 0.767629170727127,
+    "y": 0.7085939556907926,
+    "w": null,
+    "h": null
   },
   {
-    "name": "Change Speed",
-    "note": "Faster or slower",
-    "pctX": 0.346,
-    "pctY": 0.15930949481949414,
-    "pctW": 0.09,
-    "pctH": 0.07116250335681469
-  },
-  {
-    "name": "Knee",
-    "note": "Up Down",
-    "pctX": 0.066,
-    "pctY": 0.5484783231379595,
-    "pctW": 0.24333333333333335,
-    "pctH": 0.18680157131163858
-  },
-  {
-    "name": "Table",
-    "note": "Parts fit here",
-    "pctX": 0.022666633333333335,
-    "pctY": 0.4417345681027375,
-    "pctW": 0.88,
-    "pctH": 0.16678711724253442
+    "name": "1231",
+    "note": "1231231",
+    "x": 0.9102619367688516,
+    "y": 0.5062255867698509,
+    "w": null,
+    "h": null
   }
 ];
-        let idx = -1;
-        const bg = document.getElementById('bg-img');
-        const mag = document.getElementById('mag-img');
-        const lens = document.getElementById('lens');
-        const card = document.getElementById('note-card');
-        const ctrl = document.getElementById('controls');
-        const startBtn = document.getElementById('start-btn');
-
-        function start() { startBtn.style.display='none'; ctrl.style.display='flex'; idx=0; update(); }
-        function reset() { idx=-1; lens.style.opacity='0'; card.classList.remove('active'); startBtn.style.display='block'; ctrl.style.display='none'; bg.style.opacity='1'; }
+        let currentIdx = -1;
         
-        function update() {
-            if(idx < 0) return;
-            bg.style.opacity = '0.15';
-            const r = regions[idx];
-            document.getElementById('n-count').innerText = "STEP " + (idx + 1) + "/" + regions.length;
-            document.getElementById('n-name').innerText = r.name;
-            document.getElementById('n-text').innerText = r.note;
-            document.getElementById('ui-name').innerText = r.name;
-            const rect = bg.getBoundingClientRect();
-            const w_ref = rect.width, h_ref = rect.height;
-            const l_size = window.innerWidth < 768 ? 280 : 380;
-            const rad = l_size/2;
-            const cx = (r.pctX + r.pctW/2) * w_ref, cy = (r.pctY + r.pctH/2) * h_ref;
-            lens.style.display = 'block'; setTimeout(()=>lens.style.opacity='1',10);
-            lens.style.left = (cx - rad) + "px"; lens.style.top = (cy - rad) + "px";
-            const zoom = (rad * 1.8) / Math.max(r.pctW * w_ref, r.pctH * h_ref);
-            mag.style.width = w_ref + "px"; mag.style.height = h_ref + "px";
-            mag.style.transform = "scale(" + zoom + ") translate(" + ((rad/zoom) - cx) + "px," + ((rad/zoom) - cy) + "px)";
-            card.classList.add('active');
+        const container = document.getElementById('image-container');
+        const mainImg = document.getElementById('main-img');
+        const magImg = document.getElementById('mag-content');
+        const magnifier = document.getElementById('magnifier');
+        const hotspotLayer = document.getElementById('hotspot-layer');
+        const radar = document.getElementById('radar-icon');
+
+        function showError() {
+            document.body.innerHTML = '<div style="color:white; padding: 20px; text-align:center; font-family:sans-serif;"><h2>Image Load Error</h2><p>Cannot find image at path: <b>../img/machine.png</b></p><p>If testing locally, ensure the file is in the correct relative folder.</p></div>';
         }
-        function move(n) { idx = (idx + n + regions.length) % regions.length; update(); }
-        window.onresize = update;
+
+        function init() {
+            hotspotLayer.innerHTML = '';
+            regions.forEach((r, idx) => {
+                const h = document.createElement('div');
+                h.className = 'hotspot';
+                h.style.left = ((r.x + r.w/2) * 100) + '%';
+                h.style.top = ((r.y + r.h/2) * 100) + '%';
+                h.onclick = (e) => { e.stopPropagation(); jumpToAsset(idx); };
+                hotspotLayer.appendChild(h);
+            });
+        }
+
+        function startTutorial() { jumpToAsset(0); }
+
+        function jumpToAsset(idx) {
+            document.body.classList.remove('overview');
+            document.body.classList.add('stepping');
+            document.getElementById('btn-start').classList.add('hidden');
+            document.getElementById('nav-group').classList.remove('hidden');
+            document.getElementById('nav-group').style.display = 'flex';
+            currentIdx = idx;
+            updateDisplay();
+        }
+
+        function resetView() {
+            document.body.classList.add('overview');
+            document.body.classList.remove('stepping');
+            magnifier.classList.remove('active');
+            document.getElementById('note-panel').classList.remove('visible');
+            document.getElementById('perspective-map').classList.remove('visible');
+            currentIdx = -1;
+            document.getElementById('btn-start').classList.remove('hidden');
+            document.getElementById('nav-group').classList.add('hidden');
+            document.getElementById('nav-group').style.display = '';
+        }
+
+        function handleStageClick(e) {
+            if (document.body.classList.contains('stepping') && e.target === mainImg) {
+                resetView();
+            }
+        }
+
+        function move(dir) {
+            currentIdx += dir;
+            if (currentIdx < 0) currentIdx = regions.length - 1;
+            if (currentIdx >= regions.length) currentIdx = 0;
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            if (!regions.length || currentIdx < 0) return;
+            const r = regions[currentIdx];
+            const contRect = mainImg.getBoundingClientRect();
+            if (contRect.width === 0) return;
+            
+            // Text Updates
+            document.getElementById('pres-step').innerText = 'Step ' + (currentIdx+1) + ' of ' + regions.length;
+            document.getElementById('pres-name').innerText = r.name;
+            document.getElementById('panel-step').innerText = 'Step ' + String(currentIdx+1).padStart(2, '0');
+            document.getElementById('panel-name').innerText = r.name;
+            document.getElementById('panel-note').innerText = r.note;
+
+            // Math
+            const lSize = window.innerWidth < 768 ? 280 : 380;
+            magnifier.style.width = lSize + 'px';
+            magnifier.style.height = lSize + 'px';
+            const radius = lSize / 2;
+            
+            const cx = (r.x + r.w/2) * contRect.width;
+            const cy = (r.y + r.h/2) * contRect.height;
+
+            // Clamping Lens Position so it stays on screen
+            let lensLeft = cx - radius;
+            let lensTop = cy - radius;
+            lensLeft = Math.max(0, Math.min(lensLeft, contRect.width - lSize));
+            lensTop = Math.max(0, Math.min(lensTop, contRect.height - lSize));
+
+            magnifier.style.left = lensLeft + 'px';
+            magnifier.style.top = lensTop + 'px';
+            magnifier.classList.add('active');
+
+            // Translate math ensures cx, cy of original image is ALWAYS in center of lens.
+            const zoom = (radius * 1.6) / Math.max(r.w * contRect.width, r.h * contRect.height);
+            magImg.style.width = contRect.width + 'px';
+            magImg.style.height = contRect.height + 'px';
+            magImg.style.transform = 'scale(' + zoom + ') translate(' + ((radius/zoom)-cx) + 'px, ' + ((radius/zoom)-cy) + 'px)';
+
+            document.getElementById('note-panel').classList.add('visible');
+            document.getElementById('perspective-map').classList.add('visible');
+            radar.style.left = ((r.x + r.w/2) * 100) + '%';
+            radar.style.top = ((r.y + r.h/2) * 100) + '%';
+        }
+
+        window.onresize = () => { if (currentIdx >= 0) updateDisplay(); };
+        window.onkeydown = (e) => { 
+            if (currentIdx >= 0) {
+                if (e.key === 'ArrowRight') move(1); 
+                if (e.key === 'ArrowLeft') move(-1);
+                if (e.key === 'Escape') resetView();
+            }
+        };
+
+        // Init once image is loaded to get proper dimensions
+        mainImg.onload = init;
+        if(mainImg.complete) init();
+
     </script>
-</body></html>
+</body>
+</html>
