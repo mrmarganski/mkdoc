@@ -3,79 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Machine Tutorial</title>
+    <title>Interactive Machine Tutorial</title>
     <style>
-        body { background: #000; color: white; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; overflow: hidden; margin: 0; }
+        body { background: #000; color: white; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: -apple-system, system-ui, sans-serif; overflow: hidden; margin: 0; }
         #container { position: relative; display: inline-block; background: #111; min-width: 400px; min-height: 400px; }
-        #bg-img { max-width: 95vw; max-height: 85vh; opacity: 0.15; display: block; border: none; }
-        #lens { position: absolute; width: 380px; height: 380px; border-radius: 50%; border: 4px solid #3b82f6; overflow: hidden; z-index: 100; box-shadow: 0 0 100px #000; background: #000; pointer-events: none; display: block; }
-        #mag-img { position: absolute; transform-origin: 0 0; max-width: none; border: none; }
-        .ui { position: fixed; bottom: 2.5rem; left: 50%; transform: translateX(-50%); background: rgba(15,23,42,0.95); backdrop-filter: blur(20px); padding: 1rem 2rem; border-radius: 4rem; display: flex; gap: 2rem; align-items: center; border: 1px solid rgba(255,255,255,0.15); width: 450px; justify-content: space-between; z-index: 1000; }
+        #bg-img { max-width: 95vw; max-height: 80vh; opacity: 0.1; display: block; border: none; transition: opacity 0.8s; }
+        
+        #lens { 
+            position: absolute; width: 380px; height: 380px; border-radius: 50%; border: 4px solid #3b82f6; 
+            overflow: hidden; z-index: 100; box-shadow: 0 0 100px #000; background: #000; pointer-events: none; 
+            transition: left 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        #mag-img { position: absolute; transform-origin: 0 0; max-width: none; border: none; transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1); }
+
+        .ui { position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%); background: rgba(15,23,42,0.9); backdrop-filter: blur(20px); padding: 1rem 2rem; border-radius: 4rem; display: flex; gap: 2rem; align-items: center; border: 1px solid rgba(255,255,255,0.1); min-width: 400px; justify-content: space-between; z-index: 1000; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
         .btn { padding: 0.8rem 2.5rem; background: #3b82f6; border-radius: 2.5rem; cursor: pointer; font-weight: 800; border: none; color: white; transition: 0.2s; font-size: 1rem; }
-        .btn:hover { background: #2563eb; transform: scale(1.05); }
-        .btn-back { width: 50px; height: 50px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; border: none; color: white; font-size: 1.2rem; }
+        .btn:hover { background: #2563eb; transform: translateY(-2px); }
+        .btn-nav { width: 45px; height: 45px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; border: none; color: white; transition: 0.2s; }
+        .btn-nav:hover { background: rgba(255,255,255,0.2); }
+
+        #note-card {
+            position: fixed; bottom: 2rem; right: 2rem; width: 340px; background: rgba(30, 41, 59, 0.85); 
+            backdrop-filter: blur(15px); padding: 1.8rem; border-radius: 1.5rem; border: 1px solid rgba(255,255,255,0.1);
+            animation: slideIn 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); z-index: 1001;
+        }
+        @keyframes slideIn { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        
         #error-msg { position: fixed; top: 0; left:0; right:0; background: #ef4444; color: white; padding: 20px; text-align:center; z-index: 9999; display: none; font-size: 14px; }
-        #error-msg ul { text-align: left; display: inline-block; margin-top: 10px; }
     </style>
 </head>
 <body>
-    <div id="error-msg">
-        <strong>Image not found: "../img/machine.png"</strong><br>
-        Possible fixes for MkDocs:<br>
-        <ul>
-            <li>Try <b>../img/machine.png</b> if this file is in a guide subfolder.</li>
-            <li>Try <b>img/machine.png</b> if this file is in the root docs folder.</li>
-            <li>Ensure machine.png is in your <b>docs/img/</b> directory.</li>
-        </ul>
-    </div>
+    <div id="error-msg">Image Load Error: Please check path "../img/machine.png"</div>
     <div id="container">
         <img id="bg-img" src="../img/machine.png">
         <div id="lens"><img id="mag-img" src="../img/machine.png"></div>
     </div>
-    <div class="ui">
-        <button onclick="move(-1)" class="btn-back">←</button>
-        <div style="text-align:center">
-            <div id="count" style="font-size: 10px; color: #60a5fa; font-weight: 900; letter-spacing: 0.15em; text-transform: uppercase;">PART 1</div>
-            <div id="name" style="font-weight: 700; font-size: 18px; margin-top: 2px;">Component</div>
-        </div>
-        <button onclick="move(1)" class="btn">Next →</button>
+    
+    <div id="note-card">
+        <div id="note-count" style="font-size: 10px; color: #60a5fa; font-weight: 900; letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 8px;">STEP 1/1</div>
+        <h2 id="note-name" style="margin: 0 0 10px 0; font-size: 20px;">Component</h2>
+        <p id="note-text" style="margin: 0; color: #cbd5e1; font-size: 14px; line-height: 1.6; opacity: 0; transition: opacity 0.4s;">Description...</p>
     </div>
+
+    <div class="ui">
+        <button onclick="move(-1)" class="btn-nav">←</button>
+        <div style="text-align:center">
+            <div id="ui-name" style="font-weight: 700; font-size: 18px;">Part Name</div>
+        </div>
+        <button onclick="move(1)" class="btn">Next Step →</button>
+    </div>
+
     <script>
         const regions = [
   {
-    "name": "1",
-    "pctX": 0.19633770026118866,
-    "pctY": 0.06764283321157875,
-    "pctW": 0.6210303345378498,
-    "pctH": 0.49424752637874153
+    "name": "Head",
+    "note": "Cool Part",
+    "pctX": 0.24896988906497622,
+    "pctY": 0.08447488263432691,
+    "pctW": 0.3676703645007924,
+    "pctH": 0.31340804122317845
   },
   {
-    "name": "2",
-    "pctX": 0.20525201128326306,
-    "pctY": 0.5035136945701414,
-    "pctW": 0.3625153148976923,
-    "pctH": 0.19653149670965706
+    "name": "Table",
+    "note": "Cool Table",
+    "pctX": -0.004595911251980982,
+    "pctY": 0.4352428228112617,
+    "pctW": 0.9445324881141046,
+    "pctH": 0.16811954529190368
   },
   {
-    "name": "3",
-    "pctX": 0.38353823172475104,
-    "pctY": 0.24666064936544108,
-    "pctW": 0.31794375978732026,
-    "pctH": 0.16734365066366838
+    "name": "Knee",
+    "note": "Up/Down Part",
+    "pctX": 0.03343898573692552,
+    "pctY": 0.536944769963154,
+    "pctW": 0.3549920760697306,
+    "pctH": 0.2075549941875354
+  },
+  {
+    "name": "Machine",
+    "note": "The whole machine",
+    "pctX": 0.04294770206022187,
+    "pctY": 0.02428393431994164,
+    "pctW": 0.8906497622820919,
+    "pctH": 0.8655043257620225
   }
 ];
         let idx = 0;
         const bgImg = document.getElementById('bg-img');
         const magImg = document.getElementById('mag-img');
         const lens = document.getElementById('lens');
+        const noteText = document.getElementById('note-text');
 
         bgImg.onerror = () => { document.getElementById('error-msg').style.display = 'block'; };
 
         function update() {
             if(!regions.length) return;
             const r = regions[idx];
-            document.getElementById('count').innerText = "PART " + (idx + 1) + "/" + regions.length;
-            document.getElementById('name').innerText = r.name;
+            
+            // Text Animations
+            noteText.style.opacity = 0;
+            setTimeout(() => {
+                document.getElementById('note-count').innerText = "STEP " + (idx + 1) + "/" + regions.length;
+                document.getElementById('note-name').innerText = r.name;
+                document.getElementById('ui-name').innerText = r.name;
+                noteText.innerText = r.note;
+                noteText.style.opacity = 1;
+            }, 300);
+            
             const rect = bgImg.getBoundingClientRect();
             const w_ref = rect.width || window.innerWidth * 0.8;
             const h_ref = rect.height || window.innerHeight * 0.7;
@@ -86,18 +120,22 @@
             const h = r.pctH * h_ref;
             const cx = x + (w/2);
             const cy = y + (h/2);
+
             lens.style.left = (cx - rad) + "px";
             lens.style.top = (cy - rad) + "px";
+            
             const zoom = (rad * 1.8) / Math.max(w, h || 1);
             magImg.style.width = w_ref + "px";
             magImg.style.height = h_ref + "px";
             magImg.style.transform = "scale(" + zoom + ") translate(" + ((rad/zoom) - cx) + "px," + ((rad/zoom) - cy) + "px)";
         }
+        
         function move(n) { idx = (idx + n + regions.length) % regions.length; update(); }
-        bgImg.onload = update;
+        bgImg.onload = () => { bgImg.style.opacity = 0.15; update(); };
         window.onresize = update;
         window.onkeydown = (e) => { if(e.key === 'ArrowRight') move(1); if(e.key === 'ArrowLeft') move(-1); };
-        setTimeout(update, 100);
-        setTimeout(update, 1000); 
+        
+        // Final init
+        setTimeout(update, 200);
     </script>
 </body></html>
