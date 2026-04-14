@@ -6,7 +6,7 @@
     <title>Machine Tutorial</title>
     <style>
         body { background: #000; color: white; height: 100vh; display: flex; align-items: center; justify-content: center; font-family: sans-serif; overflow: hidden; margin: 0; }
-        #container { position: relative; display: inline-block; background: #000; }
+        #container { position: relative; display: inline-block; background: #111; min-width: 400px; min-height: 400px; }
         #bg-img { max-width: 95vw; max-height: 85vh; opacity: 0.15; display: block; border: none; }
         #lens { position: absolute; width: 380px; height: 380px; border-radius: 50%; border: 4px solid #3b82f6; overflow: hidden; z-index: 100; box-shadow: 0 0 100px #000; background: #000; pointer-events: none; display: block; }
         #mag-img { position: absolute; transform-origin: 0 0; max-width: none; border: none; }
@@ -14,14 +14,23 @@
         .btn { padding: 0.8rem 2.5rem; background: #3b82f6; border-radius: 2.5rem; cursor: pointer; font-weight: 800; border: none; color: white; transition: 0.2s; font-size: 1rem; }
         .btn:hover { background: #2563eb; transform: scale(1.05); }
         .btn-back { width: 50px; height: 50px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; border: none; color: white; font-size: 1.2rem; }
-        #error-msg { position: fixed; top: 20px; background: #ef4444; color: white; padding: 10px 20px; border-radius: 8px; font-weight: bold; display: none; }
+        #error-msg { position: fixed; top: 0; left:0; right:0; background: #ef4444; color: white; padding: 20px; text-align:center; z-index: 9999; display: none; font-size: 14px; }
+        #error-msg ul { text-align: left; display: inline-block; margin-top: 10px; }
     </style>
 </head>
 <body>
-    <div id="error-msg">Error: Image not found at path</div>
+    <div id="error-msg">
+        <strong>Image not found: "../img/machine.png"</strong><br>
+        Possible fixes for MkDocs:<br>
+        <ul>
+            <li>Try <b>../img/machine.png</b> if this file is in a guide subfolder.</li>
+            <li>Try <b>img/machine.png</b> if this file is in the root docs folder.</li>
+            <li>Ensure machine.png is in your <b>docs/img/</b> directory.</li>
+        </ul>
+    </div>
     <div id="container">
-        <img id="bg-img" src="...img/machine.png">
-        <div id="lens"><img id="mag-img" src="img/machine.png"></div>
+        <img id="bg-img" src="../img/machine.png">
+        <div id="lens"><img id="mag-img" src="../img/machine.png"></div>
     </div>
     <div class="ui">
         <button onclick="move(-1)" class="btn-back">←</button>
@@ -35,31 +44,24 @@
         const regions = [
   {
     "name": "1",
-    "pctX": 0.1458232711361004,
-    "pctY": 0.44513800247816404,
-    "pctW": 0.8082308660014123,
-    "pctH": 0.18874807109739342
+    "pctX": 0.19633770026118866,
+    "pctY": 0.06764283321157875,
+    "pctW": 0.6210303345378498,
+    "pctH": 0.49424752637874153
   },
   {
     "name": "2",
-    "pctX": 0.16662333018760733,
-    "pctY": 0.05596769479318328,
-    "pctW": 0.40708687000806426,
-    "pctH": 0.3269038757150731
+    "pctX": 0.20525201128326306,
+    "pctY": 0.5035136945701414,
+    "pctW": 0.3625153148976923,
+    "pctH": 0.19653149670965706
   },
   {
     "name": "3",
-    "pctX": 0.04776584989328199,
-    "pctY": 0.5638352430651846,
-    "pctW": 0.33280094482411093,
-    "pctH": 0.2043149223219207
-  },
-  {
-    "name": "4",
-    "pctX": 0.07748021996686333,
-    "pctY": 0.03845498716559007,
-    "pctW": 0.8498309841044261,
-    "pctH": 0.8308806841091442
+    "pctX": 0.38353823172475104,
+    "pctY": 0.24666064936544108,
+    "pctW": 0.31794375978732026,
+    "pctH": 0.16734365066366838
   }
 ];
         let idx = 0;
@@ -67,22 +69,16 @@
         const magImg = document.getElementById('mag-img');
         const lens = document.getElementById('lens');
 
-        bgImg.onerror = () => {
-            document.getElementById('error-msg').style.display = 'block';
-            document.getElementById('error-msg').innerText = "Image not found: img/machine.png";
-        };
+        bgImg.onerror = () => { document.getElementById('error-msg').style.display = 'block'; };
 
         function update() {
             if(!regions.length) return;
             const r = regions[idx];
             document.getElementById('count').innerText = "PART " + (idx + 1) + "/" + regions.length;
             document.getElementById('name').innerText = r.name;
-            
             const rect = bgImg.getBoundingClientRect();
-            // Fallback to container calc if img not yet loaded
             const w_ref = rect.width || window.innerWidth * 0.8;
             const h_ref = rect.height || window.innerHeight * 0.7;
-            
             const rad = 190;
             const x = r.pctX * w_ref;
             const y = r.pctY * h_ref;
@@ -90,25 +86,18 @@
             const h = r.pctH * h_ref;
             const cx = x + (w/2);
             const cy = y + (h/2);
-
             lens.style.left = (cx - rad) + "px";
             lens.style.top = (cy - rad) + "px";
-            
             const zoom = (rad * 1.8) / Math.max(w, h || 1);
             magImg.style.width = w_ref + "px";
             magImg.style.height = h_ref + "px";
             magImg.style.transform = "scale(" + zoom + ") translate(" + ((rad/zoom) - cx) + "px," + ((rad/zoom) - cy) + "px)";
         }
-        
         function move(n) { idx = (idx + n + regions.length) % regions.length; update(); }
-        
         bgImg.onload = update;
         window.onresize = update;
         window.onkeydown = (e) => { if(e.key === 'ArrowRight') move(1); if(e.key === 'ArrowLeft') move(-1); };
-        
-        // Multiple safety triggers to ensure it loads
         setTimeout(update, 100);
-        setTimeout(update, 500);
-        setTimeout(update, 2000); 
+        setTimeout(update, 1000); 
     </script>
 </body></html>
