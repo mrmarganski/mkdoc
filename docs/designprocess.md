@@ -3,7 +3,7 @@
 
 ---
 
-## Phase 1: The Problem & Requirements
+## Phase 1: The Problem & Requirements (WEEK 1)
 *The foundation of any good robot starts before you ever touch a tool.*
 
 * **1. Define the Problem** <span style="color: var(--md-primary-fg-color);">:material-bullseye-arrow:</span>
@@ -21,7 +21,7 @@
 
 ---
 
-## Phase 2: Design & Prototyping
+## Phase 2: Design & Prototyping (WEEK 1 & 2)
 *Where ideas turn into physical geometry.*
 
 !!! tip "No Bad Ideas in Brainstorming"
@@ -41,7 +41,7 @@
 
 ---
 
-## Phase 3: Testing & Refinement
+## Phase 3: Testing & Refinement (WEEK 2 & 3)
 *Failing fast to succeed sooner.*
 
 * **7. Test and Evaluate** <span style="color: var(--md-primary-fg-color);">:material-test-tube:</span>
@@ -54,7 +54,7 @@
 
 ---
 
-## Phase 4: Production & Maintenance
+## Phase 4: Production & Maintenance (WEEK 3 & 4)
 *Building the final machine and keeping it alive.*
 
 * **9. Implement and Produce** <span style="color: var(--md-primary-fg-color);">:material-factory:</span>
