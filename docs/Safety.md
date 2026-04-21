@@ -1,85 +1,101 @@
-# 🛡️ Team 2064 Safety Manual
-> **Safety is not a goal; it is a requirement.** Whether you are a rookie or a veteran, this page is your guide to ensuring everyone goes home with ten fingers and ten toes.
+# 🛡️ Safety & Certification
+> **The Panther Project Standard:** We don't just build robots; we build a safe professional environment. This page covers the essential protocols for FRC Team 2064.
 
 ---
 
-## 🚩 The "Big Three" Rules
-Before touching a tool, these three things must be true:
+## 🚩 The "Big Three" Non-Negotiables
+Before you step onto the shop floor, ensure you meet these requirements. Failure to follow these results in immediate loss of shop privileges.
 
-1. **Eye Protection:** Safety glasses ON the moment you enter the shop. 
-2. **Proper Attire:** No loose clothing, no jewelry, and **closed-toe shoes only**.
-3. **Hair Tied Back:** Long hair must be secured to prevent entanglement in rotating machinery.
+<div class="grid cards" markdown>
+
+-   :material-eye-check: **Eye Protection**
+    ---
+    Safety glasses must be worn **at all times** in the shop. No exceptions for "just watching."
+-   :material-shoe-print: **Footwear**
+    ---
+    Closed-toe shoes only. Crocs, sandals, or mesh sneakers are not permitted near heavy machinery.
+-   :material-content-cut: **Entanglement**
+    ---
+    Long hair must be tied back. Hoodies with strings must be tucked in or removed. No dangling jewelry.
+
+</div>
 
 ---
 
 ## 🛠️ Shop-Specific Safety
-Use the tabs below to review safety protocols for different areas of our workspace.
+*Select a zone below to review its specific safety requirements.*
 
-=== "General Hand Tools"
-    * **Cutting:** Always cut *away* from your body.
-    * **Sharpness:** A dull tool is more dangerous than a sharp one because it requires more force.
-    * **Storage:** Return tools to their designated shadows in the closet when finished.
-
-=== "Machine Tools"
+=== "🪚 Machine Tools"
     !!! danger "Machine Training Required"
-        You are **NOT** permitted to operate the Bandsaw, Lathe, or CNC Router without a signature from Mr. Marganski.
+        You are **NOT** permitted to operate the Bandsaw, Lathe, or CNC Router without a signature from **Mr. Marganski**. 
 
-    * **Bandsaw:** Keep fingers at least 3 inches from the blade. Use a push stick for small pieces.
-    * **CNC Router:** Never leave the machine unattended while it is running. Ensure the vacuum system is active.
-    * **Grinders:** Always use face shields in addition to safety glasses.
+    <div class="grid cards" markdown>
+    -   **Bandsaw**
+        ---
+        * Keep fingers at least 3" from the blade.
+        * Use a push stick for small workpieces.
+        * Clear scrap only when the blade has **completely stopped**.
+    -   **CNC Router (Stepcraft)**
+        ---
+        * Never leave the machine unattended while running.
+        * Ensure the soundproofing enclosure is closed.
+        * Double-check material clamping before hitting 'Start'.
+    -   **Lathe & Milling**
+        ---
+        * **NO GLOVES.** Gloves can get caught in rotating spindles.
+        * Always use a face shield for chip-heavy operations.
+        * Remove the chuck key immediately after use.
+    </div>
 
-=== "Battery & Electrical"
-    * **Leaking Batteries:** If a battery is cracked or leaking, notify a mentor immediately. Use the "Battery Spill Kit" (Baking Soda).
-    * **Charging:** Only charge batteries on the designated fire-resistant shelf.
-    * **Wiring:** Ensure all FRC robot wiring is insulated. Never "hot-wire" a motor directly to a battery without a breaker.
+=== "🔌 Battery & Electrical"
+    !!! info "Battery Handling"
+        Our 12V SLA batteries are capable of dumping hundreds of amps. Treat them with respect.
+
+    * **Leaking Batteries:** If a battery is dropped and cracks, notify a mentor. Use the **Baking Soda** kit to neutralize the acid.
+    * **Charging:** Use only the designated charging station. If a battery feels excessively hot, unplug it.
+    * **Wiring:** All custom wiring for the XRP or FRC robot must be crimped or soldered properly to prevent shorts.
+
+=== "🔧 General Hand Tools"
+    * **The "Away" Rule:** Always cut or chisel *away* from your body and others.
+    * **Sharpness:** Keep tools sharp. A dull blade requires more force, which leads to slips and accidents.
+    * **Shadow Board:** We use the **Closet Organization Method**. If a tool isn't in your hand, it should be in its "shadow" in the closet.
 
 ---
 
-## 📢 Emergency Procedures
+## 🧠 Safety Knowledge Check
+*Take this quiz to verify your understanding. You must score 3/3 to be shop-ready.*
 
-| Situation | Action to Take |
-| :--- | :--- |
-| **Minor Cut** | Clean with antiseptic, apply bandage, and log in the First Aid kit. |
-| **Eye Injury** | Use the Eye Wash Station for 15 minutes. Notify a mentor. |
-| **Fire** | Shout "FIRE!", evacuate the room, and pull the alarm. |
-| **Battery Leak** | Neutralize with baking soda. Do not touch with bare hands. |
-
----
-
-## 🧠 Safety Certification Quiz
-*Test your knowledge below. Select your answers, then click the "Check Results" button.*
-
-<div id="quiz-container" style="background: #2e303e; padding: 20px; border-radius: 10px; border: 1px solid #ff1744;">
+<div id="quiz-container" style="background: #1e1e2e; padding: 25px; border-radius: 15px; border: 2px solid #ff1744; margin-top: 20px;">
     
     <div class="question">
-        <p><strong>1. What is the minimum distance your fingers should be from a Bandsaw blade?</strong></p>
-        <input type="radio" name="q1" value="0"> 1 inch <br>
-        <input type="radio" name="q1" value="1"> 3 inches <br>
-        <input type="radio" name="q1" value="0"> 10 inches
+        <p style="color: #ff1744; font-weight: bold;">1. What is the protocol for scrap removal on the bandsaw?</p>
+        <input type="radio" name="q1" value="0"> Use your fingers while it's cutting <br>
+        <input type="radio" name="q1" value="0"> Use a brush while it's spinning <br>
+        <input type="radio" name="q1" value="1"> Wait until the blade has completely stopped <br>
     </div>
 
-    <hr>
+    <hr style="opacity: 0.2; margin: 20px 0;">
 
     <div class="question">
-        <p><strong>2. What should you do if an FRC battery is dropped and begins to leak?</strong></p>
-        <input type="radio" name="q2" value="0"> Wipe it up with a paper towel <br>
-        <input type="radio" name="q2" value="1"> Notify a mentor and use baking soda <br>
-        <input type="radio" name="q2" value="0"> Put it in the trash immediately
+        <p style="color: #ff1744; font-weight: bold;">2. Which item is strictly FORBIDDEN when operating the Lathe?</p>
+        <input type="radio" name="q2" value="1"> Gloves <br>
+        <input type="radio" name="q2" value="0"> Safety Glasses <br>
+        <input type="radio" name="q2" value="0"> Short Sleeves <br>
     </div>
 
-    <hr>
+    <hr style="opacity: 0.2; margin: 20px 0;">
 
     <div class="question">
-        <p><strong>3. When are safety glasses required in the shop?</strong></p>
-        <input type="radio" name="q3" value="0"> Only when using power tools <br>
-        <input type="radio" name="q3" value="1"> At all times <br>
-        <input type="radio" name="q3" value="0"> Only during competition
+        <p style="color: #ff1744; font-weight: bold;">3. What do you use to neutralize a leaking lead-acid battery?</p>
+        <input type="radio" name="q3" value="0"> Water <br>
+        <input type="radio" name="q3" value="1"> Baking Soda <br>
+        <input type="radio" name="q3" value="0"> Paper Towels <br>
     </div>
 
     <br>
-    <button onclick="calculateScore()" style="background: #ff1744; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">Check Results</button>
+    <button onclick="calculateScore()" style="background: #ff1744; color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; font-weight: bold; width: 100%;">SUBMIT FOR CERTIFICATION</button>
     
-    <p id="result-display" style="margin-top: 15px; font-weight: bold; font-size: 1.2em;"></p>
+    <p id="result-display" style="margin-top: 20px; font-weight: bold; font-size: 1.3em; text-align: center;"></p>
 </div>
 
 <script>
@@ -95,14 +111,13 @@ function calculateScore() {
     if (q3 && q3.value == "1") score++;
 
     const display = document.getElementById('result-display');
-    display.innerHTML = "Your Score: " + score + "/" + total;
     
     if (score === total) {
         display.style.color = "#4caf50";
-        display.innerHTML += " - You're Safety Certified! ✅";
+        display.innerHTML = "SCORE: " + score + "/" + total + " - CERTIFIED ✅<br><span style='font-size: 0.8em;'>See Mr. Marganski for your shop badge.</span>";
     } else {
         display.style.color = "#ff9100";
-        display.innerHTML += " - Please review the manual and try again. ❌";
+        display.innerHTML = "SCORE: " + score + "/" + total + " - REVIEW REQUIRED ❌<br><span style='font-size: 0.8em;'>Check the tabs above and try again.</span>";
     }
 }
 </script>
