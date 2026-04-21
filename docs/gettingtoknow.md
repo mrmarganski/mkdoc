@@ -14,7 +14,7 @@ Upon start up (when power is applied to the XRP either via battery or USB), the 
 3. After this, the XRP is ready for use.
 
 !!! note
-    Your wiring should be good to go if you watched the video, this page is for technical reference and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are, this page is a good start, otherwise, you can go to the next step at this point to learn to deploy code to drive the XRP robot. 
+    Your wiring should be good to go if you watched the build the XRP video, information below is for technical reference and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are, this page is a good start, otherwise, you can go to the next step at this point to learn to deploy code to drive the XRP robot. 
 
 ## Hardware, Sensors and GPIO
 
