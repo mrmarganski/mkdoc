@@ -1,8 +1,14 @@
 # Shooter Design
 We will make the shooter concept together, to follow a design process for a physical product we will all make together.  Following these steps will help you successufully achieve a working product, but feel free to iterate on your own as well -just be sure to not veer to far off and return to this tutorial to complete this challenge.
 
-![Ping Pong Sample](trim.598D03AA-5785-42DF-A439-11AA0E322D4C.gif){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
-<p align="center">Testing Ping Pong Shooter.</p>
+<div style="text-align: center; margin: 20px auto;">
+  <img 
+    src="trim.598D03AA-5785-42DF-A439-11AA0E322D4C.gif" 
+    alt="Ping Pong Sample" 
+    style="max-width: 400px; width: 100%; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); display: block; margin: 0 auto;"
+  >
+  <p style="margin-top: 10px; color: #666;">Testing Ping Pong Shooter.</p>
+</div>
 
 ## Main Components to Create
 
