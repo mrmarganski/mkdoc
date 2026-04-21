@@ -15,11 +15,11 @@ theme:
     code: Roboto Mono
   logo: img/logo.png
   favicon: img/favicon.ico
-  features:  # <- THIS MUST BE INDENTED HERE
+  features:
     - content.code.copy
     - content.tabs.link
-    - navigation.sections
-    - navigation.expand
+    - navigation.sections  # This groups your items into collapsible sections
+    # - navigation.expand  # REMOVED: Removing this allows sections to stay collapsed until clicked
     - navigation.top
     - navigation.path
     - navigation.footer
