@@ -4,25 +4,18 @@
 
 XRP Bots are specialized robots designed for the FIRST Robotics Competition (FRC). In this section, you'll learn how to create and develop your own XRP bot using the latest tools and technology available to our team.
 
-## Key Components
+## XRP vs. FRC: Comparison Table
+---
 
-1. **Chassis**
-   - The base structure of your robot.
-   - It can be made from different materials, but XRP bots are 3D Printed with PLA.
----
-2. **Drive Train**
-   - This is the mechanism that allows your robot to move.
-   - Common types: tank drive, mecanum, and swerve.  XRP Uses a 2-wheel Drivetrain similar to tank drive.
----
-3. **Programming**
-   - Learn how to code your robot to make it do what you want.
-   - We use **Java** - and more specifcally the **WPILib** for programming both FRC & XRP robots.
----
-4. **Electronics**
-   - Wiring and connecting all the components to the robot's control system.
----
-5. **Sensors and Actuators**
-   - Use sensors like encoders, cameras, and gyros to gather data and control the robot.
-   - Actuators control movement, like motors and servos.
----
+| Key Component | XRP Robot (The Prototype) | FRC Robot (The Competition Machine) |
+| :--- | :--- | :--- |
+| **Chassis** | Small-scale base; **3D Printed** with PLA. | Heavy-duty industrial frame; **Aluminum** extrusions or plate. |
+| **Drive Train** | **2-wheel Differential** (similar to Tank). Uses small plastic wheels and a caster. | **Tank, Mecanum, or Swerve**; uses high-traction rubber or TPU wheels. |
+| **Programming** | **Java & WPILib**. Runs on a Raspberry Pi Pico W. | **Java & WPILib**. Runs on a National Instruments **roboRIO 2.0**. |
+| **Electronics** | **All-in-one** XRP Controller board. Simple plug-and-play wiring. | **Modular system**: PDH, roboRIO, Radio, and independent Motor Controllers. |
+| **Sensors** | Built-in **Encoders, Gyro, and Ultrasonic**. | Industrial **Encoders, NAVX Gyros**, and **Limelight/AprilTag** cameras. |
+| **Actuators** | Hobby-grade **DC Motors** and 9g **Servos**. | Powerful **Brushless Motors** (NEOs/Falcons) and pneumatic pistons. |
+
+> ### 💡 Why are they so similar?
+> We use the XRP because the **logic** is identical. If you can code an autonomous path on the XRP using WPILib, you have already learned 90% of what it takes to code the 125lb competition robot.
 
