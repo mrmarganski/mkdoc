@@ -82,6 +82,7 @@ nav:
       - Safety Overview: Safety.md
       - Show Your Skills: Safetyquiz.md
   - FRC Robot Basics:
+      - Engineering Design Process: designprocess.md
       - Bumpers: bumpers.md
   - Hand Tools:
       - Closet Organization Method: Closet.md
