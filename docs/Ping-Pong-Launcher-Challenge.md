@@ -3,11 +3,11 @@ We will make the shooter concept together, to follow a design process for a phys
 
 <div style="text-align: center; margin: 20px auto;">
   <img 
-    src="..img/trim.598D03AA-5785-42DF-A439-11AA0E322D4C.gif" 
+    src="docs/img/trim.598D03AA-5785-42DF-A439-11AA0E322D4C.gif" 
     alt="Ping Pong Sample" 
     style="max-width: 400px; width: 100%; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); display: block; margin: 0 auto;"
   >
-  <p style="margin-top: 10px; color: #666;">Testing Ping Pong Shooter.</p>
+  <p style="margin-top: 10px; color: #666; font-style: italic;">Testing Ping Pong Shooter.</p>
 </div>
 
 ## Main Components to Create
