@@ -1,8 +1,9 @@
 # Build The Bot!!
 
 ## Building Your XRP Bot
+
 !!! note
-   You should already have an assembled XRP bot - but this video is a good reference in case troubleshooting or repairs are needed - Watch if this is your first time using XRP.
+    You should already have an assembled XRP bot - but this video is a good reference in case troubleshooting or repairs are needed - Watch if this is your first time using XRP.
 
 !!! warning
     Stop the video at 10:00 marker. We will not be coding in Python or Block format
