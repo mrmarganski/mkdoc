@@ -12,8 +12,10 @@
     * **Alliance Identification:** They clearly display our team number and alliance color to the referees.
 
 * **The "Golden Rules" of Bumpers** <span style="color: var(--md-primary-fg-color);">:material-ruler-square:</span>
+
     !!! danger "Strict Inspection Item"
         Bumpers are heavily scrutinized during Robot Inspection. If our bumpers fail, **the robot does not play**. Always verify these against the *current year's FRC Game Manual*.
+  
     * **Wood Backing:** Must be 3/4-inch thick (nominal) plywood.
     * **Height:** Typically must be exactly 5 inches tall.
     * **Bumper Foam:** Must use approved Foam Profiles (e.g., EPE, EVA, or PE foam).
