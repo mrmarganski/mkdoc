@@ -64,7 +64,20 @@ Position your approved foam profiles against the wood backing, ensuring they cov
 * Use gaffer tape or masking tape to bind the foam securely to the wood backing. 
 * **Corners:** First cuts matter! Miter the ends of the foam at 45-degree angles so they meet perfectly at the corners of the robot. Ensure there are no unprotected gaps.
 
-### 4. Wrap the Fabric
+### 4. Iron on Numbers
+Lay the Cordura fabric face-down on a clean table. Place the wood/foam assembly on top.
+1. Pull the fabric tightly over the foam to the back of the wood.
+2. Tape the center first, pulling the fabric taut as you move outward.
+3. Mark center location of bumper for number alignment, where numbers will be fixed with LIGHT pencil line only - no marker/pen
+4. **The Corners:** Treat the corners like wrapping a present. Fold the excess fabric neatly, ensure it doesn't bulge beyond the thickness limit, and staple heavily.
+5. Work around the fabric having marked all center lines of where numbers will be placed on bothe bumper sets
+6. Dry fit - lay numbers on fabric to ensure location and alignment (Do not Iron yet) - to be straight and center - redo any steps if there are issues with this.
+7. Set up iron and press onto fabric the set time (Create tutorial for just ironing)
+8. Let Cool
+9. Remove Plastic backing when cooled down
+10. Repeat for all sided of all bumpers
+
+### 5. Wrap the Fabric
 Lay the Cordura fabric face-down on a clean table. Place the wood/foam assembly on top.
 1. Pull the fabric tightly over the foam to the back of the wood.
 2. Staple the center first, pulling the fabric taut as you move outward.
