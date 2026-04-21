@@ -18,6 +18,7 @@ Welcome to the team! This guide is for new members of our FRC robotics club.
 ## Why mkdocs?
 
 - Mkdocs is really clean and cool
+- Extremely powerful and useful search tool that automatically searches for anything you type and brings you to page
 - uses markdown methods and intigrates web developmnt opportunities 
 - bypasses schools github filter 
 - can be a resource utilized by all members providing a single hub for documentation instead of mutiple services 
