@@ -1,7 +1,8 @@
 # Shooter Design
 We will make the shooter concept together, to follow a design process for a physical product we will all make together.  Following these steps will help you successufully achieve a working product, but feel free to iterate on your own as well -just be sure to not veer to far off and return to this tutorial to complete this challenge.
 
-..img/trim.598D03AA-5785-42DF-A439-11AA0E322D4C.gif
+![Winch](trim.598D03AA-5785-42DF-A439-11AA0E322D4C.gif){: style="max-width:400px; display:block; margin: 20px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
+<p align="center">Winch Roller to pull/release a string for shooter angle control.</p>
 
 ## Main Components to Create
 
