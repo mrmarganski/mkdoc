@@ -14,7 +14,7 @@ XRP Bots are specialized robots designed for the FIRST Robotics Competition (FRC
 | **Programming** | **Java & WPILib**. Runs on a Raspberry Pi Pico W. | **Java & WPILib**. Runs on a National Instruments **roboRIO 2.0**. |
 | **Electronics** | **All-in-one** XRP Controller board. Simple plug-and-play wiring. | **Modular system**: PDH, roboRIO, Radio, and independent Motor Controllers. |
 | **Sensors** | Built-in **Encoders, Gyro, and Ultrasonic**. | Industrial **Encoders, NAVX Gyros**, and **Limelight/AprilTag** cameras. |
-| **Actuators** | Hobby-grade **DC Motors** and 9g **Servos**. | Powerful **Brushless Motors** (NEOs/Falcons) and pneumatic pistons. |
+| **Actuators** | Hobby-grade **DC Motors** and 9g **Servos**. | Powerful **Brushless Motors** (NEOs/Kraken's) and pneumatic pistons. |
 
 > ### 💡 Why are they so similar?
 > We use the XRP because the **logic** is identical. If you can code an autonomous path on the XRP using WPILib, you have already learned 90% of what it takes to code the 125lb competition robot.
