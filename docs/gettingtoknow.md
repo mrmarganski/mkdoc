@@ -5,6 +5,11 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nlk52QdoasE?si=OOVQTXUfxC7waexL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+!!! info "WPILib Official Documentation"
+    For firmware updates, advanced programming guides, and the full Java library reference, the official WPILib site is your best resource.
+
+[View the WPILib XRP Guide ↗️](https://docs.wpilib.org/en/stable/docs/xrp-robot/index.html){ .md-button .md-button--primary }
+
 Upon start up (when power is applied to the XRP either via battery or USB), the following will happen:
 
 1. The IMU will calibrate itself. This lasts approximately 3-5 seconds, and will be indicated by the green LED blinking rapidly. Ideally, the XRP should be placed on a flat surface prior to power up, and if necessary, users can hit the reset button to restart the firmware and IMU calibration process.
@@ -12,6 +17,8 @@ Upon start up (when power is applied to the XRP either via battery or USB), the 
 2. The network will be configured, depending on the configuration settings and if you successfully followed the steps in the video. See the section on [XRP Web UI Interface](https://docs.wpilib.org/en/stable/docs/xrp-robot/web-ui.html) for more information on how to configure the network settings if having issues. By default, the XRP will broadcast its own WiFi Access Point and you can connect to its' WIFI when ready to **SIMULATE** and test code.
 
 3. After this, the XRP is ready for use.
+
+
 
 !!! note
     Your wiring should be good to go if you watched the build the XRP video, information below is for technical reference and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are, this page is a good start, otherwise, you can go to the next step at this point to learn to deploy code to drive the XRP robot. 
