@@ -8,7 +8,7 @@
 !!! info "WPILib Official Documentation"
     For firmware updates, advanced programming guides, and the full Java library reference, the official WPILib site is your best resource.
 
-[View the WPILib XRP Guide ↗️](https://docs.wpilib.org/en/stable/docs/xrp-robot/index.html){ .md-button .md-button--primary }
+[View the WPILib XRP Guide ↗️](https://docs.wpilib.org/en/stable/docs/xrp-robot/index.html){ .md-button .md-button--primary target="_blank" }
 
 Upon start up (when power is applied to the XRP), the following will happen:
 
@@ -24,7 +24,7 @@ Upon start up (when power is applied to the XRP), the following will happen:
 !!! info "WPILib Installation Documentation"
     Link to site for installing VSCode/WPILib onto a personal computer - this is required to be a Macbook or Windows machine, check link for further requirements on Version support and updates.
 
-[View the WPILib Installation Guide ↗️](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html){ .md-button .md-button--primary }
+[View the WPILib Installation Guide ↗️](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html){ .md-button .md-button--primary target="_blank" }
 
 !!! note
     Your XRP bot build, wiring, WPIlib install and firmware should be good to go if you got to this point, You are ready to code the robot! Information below is for technical reference as a programmer - and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are and what you have access to on the XRP bot in programming states, scrolling down this page is a good start to familiarize yourself, otherwise, you can go to the next step at this point to learn to open and deploy code to drive the XRP robot. 
