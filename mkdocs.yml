@@ -18,8 +18,8 @@ theme:
   features:
     - content.code.copy
     - content.tabs.link
-    - navigation.sections  # This groups your items into collapsible sections
-    # - navigation.expand  # REMOVED: Removing this allows sections to stay collapsed until clicked
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.path
     - navigation.footer
