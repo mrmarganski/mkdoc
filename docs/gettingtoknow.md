@@ -21,6 +21,11 @@ Upon start up (when power is applied to the XRP), the following will happen:
 !!! note
     Your XRP bot will be fully wireless at this point, and no longer will need to be plugged into a computer.  All code is sent wirelessly and simulating the robot is completed over WIFI.
 
+!!! info "WPILib Installation Documentation"
+    Link to site for installing VSCode/WPILib onto a personal computer - this is required to be a Macbook or Windows machine, check link for further requirements on Version support and updates.
+
+[View the WPILib Installation Guide ↗️](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html){ .md-button .md-button--primary }
+
 !!! note
     Your wiring should be good to go if you watched the build the XRP video, information below is for technical reference and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are, this page is a good start, otherwise, you can go to the next step at this point to learn to deploy code to drive the XRP robot. 
 
