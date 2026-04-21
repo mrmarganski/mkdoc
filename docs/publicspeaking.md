@@ -1,3 +1,4 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dBT4pyZE-Nc?si=-UciQOdOWkBUGMdq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 !!! info "External Resource"
     The link below will take you out of the Panther Project guide and into a course regarding Public Speaking and steps to improve your confidence and speaking skills. **Keep both tabs open!**
