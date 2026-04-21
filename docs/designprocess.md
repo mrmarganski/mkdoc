@@ -6,16 +6,16 @@
 ## Phase 1: The Problem & Requirements
 *The foundation of any good robot starts before you ever touch a tool.*
 
-* **1. Define the Problem** :material-bullseye-arrow:
+* **1. Define the Problem** <span style="color: var(--md-primary-fg-color);">:material-bullseye-arrow:</span>
     * **Identify the Need:** Understand the exact problem or need that requires a solution.
     * **Problem Statement:** Create a clear and concise problem statement.
     * **Constraints and Criteria:** Determine the constraints (weight, budget) and criteria (what makes it successful).
 
-* **2. Research and Gather Information** :material-book-search:
+* **2. Research and Gather Information** <span style="color: var(--md-primary-fg-color);">:material-book-search:</span>
     * **Background Research:** Watch past FRC game reveals and research existing mechanisms.
     * **Stakeholder Input:** Gather information from the drive team and mentors to understand their needs.
 
-* **3. Specify Requirements** :material-format-list-checks:
+* **3. Specify Requirements** <span style="color: var(--md-primary-fg-color);">:material-format-list-checks:</span>
     * **Functional Requirements:** Define exactly what the solution must do.
     * **Design Criteria:** Establish the exact criteria that the final design must meet to pass inspection.
 
@@ -25,17 +25,17 @@
 *Where ideas turn into physical geometry.*
 
 !!! tip "No Bad Ideas in Brainstorming"
-    Throw everything at the whiteboard. A crazy idea might just be the spark that leads to the winning mechanism.
+    Throw everything at the whiteboard. A crazy idea might just be the spark that leads to the winning mechanism. Yes Griffin, even a trebuchet!!
 
-* **4. Brainstorm Ideas** :material-head-lightbulb:
+* **4. Brainstorm Ideas** <span style="color: var(--md-primary-fg-color);">:material-head-lightbulb:</span>
     * **Idea Generation:** Brainstorm multiple potential solutions. 
     * **Team Collaboration:** Work in sub-teams to combine diverse perspectives.
 
-* **5. Evaluate and Select Solutions** :material-scale-balance:
+* **5. Evaluate and Select Solutions** <span style="color: var(--md-primary-fg-color);">:material-scale-balance:</span>
     * **Concept Evaluation:** Assess each idea against the requirements from Phase 1.
     * **Feasibility Analysis:** Consider factors such as cost, time, and shop resources (e.g., CNC time).
 
-* **6. Develop and Prototype** :material-printer-3d:
+* **6. Develop and Prototype** <span style="color: var(--md-primary-fg-color);">:material-printer-3d:</span>
     * **Detailed Design:** Develop detailed designs in Onshape.
     * **Prototype Creation:** Build functional prototypes with wood or PLA to prove the geometry works.
 
@@ -44,11 +44,11 @@
 ## Phase 3: Testing & Refinement
 *Failing fast to succeed sooner.*
 
-* **7. Test and Evaluate** :material-test-tube:
+* **7. Test and Evaluate** <span style="color: var(--md-primary-fg-color);">:material-test-tube:</span>
     * **Performance Testing:** Conduct rigorous testing to ensure it meets requirements.
     * **User Testing:** Have the drive team test the mechanism to validate usability.
 
-* **8. Refine and Optimize** :material-chart-line:
+* **8. Refine and Optimize** <span style="color: var(--md-primary-fg-color);">:material-chart-line:</span>
     * **Design Refinement:** Make adjustments to the CAD and physical model based on testing feedback.
     * **Cost-Benefit Analysis:** Reevaluate the solution in terms of weight and efficiency.
 
@@ -57,13 +57,13 @@
 ## Phase 4: Production & Maintenance
 *Building the final machine and keeping it alive.*
 
-* **9. Implement and Produce** :material-factory:
+* **9. Implement and Produce** <span style="color: var(--md-primary-fg-color);">:material-factory:</span>
     * **Final Design:** Prepare detailed documentation for final manufacturing.
     * **Implementation:** Begin final assembly and wiring of the mechanism.
 
-* **10. Communicate and Document** :material-file-document-edit:
+* **10. Communicate and Document** <span style="color: var(--md-primary-fg-color);">:material-file-document-edit:</span>
     * **Documentation:** Create comprehensive documentation (like this MkDocs site!) for judges and sponsors.
 
-* **11. Monitor and Evaluate** :material-eye-check:
+* **11. Monitor and Evaluate** <span style="color: var(--md-primary-fg-color);">:material-eye-check:</span>
     * **Monitor Performance:** Continuously monitor the robot's performance during matches.
     * **Maintenance:** Plan for regular pit maintenance to address emerging issues.
