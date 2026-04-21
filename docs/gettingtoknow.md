@@ -1,8 +1,3 @@
-# Getting to know your XRP
-
-!!! note
-    Your wiring should be good to go if you watched the video, this page is for technical reference and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are, this page is a good start. 
-
 ## Booting up the XRP
 
 !!! warning
@@ -17,6 +12,9 @@ Upon start up (when power is applied to the XRP either via battery or USB), the 
 2. The network will be configured, depending on the configuration settings and if you successfully followed the steps in the video. See the section on [XRP Web UI Interface](https://docs.wpilib.org/en/stable/docs/xrp-robot/web-ui.html) for more information on how to configure the network settings if having issues. By default, the XRP will broadcast its own WiFi Access Point and you can connect to its' WIFI when ready to **SIMULATE** and test code.
 
 3. After this, the XRP is ready for use.
+
+!!! note
+    Your wiring should be good to go if you watched the video, this page is for technical reference and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are, this page is a good start, otherwise, you can go to the next step at this point to learn to deploy code to drive the XRP robot. 
 
 ## Hardware, Sensors and GPIO
 
