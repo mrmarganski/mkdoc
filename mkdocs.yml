@@ -67,12 +67,11 @@ nav:
       - Wiring & Hardware: gettingtoknow.md
       - Basic Movement: basicdriveXRP.md
       - Show your skills: XRPdrivechallenge.md
-  - XRP Ping Pong Challenge:
-      - Design Concepts: Ping-Pong-Launcher-Challenge.md
-      - Assembly Guide: PingPongAssemble.md
-      - Wiring Guide: wiringpingpongxrp.md 
+      - XRP Game Design Concepts: Ping-Pong-Launcher-Challenge.md
+      - XRP Game Assembly Guide: PingPongAssemble.md
+      - XRP Game Wiring Guide: wiringpingpongxrp.md 
       - Coding XRP for Challenge: pingpongcode.md
-      - Show Your Skills: PingPongCompetition.md
+      - Ping Pong Game Rules: PingPongCompetition.md
   - CAD & Design:
       - FRC Design CAD: CAD.md
       - Show Your Skills: cadonshapecourse.md
