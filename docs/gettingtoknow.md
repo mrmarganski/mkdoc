@@ -5,6 +5,11 @@
 
 ## Booting up the XRP
 
+!!! warning
+    Stop the video at 14:20 marker. We will **NOT** be coding in Time Based format!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nlk52QdoasE?si=OOVQTXUfxC7waexL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Upon start up (when power is applied to the XRP either via battery or USB), the following will happen:
 
 1. The IMU will calibrate itself. This lasts approximately 3-5 seconds, and will be indicated by the green LED blinking rapidly. Ideally, the XRP should be placed on a flat surface prior to power up, and if necessary, users can hit the reset button to restart the firmware and IMU calibration process.
