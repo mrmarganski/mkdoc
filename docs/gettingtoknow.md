@@ -10,7 +10,7 @@
 
 [View the WPILib XRP Guide ↗️](https://docs.wpilib.org/en/stable/docs/xrp-robot/index.html){ .md-button .md-button--primary }
 
-Upon start up (when power is applied to the XRP either via battery or USB), the following will happen:
+Upon start up (when power is applied to the XRP), the following will happen:
 
 1. The IMU will calibrate itself. This lasts approximately 3-5 seconds, and will be indicated by the green LED blinking rapidly. Ideally, the XRP should be placed on a flat surface prior to power up, and if necessary, users can hit the reset button to restart the firmware and IMU calibration process.
 
@@ -18,7 +18,8 @@ Upon start up (when power is applied to the XRP either via battery or USB), the 
 
 3. After this, the XRP is ready for use.
 
-
+!!! note
+    Your XRP bot will be fully wireless at this point, and no longer will need to be plugged into a computer.  All code is sent wirelessly and simulating the robot is completed over WIFI.
 
 !!! note
     Your wiring should be good to go if you watched the build the XRP video, information below is for technical reference and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are, this page is a good start, otherwise, you can go to the next step at this point to learn to deploy code to drive the XRP robot. 
