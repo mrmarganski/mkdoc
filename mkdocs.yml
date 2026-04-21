@@ -64,8 +64,8 @@ nav:
   - XRP Robotics:
       - Introduction: xrp-bot.md
       - Basic XRP Build Guide: Build.md
-      - Overview of Wiring & Hardware: gettingtoknow.md
-      - JAVA Code for Basic Movement: basicdriveXRP.md
+      - Install WPIlib for XRP: gettingtoknow.md
+      - Command Based XRP Code: basicdriveXRP.md
       - Show your skills: XRPdrivechallenge.md
       - ADVANCED XRP - Game Design Concepts: Ping-Pong-Launcher-Challenge.md
       - ADVANCED XRP - Game Assembly Guide: PingPongAssemble.md
