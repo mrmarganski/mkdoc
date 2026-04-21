@@ -1,4 +1,3 @@
-
 # 🛑 FRC Bumpers: Construction & Rules
 > **The First Line of Defense:** Bumpers aren't just an aesthetic requirement; they are a critical engineering component. A well-built set of bumpers protects our robot, complies with strict FIRST rules, and makes Team 2064 look professional on the field.
 
@@ -18,7 +17,7 @@ Bumpers serve three main purposes in the FIRST Robotics Competition:
 
 * **Wood Backing:** Must be constructed from **3/4-inch** thick (nominal) plywood or solid, robust wood. (No particle board).
 * **Height:** Bumpers typically must be exactly **5 inches** tall (verify tolerance in the current manual).
-* **Bumper Foam:** The rules have shifted! We no longer use standard pool noodles. You must use approved **Foam Profiles** (such as specific EPE, EVA, or PE foam) that meet the density, dimensional, and cross-section requirements outlined in the manual.
+* **Bumper Foam:** You must use approved **Foam Profiles** (such as specific EPE, EVA, or PE foam) that meet the density, dimensional, and cross-section requirements outlined in the manual.
 * **Fabric:** Must be a rugged, smooth cloth. (We standardly use 1000 Denier Cordura).
 * **Weight Limit:** The entire bumper assembly has a strict weight limit (usually around **15 lbs**, verify in current manual).
 
@@ -33,6 +32,7 @@ Bumpers serve three main purposes in the FIRST Robotics Competition:
 
 === "Fabric & Fasteners"
     * 1000D Cordura Fabric (Red and Blue, or Reversible)
+    * Iron-on Vinyl Numbers
     * Heavy-duty staples (3/8" or 1/2")
     * Wood glue
 
@@ -45,6 +45,7 @@ Bumpers serve three main purposes in the FIRST Robotics Competition:
     * Bandsaw or Table Saw
     * Pneumatic Staple Gun
     * Cordless Drill & Driver
+    * Iron
     * Clamps
 
 ---
@@ -64,25 +65,20 @@ Position your approved foam profiles against the wood backing, ensuring they cov
 * Use gaffer tape or masking tape to bind the foam securely to the wood backing. 
 * **Corners:** First cuts matter! Miter the ends of the foam at 45-degree angles so they meet perfectly at the corners of the robot. Ensure there are no unprotected gaps.
 
-### 4. Iron on Numbers
+### 4. Wrap the Fabric & Iron on Numbers
 Lay the Cordura fabric face-down on a clean table. Place the wood/foam assembly on top.
+
 1. Pull the fabric tightly over the foam to the back of the wood.
 2. Tape the center first, pulling the fabric taut as you move outward.
-3. Use ducttape/gaffer tape to set fabric to backing temporarily but to prevent fabric from shifting while you work
-4. Mark center location of bumper for number alignment, where numbers will be fixed with LIGHT pencil line only - no marker/pen
+3. Use duct tape/gaffer tape to set fabric to backing temporarily to prevent fabric from shifting while you work.
+4. Mark center location of bumper for number alignment, where numbers will be fixed, with a LIGHT pencil line only - no marker/pen.
 5. **The Corners:** Treat the corners like wrapping a present. Fold the excess fabric neatly, ensure it doesn't bulge beyond the thickness limit, and staple heavily.
-6. Work around the fabric having marked all center lines of where numbers will be placed on bothe bumper sets
-7. Dry fit - lay numbers on fabric to ensure location and alignment (Do not Iron yet) - to be straight and center - redo any steps if there are issues with this.
-8. Set up iron and press onto fabric the set time (Create tutorial for just ironing)
-9. Let Cool
-10. Remove Plastic backing when cooled down
-11. Repeat for all sided of all bumpers
-
-### 5. Wrap the Fabric
-Lay the Cordura fabric face-down on a clean table. Place the wood/foam assembly on top.
-1. Pull the fabric tightly over the foam to the back of the wood.
-2. Staple the center first, pulling the fabric taut as you move outward.
-3. **The Corners:** Treat the corners like wrapping a present. Fold the excess fabric neatly, ensure it doesn't bulge beyond the thickness limit, and staple heavily.
+6. Work around the fabric, marking all center lines of where numbers will be placed on both bumper sets.
+7. Dry fit - lay numbers on fabric to ensure location and alignment (Do not iron yet). They must be straight and centered. Redo any steps if there are issues with this.
+8. Set up iron and press onto fabric for the set time *(Note: See separate tutorial for detailed ironing instructions)*.
+9. Let cool completely.
+10. Remove plastic backing when cooled down.
+11. Repeat for all sides of all bumpers.
 
 ---
 
@@ -110,4 +106,4 @@ FRC rules dictate exactly how **2064** must appear on our robot.
 * **Size:** The numbers must be at least **4 inches tall** with a **1/2-inch stroke** (thickness).
 * **Color:** The numbers must be **White** (or have a white outline).
 * **Placement:** The number must be clearly visible from all 4 sides of the robot.
-* **Application:** We utilize our shop's vinyl cutter or create custom heat-transfer decals to ensure the numbers do not peel off during heavy defense.
+* **Application:** We utilize our shop's vinyl cutter and heat-transfer methods to ensure the numbers do not peel off during heavy defense.
