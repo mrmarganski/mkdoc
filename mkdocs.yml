@@ -75,13 +75,13 @@ nav:
   - CAD & Design:
       - FRC Design CAD: CAD.md
       - Show Your Skills: cadonshapecourse.md
-  - Programming:
+  - Programming for FRC:
       - FRC JAVA & WPIlib: WPIlib.md
       - Show Your Skills: advancedjava.md
   - Safety:
       - Safety Overview: Safety.md
       - Show Your Skills: Safetyquiz.md
-  - FRC Robot:
+  - FRC Robot Basics:
       - Bumpers: bumpers.md
   - Hand Tools:
       - Closet Organization Method: Closet.md
