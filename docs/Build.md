@@ -13,4 +13,4 @@
 !!! info "External Resource"
     The link below will take you out of the Panther Project guide and into the official XRP documentation. **Keep both tabs open!**
 
-[Open the Official XRP Build Guide ↗️](https://xrpusersguide.readthedocs.io/en/latest/course/building.html){ .md-button .md-button--primary }
+[Open the Official XRP Build Guide ↗️](https://xrpusersguide.readthedocs.io/en/latest/course/building.html){ .md-button .md-button--primary target="_blank" }
