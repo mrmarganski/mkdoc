@@ -12,7 +12,9 @@ With the build process complete, we need to work on loading the firmware to the 
 
 [View the WPILib XRP Guide ↗️](https://docs.wpilib.org/en/stable/docs/xrp-robot/index.html){ .md-button .md-button--primary target="_blank" }
 
-Upon start up (when power is applied to the XRP), the following will happen:
+---
+
+If you followed these steps correctly: Upon start up (when power is applied to the XRP), the following will happen:
 
 1. The IMU will calibrate itself. This lasts approximately 3-5 seconds, and will be indicated by the green LED blinking rapidly. Ideally, the XRP should be placed on a flat surface prior to power up, and if necessary, users can hit the reset button to restart the firmware and IMU calibration process.
 
