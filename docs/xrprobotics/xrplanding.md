@@ -1,12 +1,5 @@
 # XRP Bot Creation and Development
 
-<div class="grid cards" markdown>
-
--   [XRP Module 1 - Start Here ↗️](../module1/Build){ .md-button .md-button--primary target="_blank" }
--   [XRP Module 2 - Completed XRP Module 1 ↗️](../module2/Ping-Pong-Launcher-Challenge){ .md-button .md-button--primary target="_blank" }
-
-</div>
-
 ## Introduction to XRP Bots
 
 XRP Bots are specialized robots designed for the FIRST Robotics Competition (FRC). In this section, you'll learn how to create and develop your own XRP bot using the latest tools and technology available to our team.
