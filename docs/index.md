@@ -55,7 +55,7 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
 
     A questionnare to help you determine the best specialization path and steps to advance in that category to support the team.
     
-    [View Resources](resources/quiz.md){ .md-button }
+    [Take the Quiz](resources/quiz.md){ .md-button }
 
 ---
 
