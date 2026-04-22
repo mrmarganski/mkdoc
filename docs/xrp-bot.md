@@ -1,11 +1,11 @@
 # XRP Bot Creation and Development
 
-<div style="text-align: left;">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 20px;">
+  
   [Need To Complete Basic XRP Module](Build.md){ .md-button }
-</div>
 
-<div style="text-align: right;">
-  [Completed Basic XRP Module](Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary }
+  [Already Completed Basic XRP Module](Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary }
+
 </div>
 
 ## Introduction to XRP Bots
