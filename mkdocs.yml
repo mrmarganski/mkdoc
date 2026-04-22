@@ -65,16 +65,16 @@ plugins:
 nav:
   - Home: index.md
   - XRP Robotics:
-      - Introduction: xrp-bot.md
-      - Basic XRP Build Guide: Build.md
-      - Install WPIlib for XRP: gettingtoknow.md
-      - Command Based XRP Code: basicdriveXRP.md
-      - Show your skills: XRPdrivechallenge.md
-      - ADVANCED XRP - Game Design Concepts: Ping-Pong-Launcher-Challenge.md
-      - ADVANCED XRP - Game Assembly Guide: PingPongAssemble.md
-      - ADVANCED XRP - Game Wiring Guide: wiringpingpongxrp.md 
-      - ADVANCED XRP - Coding for Challenge: pingpongcode.md
-      - ADVANCED XRP - Ping Pong Game Rules: PingPongCompetition.md
+      - XRP Introduction: xrp-bot.md
+      - XRP Module 1.1 - Basic XRP Build Guide: Build.md
+      - XRP Module 1.2 - Install WPIlib for XRP: gettingtoknow.md
+      - XRP Module 1.3 - Command Based XRP Code: basicdriveXRP.md
+      - XRP Module 1.4 - Show your skills: XRPdrivechallenge.md
+      - XRP Module 2.0 - Game Design Concepts: Ping-Pong-Launcher-Challenge.md
+      - XRP Module 2.1 - Game Assembly Guide: PingPongAssemble.md
+      - XRP Module 2.2 - Game Wiring Guide: wiringpingpongxrp.md 
+      - XRP Module 2.3 - Coding for Challenge: pingpongcode.md
+      - XRP Module 2.4 - Ping Pong Game Rules: PingPongCompetition.md
   - CAD & Design:
       - FRC Design CAD: CAD.md
       - Show Your Skills: cadonshapecourse.md
