@@ -1,4 +1,4 @@
-## Booting up the XRP
+## Installing the Firmware and Booting up the XRP
 
 With the build process complete, we need to work on loading the firmware to the XRP.  To accompliosh this: The XRP will be using custom FRC firmware that enables it to communicate wirelessly and utilize the WPIlib commands.  Luckily they provide the details to accomplish this, so follow this video and guide, and you should have the XRP robot boradcasting its' own WIFI channel to connect to so we can connect and deploy code to it after this step.
 
@@ -19,6 +19,10 @@ Upon start up (when power is applied to the XRP), the following will happen:
 2. The network will be configured, depending on the configuration settings and if you successfully followed the steps in the video. See the section on [XRP Web UI Interface](https://docs.wpilib.org/en/stable/docs/xrp-robot/web-ui.html) for more information on how to configure the network settings if having issues. By default, the XRP will broadcast its own WiFi Access Point and you can connect to its' WIFI when ready to **SIMULATE** and test code.
 
 3. After this, the XRP is ready for use.
+
+## Installing WPIlib and VScode onto your Personal Computer
+
+The Computers in Room 124 will have VScode with the WPIlib libraires installed, so you are free to use them and can skip this step - but if you would like to use a personal computer or update WPIlib this step will help you with that.
 
 !!! note
     Your XRP bot will be fully wireless at this point, and no longer will need to be plugged into a computer.  All code is sent wirelessly and simulating the robot is completed over WIFI.
