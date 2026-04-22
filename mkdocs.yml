@@ -1,44 +1,122 @@
+site_name: FRC Team 2064 Robotics Guide
+site_description: Getting started in FRC!!
+site_author: Team 2064 - The Panther Project
+copyright: FRC Team 2064 ~ The Panther Project
+repo_url: https://github.com/mrmarganski/mkdoc
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: red
+    accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: img/logo.png
+  favicon: img/favicon.ico
+  features:
+    - content.code.copy
+    - content.tabs.link
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.path
+    - navigation.footer
+    - toc.integrate
+
+extra:
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/frc2064/
+
+extra_javascript:
+  - js/mermaid.min.js
+  - js/custom.js
+
+extra_css:
+  - css/custom.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji:   
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
 nav:
-  Safety:
-    - Safety: safety/Safety.md
-    - Safetyquiz: safety/Safetyquiz.md
-  XRP:
-    - xrp-bot: xrp/xrp-bot.md
-    - Build: xrp/Build.md
-    - gettingtoknow: xrp/gettingtoknow.md
-    - basicdriveXRP: xrp/basicdriveXRP.md
-    - XRPdrivechallenge: xrp/XRPdrivechallenge.md
-    - Ping-Pong-Launcher-Challenge: xrp/Ping-Pong-Launcher-Challenge.md
-    - PingPongAssemble: xrp/PingPongAssemble.md
-    - wiringpingpongxrp: xrp/wiringpingpongxrp.md
-    - pingpongcode: xrp/pingpongcode.md
-    - PingPongCompetition: xrp/PingPongCompetition.md
-  Engineering:
-    - designprocess: engineering/designprocess.md
-    - bumpers: engineering/bumpers.md
-    - CAD: engineering/CAD.md
-    - cadonshapecourse: engineering/cadonshapecourse.md
-    - WPIlib: engineering/WPIlib.md
-    - advancedjava: engineering/advancedjava.md
-  Shop:
-    - Closet: shop/Closet.md
-    - Handtools: shop/Handtools.md
-    - crimping: shop/crimping.md
-    - handtoolsquiz: shop/handtoolsquiz.md
-    - 3dprinting: shop/3dprinting.md
-    - bandsaw: shop/bandsaw.md
-    - lathe: shop/lathe.md
-    - millingmachine: shop/millingmachine.md
-    - cncrouter: shop/cncrouter.md
-    - laserengraver: shop/laserengraver.md
-    - machinelessons: shop/machinelessons.md
-  Media:
-    - cricut: media/cricut.md
-    - buttonmaker: media/buttonmaker.md
-    - photoshop: media/photoshop.md
-    - illustrator: media/illustrator.md
-    - branding: media/branding.md
-    - publicspeaking: media/publicspeaking.md
-  Resources:
-    - frckeywords: resources/frckeywords.md
-    - rubric: resources/rubric.md
+  - Home: index.md
+  
+  - Safety & Certification:
+      - Safety Overview: Safety.md
+      - Certification Quiz: Safetyquiz.md
+
+  - XRP Robotics (Starter Bot):
+      - "Part 1: The Basics":
+          - XRP Introduction: xrp-bot.md
+          - Build Guide: Build.md
+          - Installing WPILib: gettingtoknow.md
+          - Command-Based Code: basicdriveXRP.md
+          - Skill Check - Drive Challenge: XRPdrivechallenge.md
+      - "Part 2: Ping Pong Challenge":
+          - Game Concepts: Ping-Pong-Launcher-Challenge.md
+          - Assembly Guide: PingPongAssemble.md
+          - Wiring Guide: wiringpingpongxrp.md
+          - Coding the Launcher: pingpongcode.md
+          - The Competition: PingPongCompetition.md
+
+  - FRC Engineering:
+      - Robot Basics:
+          - Engineering Design Process: designprocess.md
+          - Bumper Construction: bumpers.md
+      - CAD Design:
+          - FRC Design in Onshape: CAD.md
+          - Skill Check - CAD Course: cadonshapecourse.md
+      - Programming:
+          - Java & WPILib Basics: WPIlib.md
+          - Skill Check - Advanced Java: advancedjava.md
+
+  - Shop & Manufacturing:
+      - Hand Tools:
+          - Closet Organization: Closet.md
+          - Hand Tools Overview: Handtools.md
+          - Wiring & Crimping: crimping.md
+          - Skill Check - Hand Tools: handtoolsquiz.md
+      - Machine Tools:
+          - 3D Printing: 3dprinting.md
+          - Bandsaw: bandsaw.md
+          - Lathe: lathe.md
+          - Milling Machine: millingmachine.md
+          - CNC Router: cncrouter.md
+          - Laser Engraver: laserengraver.md
+          - Skill Check - Machining: machinelessons.md
+
+  - Team Media & Branding:
+      - Cricut Vinyl Cutter: cricut.md
+      - Button Maker: buttonmaker.md
+      - Adobe Photoshop: photoshop.md
+      - Adobe Illustrator: illustrator.md
+      - Branding Guidelines: branding.md
+      - Public Speaking: publicspeaking.md
+
+  - Resources:
+      - FRC Glossary: frckeywords.md
+      - Course Rubric: rubric.md
