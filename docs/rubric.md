@@ -13,7 +13,7 @@ In FRC, we follow a specific set of **Core Values**. Use these definitions to gu
 
 Use this rubric to evaluate your progress and skill development throughout your time on the team.
 
-| | COULD BE BETTER | MAKING PROGRESS | GREAT JOB | AMAZING SKILL |
+| | BEGINNING | PROGRESSING | APPROACHING | MEETING |
 | :--- | :--- | :--- | :--- | :--- |
 | **Discover** | I depended on others to make the discovery for me. | I approached tasks but needed assistance multiple times to reach a point of discovery. | I approached the tasks and asked questions from one other person but persevered to discover the answer on my own. | I approached the tasks looking for all possible answers independently and used perseverance to discover the answer on my own. |
 | **Innovation** | I struggled with being creative, used only the information given, and needed a lot of encouragement from others to complete the tasks. | I used creativity but struggled with perseverance to solve problems on my own. | I used creativity and perseverance to solve problems on my own and came up with different solutions for the tasks I was given. | I used creativity and perseverance to solve problems on my own and came up with unique solutions for the tasks I was given. |
