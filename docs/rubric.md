@@ -1,6 +1,6 @@
-# Rubrics: Core Values Self-Reflection
+# Rubric: FRC Team 2064 Core Values - Self-Reflection
 
-Use this rubric to evaluate your progress and skill development throughout the course. This self-reflection helps you identify areas of strength and opportunities for growth within the **FIRST® Core Values**.
+Use this rubric to evaluate your progress and skill development throughout the course. This self-reflection helps you identify areas of strength and opportunities for growth within the what are known as the **FIRST® Core Values**.
 
 The goal is to align to these values for each task you take on as a member, and remember *even with the smallest task* not everything you take on as a member of this team will be a task you are familiar with, we are all always learning and our curiosity keeps us engaged and seeking to find the answer, these values help align your progress to the teams greater goal of creating well rounded and successful members that go on to help the community with the skills and knowledge obtained here as a member of FRC Team 2064.
 
