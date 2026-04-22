@@ -23,3 +23,6 @@
     [View Core Values](rubric.md){ .md-button }
 
 </div>
+
+!!! quote "Core Value Check: The Panther Project"
+"The robot is just the excuse we use to learn how to work together."
