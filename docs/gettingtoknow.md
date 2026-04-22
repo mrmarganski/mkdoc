@@ -32,10 +32,10 @@ The Computers in Room 124 will have VScode with the WPIlib libraires installed, 
 
 [View the WPILib Installation Guide ↗️](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html){ .md-button .md-button--primary target="_blank" }
 
+## Hardware, Sensors and GPIO
+
 !!! note
     Your XRP bot build, wiring, WPIlib install and firmware should be good to go if you got to this point, You are ready to code the robot! Information below is for technical reference as a programmer - and not necessarily needed.  But if you wanted to know more about what the XRP framework inner workings are and what you have access to on the XRP bot in programming states, scrolling down this page is a good start to familiarize yourself, otherwise, you can go to the next step at this point to learn to open and deploy code to drive the XRP robot. 
-
-## Hardware, Sensors and GPIO
 
 The XRP has the following built-in hardware/peripherals:
 
