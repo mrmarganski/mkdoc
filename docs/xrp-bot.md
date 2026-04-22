@@ -2,8 +2,8 @@
 
 <div class="grid cards" markdown>
 
--   [Build Module ↗️](Build.md){ .md-button .md-button--primary target="_blank" }
--   [Launcher Challenge ↗️](Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary target="_blank" }
+-   [Build Module - New XRP User Start Here ↗️](Build.md){ .md-button .md-button--primary target="_blank" }
+-   [Launcher Challenge - Completed XRP Build Module ↗️](Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary target="_blank" }
 
 </div>
 
