@@ -70,8 +70,9 @@ nav:
       - Certification Quiz: safety/Safetyquiz.md
 
   - XRP Robotics:
-      - "Part 1: The Basics":
+      - "XRP Overview":
           - XRP Introduction: xrprobotics/module1/xrp-bot.md
+      - "Part 1: The Basics":
           - Build Guide: xrprobotics/module1/Build.md
           - Installing WPILib: xrprobotics/module1/gettingtoknow.md
           - Command-Based Code: xrprobotics/module1/basicdriveXRP.md
