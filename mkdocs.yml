@@ -71,7 +71,7 @@ nav:
 
   - XRP Robotics:
       - "XRP Overview":
-          - XRP Introduction: xrprobotics/module1/xrp-bot.md
+          - XRP Introduction: xrprobotics/xrp-bot.md
       - "Part 1: The Basics":
           - Build Guide: xrprobotics/module1/Build.md
           - Installing WPILib: xrprobotics/module1/gettingtoknow.md
