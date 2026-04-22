@@ -1,5 +1,16 @@
 # Rubrics: Core Values Self-Reflection
 
+In FRC, we follow a specific set of **Core Values**. Use these definitions to guide your self-reflection in the rubric below.
+
+| Category | FRC Definition |
+| :--- | :--- |
+| **Discovery** | Exploring new skills and ideas; valuing the learning process over the trophy. |
+| **Innovation** | Using creativity and persistence to solve complex engineering problems. |
+| **Impact** | Applying our technical skills to improve our local and global communities. |
+| **Inclusion** | Embracing differences and ensuring every team member has a seat at the table. |
+| **Teamwork** | Collaborative problem solving and supporting other teams (Coopertition). |
+| **Fun** | Celebrating our hard work and finding joy in the engineering process. |
+
 Use this rubric to evaluate your progress and skill development throughout your time on the team.
 
 | | COULD BE BETTER | MAKING PROGRESS | GREAT JOB | AMAZING SKILL |
@@ -10,3 +21,4 @@ Use this rubric to evaluate your progress and skill development throughout your 
 | **Inclusion** | I did not approach tasks with inclusion of others' ideas. I tried to understand others' views and include them in my projects and my work. My solution is not inclusive of different types of people. | I approached some tasks with inclusion of others' ideas. I tried to understand others' views and include them in my projects and my work. My solution meets only a few needs of others. | I approached most tasks with inclusion of others' ideas. I tried to understand others' views and include them in my projects and my work. I mostly incorporated the needs of others in my solution. | I approached all tasks with inclusion of others' ideas. I showed tremendous kindness by including others' views in my projects and work. I approached my solution thinking about how all people would interact with the solution. |
 | **Teamwork** | I only sometimes used collaboration, communication, and project management and accomplished a few tasks for myself and others. | I used collaboration, communication, and project management to get some tasks accomplished for myself and others. | I used collaboration, communication, and project management to get most tasks accomplished for myself and others. | I used collaboration, communication, and project management to get all tasks accomplished for myself and others. |
 | **Fun** | I only saw struggle in completing my tasks and did not look for times to have fun. | I kept a positive attitude throughout and found opportunities to have fun even through struggle. | I kept a positive attitude throughout and found opportunities to have fun even through struggle. | I saw the enjoyment and fun after the activity but struggled to see it during. |
+
