@@ -1,7 +1,7 @@
 # 🐾 Welcome to The Panther Project
 **FRC Team 2064**
 
-![](../../img/LogoWith2064.png){: style="max-width:280px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
+![Team 2064 Logo](img/LogoWith2064.png){ align=right width="200" }
 
 Welcome to the official documentation and training hub for Team 2064. Whether you are a rookie stepping into the shop for the very first time, or a veteran drive-team member looking up a CAD standard, everything you need to build great robots is right here.
 
