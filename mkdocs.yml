@@ -64,49 +64,59 @@ plugins:
 
 nav:
   - Home: index.md
-  - XRP Robotics:
-      - XRP Introduction: xrp-bot.md
-      - XRP Module 1.1 - Basic XRP Build Guide: Build.md
-      - XRP Module 1.2 - Install WPIlib for XRP: gettingtoknow.md
-      - XRP Module 1.3 - Command Based XRP Code: basicdriveXRP.md
-      - XRP Module 1.4 - Show your skills: XRPdrivechallenge.md
-      - XRP Module 2.0 - Game Design Concepts: Ping-Pong-Launcher-Challenge.md
-      - XRP Module 2.1 - Game Assembly Guide: PingPongAssemble.md
-      - XRP Module 2.2 - Game Wiring Guide: wiringpingpongxrp.md
-      - XRP Module 2.3 - Coding for Challenge: pingpongcode.md
-      - XRP Module 2.4 - Ping Pong Game Rules: PingPongCompetition.md
-  - CAD & Design:
-      - FRC Design CAD: CAD.md
-      - Show Your Skills: cadonshapecourse.md
-  - Programming for FRC:
-      - FRC JAVA & WPIlib: WPIlib.md
-      - Show Your Skills: advancedjava.md
-  - Safety:
+  
+  - Safety & Certification:
       - Safety Overview: Safety.md
-      - Show Your Skills: Safetyquiz.md
-  - FRC Robot Basics:
-      - Engineering Design Process: designprocess.md
-      - Bumpers: bumpers.md
-  - Hand Tools:
-      - Closet Organization Method: Closet.md
-      - Hand Tools Overview: Handtools.md
-      - Crimping: crimping.md
-      - Show Your Skills: handtoolsquiz.md
-  - Machine Tools:
-      - 3D Printing: 3dprinting.md
-      - Bandsaw: bandsaw.md
-      - Lathe: lathe.md
-      - Milling Machine: millingmachine.md
-      - CNC Router: cncrouter.md
-      - Laser Engraver: laserengraver.md
-      - Show Your Skills: machinelessons.md
-  - Design and Media:
+      - Certification Quiz: Safetyquiz.md
+
+  - XRP Robotics (Starter Bot):
+      - Part 1: The Basics:
+          - XRP Introduction: xrp-bot.md
+          - Build Guide: Build.md
+          - Installing WPILib: gettingtoknow.md
+          - Command-Based Code: basicdriveXRP.md
+          - Skill Check - Drive Challenge: XRPdrivechallenge.md
+      - Part 2: Ping Pong Challenge:
+          - Game Concepts: Ping-Pong-Launcher-Challenge.md
+          - Assembly Guide: PingPongAssemble.md
+          - Wiring Guide: wiringpingpongxrp.md
+          - Coding the Launcher: pingpongcode.md
+          - The Competition: PingPongCompetition.md
+
+  - FRC Engineering:
+      - Robot Basics:
+          - Engineering Design Process: designprocess.md
+          - Bumper Construction: bumpers.md
+      - CAD Design:
+          - FRC Design in Onshape: CAD.md
+          - Skill Check - CAD Course: cadonshapecourse.md
+      - Programming:
+          - Java & WPILib Basics: WPIlib.md
+          - Skill Check - Advanced Java: advancedjava.md
+
+  - Shop & Manufacturing:
+      - Hand Tools:
+          - Closet Organization: Closet.md
+          - Hand Tools Overview: Handtools.md
+          - Wiring & Crimping: crimping.md
+          - Skill Check - Hand Tools: handtoolsquiz.md
+      - Machine Tools:
+          - 3D Printing: 3dprinting.md
+          - Bandsaw: bandsaw.md
+          - Lathe: lathe.md
+          - Milling Machine: millingmachine.md
+          - CNC Router: cncrouter.md
+          - Laser Engraver: laserengraver.md
+          - Skill Check - Machining: machinelessons.md
+
+  - Team Media & Branding:
       - Cricut Vinyl Cutter: cricut.md
       - Button Maker: buttonmaker.md
-      - Photoshop: photoshop.md
+      - Adobe Photoshop: photoshop.md
       - Adobe Illustrator: illustrator.md
-      - Branding: branding.md
+      - Branding Guidelines: branding.md
       - Public Speaking: publicspeaking.md
-  - Learning Resources:
-      - Glossary: frckeywords.md
-      - Rubric: rubric.md
+
+  - Resources:
+      - FRC Glossary: frckeywords.md
+      - Course Rubric: rubric.md
