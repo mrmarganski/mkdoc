@@ -3,7 +3,7 @@
 With the build process complete, we need to work on loading the firmware to the XRP.  To accompliosh this: The XRP will be using custom FRC firmware that enables it to communicate wirelessly and utilize the WPIlib commands.  Luckily they provide the details to accomplish this, so follow this video and guide, and you should have the XRP robot boradcasting its' own WIFI channel to connect to so we can connect and deploy code to it after this step.
 
 !!! warning
-    If you already have VScode with WPIlib on your workstation: **Stop the video at 9:04 marker**. The video contiues to explain how to accomplish installation and create a **Time Based Code** We will **NOT** be coding in Time Based format!
+    If you already have VScode with WPIlib on your workstation: **Stop the video at 9:04 marker**. The video continues to explain how to accomplish installation and create a **Time Based Code** We will **NOT** be coding in Time Based format!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nlk52QdoasE?si=OOVQTXUfxC7waexL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
