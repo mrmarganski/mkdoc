@@ -9,7 +9,7 @@
 
     ---
 
-    Learn the foundations of the Engineering Design Process and how to construct legal, robust robot bumpers.
+    Learn the foundations of the Engineering Design Process and how to construct FRC compliant, robust robots.
     
     [Learn Robot Basics](designprocess.md){ .md-button .md-button--primary }
 
