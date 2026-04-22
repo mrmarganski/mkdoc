@@ -101,6 +101,8 @@ nav:
           - Skill Check - Advanced Java: engineering/advancedjava.md
 
   - Fabrication Pathways:
+      - "Fabrication Overview":
+          - Fabrication Pathways: fabrication/fabricationlanding.md 
       - "Hand Tools":
           - Closet Organization: fabrication/Closet.md
           - Hand Tools Overview: fabrication/Handtools.md
