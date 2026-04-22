@@ -19,4 +19,4 @@
 [Open the Official XRP Build Guide ↗️](https://xrpusersguide.readthedocs.io/en/latest/course/building.html){ .md-button .md-button--primary target="_blank" }
 
 !!! quote "Core Value Check: Inclusion"
-"Great ideas don't care about your experience level. If you have a thought, you have a voice on this team."
+    "Great ideas don't care about your experience level. If you have a thought, you have a voice on this team."
