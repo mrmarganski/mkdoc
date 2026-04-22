@@ -2,9 +2,9 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 10px; margin: 20px 0;">
 
-  [Build Module ↗️](Build.md){ .md-button .md-button--primary target="_blank" }
+[Build Module ↗️](Build.md){ .md-button .md-button--primary target="_blank" }
 
-  [Launcher Challenge ↗️](Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary target="_blank" }
+[Launcher Challenge ↗️](Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary target="_blank" }
 
 </div>
 
