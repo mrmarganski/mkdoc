@@ -1,80 +1,98 @@
-# 📐 FRC Design Learning Course
-> Welcome to the Onshape design learning course! The purpose of this course is to take you from absolute zero to being able to model a full FRC competition robot.
+# 📐 FRC CAD Curriculum: Onshape Mastery
+> **Duration:** 18 Weeks (1 Semester) | **Prerequisites:** None
 
-!!! info "Attribution & Purpose"
-    This page was adapted from [frcdesign.org](https://frcdesign.org) to create a centralized Team 2064 hub. We want our members to get information from a singular source instead of bouncing around sites. Full credit goes to frcdesign.org for their amazing curriculum!
+Welcome to the Team 2064 CAD Curriculum! This semester-long course will take you from absolute zero to being able to model a full, competition-ready FRC robot using Onshape. 
 
-The content focuses on FRC-relevant features and tools using engaging projects. These projects not only introduce new CAD skills, but also teach core engineering concepts. The training wheels gradually come off as you progress to higher stages.
+!!! abstract "Course Attribution"
+    This curriculum is adapted from the incredible [FRCDesign.org Learning Course](https://www.frcdesign.org/). We highly recommend referencing their site for deep dives into specific FRC modeling strategies!
 
-!!! tip "Where should I start?"
-    Onshape is fundamentally different from other CAD software.
-    * **Absolute Beginners:** Start at [Stage 0](stage0.md).
-    * **Switching from another CAD (SolidWorks/Inventor):** Start at [Stage 0A](stage0/0A/what-and-why-CAD.md).
-    * **Already know Onshape?** Start at [Stage 1A](stage1/1A/introduction.md).
-    
-    *Note: You will struggle with later stages if you do not have a solid grasp of the fundamentals.*
-
-!!! warning "Required Setup"
-    Before jumping into the modeling, you **must** add the [MKCAD Parts Library](stage0/0B/MKCad.md) and our [Team Required FeatureScripts](stage0/0B/featurescripts.md) to your Onshape account. Also, review the [Website Feature Guide](../website-feature-guide.md) to understand how this course works.
+!!! warning "Required Setup (Do This First!)"
+    Before starting Week 1, you must:
+    1. Create a free [Onshape Education Account](https://www.onshape.com/en/education/).
+    2. Add the [MKCAD Parts Library](stage0/0B/MKCad.md) to your Onshape.
+    3. Install the Team 2064 [Required FeatureScripts](stage0/0B/featurescripts.md).
 
 ---
 
-## 🚀 The Learning Pathways
+## 🏆 The Method to Completion
+How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through 5 Stages. At the end of each week, you will submit an Onshape document link or a screenshot of your 3D model for review. You will face a Midterm (designing a single mechanism) and a Final Project (designing a complete robot).
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-0-box:</span> **[Stage 0: The Basics](stage0.md)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-0-box:</span> **Stage 0: The Fundamentals (Weeks 1-4)**
     
     ---
     
-    ![Stage 0 Signup](https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/signup.webp){: style="border-radius: 8px; border: 2px solid #333; margin-bottom: 10px;" }
+    Learn how to think in 3D. We start with drawing flat shapes and pulling them into the real world.
     
-    * For people that haven't used CAD or Onshape before
-    * Introduction to CAD theory and mindset
-    * Walkthrough to set up your Onshape account
-    * Guide on navigating the Onshape interface
+    * **Week 1:** UI Navigation & Account Setup
+    * **Week 2:** Sketching Basics & Constraints
+    * **Week 3:** Part Design (Extrude, Revolve)
+    * **Week 4:** Multi-Part Studios
+    
+    [View Stage 0 Assignments](assignments/stage0-assignments.md){ .md-button }
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-1-box:</span> **[Stage 1: Fundamentals](stage1.md)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-1-box:</span> **Stage 1: Putting It Together (Weeks 5-7)**
     
     ---
     
-    ![Stage 1 Intake](https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/intakeTopLevel.webp){: style="border-radius: 8px; border: 2px solid #333; margin-bottom: 10px;" }
+    Parts are useless if they don't connect. Learn how to snap pieces together and build complex geometries.
     
-    * Fundamentals of sketching and multi-part modeling
-    * Learn about power transmission and modeling gearboxes
-    * Model a complete swerve drivebase
-    * Start learning top-down FRC design workflow
+    * **Week 5:** Basic Assemblies & Mates
+    * **Week 6:** Intermediate Sketching & Patterns
+    * **Week 7:** Sweeps, Lofts, and Fillets
+    
+    [View Stage 1 Assignments](assignments/stage1-assignments.md){ .md-button }
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-2-box:</span> **[Stage 2: Mechanism Design](stage2.md)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-2-box:</span> **Stage 2: FRC Mechanics & Midterm (Weeks 8-11)**
     
     ---
     
-    ![Stage 2 Assembly](https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/Exercise%202%20Assembly.webp){: style="border-radius: 8px; border: 2px solid #333; margin-bottom: 10px;" }
+    Start designing for the competition field. Learn how to make things spin, pivot, and adjust.
     
-    * Learn about common mechanisms in FRC and model them
-    * Practice skills until highly comfortable with Onshape
-    * Learn master layout sketches for mechanisms
-    * Deep dive into engineering concepts
+    * **Week 8:** Subassemblies & Mate Connectors
+    * **Week 9:** FRC Concepts (Pivot Mechanisms)
+    * **Week 10:** **Midterm Project** (Design a Subsystem)
+    * **Week 11:** Advanced Configurations & Variables
+    
+    [View Stage 2 Assignments](assignments/stage2-assignments.md){ .md-button }
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-3-box:</span> **[Stage 3: Robot Integration](stage3.md)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-3-box:</span> **Stage 3: Advanced Systems (Weeks 12-14)**
     
     ---
     
-    ![Stage 3 Robot](https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp){: style="border-radius: 8px; border: 2px solid #333; margin-bottom: 10px;" }
+    Learn the secrets of the pros: making the robot lighter, faster, and easier to manufacture.
     
-    * Practice full robot main layout sketches
-    * Replicate simple, proven FRC robots
-    * Practice top-down workflow and subsystem integration
+    * **Week 12:** Motion Studies & Exploded Views
+    * **Week 13:** FRC Robot Chassis Design
+    * **Week 14:** Weight Reduction & Design Optimization
+    
+    [View Stage 3 Assignments](assignments/stage3-assignments.md){ .md-button }
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-4-box:</span> **[Stage 4: Mastery](stage4.md)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-4-box:</span> **Stage 4: The Final Build (Weeks 15-18)**
     
     ---
     
-    ![Stage 4 Robot](https://raw.githubusercontent.com/mrmarganski/mkdoc/refs/heads/main/docs/img/1778-2024-MS.webp){: style="border-radius: 8px; border: 2px solid #333; margin-bottom: 10px;" }
+    The ultimate test. Integrate everything you've learned to build a fully functional virtual robot.
     
-    * Master advanced mechanism design
-    * Optimize load times and collaboration practices
-    * Study FRC game history and strategic design
-    * Design original mechanisms and get peer feedback
+    * **Week 15:** Full Robot Assembly Draft
+    * **Week 16:** Technical Drawings & BOMs
+    * **Week 17:** **Final Robot Project**
+    * **Week 18:** Peer Review & Showcase
+    
+    [View Stage 4 Assignments](assignments/stage4-assignments.md){ .md-button }
 
 </div>
+
+---
+
+## 📝 How Assignments Work
+Every assignment in this course follows a strict structure to ensure you know exactly what is expected of you.
+
+??? info "Click to view the standard Assignment Structure"
+    **1. Objective:** The specific CAD skill or FRC concept you need to master.  
+    **2. Instructions:** Step-by-step tasks, often referencing FRCDesign.org exercises or Onshape learning tutorials.  
+    **3. Deliverables:** What you actually turn in (e.g., an Onshape document link, a screenshot, or an exported `.STEP` file).  
+    **4. Due Date:** When the instructor needs to see your progress.
+
+    **Example Deliverable:** *For Assignment 1, you will submit a screenshot of your Onshape dashboard with MKCAD successfully installed on the left-hand menu, and share the document link with your instructor.*
