@@ -86,13 +86,16 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
 
 ---
 
-## 📝 How Assignments Work
+## 📝 How This Will Work
 Every assignment in this course follows a strict structure to ensure you know exactly what is expected of you.
 
 ??? info "Click to view the standard Assignment Structure"
     **1. Objective:** The specific CAD skill or FRC concept you need to master.  
     **2. Instructions:** Step-by-step tasks, often referencing FRCDesign.org exercises or Onshape learning tutorials.  
     **3. Deliverables:** What you actually turn in (e.g., an Onshape document link, a screenshot, or an exported `.STEP` file).  
-    **4. Due Date:** When the instructor needs to see your progress.
+    **4. Due Date:** When the mentor needs to see your progress.
 
-    **Example Deliverable:** *For Assignment 1, you will submit a screenshot of your Onshape dashboard with MKCAD successfully installed on the left-hand menu, and share the document link with your instructor.*
+    **Example Deliverable:** *For Assignment 1, you will submit a project on your Onshape dashboard with MKCAD successfully installed on the left-hand menu.*
+
+!!! quote "Core Value Check: Inclusion"
+    "Every great mechanism requires different parts working together; our team is no different. Everyone has a place in the assembly."
