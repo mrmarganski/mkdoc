@@ -49,7 +49,7 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
 
 ---
 
--   <span style="color: var(--md-primary-fg-color);">:material-bookshelf:</span> **Specializtion Quiz**
+-   <span style="color: var(--md-primary-fg-color);">:material-bookshelf:</span> **Specialization Quiz**
 
     ---
 
