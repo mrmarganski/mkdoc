@@ -2,6 +2,8 @@
 
 Use this rubric to evaluate your progress and skill development throughout the course. This self-reflection helps you identify areas of strength and opportunities for growth within the **FIRST® Core Values**.
 
+The goal is to align to these values for each task you take on as a member, and remember not everything you are tasked with may be a task you are familiar with, we are all always learning and our curiosity keeps use engaged and seeking to grow, these values help align your progress to the teams greater goal of creating well rounded and successful members that go on to help the community with the skills and knowledge obtained here as a member of FRC Team 2064.
+
 | Category | BEGINNING | PROGRESSING | APPROACHING | MEETING |
 | :--- | :--- | :--- | :--- | :--- |
 | **Discover** | I depended on others to make the discovery for me. | I approached tasks but needed assistance multiple times to reach a point of discovery. | I approached the tasks and asked questions from one other person but persevered to discover the answer on my own. | I approached the tasks looking for all possible answers independently and used perseverance to discover the answer on my own. |
