@@ -1,1 +1,0 @@
-* The XRP home page
