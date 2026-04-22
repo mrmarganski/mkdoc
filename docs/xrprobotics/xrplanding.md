@@ -38,3 +38,5 @@
 > ### 💡 Why are they so similar?
 > We use the XRP because the **logic** is identical. If you can code an autonomous path on the XRP using WPILib, you have already learned 90% of what it takes to code the 125lb competition robot.
 
+!!! quote "Core Value Check: Discovery"
+"You don't need to know how to build a robot to join. You just need the courage to learn."
