@@ -21,5 +21,5 @@ Use this rubric to evaluate your progress and skill development throughout the c
 | **Innovation** | Using creativity and persistence to solve complex engineering problems. |
 | **Impact** | Applying our technical skills to improve our local and global communities. |
 | **Inclusion** | Embracing differences and ensuring every team member has a seat at the table. |
-| **Teamwork** | Collaborative problem solving and supporting other teams (Coopertition). |
+| **Teamwork** | Collaborative problem solving and supporting other 2064 team members and opposing teams (Coopertition). |
 | **Fun** | Celebrating our hard work and finding joy in the engineering process. |
