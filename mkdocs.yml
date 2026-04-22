@@ -70,13 +70,13 @@ nav:
       - Certification Quiz: Safetyquiz.md
 
   - XRP Robotics (Starter Bot):
-      - Part 1: The Basics:
+      - "Part 1: The Basics":
           - XRP Introduction: xrp-bot.md
           - Build Guide: Build.md
           - Installing WPILib: gettingtoknow.md
           - Command-Based Code: basicdriveXRP.md
           - Skill Check - Drive Challenge: XRPdrivechallenge.md
-      - Part 2: Ping Pong Challenge:
+      - "Part 2: Ping Pong Challenge":
           - Game Concepts: Ping-Pong-Launcher-Challenge.md
           - Assembly Guide: PingPongAssemble.md
           - Wiring Guide: wiringpingpongxrp.md
