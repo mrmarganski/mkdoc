@@ -6,4 +6,4 @@
 [Open Public Speaking Resource From Penn State ↗️](https://psu.pb.unizin.org/orientationsu18/chapter/7-4-public-speaking-and-class-presentations-college-success/){ .md-button .md-button--primary target="_blank" }
 
 !!! quote "Core Value Check: Impact"
-"We measure our success not just by the points on the board, but by the positive mark we leave on our community."
+    "We measure our success not just by the points on the board, but by the positive mark we leave on our community."
