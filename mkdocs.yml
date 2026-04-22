@@ -72,7 +72,7 @@ nav:
       - XRP Module 1.4 - Show your skills: XRPdrivechallenge.md
       - XRP Module 2.0 - Game Design Concepts: Ping-Pong-Launcher-Challenge.md
       - XRP Module 2.1 - Game Assembly Guide: PingPongAssemble.md
-      - XRP Module 2.2 - Game Wiring Guide: wiringpingpongxrp.md 
+      - XRP Module 2.2 - Game Wiring Guide: wiringpingpongxrp.md
       - XRP Module 2.3 - Coding for Challenge: pingpongcode.md
       - XRP Module 2.4 - Ping Pong Game Rules: PingPongCompetition.md
   - CAD & Design:
@@ -91,7 +91,7 @@ nav:
       - Closet Organization Method: Closet.md
       - Hand Tools Overview: Handtools.md
       - Crimping: crimping.md
-      - Show Your Skills: handtoolsquiz.md 
+      - Show Your Skills: handtoolsquiz.md
   - Machine Tools:
       - 3D Printing: 3dprinting.md
       - Bandsaw: bandsaw.md
@@ -107,5 +107,5 @@ nav:
       - Adobe Illustrator: illustrator.md
       - Branding: branding.md
       - Public Speaking: publicspeaking.md
-   - Key Words:
+  - Key Words:
       - Glossary: frckeywords.md
