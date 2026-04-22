@@ -30,3 +30,6 @@
     [Start Programming](WPIlib.md){ .md-button .md-button--primary }
 
 </div>
+
+!!! quote "Core Value Check: Fun"
+"We take the engineering seriously, but we never forget to celebrate the joy of the build."
