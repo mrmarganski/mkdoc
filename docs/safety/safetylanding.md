@@ -25,3 +25,6 @@
     [Take the Quiz](Safetyquiz.md){ .md-button .md-button--primary }
 
 </div>
+
+!!! quote "Core Value Check: Impact"
+    "The skills we forge in the shop are the tools we use to change the world outside it."
