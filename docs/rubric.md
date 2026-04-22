@@ -1,6 +1,6 @@
 # Rubrics: Core Values Self-Reflection
 
-Use this rubric to evaluate your progress and skill development throughout the course.
+Use this rubric to evaluate your progress and skill development throughout your time on the team.
 
 | | COULD BE BETTER | MAKING PROGRESS | GREAT JOB | AMAZING SKILL |
 | :--- | :--- | :--- | :--- | :--- |
