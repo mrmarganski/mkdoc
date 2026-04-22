@@ -1,8 +1,23 @@
-# XRP Bot Creation and Development
+# 🤖 XRP Robotics Course
+> Welcome to the Experiential Robotics Platform (XRP) training module. Choose your path below to get started!
 
-## Introduction to XRP Bots
+---
 
-XRP Bots are specialized robots designed for the FIRST Robotics Competition (FRC). In this section, you'll learn how to create and develop your own XRP bot using the latest tools and technology available to our team.
+<div class="grid cards" markdown>
+
+-   <span style="color: var(--md-primary-fg-color);">:material-robot-outline:</span> **Part 1: The Basics**
+    ---
+    Start here to build your XRP chassis, install WPILib, and write your very first command-based Java driving code.
+    
+    [Start Part 1: Build Guide](module1/Build.md){ .md-button .md-button--primary }
+
+-   <span style="color: var(--md-primary-fg-color);">:material-table-tennis:</span> **Part 2: Ping Pong Challenge**
+    ---
+    Already completed Part 1? Move on to assembling, wiring, and coding a custom ping-pong launcher mechanism.
+    
+    [Start Part 2: Game Concepts](module2/Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary }
+
+</div>
 
 ## XRP vs. FRC: Comparison Table
 ---
