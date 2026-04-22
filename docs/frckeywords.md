@@ -1,7 +1,7 @@
 
-# Glossary: FIRST® Robotics Engineering Explorations
+# Glossary: FIRST® Robotics Engineering Terms
 
-This glossary contains key terms and definitions for the **FIRST® Robotics Engineering Explorations Course**.
+This glossary contains key terms and definitions for the **FIRST® Robotics Program**.
 
 | Vocabulary Word | Definition |
 | :--- | :--- |
