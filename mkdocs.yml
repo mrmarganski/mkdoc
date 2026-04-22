@@ -66,8 +66,11 @@ nav:
   - Home: index.md
   
   - Safety & Certification:
-      - Safety Overview: safety/Safety.md
-      - Certification Quiz: safety/Safetyquiz.md
+      - "Safety Overview":
+          - Module Introduction: safety/safetylanding.md   
+      - "Safety Module 1":
+          - General Safety: safety/Safety.md
+          - Certification Quiz: safety/Safetyquiz.md
 
   - XRP Robotics:
       - "XRP Overview":
@@ -84,24 +87,26 @@ nav:
           - Coding the Launcher: xrprobotics/module2/pingpongcode.md
           - The Competition: xrprobotics/module2/PingPongCompetition.md
 
-  - FRC Engineering:
-      - Robot Basics:
+  - FRC Technical Pathways:
+      - "Pathways Overview":
+          - Pathway Introduction: engineering/engineeringlanding.md
+      - "Robot Basics":
           - Engineering Design Process: engineering/designprocess.md
           - Bumper Construction: engineering/bumpers.md
-      - CAD Design:
+      - "CAD Design":
           - FRC Design in Onshape: engineering/CAD.md
           - Skill Check - CAD Course: engineering/cadonshapecourse.md
-      - Programming:
+      - "Programming":
           - Java & WPILib Basics: engineering/WPIlib.md
           - Skill Check - Advanced Java: engineering/advancedjava.md
 
-  - Shop & Manufacturing:
-      - Hand Tools:
+  - Fabrication Pathways:
+      - "Hand Tools":
           - Closet Organization: fabrication/Closet.md
           - Hand Tools Overview: fabrication/Handtools.md
           - Wiring & Crimping: fabrication/crimping.md
           - Skill Check - Hand Tools: fabrication/handtoolsquiz.md
-      - Machine Tools:
+      - "Machine Tools":
           - 3D Printing: fabrication/3dprinting.md
           - Bandsaw: fabrication/bandsaw.md
           - Lathe: fabrication/lathe.md
@@ -110,15 +115,17 @@ nav:
           - Laser Engraver: fabrication/laserengraver.md
           - Skill Check - Machining: fabrication/machinelessons.md
 
-  - Team Media & Branding:
-      - Cricut Vinyl Cutter: media/cricut.md
-      - Button Maker: media/buttonmaker.md
-      - Adobe Photoshop: media/photoshop.md
-      - Adobe Illustrator: media/illustrator.md
-      - Branding Guidelines: media/branding.md
-      - Public Speaking: media/publicspeaking.md
+  - NEMO Pathways:
+      - "Non-Engineering Pathways":
+          - Cricut Vinyl Cutter: media/cricut.md
+          - Button Maker: media/buttonmaker.md
+          - Adobe Photoshop: media/photoshop.md
+          - Adobe Illustrator: media/illustrator.md
+          - Branding Guidelines: media/branding.md
+          - Public Speaking: media/publicspeaking.md
 
   - Resources:
-      - Overview: resources/resourceslanding.md
-      - FRC Glossary: resources/frckeywords.md
-      - 2064 Core Values: resources/rubric.md
+      - "Team Resources":
+          - General Overview: resources/resourceslanding.md
+          - FRC Glossary: resources/frckeywords.md
+          - 2064 Core Values: resources/rubric.md
