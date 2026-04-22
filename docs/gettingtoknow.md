@@ -15,6 +15,9 @@ With the build process complete, we need to work on loading the firmware to the 
 
 [View the WPILib XRP Guide ↗️](https://docs.wpilib.org/en/stable/docs/xrp-robot/index.html){ .md-button .md-button--primary target="_blank" }
 
+!!! note
+    Your XRP bot will be fully wireless at this point, and no longer will need to be plugged into a computer.  All code is sent wirelessly and simulating the robot is completed over WIFI.
+
 ---
 
 If you followed these steps correctly: Upon start up (when power is applied to the XRP), the following will happen:
@@ -33,9 +36,6 @@ The video above walks you through these steps to install WPIlib, but if you woul
     If you need to have VScode with WPIlib installed on your workstation: **Start the video at 9:04 marker**. But **STOP** the video again at the 14:03 marker: We will **NOT** be coding in Time Based format!
 
 The Computers in Room 124 will have VScode with the WPIlib libraires installed, so you are free to use them and can skip this step - but if you would like to use a personal computer or update WPIlib this step will help you with that.
-
-!!! note
-    Your XRP bot will be fully wireless at this point, and no longer will need to be plugged into a computer.  All code is sent wirelessly and simulating the robot is completed over WIFI.
 
 !!! info "WPILib Installation Documentation"
     Link to site for installing VSCode/WPILib onto a personal computer - this is required to be a Macbook or Windows machine, check link for further requirements on Version support and updates.
