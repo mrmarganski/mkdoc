@@ -14,12 +14,17 @@ Mounts to the XRP to attach the main structure and pivot. A standard 10-32 bolt 
 
 ![Main Assembly Mount](../../img/Mount_Shoot.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 
+??? abstract "🎥 Watch: Main Assembly Mount Video"
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <iframe src="https://www.youtube.com/embed/PLACEHOLDER" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
+    </div>
+
 ### Winch Motor Mount
 Mounts to the XRP to hold the winch motor. You will use zip-ties to secure the motor to this printed frame.
 
 ![Winch Motor Mount](../../img/Mount_Winch.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 
-??? abstract "🎥 Watch: Mounting Assembly Video"
+??? abstract "🎥 Watch: Winch Motor Mount Video"
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
       <iframe src="https://www.youtube.com/embed/PLACEHOLDER" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
     </div>
@@ -34,12 +39,17 @@ The core assembly part where the shooter flywheels and motors attach. The 6V mot
 
 ![Ping Pong Launcher](../../img/PingPongLauncher.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 
+??? abstract "🎥 Watch: Launcher Main Body Video"
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <iframe src="https://www.youtube.com/embed/PLACEHOLDER" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
+    </div>
+
 ### Ball Feeder
 Feeds the ping pong balls into the intake and rolls them out to be sent through the flywheel at a consistent rate.
 
 ![Feeder](../../img/feeder.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 
-??? abstract "🎥 Watch: Core Structure Assembly Video"
+??? abstract "🎥 Watch: Ball Feeder Video"
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
       <iframe src="https://www.youtube.com/embed/PLACEHOLDER" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
     </div>
@@ -54,18 +64,18 @@ The main shooting wheel. Wrap this in rubber bands to create friction against th
 
 ![Flywheel](../../img/Flywheel.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 
+??? abstract "🎥 Watch: Shooter Flywheel Video"
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <iframe src="https://www.youtube.com/embed/PLACEHOLDER" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
+    </div>
+
 ### Motor Driving Pinion
 Attaches directly to the small 6V motor shaft to drive the main flywheel. 
 *Requires the Gear Generator FeatureScript in Onshape: [Access FeatureScript Here](https://cad.onshape.com/documents/72d1bb826437a60af1fdd59c/w/2f2531a9f27d31cb4ee169d4/e/8f3bf9d133ff3fe42be9ab1e)*
 
 ![Pinion](../../img/Pinion.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 
-### Winch Roller
-A small roller to pull and release a string, allowing you to control the shooter angle (elevation) via code.
-
-![Winch](../../img/Winch.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
-
-??? abstract "🎥 Watch: Flywheel & Pinion Assembly Videos"
+??? abstract "🎥 Watch: Motor Pinion Assembly Videos"
     **Part 1: Generating the Gears**
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin-bottom: 15px;">
       <iframe src="https://www.youtube.com/embed/2q2hagoLq2M?rel=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
@@ -74,6 +84,16 @@ A small roller to pull and release a string, allowing you to control the shooter
     **Part 2: Assembly**
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
       <iframe src="https://www.youtube.com/embed/BvACU7PLt28?si=_ovwe3iUahYGAT8D" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
+    </div>
+
+### Winch Roller
+A small roller to pull and release a string, allowing you to control the shooter angle (elevation) via code.
+
+![Winch](../../img/Winch.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
+
+??? abstract "🎥 Watch: Winch Roller Video"
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+      <iframe src="https://www.youtube.com/embed/PLACEHOLDER" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
     </div>
 
 ---
@@ -86,7 +106,7 @@ A dedicated mounting board. You will hot-glue your Arduino and L9110S motor driv
 
 ![Electronics](../../img/Electronics.png){: style="max-width:400px; display:block; margin: 15px auto; border: 2px solid #333; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" }
 
-??? abstract "🎥 Watch: Electronics Mounting Video"
+??? abstract "🎥 Watch: Electronics Board Video"
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
       <iframe src="https://www.youtube.com/embed/PLACEHOLDER" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen></iframe>
     </div>
