@@ -1,5 +1,16 @@
 # Rubric: FRC Team 2064 Core Values - Self-Reflection
 
+Core Values Reference
+
+| Value | FRC Definition |
+| :--- | :--- |
+| **Discovery** | Exploring new skills and ideas; valuing the learning process over the trophy. |
+| **Innovation** | Using creativity and persistence to solve complex engineering problems. |
+| **Impact** | Applying our technical skills to improve our local and global communities. |
+| **Inclusion** | Embracing differences and ensuring every team member has a seat at the table. |
+| **Teamwork** | Collaborative problem solving and supporting other 2064 team members and opposing teams (Coopertition). |
+| **Fun** | Celebrating our hard work and finding joy in the engineering process. |
+
 Use this rubric to evaluate your progress and skill development throughout the course. This self-reflection helps you identify areas of strength and opportunities for growth within the what are known as the **FIRST® Core Values**.
 
 The goal is to align to these values for each task you take on as a member, and remember *even with the smallest task* not everything you take on as a member of this team will be a task you are familiar with, we are all always learning and our curiosity keeps us engaged and seeking to find the answer, these values help align your progress to the teams greater goal of creating well rounded and successful members that go on to help the community with the skills and knowledge obtained here as a member of FRC Team 2064.
@@ -15,13 +26,4 @@ The goal is to align to these values for each task you take on as a member, and 
 
 ---
 
-## Core Values Reference
 
-| Value | FRC Definition |
-| :--- | :--- |
-| **Discovery** | Exploring new skills and ideas; valuing the learning process over the trophy. |
-| **Innovation** | Using creativity and persistence to solve complex engineering problems. |
-| **Impact** | Applying our technical skills to improve our local and global communities. |
-| **Inclusion** | Embracing differences and ensuring every team member has a seat at the table. |
-| **Teamwork** | Collaborative problem solving and supporting other 2064 team members and opposing teams (Coopertition). |
-| **Fun** | Celebrating our hard work and finding joy in the engineering process. |
