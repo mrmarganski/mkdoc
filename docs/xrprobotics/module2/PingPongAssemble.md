@@ -1,5 +1,5 @@
 # 🏓 Ping Pong Launcher Assembly
-> **Custom Mechanism:** This guide covers the physical assembly of the Ping Pong Launcher add-on for your XRP.
+> **Custom Mechanism:** This guide covers the Onshape creation and physical assembly of the Ping Pong Launcher add-on for your XRP.
 
 !!! info "Before You Begin"
     This assumes your base XRP chassis is already built. This custom mechanism requires additional wiring and an Arduino sub-controller to drive the 6V high-RPM flywheel motors.
