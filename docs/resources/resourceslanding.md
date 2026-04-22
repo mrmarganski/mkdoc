@@ -25,4 +25,4 @@
 </div>
 
 !!! quote "Core Value Check: The Panther Project"
-"The robot is just the excuse we use to learn how to work together."
+    "The robot is just the excuse we use to learn how to work together."
