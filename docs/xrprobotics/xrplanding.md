@@ -1,4 +1,4 @@
-# 🤖 XRP Robotics Course
+# 🤖 XRP Robotics
 > Welcome to the Experiential Robotics Platform (XRP) training module. Choose your path below to get started!
 
 ---
@@ -6,13 +6,17 @@
 <div class="grid cards" markdown>
 
 -   <span style="color: var(--md-primary-fg-color);">:material-robot-outline:</span> **Part 1: The Basics**
+
     ---
+
     Start here to build your XRP chassis, load firmware, install WPILib, and write your very first command-based Java driving code.
     
     [Start Part 1: Build Guide](module1/Build.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-table-tennis:</span> **Part 2: Ping Pong Challenge**
+
     ---
+
     Already completed Part 1? Move on to designing, 3D Printing, assembling, wiring, and coding a custom ping-pong launcher mechanism.
     
     [Start Part 2: Game Concepts](module2/Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary }
