@@ -66,57 +66,57 @@ nav:
   - Home: index.md
   
   - Safety & Certification:
-      - Safety Overview: Safety.md
-      - Certification Quiz: Safetyquiz.md
+      - Safety Overview: safety/Safety.md
+      - Certification Quiz: safety/Safetyquiz.md
 
   - XRP Robotics (Starter Bot):
       - "Part 1: The Basics":
-          - XRP Introduction: xrp-bot.md
-          - Build Guide: Build.md
-          - Installing WPILib: gettingtoknow.md
-          - Command-Based Code: basicdriveXRP.md
-          - Skill Check - Drive Challenge: XRPdrivechallenge.md
+          - XRP Introduction: xrprobotics/module1/xrp-bot.md
+          - Build Guide: xrprobotics/module1/Build.md
+          - Installing WPILib: xrprobotics/module1/gettingtoknow.md
+          - Command-Based Code: xrprobotics/module1/basicdriveXRP.md
+          - Skill Check - Drive Challenge: xrprobotics/module1/XRPdrivechallenge.md
       - "Part 2: Ping Pong Challenge":
-          - Game Concepts: Ping-Pong-Launcher-Challenge.md
-          - Assembly Guide: PingPongAssemble.md
-          - Wiring Guide: wiringpingpongxrp.md
-          - Coding the Launcher: pingpongcode.md
-          - The Competition: PingPongCompetition.md
+          - Game Concepts: xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
+          - Assembly Guide: xrprobotics/module2/PingPongAssemble.md
+          - Wiring Guide: xrprobotics/module2/wiringpingpongxrp.md
+          - Coding the Launcher: xrprobotics/module2/pingpongcode.md
+          - The Competition: xrprobotics/module2/PingPongCompetition.md
 
   - FRC Engineering:
       - Robot Basics:
-          - Engineering Design Process: designprocess.md
-          - Bumper Construction: bumpers.md
+          - Engineering Design Process: engineering/designprocess.md
+          - Bumper Construction: engineering/bumpers.md
       - CAD Design:
-          - FRC Design in Onshape: CAD.md
-          - Skill Check - CAD Course: cadonshapecourse.md
+          - FRC Design in Onshape: engineering/CAD.md
+          - Skill Check - CAD Course: engineering/cadonshapecourse.md
       - Programming:
-          - Java & WPILib Basics: WPIlib.md
-          - Skill Check - Advanced Java: advancedjava.md
+          - Java & WPILib Basics: engineering/WPIlib.md
+          - Skill Check - Advanced Java: engineering/advancedjava.md
 
   - Shop & Manufacturing:
       - Hand Tools:
-          - Closet Organization: Closet.md
-          - Hand Tools Overview: Handtools.md
-          - Wiring & Crimping: crimping.md
-          - Skill Check - Hand Tools: handtoolsquiz.md
+          - Closet Organization: fabrication/Closet.md
+          - Hand Tools Overview: fabrication/Handtools.md
+          - Wiring & Crimping: fabrication/crimping.md
+          - Skill Check - Hand Tools: fabrication/handtoolsquiz.md
       - Machine Tools:
-          - 3D Printing: 3dprinting.md
-          - Bandsaw: bandsaw.md
-          - Lathe: lathe.md
-          - Milling Machine: millingmachine.md
-          - CNC Router: cncrouter.md
-          - Laser Engraver: laserengraver.md
-          - Skill Check - Machining: machinelessons.md
+          - 3D Printing: fabrication/3dprinting.md
+          - Bandsaw: fabrication/bandsaw.md
+          - Lathe: fabrication/lathe.md
+          - Milling Machine: fabrication/millingmachine.md
+          - CNC Router: fabrication/cncrouter.md
+          - Laser Engraver: fabrication/laserengraver.md
+          - Skill Check - Machining: fabrication/machinelessons.md
 
   - Team Media & Branding:
-      - Cricut Vinyl Cutter: cricut.md
-      - Button Maker: buttonmaker.md
-      - Adobe Photoshop: photoshop.md
-      - Adobe Illustrator: illustrator.md
-      - Branding Guidelines: branding.md
-      - Public Speaking: publicspeaking.md
+      - Cricut Vinyl Cutter: media/cricut.md
+      - Button Maker: media/buttonmaker.md
+      - Adobe Photoshop: media/photoshop.md
+      - Adobe Illustrator: media/illustrator.md
+      - Branding Guidelines: media/branding.md
+      - Public Speaking: media/publicspeaking.md
 
   - Resources:
-      - FRC Glossary: frckeywords.md
-      - Course Rubric: rubric.md
+      - FRC Glossary: resources/frckeywords.md
+      - Course Rubric: resources/rubric.md
