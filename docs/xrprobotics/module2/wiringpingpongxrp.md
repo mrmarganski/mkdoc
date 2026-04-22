@@ -3,10 +3,10 @@
 This manifest defines the wiring for an **Arduino Pro Micro** acting as a sub-controller for the **XRP**.
 
 !!! note 
-  This step is assuming you have your robot wired currently from the base XRP steps, this is an addon required for the High-RPM motors to be able to be run which are required to get a ball to launch.  It also provides expansion slots for additonal add-ons in the future.
+   This step is assuming you have your robot wired currently from the base XRP steps, this is an addon required for the High-RPM motors to be able to be run which are required to get a ball to launch.  It also provides expansion slots for additonal add-ons in the future.
 
 !!! warning 
-  Only continue with the wiring step here if you have all the components assembled from the previous step, if not go back now and complete the Assembly of the Ping Pong bot.
+   Only continue with the wiring step here if you have all the components assembled from the previous step, if not go back now and complete the Assembly of the Ping Pong bot.
 
 ## Method and Reasoning
 In order to accomplish this, we needed to add more motors than available slots on the XRP board.  Also, the RPM of the XRP motors is slow for the task of shooting.  Therfore there are additional electronics we need to add to the XRP to get more out of it. 
