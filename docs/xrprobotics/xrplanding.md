@@ -2,8 +2,8 @@
 
 <div class="grid cards" markdown>
 
--   [XRP Module 1 - Start Here ↗️](docs/xrprobotics/module1/Build.md){ .md-button .md-button--primary target="_blank" }
--   [XRP Module 2 - Completed XRP Module 1 ↗️](docs/xrprobotics/Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary target="_blank" }
+-   [XRP Module 1 - Start Here ↗️](..module1/Build.md){ .md-button .md-button--primary target="_blank" }
+-   [XRP Module 2 - Completed XRP Module 1 ↗️](..module2/Ping-Pong-Launcher-Challenge.md){ .md-button .md-button--primary target="_blank" }
 
 </div>
 
