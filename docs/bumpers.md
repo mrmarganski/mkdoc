@@ -30,30 +30,36 @@
 ---
 
 ## Section 2: Materials & Tools
-*Gather everything needed before starting the build.*
+*Gather everything needed before starting the build. This acts as your official Bill of Materials.*
 
-=== "Lumber & Padding"
-    * 3/4" Plywood (cut to 5" height)
-    * Approved Bumper Foam Profiles
-    * Gaffer tape or duct tape
+<div class="grid cards" markdown>
 
-=== "Fabric & Fasteners"
-    * 1000D Cordura Fabric (Red and Blue, or Reversible)
-    * Iron-on Vinyl Numbers
-    * Heavy-duty staples (3/8" or 1/2")
-    * Wood glue
+-   <span style="color: var(--md-primary-fg-color);">:material-forest:</span> **Lumber & Padding**
+    ---
+    * **3/4" Plywood:** Cut strictly to 5" height
+    * **Bumper Foam:** Approved profiles (EPE/EVA/PE)
+    * **Tape:** Gaffer or heavy-duty duct tape
 
-=== "Mounting Hardware"
-    * 1/4-20 T-Nuts (embedded in the wood)
-    * 1/4-20 Bolts or Quick-Release Pins
-    * Custom aluminum angle brackets
+-   <span style="color: var(--md-primary-fg-color);">:material-texture:</span> **Fabric & Fasteners**
+    ---
+    * **Cordura Fabric:** 1000 Denier (Red and Blue)
+    * **Team Numbers:** Iron-on Vinyl
+    * **Staples:** Heavy-duty 3/8" or 1/2"
+    * **Adhesive:** Wood glue
 
-=== "Shop Tools"
-    * Bandsaw or Table Saw
-    * Pneumatic Staple Gun
-    * Cordless Drill & Driver
-    * Iron
-    * Clamps
+-   <span style="color: var(--md-primary-fg-color);">:material-nut:</span> **Mounting Hardware**
+    ---
+    * **T-Nuts:** 1/4-20 size (embedded in the wood)
+    * **Fasteners:** 1/4-20 Bolts or Quick-Release Pins
+    * **Brackets:** Custom aluminum angle brackets
+
+-   <span style="color: var(--md-primary-fg-color);">:material-toolbox:</span> **Shop Tools**
+    ---
+    * **Cutting:** Bandsaw or Table Saw
+    * **Assembly:** Pneumatic Staple Gun & Drill
+    * **Finishing:** Iron & Woodworking Clamps
+
+</div>
 
 ---
 
