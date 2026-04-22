@@ -7,7 +7,8 @@ Welcome to the team! This guide is for **ALL** members of our FRC robotics club.
 !!! danger
     Despite how it looks, this site is not ready and just a test of all the cool mkdoc features. 
 
-## What You'll Learn (All Members Will Complete These Pathways)
+## What Each New Member To Complete These Pathways 
+All Members Will Complete These Pathways
 
 - The basics of Experiential Robotics Platform (XRP)
 - The basics of FIRST Robotics Competition (FRC)
@@ -15,7 +16,8 @@ Welcome to the team! This guide is for **ALL** members of our FRC robotics club.
 - Basic Programming, Electronics, and CAD
 - How to contribute to the team (Fundraising/Media/Spirit/Culture/Branding/Community Outreach)
 
-## Specializations (After completed -Onboarding- Members Are Designated Into Specialized Sub Groups and Work to Master their Content)
+## Specializations 
+After completed -Onboarding- Returning Members Are Designated Into Specialized Sub Groups and Work to Master their Content
 
 - CAD/DESIGN
 - JAVA PROGRAMMING
