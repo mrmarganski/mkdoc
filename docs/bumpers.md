@@ -34,16 +34,17 @@
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-forest:</span> **Lumber & Padding**
+-   <span style="color: var(--md-primary-fg-color);">:material-forest:</span> **Backing & Padding**
     ---
     * **3/4" Plywood:** Cut strictly to 5" height
-    * **Bumper Foam:** Approved profiles (EPE/EVA/PE)
+    * **Sheet Metal:** Thin sheet metal as a backing (Optional/Replacement)
+    * **Bumper Foam:** Approved profiles for FRC (EPE/EVA/PE)
     * **Tape:** Gaffer or heavy-duty duct tape
 
 -   <span style="color: var(--md-primary-fg-color);">:material-texture:</span> **Fabric & Fasteners**
     ---
     * **Cordura Fabric:** 1000 Denier (Red and Blue)
-    * **Team Numbers:** Iron-on Vinyl
+    * **Team Numbers:** Iron-on Vinyl Cut out with Vinyl Cutter to FRC Specifications
     * **Staples:** Heavy-duty 3/8" or 1/2"
     * **Adhesive:** Wood glue
 
@@ -51,13 +52,14 @@
     ---
     * **T-Nuts:** 1/4-20 size (embedded in the wood)
     * **Fasteners:** 1/4-20 Bolts or Quick-Release Pins
-    * **Brackets:** Custom aluminum angle brackets
+    * **Brackets:** Custom aluminum angle brackets (Optional)
 
 -   <span style="color: var(--md-primary-fg-color);">:material-toolbox:</span> **Shop Tools**
     ---
-    * **Cutting:** Bandsaw or Table Saw
-    * **Assembly:** Pneumatic Staple Gun & Drill
-    * **Finishing:** Iron & Woodworking Clamps
+    * **Cutting:** Bandsaw, Table Saw and/or Chop Saw
+    * **Assembly:** Pneumatic/Electric Staple Gun & Cordless Drill
+    * **Finishing:** Iron for Vinyl Numbers & Woodworking Clamps
+    * **Flat Surface:** A large clean work area to assemble bumpers
 
 </div>
 
