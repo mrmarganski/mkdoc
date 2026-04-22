@@ -27,4 +27,4 @@
 </div>
 
 !!! quote "Core Value Check: Gracious Professionalism"
-"Measure twice, cut once, and always leave the shop—and your teammates—better than you found them."
+    "Measure twice, cut once, and always leave the shop—and your teammates—better than you found them."
