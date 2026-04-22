@@ -37,6 +37,12 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
     
     [Start Level 3: Fabrication](fabrication/fabricationlanding.md){ .md-button .md-button--primary }
 
+    ---
+
+    Access the FRC glossary, team grading rubrics, Core Values, and general reference materials anytime.
+    
+    [View Resources](resources/resourceslanding.md){ .md-button }
+    
 </div>
 
 ---
@@ -63,12 +69,6 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
     [Start Media Track](media/medialanding.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-bookshelf:</span> **Team Resources & Standards**
-
-    ---
-
-    Access the FRC glossary, team grading rubrics, Core Values, and general reference materials anytime.
-    
-    [View Resources](resources/resourceslanding.md){ .md-button }
 
 </div>
 
