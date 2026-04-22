@@ -69,7 +69,7 @@ nav:
       - Safety Overview: safety/Safety.md
       - Certification Quiz: safety/Safetyquiz.md
 
-  - XRP Robotics (Starter Bot):
+  - XRP Robotics:
       - "Part 1: The Basics":
           - XRP Introduction: xrprobotics/module1/xrp-bot.md
           - Build Guide: xrprobotics/module1/Build.md
