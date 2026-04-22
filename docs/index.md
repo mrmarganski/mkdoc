@@ -60,7 +60,7 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
 
     Design the machine. Dive deep into Onshape CAD workflows, the Engineering Design Process, and complex mechanism design.
     
-    [Start Mechanical Track](engineering/engineeringlanding.md){ .md-button .md-button--primary }
+    [Start Engineering Track](engineering/engineeringlanding.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-factory:</span> **Track: Advanced Fabrication**
 
