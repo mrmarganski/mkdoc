@@ -5,6 +5,9 @@
 !!! note
     You should already have an assembled XRP bot - but this video is a good reference in case troubleshooting or repairs are needed - Watch if this is your first time using XRP.
 
+!!! danger
+    The electrical wire pins are very sensitive, and really the only thing you can break on these bots. So when plugging in the sensors/motors into the XRP board just be sure to take extra caution and to not push too hard or you will bend/break the pins on the board.  If you feel like you are having difficulty with this seek a mentor or team member for assistance. 
+
 !!! warning
     Stop the video at 10:00 marker. We will not be coding in Python or Block format
 
