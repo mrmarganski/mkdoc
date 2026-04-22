@@ -120,5 +120,5 @@ nav:
 
   - Resources:
       - Overview: resources/resourceslanding.md
-          - FRC Glossary: resources/frckeywords.md
-          - 2064 Core Values: resources/rubric.md    
+      - FRC Glossary: resources/frckeywords.md
+      - 2064 Core Values: resources/rubric.md
