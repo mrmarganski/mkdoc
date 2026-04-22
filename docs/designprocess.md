@@ -1,5 +1,9 @@
-# ⚙️ The Engineering Design Process
+# ⚙️ The FRC Design Process
 > **How We Build:** Whether we are designing a custom XRP ping-pong launcher or a 125lb competition robot, we follow this systematic approach. Great robots aren't built on the first try; they are the result of rigorous engineering.
+
+---
+
+Kickoff is announced typically the 1st Saturday in January upon return of the School Winter Break - Kickoff will broadcast the new game and distribute the rulebook simultaneously across the world at the designated time.  Upon learning the game, we immediately begin discussing the game and share our thoughts.  To have a bigger picture of the urgency required - see the timeline below for an idea of the FRC design process we try to follow for having a competition robot ready within 6 weeks of learning the rules of the game. 
 
 ---
 
@@ -57,6 +61,7 @@ Testing & Refinement
 * **8. Refine and Optimize** <span style="color: var(--md-primary-fg-color);">:material-chart-line:</span>
     * **Design Refinement:** Make adjustments to the CAD and physical model based on testing feedback.
     * **Cost-Benefit Analysis:** Reevaluate the solution in terms of weight and efficiency.
+    * **Bumpers:** Should have the frame perimeter decided and may begin constructing bumpers for this years robot.
 
 ---
 
@@ -66,7 +71,7 @@ Production & Maintenance
 *Building the final machine and keeping it alive.*
 
 * **9. Implement and Produce** <span style="color: var(--md-primary-fg-color);">:material-factory:</span>
-    * **Final Design:** Prepare detailed documentation for final manufacturing.
+    * **Final Design:** Prepare detailed documentation for final manufacturing of any remaining mechanisms for the competition robot.
     * **Implementation:** Begin final assembly and wiring of the mechanism.
 
 * **10. Communicate and Document** <span style="color: var(--md-primary-fg-color);">:material-file-document-edit:</span>
