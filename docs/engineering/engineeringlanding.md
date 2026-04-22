@@ -32,4 +32,4 @@
 </div>
 
 !!! quote "Core Value Check: Fun"
-"We take the engineering seriously, but we never forget to celebrate the joy of the build."
+    "We take the engineering seriously, but we never forget to celebrate the joy of the build."
