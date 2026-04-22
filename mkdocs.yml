@@ -119,6 +119,8 @@ nav:
 
   - NEMO Pathways:
       - "Non-Engineering Pathways":
+          - NEMO Overview: media/medialanding.md
+      - "Media":    
           - Cricut Vinyl Cutter: media/cricut.md
           - Button Maker: media/buttonmaker.md
           - Adobe Photoshop: media/photoshop.md
