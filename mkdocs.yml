@@ -119,5 +119,6 @@ nav:
       - Public Speaking: media/publicspeaking.md
 
   - Resources:
-      - FRC Glossary: resources/frckeywords.md
-      - 2064 Core Values: resources/rubric.md
+      - Overview: resources/resourceslanding.md
+          - FRC Glossary: resources/frckeywords.md
+          - 2064 Core Values: resources/rubric.md    
