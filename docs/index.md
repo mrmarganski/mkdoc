@@ -15,4 +15,17 @@ Welcome to the team! This guide is for **ALL** members of our FRC robotics club.
 - Basic Programming, Electronics, and CAD
 - How to contribute to the team (Fundraising/Media/Spirit/Culture/Branding/Community Outreach)
 
+## Specializations (After completed -Onboarding- Members Are Designated Into Specialized Sub Groups and Work to Master their Content)
+
+- CAD/DESIGN
+- JAVA PROGRAMMING
+- FABRICATION
+- ORGANIZATION
+- LEADERSHIP
+- OUTREACH
+- BUSINESS
+- MEDIA
+- STRATEGY
+- AND MORE!!
+
 **Stay curious, ask questions, and have fun!**
