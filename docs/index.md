@@ -7,7 +7,7 @@ Welcome to the team! This guide is for **ALL** members of our FRC robotics club.
 !!! danger
     Despite how it looks, this site is not ready and just a test of all the cool mkdoc features. 
 
-## What Each New Member To Complete These Pathways 
+## New Members Start Here! 
 All Members Will Complete These Pathways
 
 - The basics of Experiential Robotics Platform (XRP)
