@@ -1,5 +1,7 @@
 ## Booting up the XRP
 
+With the build process complete, we need to work on loading the firmware to the XRP.  To accompliosh this: The XRP will be using custom FRC firmware that enables it to communicate wirelessly and utilize the WPIlib commands.  Luckily they provide the details to accomplish this, so follow this video and guide, and you should have the XRP robot boradcasting its' own WIFI channel to connect to so we can connect and deploy code to it after this step.
+
 !!! warning
     Stop the video at 14:20 marker. We will **NOT** be coding in Time Based format!
 
