@@ -25,3 +25,6 @@
     [Start Machine Tools](3dprinting.md){ .md-button .md-button--primary }
 
 </div>
+
+!!! quote "Core Value Check: Gracious Professionalism"
+"Measure twice, cut once, and always leave the shop—and your teammates—better than you found them."
