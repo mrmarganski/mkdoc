@@ -41,7 +41,7 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
 
     ---
 
-    Access the FRC glossary, team grading rubrics, Core Values, and general reference materials anytime.
+    Access the FRC glossary, Core Values, and general reference materials anytime.
     
     [View Resources](resources/resourceslanding.md){ .md-button }
     
