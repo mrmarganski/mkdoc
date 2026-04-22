@@ -49,6 +49,16 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
 
 ---
 
+-   <span style="color: var(--md-primary-fg-color);">:material-bookshelf:</span> **Specializtion Quiz**
+
+    ---
+
+    A questionnare to help you determine the best specialization path and steps to advance in that category to support the team.
+    
+    [View Resources](resources/quiz.md){ .md-button }
+
+---
+
 ## 🚀 Phase 2: Specialization Tracks
 > *For members who have completed Phase 1.* Dive deep into your specific subteam to master advanced FRC concepts and build the Panther Project brand.
 
