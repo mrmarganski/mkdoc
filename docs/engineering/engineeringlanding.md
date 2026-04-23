@@ -45,13 +45,13 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
     
     [Start Software Pathway](../engineering/programminglanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-bullhorn:</span> **Pathway 2.4: Media & NEMO**
+-   <span style="color: var(--md-primary-fg-color);">:material-bullhorn:</span> **Pathway 2.4: NEMO**
 
     ---
 
-    *Build the brand.* Master the Cricut, Button Maker, Adobe Photoshop/Illustrator, public speaking, and team branding guidelines.
+    *Build the brand.* Known as: Non-Engineering Member Opportunities, these members Master the non-technical tasks to elevate the team beyond just the robot.
     
-    [Start Media Pathway](../media/medialanding.md){ .md-button .md-button--primary }
+    [Start NEMO Pathway](../media/medialanding.md){ .md-button .md-button--primary }
 
 </div>
 
