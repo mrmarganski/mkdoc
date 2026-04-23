@@ -21,6 +21,7 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.1.1.A - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
         * **[1.1.1.B - Specific Machine Safety Guidelines](Safety/machinesafety.md):** Specific Machine Safety for general machines used.
         * **[1.1.2 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
+        * **[1.1.3 - Safety Practical](safety/safetypractical.md)** Mandatory practical assessment for appropriate safety usage, user must demonstrate correct usage of specified tools.
 
     ??? abstract "🤖 Module 1.2: XRP Starter Bot"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
