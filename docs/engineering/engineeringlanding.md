@@ -27,7 +27,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
     *Design the machine.* Dive deep into Onshape CAD workflows, the Engineering Design Process, and complex mechanism design.
     
-    [Start CAD Pathway](engineering/engineeringlanding.md){ .md-button .md-button--primary }
+    [Start CAD Pathway](../engineering/engineeringlanding.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-factory:</span> **Pathway 2.2: Advanced Fabrication**
 
@@ -35,7 +35,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
     *Build the machine.* Master heavy precision machinery including the CNC Router, Lathe, Milling Machine, and 3D Printers.
     
-    [Start Fabrication Pathway](fabrication/fabricationlanding.md){ .md-button .md-button--primary }
+    [Start Fabrication Pathway](../fabrication/fabricationlanding.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-code-braces:</span> **Pathway 2.3: Software & Controls**
 
@@ -43,7 +43,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
     *Bring the robot to life.* Master Java, WPILib, autonomous routines, sensor integration, and advanced control systems.
     
-    [Start Software Pathway](engineering/programminglanding.md){ .md-button .md-button--primary }
+    [Start Software Pathway](../engineering/programminglanding.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-bullhorn:</span> **Pathway 2.4: Media & NEMO**
 
@@ -51,7 +51,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
     *Build the brand.* Master the Cricut, Button Maker, Adobe Photoshop/Illustrator, public speaking, and team branding guidelines.
     
-    [Start Media Pathway](media/medialanding.md){ .md-button .md-button--primary }
+    [Start Media Pathway](../media/medialanding.md){ .md-button .md-button--primary }
 
 </div>
 
