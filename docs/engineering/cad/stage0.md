@@ -4,7 +4,6 @@
 ### Course Overview
 This semester-long CAD class introduces high school students to Computer-Aided Design (CAD) using Onshape, a cloud-based CAD platform, following the FRCDesign.org Learning Course (https://www.frcdesign.org/). The curriculum is designed for beginners and progresses to advanced FRC-relevant design skills, culminating in the ability to model a full robot. Students will learn sketching, part design, multi-part modeling, assemblies, and engineering concepts through hands-on projects. The course emphasizes practical skills for FIRST Robotics Competition (FRC) design, best practices, and collaboration.
 
-- **Duration**: 18 weeks (1 semester, assuming 2–3 hours of OnShape time per week)
 - **Prerequisites**: None (Stage 0A for absolute beginners)
 - **Platform**: Onshape (free education account required)
 - **Resources**:
