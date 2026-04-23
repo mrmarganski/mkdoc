@@ -22,7 +22,7 @@ In this phase, you will zoom out from individual part creation to focus on macro
     
     [Start Strategy Pathway](../strategy/game-manual.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-car-pitstop:</span> **Pathway 3.2: Pit Crew & Event Ops**
+-   <span style="color: var(--md-primary-fg-color);">:material-tools:</span> **Pathway 3.2: Pit Crew & Event Ops**
 
     ---
 
