@@ -27,7 +27,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
     *Design the machine.* Dive deep into Onshape CAD workflows, the Engineering Design Process, and complex mechanism design.
     
-    [Start CAD Pathway](../engineering/engineeringlanding.md){ .md-button .md-button--primary }
+    [Start CAD Pathway](../engineering/cad/stage1D.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-factory:</span> **Pathway 2.2: Advanced Fabrication**
 
