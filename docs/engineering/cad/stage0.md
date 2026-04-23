@@ -34,7 +34,7 @@ Welcome back! Before you move on to learning how to actually sketch and design p
 
 ## 📸 Step 3: Module Deliverable
 
-To prove you have set up your workspace correctly, you need to submit a screenshot to your Subteam Lead.
+To prove you have set up your workspace correctly, you need to create a document in the FRC 2064 Team subfolder for your work.
 
 1. Open a new Document in Onshape in your Team folder, show this document to a mentor when complete to ensure it was made in the correct place.
 2. You will use that location to create any FRC related documents for the team to have access to.
