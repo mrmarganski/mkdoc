@@ -140,6 +140,7 @@ Access the FRC glossary, Core Values, and general reference materials anytime.
 * **Current Season:** REBUILT (2026)
 * **Team Repository:** [GitHub - The Panther Project](https://github.com/FRC-2064)
 * **Social Media:** [Instagram @frc2064](https://www.instagram.com/frc2064/)
+* **Discord:** [2064 Member Discord Channel](https://discord.com/invite/svfrdGXrEe)
 
 !!! quote "Core Value Check"
     *"We don't just build robots; we build the students who build the robots."*
