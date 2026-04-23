@@ -33,7 +33,7 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.2.5 - High-RPM Motor Bridge](xrprobotics/module2/wiringpingpongxrp.md):** Advanced Arduino sub-controller wiring.
         * **[1.2.6 - Coding The Arduino for XRP](xrprobotics/module2/pingpongcode.md):** Advanced Code for XRP to operate Arduino.
 
-    ??? abstract "🔨 Module 1.3: Basic Shop Skills"
+    ??? abstract "🔨 Module 1.3: Basic Fabrication"
         *Master the fundamentals of hand tools, electrical connections, and workspace organization.*
 
         * **[1.3.1 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
@@ -44,11 +44,19 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
     ??? abstract "📐 Pathway 1.4: Basic Mechanical & CAD"
         *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
         
-        * **[2.1.1 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
-        * **[2.1.2 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
-        * **[2.1.3 - Onshape Stage 1A (Fundamentals)](engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
-        * **[2.1.4 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
-        * **[2.1.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
+        * **[1.4.1 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
+        * **[1.4.2 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
+        * **[1.4.3 - Onshape Stage 1A (Fundamentals)](engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
+        * **[1.4.4 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
+        * **[1.4.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
+    
+    ??? abstract "🤖 Module 1.5: FRC Basics"
+        *Learn basic tasks required for FRC invoilvement and understanding.*
+        
+        * **[1.5.1 - Bot Basics](frc/botbasics.md):** Common parts of an FRC robot.
+        * **[1.5.2 - Power On](frc/poweron.md):** Basics of how to power the robot on.
+        * **[1.5.3 - Game Analysis](frc/gameanalysis.md):** Analyze a past game and pass a quiz on the game content to show gane understanding and rule limits of FRC from a past Game Manual.
+        
 ---
 
 ## 🧭 The Crossroads: Find Your Pathway
