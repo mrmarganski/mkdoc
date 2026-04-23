@@ -28,12 +28,10 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
     ??? abstract "📐 Module 1.2: Basic CAD"
         *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
         
-        * **[1.2.1 - Onshape Stage 0A (What is CAD)](engineering/cad/stage0.md):** General information on CAD.
-        * **[1.2.2 - Onshape Stage 0B (What is Onshape)](engineering/cad/stage0B.md):** Account setup, UI navigation.
-        * **[1.2.3 - Onshape Stage 0C (Required Tools for Onshape)](engineering/cad/stage0C.md):** Installing important FeatureScripts for 2064 CAD.
-        * **[1.2.4 - Onshape Stage 1A (Fundamentals)](engineering/cad/stage1A.md):** Sketching, extruding, and multi-part studios.
-        * **[1.2.5 - Onshape Stage 1B (Power Transmissions)](engineering/cad/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
-        * **[1.2.6 - Onshape Stage 1C (Practice Mechanisms)](engineering/cad/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
+        * **[1.2.1 - Onshape Stage 0 (What is CAD)](engineering/cad/stage0.md):** General information on CAD and Onshape setup.
+        * **[1.2.2 - Onshape Stage 1A (Fundamentals)](engineering/cad/stage1A.md):** Sketching, extruding, and multi-part studios.
+        * **[1.2.3 - Onshape Stage 1B (Power Transmissions)](engineering/cad/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
+        * **[1.2.4 - Onshape Stage 1C (Practice Mechanisms)](engineering/cad/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
 
     ??? abstract "🛡️ Module 1.3: Safety Certification"
         *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
