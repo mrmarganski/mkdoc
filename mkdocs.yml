@@ -107,7 +107,7 @@ nav:
 
   - "Phase 2: Specialization Pathways":
       - "Specialization Paths":
-          - Specialization Selections: engineeringlanding.md
+          - Specialization Selections: engineering/engineeringlanding.md
       - "Pathway 2.1: Advanced CAD":
           - Stage 1D (Design Methodology): engineering/CAD/stage1D.md
           - Stage 1E (Subsystem Workflow): engineering/CAD/stage1E.md
