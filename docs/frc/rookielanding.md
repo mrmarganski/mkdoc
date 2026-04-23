@@ -52,7 +52,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Put it all together.* Assemble, wire, and program a functional mini-robot using WPILib and Java to prove your baseline engineering skills.
     
-    [Start XRP Starter Bot](../xrprobotics/module1/xrplanding.md){ .md-button .md-button--primary }
+    [Start XRP Starter Bot](../xrprobotics/xrplanding.md){ .md-button .md-button--primary }
 
 </div>
 
