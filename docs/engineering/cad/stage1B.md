@@ -38,6 +38,7 @@ Work through the four sections below in order. Make sure you read the theory sec
 Welcome back! That was a massive module, but you just learned the core mechanics of how almost every FRC robot works.
 
 **Verify that you understand how to:**
+
 - [ ] Identify a 1/2" Hex Shaft and explain why FRC uses them instead of round shafts.
 - [ ] Understand the trade-off between Torque and Speed in a gearbox.
 - [ ] Use MKCAD to import COTS (Commercial Off-The-Shelf) parts like Falcons, NEOs, and bearings.
@@ -58,4 +59,4 @@ To prove you have mastered power transmissions, you must submit your completed g
 ### 🎉 Module Complete!
 Once your mentor has checked your gear ratios and approved your work, you are ready to model practice mechanisms!
 
-[Go to Next Module: Stage 1C (Practice Mechanisms)](stage1C.md){ .md-button .md-button--primary style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
+[Go to Next Module: Stage 1C (Practice Mechanisms)](stage1C.md){ .md-button .md-button--primary }
