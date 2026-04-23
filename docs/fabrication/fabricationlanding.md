@@ -8,21 +8,21 @@
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-toolbox:</span> **Hand Tools & Wiring**
+-   <span style="color: var(--md-primary-fg-color);">:material-toolbox:</span> **Advanced Hand Tools & Wiring**
 
     ---
 
     Learn shop organization, basic hand tool operation, and how to properly crimp and route electrical wires.
     
-    [Start Hand Tools](Closet.md){ .md-button .md-button--primary }
+    [Start Advanced Hand Tools](advancedhandtools.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-factory:</span> **Machine Tools**
 
     ---
 
-    Take the next step in fabrication. Learn to safely operate 3D printers, the bandsaw, lathe, mills, and CNC machines.
+    Take the next step in fabrication. Learn to safely operate AC Powered tools like: the bandsaw, lathe, mills, and CNC machines.
     
-    [Start Machine Tools](3dprinting.md){ .md-button .md-button--primary }
+    [Start Machine Tools](machinelessons.md){ .md-button .md-button--primary }
 
 </div>
 
