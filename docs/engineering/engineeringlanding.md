@@ -49,7 +49,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
     ---
 
-    *Build the brand.* Known as: Non-Engineering Member Opportunities, these members Master the non-technical tasks to elevate the team beyond just the robot.
+    *Build the brand.* Known as: Non-Engineering Member Opportunities (NEMO), these members Master the non-technical tasks to elevate the team beyond just the robot.
     
     [Start NEMO Pathway](../media/medialanding.md){ .md-button .md-button--primary }
 
