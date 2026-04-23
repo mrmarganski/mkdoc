@@ -62,23 +62,6 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         
 ---
 
-## 🧭 The Crossroads: Find Your Pathway
-> *Finished Phase 1?* Before you move on, take the Pathfinder Assessment. This interactive questionnaire will analyze your hobbies and problem-solving style to recommend the perfect specialization pathway for you.
-
-<div class="grid cards" markdown>
-
--   <span style="color: var(--md-primary-fg-color);">:material-map-search:</span> **Take the Pathfinder Assessment**
-
-    ---
-
-    Find out if you belong in Mechanical CAD, Software, Fabrication, Strategy, or Media.
-    
-    [Start the Assessment](resources/quiz.md){ .md-button }
-
-</div>
-
----
-
 ## 🚀 Phase 2: Specialization Pathways
 An FRC team is built like a small engineering firm—it is simply too massive for one person to do everything. Phase 2 is where you choose your specialty and master it. Whether you want to design mechanisms in CAD, operate heavy precision machinery, write autonomous code, or manage the team's brand and media, this phase gives you the deep, focused training you need.
 
