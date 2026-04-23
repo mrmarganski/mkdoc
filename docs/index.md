@@ -15,39 +15,40 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
 
 ??? info "Click to view Phase 1 Modules & Skills"
 
-    ??? abstract "🛡️ Module 1.1: Safety Certification"
-        *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
-        
-        * **[1.1.1.A - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
-        * **[1.1.1.B - Specific Machine Safety Guidelines](Safety/machinesafety.md):** Specific Machine Safety for general machines used.
-        * **[1.1.2 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
-        * **[1.1.3 - Safety Practical](safety/safetypractical.md)** Mandatory practical assessment for appropriate safety usage, user must demonstrate correct usage of specified tools.
-    
-    ??? abstract "🔨 Module 1.2: Basic Fabrication"
-        *Master the fundamentals of hand tools, electrical connections, and workspace organization.*
-
-        * **[1.2.1 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
-        * **[1.2.2 - Hand Tools Overview](fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
-        * **[1.2.3 - Fasteners](fabrication/fasteners.md)** Learn about 2064 fasteners used on the robot. 
-        * **[1.2.4 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
-        * **[1.2.5 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
-        
-   
-    ??? abstract "🤖 Module 1.3: FRC Basics"
+    ??? abstract "🤖 Module 1.1: FRC Basics"
         *Learn basic tasks required for FRC invoilvement and understanding.*
-        
-        * **[1.3.1 - Bot Basics](frc/botbasics.md):** Common parts of an FRC robot.
-        * **[1.3.2 - Power On](frc/poweron.md):** Basics of how to power the robot on.
-        * **[1.3.3 - Game Analysis](frc/gameanalysis.md):** Analyze a past game and pass a quiz on the game content to show gane understanding and rule limits of FRC from a past Game Manual.
 
-    ??? abstract "📐 Pathway 1.4: Basic Mechanical & CAD"
+        * **[1.1.1 - Intro to FIRST](frc/FIRST.md):** Overview of FRC and its' place in FIRST and how competitions work.
+        * **[1.1.2 - Bot Basics](frc/botbasics.md):** Common parts of an FRC robot.
+        * **[1.1.3 - Game Analysis](frc/gameanalysis.md):** Analyze a past game and pass a quiz on the game content to show gane understanding and rule limits of FRC from a past Game Manual.
+        * **[1.1.4 - Build Season](frc/buildseason.md):** FRC Build Season and what to expect.
+        * **[1.1.5 - Power On](frc/poweron.md):** Basic demonstration on how to power team 2064's competition robot on and operate it.
+
+    ??? abstract "📐 Pathway 1.2: Basic CAD"
         *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
         
-        * **[1.4.1 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
-        * **[1.4.2 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation and accessing the 2064 Onshape Class.
-        * **[1.4.3 - Onshape Stage 1A (Fundamentals)](engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
-        * **[1.4.4 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
-        * **[1.4.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
+        * **[1.2.1 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
+        * **[1.2.2 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation and accessing the 2064 Onshape Class.
+        * **[1.2.3 - Onshape Stage 1A (Fundamentals)](engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
+        * **[1.2.4 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
+        * **[1.2.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
+
+    ??? abstract "🛡️ Module 1.3: Safety Certification"
+        *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
+        
+        * **[1.3.1.A - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
+        * **[1.3.1.B - Specific Machine Safety Guidelines](Safety/machinesafety.md):** Specific Machine Safety for general machines used.
+        * **[1.3.2 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
+        * **[1.3.3 - Safety Practical](safety/safetypractical.md)** Mandatory practical assessment for appropriate safety usage, user must demonstrate correct usage of specified tools.
+    
+    ??? abstract "🔨 Module 1.4: Basic Hand Tool Fabrication (No AC Power Tools)"
+        *Master the fundamentals of hand tools, electrical connections, and workspace organization.*
+
+        * **[1.4.1 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
+        * **[1.4.2 - Hand Tools Overview](fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
+        * **[1.4.3 - Fasteners](fabrication/fasteners.md)** Learn about 2064 fasteners used on the robot. 
+        * **[1.4.4 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
+        * **[1.4.5 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
     
     ??? abstract "🤖 Module 1.5: XRP Starter Bot and Command Based Programming"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
