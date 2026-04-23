@@ -1,36 +1,48 @@
-# Introduction to CAD
-## What is CAD?
+# 🛠️ Onshape Stage 0: The Basics
+> **Objective:** Create your Onshape Education account, set up your workspace, and install the required FRC parts libraries.
 
-CAD is an acronym for "computer-aided design." It's a software tool used by engineers, manufacturers, architects, and many more designers in industry to bring their ideas to life. 
+Welcome to the CAD Pathway! Team 2064 uses Onshape, a cloud-based CAD platform that lets you design robots right in your web browser. 
 
-CAD is used to create a 3D model from various kinds of steps and tools to help prototype, manufacture, and market a product. Files can be sent to a machine to either print or cut material. Drawings can also be made and printed out to assist with manual machining and assembly. We use the CAD software Onshape for this guide and website. 
+For this very first step, we partner with the incredible curriculum over at **FRCDesign.org**. You are going to hop over to their site to complete your initial account setup, and then come right back here to submit your progress.
 
-??? Note "Software Choice"
-    This learning course uses Onshape because of its community-made resources, collaboration capabilities, and workflow. However, much of the design process, mechanism fundamentals, and design handbook will apply no matter what software you use. If you choose to use a different software while going through the guide, be aware that the CAD workflow may be different and that you will have significantly less support. 
+---
 
-<figure>
-    <center><img src="/img/formula.webp" style="width:100%; border:5px solid #ADADAD; border-radius: 2%"></center>
-    <figcaption>Formula 1 race cars are an example of something that is modeled in CAD.</figcaption>
-</figure>
+## 🚦 Step 1: Complete the Setup Guide
 
-## Why Use CAD for FRC?
+Please keep this tab open! Click the button below to open the FRCDesign setup guide in a new window. Read through their page carefully and complete all the steps they list.
 
-CAD is the intermediary between an idea and a built product. There are multiple factors that lead this to be game-changing:
+!!! warning "Important Account Note"
+    When signing up for Onshape, make sure you select the **Education Account** (which is free) and use your school/student email address if you have one.
 
-1. **Design Iteration**: Teams can quickly test and modify designs before manufacturing
-2. **Team Collaboration**: Multiple team members can view and understand designs clearly
-3. **Communication**: Everyone can see the end result and agree on a design and direction
-4. **Manufacturing Planning**: CAD serves as a digital blueprint and bill of materials and helps with manufacturing
-5. **Teaching Tool**: Helps new members understand robot mechanisms and assembly
-6. **Weight Management**: Allows teams to track robot weight throughout the design process
-7. **Efficiency**: A good robot can be designed and manufactured faster, leaving room for software testing and drive practice
+[Go to FRCDesign: New to CAD Setup :material-open-in-new:](https://www.frcdesign.org/learning-course/course-setup/new-to-cad/){ .md-button .md-button--primary target="_blank" }
 
-<center><img src="/img/bread.webp" style="width:80%"></center>
+---
 
-**CAD skills are used in the real world all the time**, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
+## ✅ Step 2: The Return Checklist
 
+Welcome back! Before you move on to learning how to actually sketch and design parts, verify that you successfully completed everything in the external guide. 
 
-!!! Note
-    A quick intro to CAD and Onshape is provided in the [Introduction to Parametric Feature-Based CAD](https://learn.onshape.com/courses/introduction-to-parametric-feature-based-cad "Introduction to CAD Onshape Course"){:target="_blank"} official learning course, but it doesn't provide much relevant information for FRC.
+**Did you complete the following?**
 
-<br>
+- [ ] Created your free Onshape Education Account.
+- [ ] Logged into Onshape successfully.
+- [ ] Set your default units to **Inches** and **Pounds** (Crucial for FRC!).
+- [ ] Subscribed to the **MKCAD App** in the Onshape App Store.
+- [ ] Added the standard **FeatureScripts** to your toolbar.
+
+---
+
+## 📸 Step 3: Module Deliverable
+
+To prove you have set up your workspace correctly, you need to submit a screenshot to your Subteam Lead.
+
+1. Open a new Document in Onshape.
+2. Take a screenshot of your entire screen. Ensure the **MKCAD menu** is visible on the right side, and the **FeatureScripts** are visible on your top toolbar.
+3. Post the screenshot in the `#cad-training` Discord channel (or show it directly to your mentor).
+
+---
+
+### 🎉 Ready to start drawing?
+Once your mentor has approved your setup, you are ready to move on to your first actual CAD lesson!
+
+[Go to Next Module: Stage 1A (Fundamentals)](stage1A.md){ .md-button style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
