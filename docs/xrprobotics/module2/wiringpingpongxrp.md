@@ -10,7 +10,7 @@
 ---
 
 <div align="center">
-  <img src="../img/IMG_0527.png" alt="Description" width="300">
+  <img src="../../img/IMG_0527.png" alt="Description" width="300">
 </div>
 
 ---
