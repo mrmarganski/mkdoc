@@ -111,7 +111,7 @@ Building the robot is only half the battle. Phase 3 is reserved for veteran memb
 
 ??? info "Click to view Phase 3 Modules & Skills"
 
-    ??? abstract "📊 Module 3.1: Strategy & Data Analytics"
+    ??? abstract "📊 Pathway 3.1: Strategy & Data Analytics"
         *Taking the game from the shop to the field. Master the data required to win events.*
         
         * **[3.1.1 - The Game Manual Deep Dive](strategy/game-manual.md):** How to read, interpret, and exploit the rules.
@@ -119,7 +119,7 @@ Building the robot is only half the battle. Phase 3 is reserved for veteran memb
         * **[3.1.3 - Data Visualization](strategy/data-viz.md):** Creating pit dashboards for the Drive Team.
         * **[3.1.4 - Alliance Selection Theory](strategy/alliance-selection.md):** Calculating EPA, OPR, and building pick-lists.
 
-    ??? abstract "🏎️ Module 3.2: Pit Crew & Event Operations"
+    ??? abstract "🏎️ Pathway 3.2: Pit Crew & Event Operations"
         *Executing under pressure. These classes train the elite members who keep the robot alive during competition.*
         
         * **[3.2.1 - The Packing Manifest](competition/packing.md):** Managing battery carts and pit checklists.
@@ -127,7 +127,7 @@ Building the robot is only half the battle. Phase 3 is reserved for veteran memb
         * **[3.2.3 - The Inspection Process](competition/inspection.md):** Navigating sizing, weight, and hardware checks.
         * **[3.2.4 - Field Connectivity & System Checks](competition/field-checks.md):** Verifying the driver station and staging protocols.
 
-    ??? abstract "📋 Module 3.3: Project Management & Leadership"
+    ??? abstract "📋 Pathway 3.3: Project Management & Leadership"
         *Running the team like an engineering firm. Required for all Captains and Subteam Leads.*
         
         * **[3.3.1 - The FRC Timeline](leadership/timeline.md):** Managing the 6-week build season milestones.
