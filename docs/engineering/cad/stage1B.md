@@ -16,7 +16,7 @@ Click through the sections below. Make sure you read the theory sections careful
 * [Read: Motors :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/motors/){ target="_blank" }
 * [Read: Shafts & Bearings :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/shafts-bearings/){ target="_blank" }
 * [Read: Torque & Speed :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/torque-speed/){ target="_blank" }
-* [Read: Gear Basics :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/gear-basics/){ target="_blank" }
+* [Read: Gear Basics :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/gears/){ target="_blank" }
 
 **Part 2: Exercise 1 (Simple Gearbox)** Follow the tutorial to build your first single-reduction gearbox using Onshape.  
 [Go to Exercise 1 :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/exercise1/){ .md-button target="_blank" }
