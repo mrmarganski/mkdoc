@@ -28,9 +28,10 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
 
         * **[1.2.1 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
         * **[1.2.2 - Hand Tools Overview](fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
-        * **[1.2.3 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
-        * **[1.2.4 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
-        * **[1.2.5 - 3D Printing Basics](fabrication/3dprinter.md)** Access to the 3D printer and procedure for operating and basic troubleshooting.
+        * **[1.2.3 - Fasteners](fabrication/fasteners.md)** Learn about 2064 fasteners used on the robot. 
+        * **[1.2.4 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
+        * **[1.2.5 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
+        
    
     ??? abstract "🤖 Module 1.3: FRC Basics"
         *Learn basic tasks required for FRC invoilvement and understanding.*
