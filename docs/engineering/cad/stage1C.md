@@ -56,6 +56,6 @@ To prove you have completed the Basic CAD pathway, you must submit your Onshape 
 ### 🎉 Pathway 1.2 Complete!
 You have successfully reached the end of Pathway 1.2: Basic CAD. Choose your next step below:
 
-[Go to Next Module: 1.3 Safety Certification](../../../safety/safetylanding.md){ .md-button .md-button--primary }
+[Go to Next Module: 1.3 Safety Certification](../../safety/safetylanding.md){ .md-button .md-button--primary }
 
 [Return to Home Dashboard](../../index.md){ .md-button }
