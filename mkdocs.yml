@@ -138,7 +138,7 @@ nav:
 
   - "Phase 3: Leadership & Competition":
       - "Advanced Pathways":
-          - Leadership Pathways: strategy/leadershiplanding.md
+          - Leadership Pathways: leadership/leadershiplanding.md
       - "Pathway 3.1: Strategy":
           - Game Manual Deep Dive: strategy/game-manual.md
           - Scouting Architecture: strategy/scouting.md
