@@ -6,7 +6,7 @@
 Welcome to the official documentation and training hub for Team 2064. Whether you are a rookie stepping into the shop for the very first time, or a veteran drive-team member looking up a CAD standard, everything you need to build great robots is right here.
 
 !!! success "New Member? Start Here!"
-    If you are new to the team, you must complete **Level 1: Safety Certification** before you can touch any tools or machinery in the shop. Once passed, talk to a mentor about starting your XRP Starter Bot!
+    If you are new to the team, your journey begins with **Phase 1**. You must complete Module 1.1 (Safety) before you can touch any tools or machinery in the shop. 
 
 ---
 
@@ -15,94 +15,96 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-shield-check:</span> **Level 1: Safety Certification**
+-   <span style="color: var(--md-primary-fg-color);">:material-shield-check:</span> **Module 1.1: Safety Certification**
 
     ---
 
     Start here to learn our shop rules, emergency procedures, and take your mandatory safety certification quiz.
     
-    [Start Level 1: Safety](safety/safetylanding.md){ .md-button .md-button--primary }
+    [Start Module 1.1](safety/safetylanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-robot-outline:</span> **Level 2: XRP Starter Bot**
+-   <span style="color: var(--md-primary-fg-color);">:material-robot-outline:</span> **Module 1.2: XRP Starter Bot**
 
     ---
 
     Build a mini-robot, wire components, and write your first Java code to prove your baseline engineering skills.
     
-    [Start Level 2: XRP Robotics](xrprobotics/xrplanding.md){ .md-button .md-button--primary }
+    [Start Module 1.2](xrprobotics/xrplanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **Level 3: Basic Shop Skills**
+-   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **Module 1.3: Basic Shop Skills**
 
     ---
 
     Learn how to safely operate hand tools, properly crimp wires, and execute basic shop maintenance.
     
-    [Start Level 3: Shop Basics](fabrication/fabricationlanding.md){ .md-button .md-button--primary }
-
--   <span style="color: var(--md-primary-fg-color);">:material-bookshelf:</span> **Team Resources & Standards**
-
-    ---
-
-    Access the FRC glossary, Core Values, and general reference materials anytime.
-    
-    [View Resources](resources/resourceslanding.md){ .md-button }
+    [Start Module 1.3](fabrication/fabricationlanding.md){ .md-button .md-button--primary }
     
 </div>
 
 ---
 
--   <span style="color: var(--md-primary-fg-color);">:material-bookshelf:</span> **Specialization Quiz**
+## 🧭 The Crossroads: Find Your Pathway
+> *Finished Phase 1?* Before you move on, take the Pathfinder Assessment. This interactive questionnaire will analyze your hobbies and problem-solving style to recommend the perfect specialization pathway for you.
+
+<div class="grid cards" markdown>
+
+-   <span style="color: var(--md-primary-fg-color);">:material-map-search:</span> **Take the Pathfinder Assessment**
 
     ---
 
-    A questionnare to help you determine the best specialization path and steps to advance in that category to support the team.
+    Find out if you belong in Mechanical CAD, Software, Fabrication, Strategy, or Media.
     
-    [Take the Quiz](resources/quiz.md){ .md-button }
+    [Start the Assessment](resources/quiz.md){ .md-button }
+
+</div>
 
 ---
 
-## 🚀 Phase 2: Specialization Tracks
+## 🚀 Phase 2: Specialization Pathways
 > *For members who have completed Phase 1.* Dive deep into your specific subteam to master advanced FRC concepts and build the Panther Project brand.
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-cube-outline:</span> **Track: Mechanical & CAD**
+-   <span style="color: var(--md-primary-fg-color);">:material-cube-outline:</span> **Pathway: Mechanical & CAD**
 
     ---
 
     Design the machine. Dive deep into Onshape CAD workflows, the Engineering Design Process, and complex mechanism design.
     
-    [Start Engineering Track](engineering/engineeringlanding.md){ .md-button .md-button--primary }
+    [Start CAD Pathway](engineering/engineeringlanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-factory:</span> **Track: Advanced Fabrication**
+-   <span style="color: var(--md-primary-fg-color);">:material-factory:</span> **Pathway: Advanced Fabrication**
 
     ---
 
     Build the machine. Master heavy precision machinery including the CNC Router, Lathe, Milling Machine, and 3D Printers.
     
-    [Start Fabrication Track](fabrication/fabricationlanding.md){ .md-button .md-button--primary }
+    [Start Fabrication Pathway](fabrication/fabricationlanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-code-braces:</span> **Track: Software & Controls**
+-   <span style="color: var(--md-primary-fg-color);">:material-code-braces:</span> **Pathway: Software & Controls**
 
     ---
 
     Bring the robot to life. Master Java, WPILib, autonomous routines, sensor integration, and advanced control systems.
     
-    [Start Programming Track](engineering/programminglanding.md){ .md-button .md-button--primary }
+    [Start Software Pathway](engineering/programminglanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-bullhorn:</span> **Track: Media & NEMO**
+-   <span style="color: var(--md-primary-fg-color);">:material-bullhorn:</span> **Pathway: Media & NEMO**
 
     ---
 
     Master the Cricut, Button Maker, Adobe Photoshop/Illustrator, public speaking, and team branding guidelines.
     
-    [Start Media Track](media/medialanding.md){ .md-button .md-button--primary }
+    [Start Media Pathway](media/medialanding.md){ .md-button .md-button--primary }
 
 </div>
 
 ---
 
-## 📅 Quick Links & Status
+## 📚 Team Library & Links
+Access the FRC glossary, Core Values, and general reference materials anytime.
+
+* **Team Resources:** [View Core Values & Glossary](resources/resourceslanding.md)
 * **Current Season:** REBUILT (2026)
 * **Team Repository:** [GitHub - The Panther Project](https://github.com/mrmarganski/mkdoc)
 * **Social Media:** [Instagram @frc2064](https://www.instagram.com/frc2064/)
