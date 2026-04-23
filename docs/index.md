@@ -15,7 +15,7 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
 
 ??? info "Click to view Phase 1 Modules & Skills"
 
-    ??? abstract "🤖 Module 1.1: FRC Basics"
+    ??? abstract "🤖 Module 1.1: FRC Basics" 
         *Learn basic tasks required for FRC invoilvement and understanding.*
 
         * **[1.1.1 - Intro to FIRST](frc/FIRST.md):** Overview of FRC and its' place in FIRST and how competitions work.
