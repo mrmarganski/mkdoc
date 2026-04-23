@@ -6,7 +6,7 @@
 Welcome to the official documentation and training hub for Team 2064. Whether you are a rookie stepping into the shop for the very first time, or a veteran drive-team member looking up a CAD standard, everything you need to build great robots is right here.
 
 !!! success "New Member? Start Here!"
-    If you are new to the team, your journey begins with **Phase 1**. You must complete Module 1.1 (Safety) before you can touch any tools or machinery in the shop. 
+    If you are new to the team, your journey begins with **Phase 1**. You must complete all sections of Module 1.3 (Safety) before you can touch any tools in the shop. 
 
 ---
 
@@ -25,7 +25,7 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.1.5 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
         * **[1.1.6 - Power On](frc/poweron.md):** Basic demonstration on how to power team 2064's competition robot on and operate it.
 
-    ??? abstract "📐 Pathway 1.2: Basic CAD"
+    ??? abstract "📐 Module 1.2: Basic CAD"
         *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
         
         * **[1.2.1 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation and accessing the 2064 Onshape Class.
