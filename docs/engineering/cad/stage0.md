@@ -27,7 +27,7 @@ Welcome back! Before you move on to learning how to actually sketch and design p
 - [ ] Created your free Onshape Education Account.
 - [ ] Logged into Onshape successfully.
 - [ ] Set your default units to **Inches** and **Pounds** (Crucial for FRC!).
-- [ ] Subscribed to the **MKCAD App** in the Onshape App Store.
+- [ ] Subscribed to the **FRC Design App** in the Onshape App Store.
 - [ ] Added the standard **FeatureScripts** to your toolbar.
 
 ---
@@ -36,9 +36,8 @@ Welcome back! Before you move on to learning how to actually sketch and design p
 
 To prove you have set up your workspace correctly, you need to submit a screenshot to your Subteam Lead.
 
-1. Open a new Document in Onshape.
-2. Take a screenshot of your entire screen. Ensure the **MKCAD menu** is visible on the right side, and the **FeatureScripts** are visible on your top toolbar.
-3. Post the screenshot in the `#cad-training` Discord channel (or show it directly to your mentor).
+1. Open a new Document in Onshape in your Team folder, show this document to a mentor when complete to ensure it was made in the correct place.
+2. You will use that location to create any FRC related documents for the team to have access to.
 
 ---
 
