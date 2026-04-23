@@ -90,7 +90,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
         * **[2.1.1 - Onshape Stage 1.D (Design Methodology)](engineering/stage1D.md):** Top down design and advanced assemblies.
         * **[2.1.2 - Onshape Stage 1.E (SubSystem Worlflow)](engineering/stage1E.md):** The typical workflow when modeling a subsystem.
         
-    ??? abstract "🏭 Pathway 2.2: Advanced Fabrication"
+    ??? abstract "🏭 Pathway 2.2: Advanced Fabrication (AC Powered Tools)"
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
         
         * **[2.2.1 - 3D Printing Workflow](fabrication/3dprinting2.md):** Advanced Slicing of models, changing filament, and discussion of Engineering Filaments.
