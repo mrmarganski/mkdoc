@@ -58,4 +58,4 @@ You have successfully reached the end of Pathway 1.2: Basic CAD. Choose your nex
 
 [Go to Next Module: 1.3 Safety Certification](../../../safety/safetylanding.md){ .md-button .md-button--primary }
 
-[Return to Home Dashboard](../../../index.md){ .md-button }
+[Return to Home Dashboard](../../index.md){ .md-button }
