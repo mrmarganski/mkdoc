@@ -75,7 +75,7 @@ nav:
           - Engineering Design Process: engineering/designprocess.md
           - Build Season: frc/buildseason.md
           - Power On: frc/poweron.md
-      - "Pathway 1.2: Basic CAD":
+      - "Module 1.2: Basic CAD":
           - Stage 0 (The Basics): engineering/cad/stage0.md
           - Stage 1A (Fundamentals): engineering/cad/stage1A.md
           - Stage 1B (Power Transmissions): engineering/cad/stage1B.md
