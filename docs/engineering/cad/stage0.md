@@ -34,18 +34,17 @@ Welcome back! Before you move on to learning how to actually sketch and design p
 
 ## 📸 Step 3: Module Deliverable
 
-To prove you have set up your workspace correctly, you need to create a document in the FRC 2064 Team subfolder for your work.
+To prove you have set up your workspace correctly, you need to create a document in the FRC 2064 Team folder for your work.
 
-1. Navigate to the 2064 Team Folder, ask a mentor to add you if you cannot locate the 2064 Team Onshape Account
-2. Find your individual folder, as indicated by your graduation year
-3. Create a Folder with your name in that space
-4. Create a new Document in Onshape in your Team folder where you made your individual named folder
-5. Show this document to a mentor when complete to ensure it was made in the correct place.
-6. You will use that location to create any FRC related documents for the team to have access to.
+1. **Find the Team Folder:** Navigate to the 2064 Team Onshape account. *(Ask a mentor to add you if you cannot locate it).*
+2. **Locate your Cohort:** Find the main folder that matches your high school graduation year.
+3. **Create your Folder:** Create a new folder with your name inside your graduation year folder.
+4. **Create a Document:** Create a new blank Onshape Document inside your personal folder. You will use this location to create any FRC-related documents for the team.
+5. **Notify a Mentor:** Show this blank document to a mentor to ensure it was created in the correct place.
 
 ---
 
 ### 🎉 Ready to start drawing?
 Once your mentor has approved your setup, you are ready to move on to your first actual CAD lesson!
 
-[Go to Next Module: Stage 1A (Fundamentals)](stage1A.md){ .md-button style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
+[Go to Next Module: Stage 1A (Fundamentals)](stage1A.md){ .md-button .md-button--primary }
