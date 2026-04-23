@@ -37,7 +37,7 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
         
         * **[1.3.1.A - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
-        * **[1.3.1.B - Specific Machine Safety Guidelines](Safety/machinesafety.md):** Specific Machine Safety for general machines used.
+        * **[1.3.1.B - Specific Machine Safety Guidelines](safety/machinesafety.md):** Specific Machine Safety for general machines used.
         * **[1.3.2 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
         * **[1.3.3 - Safety Practical](safety/safetypractical.md)** Mandatory practical assessment for appropriate safety usage, user must demonstrate correct usage of specified tools.
     
