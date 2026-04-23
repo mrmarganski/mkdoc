@@ -11,13 +11,9 @@ This semester-long CAD class introduces high school students to Computer-Aided D
   - Onshape Learning Center: https://learn.onshape.com/
   - MKCAD and Featurescripts (setup guide: https://www.frcdesign.org/learning-course/stage-0a)
 
-### Course Objectives
-By the end of the course, students will:
+### Module Objectives
+By the end of the section, students will:
 1. Master Onshape fundamentals (sketching, parts, assemblies).
-2. Apply FRC-specific design techniques (e.g., pivot design, robot modeling).
-3. Create and document complex CAD models for FRC robots.
-4. Use best practices for collaborative CAD design.
-5. Demonstrate engineering problem-solving through project-based assignments.
 
 | Week | Topic | FRCDesign.org Stage | Activities | Assignment |
 |------|-------|---------------------|------------|------------|
