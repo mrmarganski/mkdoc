@@ -137,7 +137,7 @@ Building the robot is only half the battle. Phase 3 is reserved for veteran memb
 Access the FRC glossary, Core Values, and general reference materials anytime.
 
 * **Team Resources:** [View Core Values & Glossary](resources/resourceslanding.md)
-* **Current Season:** REBUILT (2026)
+* **Current Season:** [REBUILT (2026)](https://www.firstinspires.org/programs/frc/game-and-season)
 * **Team Repository:** [GitHub - The Panther Project](https://github.com/FRC-2064)
 * **Social Media:** [Instagram @frc2064](https://www.instagram.com/frc2064/)
 * **Discord:** [2064 Member Discord Channel](https://discord.com/invite/svfrdGXrEe)
