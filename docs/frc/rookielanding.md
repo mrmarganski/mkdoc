@@ -36,7 +36,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Mandatory to advance.* Learn our core shop rules, machine safety, and pass your written quiz and practical assessment.
     
-    [Start Safety Training](../safety/Safety.md){ .md-button .md-button--primary }
+    [Start Safety Training](../safety/safetylanding.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **Module 1.4: Basic Hand Tools**
 
@@ -52,7 +52,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Put it all together.* Assemble, wire, and program a functional mini-robot using WPILib and Java to prove your baseline engineering skills.
     
-    [Start XRP Starter Bot](../xrprobotics/module1/Build.md){ .md-button .md-button--primary }
+    [Start XRP Starter Bot](../xrprobotics/module1/xrplanding.md){ .md-button .md-button--primary }
 
 </div>
 
