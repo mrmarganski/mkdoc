@@ -65,72 +65,95 @@ plugins:
 nav:
   - Home: index.md
   
-  - Safety & Certification:
-      - "Safety Overview":
-          - Module Introduction: safety/safetylanding.md   
-      - "Safety Module 1":
+  - "Phase 1: Rookie Foundations":
+      - "Module 1.1: FRC Basics":
+          - Intro to FIRST: frc/FIRST.md
+          - Bot Basics: frc/botbasics.md
+          - Game Analysis: frc/gameanalysis.md
+          - Build Season: frc/buildseason.md
+          - Power On: frc/poweron.md
+      - "Pathway 1.2: Basic CAD":
+          - Engineering Design Process: engineering/designprocess.md
+          - Stage 0 (The Basics): engineering/stage0.md
+          - Stage 1A (Fundamentals): engineering/stage1A.md
+          - Stage 1B (Power Transmissions): engineering/stage1B.md
+          - Stage 1C (Practice Mechanisms): engineering/stage1C.md
+      - "Module 1.3: Safety Certification":
+          - Module Introduction: safety/safetylanding.md
           - General Safety: safety/Safety.md
+          - Machine Safety: safety/machinesafety.md
           - Certification Quiz: safety/Safetyquiz.md
-
-  - XRP Robotics:
-      - "XRP Overview":
+          - Safety Practical: safety/safetypractical.md
+      - "Module 1.4: Basic Hand Tools":
+          - Workspace Organization: fabrication/Closet.md
+          - Hand Tools Overview: fabrication/Handtools.md
+          - Fasteners: fabrication/fasteners.md
+          - Wiring & Crimping: fabrication/crimping.md
+          - Soldering: fabrication/soldering.md
+          - Skill Check - Hand Tools: fabrication/handtoolsquiz.md
+      - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
-      - "Part 1: The Basics":
           - Build Guide: xrprobotics/module1/Build.md
-          - Installing WPILib: xrprobotics/module1/gettingtoknow.md
+          - WPILib Installation: xrprobotics/module1/gettingtoknow.md
           - Command-Based Code: xrprobotics/module1/basicdriveXRP.md
           - Skill Check - Drive Challenge: xrprobotics/module1/XRPdrivechallenge.md
-      - "Part 2: Ping Pong Challenge":
-          - Game Concepts: xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
-          - Assembly Guide: xrprobotics/module2/PingPongAssemble.md
-          - Wiring Guide: xrprobotics/module2/wiringpingpongxrp.md
-          - Coding the Launcher: xrprobotics/module2/pingpongcode.md
-          - The Competition: xrprobotics/module2/PingPongCompetition.md
+          - Launcher Game Concepts: xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
+          - Ping Pong Assembly: xrprobotics/module2/PingPongAssemble.md
+          - Launcher Wiring: xrprobotics/module2/wiringpingpongxrp.md
+          - Launcher Code: xrprobotics/module2/pingpongcode.md
+          - Launcher Competition: xrprobotics/module2/PingPongCompetition.md
 
-  - FRC Technical Pathways:
-      - "Pathways Overview":
+  - "Phase 2: Specialization Pathways":
+      - "Pathway 2.1: Advanced CAD":
           - Pathway Introduction: engineering/engineeringlanding.md
-      - "Robot Basics":
-          - Engineering Design Process: engineering/designprocess.md
-          - Bumper Construction: engineering/bumpers.md
-      - "CAD Design":
-          - FRC Design in Onshape: engineering/CAD.md
+          - Stage 1D (Design Methodology): engineering/stage1D.md
+          - Stage 1E (Subsystem Workflow): engineering/stage1E.md
           - Skill Check - CAD Course: engineering/cadonshapecourse.md
-      - "Programming":
-          - Java & WPILib Basics: engineering/WPIlib.md
-          - Skill Check - Advanced Java: engineering/advancedjava.md
-
-  - Fabrication Pathways:
-      - "Fabrication Overview":
-          - Fabrication Pathways: fabrication/fabricationlanding.md 
-      - "Hand Tools":
-          - Closet Organization: fabrication/Closet.md
-          - Hand Tools Overview: fabrication/Handtools.md
-          - Wiring & Crimping: fabrication/crimping.md
-          - Skill Check - Hand Tools: fabrication/handtoolsquiz.md
-      - "Machine Tools":
-          - 3D Printing: fabrication/3dprinting.md
-          - Bandsaw: fabrication/bandsaw.md
-          - Lathe: fabrication/lathe.md
-          - Milling Machine: fabrication/millingmachine.md
-          - CNC Router: fabrication/cncrouter.md
-          - Laser Engraver: fabrication/laserengraver.md
+      - "Pathway 2.2: Advanced Fabrication":
+          - Fabrication Overview: fabrication/fabricationlanding.md
+          - 3D Printing Workflow: fabrication/3dprinting2.md
+          - Bandsaw Operations: fabrication/bandsaw.md
+          - Lathe Operations: fabrication/lathe.md
+          - Milling Machine Basics: fabrication/millingmachine.md
+          - CNC Router Operations: fabrication/cncrouter.md
+          - Laser Engraver Workflow: fabrication/laserengraver.md
           - Skill Check - Machining: fabrication/machinelessons.md
-
-  - NEMO Pathways:
-      - "Non-Engineering Pathways":
+      - "Pathway 2.3: Software & Controls":
+          - Java & WPILib Basics: engineering/WPIlib.md
+          - Sensor Integration: engineering/sensors.md
+          - Autonomous Routines: engineering/autonomous.md
+          - Vision Processing: engineering/vision.md
+          - PID Control & Tuning: engineering/advancedjava.md
+      - "Pathway 2.4: Media & NEMO":
           - NEMO Overview: media/medialanding.md
-      - "NEMO Categories":    
-          - Cricut Vinyl Cutter: media/cricut.md
-          - Button Maker: media/buttonmaker.md
+          - Branding Guidelines: media/branding.md
           - Adobe Photoshop: media/photoshop.md
           - Adobe Illustrator: media/illustrator.md
-          - Branding Guidelines: media/branding.md
+          - Cricut Vinyl Cutter: media/cricut.md
+          - Button Maker Operations: media/buttonmaker.md
           - Public Speaking: media/publicspeaking.md
 
-  - Resources:
-      - "Team Resources":
-          - General Overview: resources/resourceslanding.md
-          - FRC Glossary: resources/frckeywords.md
-          - 2064 Core Values: resources/rubric.md
-          - Training Modules: resources/outline.md
+  - "Phase 3: Leadership & Competition":
+      - "Pathway 3.1: Strategy":
+          - Game Manual Deep Dive: strategy/game-manual.md
+          - Scouting Architecture: strategy/scouting.md
+          - Data Visualization: strategy/data-viz.md
+          - Alliance Selection Theory: strategy/alliance-selection.md
+      - "Pathway 3.2: Pit Crew":
+          - Packing Manifest: competition/packing.md
+          - Triage & Troubleshooting: competition/triage.md
+          - Inspection Process: competition/inspection.md
+          - Field Connectivity: competition/field-checks.md
+          - Bumper Construction: engineering/bumpers.md
+      - "Pathway 3.3: Project Management":
+          - FRC Timeline: leadership/timeline.md
+          - Awards: leadership/awards.md
+          - Design Review: leadership/design-review.md
+          - Budgeting & POs: leadership/budget.md
+          - The Art of Mentorship: leadership/mentorship.md
+
+  - "Team Resources":
+      - Team Resources Overview: resources/resourceslanding.md
+      - Course Catalog: resources/outline.md
+      - FRC Glossary: resources/frckeywords.md
+      - 2064 Core Values: resources/rubric.md
