@@ -9,10 +9,10 @@ For this very first step, we partner with the incredible curriculum over at **FR
 
 ## 🚦 Step 1: Complete the Setup Guide
 
-Please keep this tab open! Click the button below to open the FRCDesign setup guide in a new window. Read through their page carefully and complete all the steps they list.
+Please keep this tab open! Click the button below to open the FRCDesign setup guide in a new window. Read through their page carefully and complete all the steps they list in the "Course Setup" Section Only.
 
 !!! warning "Important Account Note"
-    When signing up for Onshape, make sure you select the **Education Account** (which is free) and use your school/student email address if you have one.
+    When signing up for Onshape, make sure you select the **Education Account** (which is free) and you **MUST** use your Region15 email address.
 
 [Go to FRCDesign: New to CAD Setup :material-open-in-new:](https://www.frcdesign.org/learning-course/course-setup/new-to-cad/){ .md-button .md-button--primary target="_blank" }
 
