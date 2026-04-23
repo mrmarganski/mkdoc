@@ -22,6 +22,14 @@
     
     [View Core Values](rubric.md){ .md-button }
 
+-   <span style="color: var(--md-primary-fg-color);">:material-star-check:</span> **Modules Overview**
+
+    ---
+
+    Review the outline of modules for you to train on skills and identify next steps.
+    
+    [Modules Overview](outline.md){ .md-button }
+
 </div>
 
 !!! quote "Core Value Check: The Panther Project"
