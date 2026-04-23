@@ -36,8 +36,12 @@ Welcome back! Before you move on to learning how to actually sketch and design p
 
 To prove you have set up your workspace correctly, you need to create a document in the FRC 2064 Team subfolder for your work.
 
-1. Open a new Document in Onshape in your Team folder, show this document to a mentor when complete to ensure it was made in the correct place.
-2. You will use that location to create any FRC related documents for the team to have access to.
+1. Navigate to the 2064 Team Folder
+2. Find your individual folder, as indicated by your graduation year
+3. Create a Folder with your name in that space
+4. Create a new Document in Onshape in your Team folder where you made your individual named folder
+5. Show this document to a mentor when complete to ensure it was made in the correct place.
+6. You will use that location to create any FRC related documents for the team to have access to.
 
 ---
 
