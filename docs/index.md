@@ -31,16 +31,13 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.2.3 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
         * **[1.2.4 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
         * **[1.2.5 - 3D Printing Basics](fabrication/3dprinter.md)** Access to the 3D printer and procedure for operating and basic troubleshooting.
-    
-    ??? abstract "🤖 Module 1.2: XRP Starter Bot"
-        *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
+   
+    ??? abstract "🤖 Module 1.3: FRC Basics"
+        *Learn basic tasks required for FRC invoilvement and understanding.*
         
-        * **[1.3.1 - XRP Build Guide](xrprobotics/module1/Build.md):** Chassis assembly and basic wiring.
-        * **[1.3.2 - WPILib Installation](xrprobotics/module1/gettingtoknow.md):** Setting up VS Code and the FRC programming environment.
-        * **[1.3.3 - Command-Based Drive](xrprobotics/module1/basicdriveXRP.md):** Writing your first Java code to drive the XRP.
-        * **[1.3.4 - Ping Pong Launcher Assembly](xrprobotics/module2/PingPongAssemble.md):** Building the custom 3D-printed add-on.
-        * **[1.3.5 - High-RPM Motor Bridge](xrprobotics/module2/wiringpingpongxrp.md):** Advanced Arduino sub-controller wiring.
-        * **[1.3.6 - Coding The Arduino for XRP](xrprobotics/module2/pingpongcode.md):** Advanced Code for XRP to operate Arduino.
+        * **[1.3.1 - Bot Basics](frc/botbasics.md):** Common parts of an FRC robot.
+        * **[1.3.2 - Power On](frc/poweron.md):** Basics of how to power the robot on.
+        * **[1.3.3 - Game Analysis](frc/gameanalysis.md):** Analyze a past game and pass a quiz on the game content to show gane understanding and rule limits of FRC from a past Game Manual.
 
     ??? abstract "📐 Pathway 1.4: Basic Mechanical & CAD"
         *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
@@ -51,12 +48,15 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.4.4 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
         * **[1.4.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
     
-    ??? abstract "🤖 Module 1.5: FRC Basics"
-        *Learn basic tasks required for FRC invoilvement and understanding.*
+    ??? abstract "🤖 Module 1.5: XRP Starter Bot"
+        *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
         
-        * **[1.5.1 - Bot Basics](frc/botbasics.md):** Common parts of an FRC robot.
-        * **[1.5.2 - Power On](frc/poweron.md):** Basics of how to power the robot on.
-        * **[1.5.3 - Game Analysis](frc/gameanalysis.md):** Analyze a past game and pass a quiz on the game content to show gane understanding and rule limits of FRC from a past Game Manual.
+        * **[1.5.1 - XRP Build Guide](xrprobotics/module1/Build.md):** Chassis assembly and basic wiring.
+        * **[1.5.2 - WPILib Installation](xrprobotics/module1/gettingtoknow.md):** Setting up VS Code and the FRC programming environment.
+        * **[1.5.3 - Command-Based Drive](xrprobotics/module1/basicdriveXRP.md):** Writing your first Java code to drive the XRP.
+        * **[1.5.4 - Ping Pong Launcher Assembly](xrprobotics/module2/PingPongAssemble.md):** Building the custom 3D-printed add-on.
+        * **[1.5.5 - High-RPM Motor Bridge](xrprobotics/module2/wiringpingpongxrp.md):** Advanced Arduino sub-controller wiring.
+        * **[1.5.6 - Coding The Arduino for XRP](xrprobotics/module2/pingpongcode.md):** Advanced Code for XRP to operate Arduino. 
         
 ---
 
