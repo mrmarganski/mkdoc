@@ -48,7 +48,7 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.4.4 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
         * **[1.4.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
     
-    ??? abstract "🤖 Module 1.5: XRP Starter Bot"
+    ??? abstract "🤖 Module 1.5: XRP Starter Bot and Command Based Programming"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
         
         * **[1.5.1 - XRP Build Guide](xrprobotics/module1/Build.md):** Chassis assembly and basic wiring.
