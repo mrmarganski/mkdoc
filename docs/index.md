@@ -22,24 +22,25 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.1.1.B - Specific Machine Safety Guidelines](Safety/machinesafety.md):** Specific Machine Safety for general machines used.
         * **[1.1.2 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
         * **[1.1.3 - Safety Practical](safety/safetypractical.md)** Mandatory practical assessment for appropriate safety usage, user must demonstrate correct usage of specified tools.
+    
+    ??? abstract "🔨 Module 1.2: Basic Fabrication"
+        *Master the fundamentals of hand tools, electrical connections, and workspace organization.*
 
+        * **[1.2.1 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
+        * **[1.2.2 - Hand Tools Overview](fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
+        * **[1.2.3 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
+        * **[1.2.4 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
+        * **[1.2.5 - 3D Printing Basics](fabrication/3dprinter.md)** Access to the 3D printer and procedure for operating and basic troubleshooting.
+    
     ??? abstract "🤖 Module 1.2: XRP Starter Bot"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
         
-        * **[1.2.1 - XRP Build Guide](xrprobotics/module1/Build.md):** Chassis assembly and basic wiring.
-        * **[1.2.2 - WPILib Installation](xrprobotics/module1/gettingtoknow.md):** Setting up VS Code and the FRC programming environment.
-        * **[1.2.3 - Command-Based Drive](xrprobotics/module1/basicdriveXRP.md):** Writing your first Java code to drive the XRP.
-        * **[1.2.4 - Ping Pong Launcher Assembly](xrprobotics/module2/PingPongAssemble.md):** Building the custom 3D-printed add-on.
-        * **[1.2.5 - High-RPM Motor Bridge](xrprobotics/module2/wiringpingpongxrp.md):** Advanced Arduino sub-controller wiring.
-        * **[1.2.6 - Coding The Arduino for XRP](xrprobotics/module2/pingpongcode.md):** Advanced Code for XRP to operate Arduino.
-
-    ??? abstract "🔨 Module 1.3: Basic Fabrication"
-        *Master the fundamentals of hand tools, electrical connections, and workspace organization.*
-
-        * **[1.3.1 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
-        * **[1.3.2 - Hand Tools Overview](fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
-        * **[1.3.3 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
-        * **[1.3.4 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
+        * **[1.3.1 - XRP Build Guide](xrprobotics/module1/Build.md):** Chassis assembly and basic wiring.
+        * **[1.3.2 - WPILib Installation](xrprobotics/module1/gettingtoknow.md):** Setting up VS Code and the FRC programming environment.
+        * **[1.3.3 - Command-Based Drive](xrprobotics/module1/basicdriveXRP.md):** Writing your first Java code to drive the XRP.
+        * **[1.3.4 - Ping Pong Launcher Assembly](xrprobotics/module2/PingPongAssemble.md):** Building the custom 3D-printed add-on.
+        * **[1.3.5 - High-RPM Motor Bridge](xrprobotics/module2/wiringpingpongxrp.md):** Advanced Arduino sub-controller wiring.
+        * **[1.3.6 - Coding The Arduino for XRP](xrprobotics/module2/pingpongcode.md):** Advanced Code for XRP to operate Arduino.
 
     ??? abstract "📐 Pathway 1.4: Basic Mechanical & CAD"
         *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
@@ -90,7 +91,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
     ??? abstract "🏭 Pathway 2.2: Advanced Fabrication"
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
         
-        * **[2.2.1 - 3D Printing Workflow](fabrication/3dprinting.md):** Slicing models, changing filament, and maintaining the Bambu/Formlabs printers.
+        * **[2.2.1 - 3D Printing Workflow](fabrication/3dprinting2.md):** Advanced Slicing of models, changing filament, and discussion of Engineering Filaments.
         * **[2.2.2 - Bandsaw Operations](fabrication/bandsaw.md):** Safe cutting techniques for aluminum and polycarb.
         * **[2.2.3 - Lathe Operations](fabrication/lathe.md):** Turning shafts, cutting retaining ring grooves, and facing parts.
         * **[2.2.4 - Milling Machine Basics](fabrication/millingmachine.md):** Squaring stock, drilling precise hole patterns, and edge finding.
