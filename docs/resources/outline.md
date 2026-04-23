@@ -1,7 +1,7 @@
 # 📖 Module Catalog & Master Glossary
 > **The Panther Project Skill Index**
 
-Welcome to the Team 2064 Catalog. Click on any Phase below to expand it, and then select your Module to find your specific skill training.
+Welcome to the Team 2064 Catalog. This page outlines every training module and learning resource available to team members. 
 
 !!! tip "How to read the course codes"
     Every class has a unique identifier using the **`[Phase . Module . Skill]`** system. 
@@ -9,8 +9,10 @@ Welcome to the Team 2064 Catalog. Click on any Phase below to expand it, and the
 
 ---
 
-??? info "🏁 Phase 1: Rookie Foundations"
-    *Mandatory onboarding for all new team members before selecting a specialization pathway.*
+## 🏁 Phase 1: Rookie Foundations
+Welcome to The Panther Project! Before you can build a 125-pound competition robot, you need to master the basics. Phase 1 is mandatory for all new members, regardless of prior experience. In this phase, you will learn how to safely navigate a high school machine shop, identify and use core hand tools, and understand the flow of an electrical circuit. You will prove your baseline knowledge by building, wiring, and programming a miniature XRP Starter Bot, which perfectly mirrors the control systems of our full-size FRC machines. Once you pass Phase 1, you unlock the rest of the shop!
+
+??? info "Click to view Phase 1 Modules & Skills"
 
     ??? abstract "🛡️ Module 1.1: Safety Certification"
         *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
@@ -34,8 +36,12 @@ Welcome to the Team 2064 Catalog. Click on any Phase below to expand it, and the
         * **[1.3.2 - Wiring & Crimping](../fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
         * **[1.3.3 - Workspace Organization](../fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
 
-??? info "🚀 Phase 2: Specialization Pathways"
-    *Advanced training for members who have successfully completed Phase 1. Members generally choose one primary pathway to master.*
+---
+
+## 🚀 Phase 2: Specialization Pathways
+An FRC team is built like a small engineering firm—it is simply too massive for one person to do everything. Phase 2 is where you choose your specialty and master it. Whether you want to design mechanisms in CAD, operate heavy precision machinery, write autonomous code, or manage the team's brand and media, this phase gives you the deep, focused training you need. You will generally pick one primary pathway to focus on, turning you into a highly skilled contributor to the competition robot.
+
+??? info "Click to view Phase 2 Pathways & Skills"
 
     ??? abstract "📐 Pathway 2.1: Mechanical & CAD"
         *Design the machine. Master Onshape, mechanisms, and the Engineering Design Process.*
@@ -76,8 +82,12 @@ Welcome to the Team 2064 Catalog. Click on any Phase below to expand it, and the
         * **[2.4.5 - Button Maker Operations](../media/buttonmaker.md):** Designing templates, printing, and pressing team buttons for events.
         * **[2.4.6 - Public Speaking & Impact Award](../media/publicspeaking.md):** Crafting the team narrative, presentation prep, and pit speaking.
 
-??? info "🏆 Phase 3: Advanced Competition & Leadership Mastery"
-    *Reserved for veteran members and subteam leads. These modules focus on macro-level team operations, high-level event strategy, and project management.*
+---
+
+## 🏆 Phase 3: Advanced Competition & Leadership Mastery
+Building the robot is only half the battle. Phase 3 is reserved for veteran members, subteam leads, and the drive team. These modules zoom out from individual part creation to macro-level team operations and event execution. You will learn how to read a game manual to find strategic loopholes, design scouting apps to track opponent data, manage a high-stress pit crew during the 8-minute turnaround between matches, and lead engineering design reviews. This is where you learn to manage projects, lead peers, and ultimately win events.
+
+??? info "Click to view Phase 3 Modules & Skills"
 
     ??? abstract "📊 Module 3.1: Strategy & Data Analytics"
         *Taking the game from the shop to the field. Master the data required to win events.*
