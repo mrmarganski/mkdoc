@@ -76,10 +76,10 @@ nav:
           - Power On: frc/poweron.md
       - "Pathway 1.2: Basic CAD":
           - Engineering Design Process: engineering/designprocess.md
-          - Stage 0 (The Basics): engineering/CAD/stage0.md
-          - Stage 1A (Fundamentals): engineering/CAD/stage1A.md
-          - Stage 1B (Power Transmissions): engineering/CAD/stage1B.md
-          - Stage 1C (Practice Mechanisms): engineering/CAD/stage1C.md
+          - Stage 0 (The Basics): engineering/cad/stage0.md
+          - Stage 1A (Fundamentals): engineering/cad/stage1A.md
+          - Stage 1B (Power Transmissions): engineering/cad/stage1B.md
+          - Stage 1C (Practice Mechanisms): engineering/cad/stage1C.md
       - "Module 1.3: Safety Certification":
           - Module Introduction: safety/safetylanding.md
           - General Safety: safety/Safety.md
@@ -109,8 +109,8 @@ nav:
       - "Specialization Paths":
           - Specialization Selections: engineering/engineeringlanding.md
       - "Pathway 2.1: Advanced CAD":
-          - Stage 1D (Design Methodology): engineering/CAD/stage1D.md
-          - Stage 1E (Subsystem Workflow): engineering/CAD/stage1E.md
+          - Stage 1D (Design Methodology): engineering/cad/stage1D.md
+          - Stage 1E (Subsystem Workflow): engineering/cad/stage1E.md
           - Skill Check - CAD Course: engineering/cadonshapecourse.md
       - "Pathway 2.2: Advanced Fabrication":
           - Fabrication Overview: fabrication/fabricationlanding.md
