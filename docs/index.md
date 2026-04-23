@@ -147,9 +147,10 @@ Building the robot is only half the battle. Phase 3 is reserved for veteran memb
         *Running the team like an engineering firm. Required for all Captains and Subteam Leads.*
         
         * **[3.3.1 - The FRC Timeline](leadership/timeline.md):** Managing the 6-week build season milestones.
-        * **[3.3.2 - Running a Design Review](leadership/design-review.md):** Leading meetings and locking in dimensions.
-        * **[3.3.3 - Budgeting & Purchase Orders](leadership/budget.md):** Researching COTS parts and requesting quotes.
-        * **[3.3.4 - The Art of Mentorship](leadership/mentorship.md):** How to teach Rookies without "doing the work for them."
+        * **[3.2.2 - Awards](leadership/awards.md)** Review of FRC awards and steps to prepare to align towards them in a season. 
+        * **[3.3.3 - Running a Design Review](leadership/design-review.md):** Leading meetings and locking in dimensions.
+        * **[3.3.4 - Budgeting & Purchase Orders](leadership/budget.md):** Researching COTS parts and requesting quotes.
+        * **[3.3.5 - The Art of Mentorship](leadership/mentorship.md):** How to teach Rookies without "doing the work for them."
 
 ---
 
