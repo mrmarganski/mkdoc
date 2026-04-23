@@ -9,9 +9,7 @@
 
 ---
 
-<div align="center">
-  <img src="https://github.com/mrmarganski/mkdoc/blob/1a19f689e08caca3a15711fd89ca60b208c53a6e/docs/img/IMG_0527.png" alt="Description" width="300">
-</div>
+![Wiring Diagram](../../img/IMG_0529.png){ align=center width="300" }
 
 ---
 
