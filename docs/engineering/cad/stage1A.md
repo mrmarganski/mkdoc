@@ -37,13 +37,10 @@ Welcome back! By the end of those three sections, you should have a solid grasp 
 
 ## 📸 Step 3: Module Deliverable
 
-To prove you have mastered these fundamentals, you need to submit your completed Onshape document to your Subteam Lead.
+To prove you have mastered these fundamentals, you need to have the documents created within your individual folder for a mentor to approve.
 
 1. Ensure your Onshape Document is named clearly (e.g., `FirstLast_Stage1A`).
-2. Click the blue **Share** button in the top right corner of Onshape.
-3. Click the **Link sharing** tab and turn on link sharing. 
-4. Copy the link to your clipboard.
-5. Paste the link into the `#cad-training` Discord channel (or email it directly to your mentor) so they can review your sketches.
+2. Attach and submit the document to the assigned place within the training onshape page. 
 
 ---
 
