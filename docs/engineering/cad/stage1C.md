@@ -35,6 +35,7 @@ Work through as many of these exercises as your Subteam Lead requires. Each one 
 Welcome back! If you can model these mechanisms, you are officially ready to start designing parts for the real competition robot.
 
 **Verify your CAD standards before submitting:**
+
 - [ ] Did you use a **Layout Sketch** for every mechanism?
 - [ ] Is the **Origin Cube** the very first feature in your Part Studio?
 - [ ] Are all of your imported MKCAD parts properly fastened/mated in the Assembly?
@@ -55,6 +56,6 @@ To prove you have completed the Basic CAD pathway, you must submit your Onshape 
 ### 🎉 Pathway 1.2 Complete!
 You have successfully reached the end of Pathway 1.2: Basic CAD. Choose your next step below:
 
-[Go to Next Module: 1.3 Safety Certification](../safety/safetylanding.md){ .md-button .md-button--primary style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px; margin-bottom: 10px;" }
+[Go to Next Module: 1.3 Safety Certification](../safety/safetylanding.md){ .md-button .md-button--primary }
 
-[Return to Home Dashboard](../index.md){ .md-button style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
+[Return to Home Dashboard](../index.md){ .md-button }
