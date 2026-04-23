@@ -28,10 +28,10 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
     ??? abstract "📐 Module 1.2: Basic CAD"
         *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
         
-        * **[1.2.1 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation and accessing the 2064 Onshape Class.
-        * **[1.2.2 - Onshape Stage 1A (Fundamentals)](engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
-        * **[1.2.3 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
-        * **[1.2.4 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
+        * **[1.2.1 - Onshape Stage 0 (The Basics)](engineering/cad/stage0.md):** Account setup, UI navigation, and MKCAD library installation and accessing the 2064 Onshape Class.
+        * **[1.2.2 - Onshape Stage 1A (Fundamentals)](engineering/cad/stage1A.md):** Sketching, extruding, and multi-part studios.
+        * **[1.2.3 - Onshape Stage 1B (Power Transmissions)](engineering/cad/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
+        * **[1.2.4 - Onshape Stage 1C (Practice Mechanisms)](engineering/cad/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
 
     ??? abstract "🛡️ Module 1.3: Safety Certification"
         *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
@@ -70,8 +70,8 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
     ??? abstract "📐 Pathway 2.1: Advanced Mechanical & CAD"
         *Design the machine. Master Onshape, mechanisms, and the Engineering Design Process.*
         
-        * **[2.1.1 - Onshape Stage 1.D (Design Methodology)](engineering/stage1D.md):** Top down design and advanced assemblies.
-        * **[2.1.2 - Onshape Stage 1.E (SubSystem Worlflow)](engineering/stage1E.md):** The typical workflow when modeling a subsystem.
+        * **[2.1.1 - Onshape Stage 1.D (Design Methodology)](engineering/cad/stage1D.md):** Top down design and advanced assemblies.
+        * **[2.1.2 - Onshape Stage 1.E (SubSystem Workflow)](engineering/cad/stage1E.md):** The typical workflow when modeling a subsystem.
         
     ??? abstract "🏭 Pathway 2.2: Advanced Fabrication (AC Powered Tools)"
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
@@ -86,11 +86,11 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
     ??? abstract "💻 Pathway 2.3: Software & Controls"
         *Bring the robot to life. Master Java, autonomous routines, and advanced sensor integration.*
         
-        * **[2.3.1 - Advanced Java & WPILib](engineering/WPIlib.md):** Subsystems, commands, and motor controller APIs (Spark MAX/Talon FX).
-        * **[2.3.2 - Sensor Integration](engineering/sensors.md):** Reading encoders, gyros (NavX/Pigeon), and limit switches.
-        * **[2.3.3 - Autonomous Routines](engineering/autonomous.md):** Path planning, odometry, and trajectory following.
-        * **[2.3.4 - Vision Processing](engineering/vision.md):** Tuning pipelines using PhotonVision or Limelight.
-        * **[2.3.5 - PID Control & Tuning](engineering/advancedjava.md):** Making mechanisms move quickly and stop accurately without oscillating.
+        * **[2.3.1 - Advanced Java & WPILib](engineering/programming/WPIlib.md):** Subsystems, commands, and motor controller APIs (Spark MAX/Talon FX).
+        * **[2.3.2 - Sensor Integration](engineering/programming/sensors.md):** Reading encoders, gyros (NavX/Pigeon), and limit switches.
+        * **[2.3.3 - Autonomous Routines](engineering/programming/autonomous.md):** Path planning, odometry, and trajectory following.
+        * **[2.3.4 - Vision Processing](engineering/programming/vision.md):** Tuning pipelines using PhotonVision or Limelight.
+        * **[2.3.5 - PID Control & Tuning](engineering/programming/advancedjava.md):** Making mechanisms move quickly and stop accurately without oscillating.
 
     ??? abstract "📸 Pathway 2.4: Media & NEMO"
         *Build the brand. Create team media, manage public relations, and prepare for the Impact Award.*
