@@ -1,35 +1,61 @@
-# 📐 FRC Technical Pathways
-> Dive deep into the engineering that powers our 125lb competition robots. Choose your specialty below.
+# 🚀 Phase 2: Specialization Pathways
+> **Prerequisite:** Successful completion of Phase 1: Rookie Foundations
+
+Congratulations on passing Phase 1! You've mastered the basics of the shop, built your XRP Starter Bot, and earned your safety certifications. Now, it's time to choose your specialty. 
+
+An FRC team is built like a small engineering firm—it is simply too massive for one person to do everything. Phase 2 is where you pick a subteam and dive deep into mastering those specific skills.
+
+!!! tip "How to Navigate Phase 2"
+    1. **Pick a Primary Pathway:** While you can explore multiple areas, we highly recommend focusing on *one* primary pathway for your first season to truly master the skills.
+    2. **Follow the Modules:** Click into your chosen pathway below. Complete the training modules in numerical order (e.g., complete Module 2.1.1 before 2.1.2).
+    3. **Talk to your Lead:** Once you select a pathway, introduce yourself to that Subteam Lead or Mentor to get started on your first hands-on project!
+
+??? abstract "Unsure where to start? Take the Pathfinder Assessment!"
+    If you aren't sure which pathway fits your skills and interests best, take our interactive quiz to get a personalized recommendation based on your problem-solving style.
+    
+    [Take the Pathfinder Assessment](resources/quiz.md){ .md-button }
 
 ---
 
+## 🛤️ Select Your Pathway
+
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-cog-box:</span> **Robot Basics**
+-   <span style="color: var(--md-primary-fg-color);">:material-cube-outline:</span> **Pathway 2.1: Mechanical & CAD**
 
     ---
 
-    Learn the foundations of the Engineering Design Process and how to construct FRC compliant, robust robots.
+    *Design the machine.* Dive deep into Onshape CAD workflows, the Engineering Design Process, and complex mechanism design.
     
-    [Learn Robot Basics](designprocess.md){ .md-button .md-button--primary }
+    [Start CAD Pathway](engineering/engineeringlanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-cube-outline:</span> **CAD Design**
+-   <span style="color: var(--md-primary-fg-color);">:material-factory:</span> **Pathway 2.2: Advanced Fabrication**
 
     ---
 
-    Master Onshape to design custom robot parts, assemblies, and mechanisms before we ever cut metal.
+    *Build the machine.* Master heavy precision machinery including the CNC Router, Lathe, Milling Machine, and 3D Printers.
     
-    [Start CAD Course](CAD.md){ .md-button .md-button--primary }
+    [Start Fabrication Pathway](fabrication/fabricationlanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-code-braces:</span> **Programming**
+-   <span style="color: var(--md-primary-fg-color);">:material-code-braces:</span> **Pathway 2.3: Software & Controls**
 
     ---
 
-    Ready to bring the robot to life? Dive into FRC Java, WPILib, and advanced control systems.
+    *Bring the robot to life.* Master Java, WPILib, autonomous routines, sensor integration, and advanced control systems.
     
-    [Start Programming](WPIlib.md){ .md-button .md-button--primary }
+    [Start Software Pathway](engineering/programminglanding.md){ .md-button .md-button--primary }
+
+-   <span style="color: var(--md-primary-fg-color);">:material-bullhorn:</span> **Pathway 2.4: Media & NEMO**
+
+    ---
+
+    *Build the brand.* Master the Cricut, Button Maker, Adobe Photoshop/Illustrator, public speaking, and team branding guidelines.
+    
+    [Start Media Pathway](media/medialanding.md){ .md-button .md-button--primary }
 
 </div>
 
-!!! quote "Core Value Check: Fun"
-    "We take the engineering seriously, but we never forget to celebrate the joy of the build."
+---
+
+!!! quote "Core Value Check"
+    *"Mastery isn't about knowing everything; it's about being willing to learn anything."*
