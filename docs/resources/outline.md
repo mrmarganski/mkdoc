@@ -98,7 +98,3 @@ Welcome to the Team 2064 Course Catalog. This page outlines every training modul
 * **3.3.4 - The Art of Mentorship:** How to effectively teach Phase 1 Rookies without just "doing the work for them."
 
 ---
-
-## 📚 Team Resources (Reference Library)
-* **FRC Glossary:** A comprehensive dictionary of standard FIRST Robotics acronyms and terminology.
-* **Core Values Rubric:** The standards by which all Team 2064 members are evaluated and guided.
