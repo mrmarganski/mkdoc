@@ -45,7 +45,7 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
         
         * **[1.4.1 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
-        * **[1.4.2 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
+        * **[1.4.2 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation and accessing the 2064 Onshape Class.
         * **[1.4.3 - Onshape Stage 1A (Fundamentals)](engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
         * **[1.4.4 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
         * **[1.4.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
