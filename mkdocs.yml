@@ -72,10 +72,10 @@ nav:
           - Intro to FIRST: frc/FIRST.md
           - Bot Basics: frc/botbasics.md
           - Game Analysis: frc/gameanalysis.md
+          - Engineering Design Process: engineering/designprocess.md
           - Build Season: frc/buildseason.md
           - Power On: frc/poweron.md
       - "Pathway 1.2: Basic CAD":
-          - Engineering Design Process: engineering/designprocess.md
           - Stage 0 (The Basics): engineering/cad/stage0.md
           - Stage 1A (Fundamentals): engineering/cad/stage1A.md
           - Stage 1B (Power Transmissions): engineering/cad/stage1B.md
