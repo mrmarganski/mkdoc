@@ -66,6 +66,8 @@ nav:
   - Home: index.md
   
   - "Phase 1: Rookie Foundations":
+      - "Rookie Home":
+          - Welcome!: rookielanding.md
       - "Module 1.1: FRC Basics":
           - Intro to FIRST: frc/FIRST.md
           - Bot Basics: frc/botbasics.md
@@ -104,8 +106,9 @@ nav:
           - Launcher Competition: xrprobotics/module2/PingPongCompetition.md
 
   - "Phase 2: Specialization Pathways":
+      - "Specialization Paths":
+          - Specialization Selections: engineeringlanding.md
       - "Pathway 2.1: Advanced CAD":
-          - Pathway Introduction: engineering/engineeringlanding.md
           - Stage 1D (Design Methodology): engineering/CAD/stage1D.md
           - Stage 1E (Subsystem Workflow): engineering/CAD/stage1E.md
           - Skill Check - CAD Course: engineering/cadonshapecourse.md
@@ -134,6 +137,8 @@ nav:
           - Public Speaking: media/publicspeaking.md
 
   - "Phase 3: Leadership & Competition":
+      - "Advanced Pathways":
+          - Leadership Pathways: strategy/leadershiplanding.md
       - "Pathway 3.1: Strategy":
           - Game Manual Deep Dive: strategy/game-manual.md
           - Scouting Architecture: strategy/scouting.md
