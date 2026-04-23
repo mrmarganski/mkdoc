@@ -41,7 +41,7 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.3.2 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
         * **[1.3.3 - Safety Practical](safety/safetypractical.md)** Mandatory practical assessment for appropriate safety usage, user must demonstrate correct usage of specified tools.
     
-    ??? abstract "🔨 Module 1.4: Basic Hand Tool Fabrication (No AC Power Tools)"
+    ??? abstract "🔨 Module 1.4: Basic Hand Tool Fabrication (No AC Power Tools)" 
         *Master the fundamentals of hand tools, electrical connections, and workspace organization.*
 
         * **[1.4.1 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
