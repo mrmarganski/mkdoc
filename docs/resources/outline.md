@@ -67,24 +67,31 @@ Welcome to the Team 2064 Course Catalog. This page outlines every training modul
 ---
 
 ## 🏆 Phase 3: Advanced Competition & Leadership Mastery
+
 *Reserved for veteran members and subteam leads. These modules focus on macro-level team operations, high-level event strategy, and project management.*
 
 ### 📊 Module 3.1: Strategy & Data Analytics
+
 *Taking the game from the shop to the field. Master the data required to win events.*
+
 * **3.1.1 - The Game Manual Deep Dive:** How to read, interpret, and exploit the rules for strategic design advantages.
 * **3.1.2 - Scouting System Architecture:** Designing digital scouting apps (AppSheet, Google Forms) to collect clean, reliable match data.
 * **3.1.3 - Data Visualization:** Using Tableau or Excel to create pit dashboards for the Drive Team.
 * **3.1.4 - Alliance Selection Theory:** Calculating EPA (Expected Point Contribution), OPR (Offensive Power Rating), and building the perfect pick-list.
 
 ### 🏎️ Module 3.2: Pit Crew & Event Operations
+
 *Executing under pressure. These classes train the elite members who keep the robot alive during competition.*
+
 * **3.2.1 - The Packing Manifest:** Managing the battery cart, spare parts crates, and pit construction checklists.
 * **3.2.2 - Rapid Triage & Troubleshooting:** The 8-minute turnaround. How to diagnose and patch broken mechanisms between back-to-back matches.
 * **3.2.3 - The Inspection Process:** Navigating the sizing box, weight limits, and hardware checks with the Robot Inspectors.
 * **3.2.4 - Field Connectivity & System Checks:** Verifying the driver station, radio bridging, and pre-match staging protocols.
 
 ### 📋 Module 3.3: Project Management & Leadership
+
 *Running the team like an engineering firm. Required for all Captains and Subteam Leads.*
+
 * **3.3.1 - The FRC Timeline:** Creating Gantt charts, managing the 6-week build season milestones, and tracking subsystem progress.
 * **3.3.2 - Running a Design Review:** How to lead a collaborative meeting, lock in robot dimensions, and provide constructive engineering feedback.
 * **3.3.3 - Budgeting & Purchase Orders:** Researching COTS (Commercial Off-The-Shelf) parts, requesting quotes, and managing the subteam budget.
