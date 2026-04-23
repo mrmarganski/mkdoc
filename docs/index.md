@@ -40,7 +40,15 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.3.2 - Hand Tools Overview](fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
         * **[1.3.3 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
         * **[1.3.4 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
+
+    ??? abstract "📐 Pathway 1.4: Basic Mechanical & CAD"
+        *Gain an understanding of the OnShape software for designing parts of a robot and the Engineering Design Process.*
         
+        * **[2.1.1 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
+        * **[2.1.2 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
+        * **[2.1.3 - Onshape Stage 1A (Fundamentals)](engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
+        * **[2.1.4 - Onshape Stage 1B (Power Transmissions)](engineering/stage1B.md):** Fundamentals of power transmissions, with an emphasis on how to model them in CAD.
+        * **[2.1.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/stage1C.md):** Model a number of different mechanisms to practice your CAD skills and execution of small details.
 ---
 
 ## 🧭 The Crossroads: Find Your Pathway
@@ -65,12 +73,11 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
 ??? info "Click to view Phase 2 Pathways & Skills"
 
-    ??? abstract "📐 Pathway 2.1: Mechanical & CAD"
+    ??? abstract "📐 Pathway 2.1: Advanced Mechanical & CAD"
         *Design the machine. Master Onshape, mechanisms, and the Engineering Design Process.*
         
-        * **[2.1.3 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
-        * **[2.1.1 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
-        * **[2.1.2 - Onshape Stage 1 (Fundamentals)](engineering/stage1.md):** Sketching, extruding, and multi-part studios.
+        * **[2.1.1 - Onshape Stage 1.D (Design Methodology)](engineering/stage1D.md):** Top down design and advanced assemblies.
+        * **[2.1.2 - Onshape Stage 1.E (SubSystem Worlflow)](engineering/stage1E.md):** The typical workflow when modeling a subsystem.
         
     ??? abstract "🏭 Pathway 2.2: Advanced Fabrication"
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
