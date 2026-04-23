@@ -45,10 +45,7 @@ Welcome back! If you can model these mechanisms, you are officially ready to sta
 To prove you have completed the Basic CAD pathway, you need to submit your Onshape document containing your mechanisms.
 
 1. Ensure your Onshape Document is named clearly (e.g., `FirstLast_Stage1C_Mechanisms`).
-2. Click the blue **Share** button in the top right corner of Onshape.
-3. Click the **Link sharing** tab and turn on link sharing. 
-4. Copy the link to your clipboard.
-5. Paste the link into the `#cad-training` Discord channel (or email it directly to your mentor).
+2. Submit to your onshape course assignment for 2064.
 
 ---
 
