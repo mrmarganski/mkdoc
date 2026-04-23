@@ -1,11 +1,11 @@
-# 📖 Course Catalog & Master Glossary
-> **The Panther Project Curriculum Index**
+# 📖 Module Catalog & Master Glossary
+> **The Panther Project Skill Index**
 
-Welcome to the Team 2064 Course Catalog. This page outlines every training module and class available to team members. 
+Welcome to the Team 2064 Catalog. This page outlines every training module and learning resource available to team members. 
 
 !!! tip "How to read the course codes"
-    Every class has a unique identifier using the **`[Phase . Module . Class]`** system. 
-    *Example: **1.2.4** means **Phase 1** (Rookie Foundations) > **Module 2** (XRP Bot) > **Class 4** (Ping Pong Assembly).*
+    Every class has a unique identifier using the **`[Phase . Module . Skill]`** system. 
+    *Example: **1.2.3** means **Phase 1** (Rookie Foundations) > **Module 2** (XRP Bot) > **Skill 3** (Command Based XRP Bot).*
 
 ---
 
