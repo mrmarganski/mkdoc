@@ -1,114 +1,104 @@
-# 📖 Module Catalog & Master Glossary
-> **The Panther Project Skill Index**
+# 🗂️ Master Site Index & Glossary
+> **The Panther Project Directory**
 
-Welcome to the Team 2064 Catalog. This page outlines every training module and learning resource available to team members. 
-
-!!! tip "How to read the course codes"
-    Every class has a unique identifier using the **`[Phase . Module . Skill]`** system. 
-    *Example: **1.2.3** means **Phase 1** (Rookie Foundations) > **Module 2** (XRP Bot) > **Skill 3** (Command Based Drive).*
+Looking for something specific? Use this A-Z alphabetical directory to jump straight to any lesson, guide, or resource on the Team 2064 hub.
 
 ---
 
-## 🏁 Phase 1: Rookie Foundations
-Welcome to The Panther Project! Before you can build a 125-pound competition robot, you need to master the basics. Phase 1 is mandatory for all new members, regardless of prior experience. In this phase, you will learn how to safely navigate a high school machine shop, identify and use core hand tools, and understand the flow of an electrical circuit. You will prove your baseline knowledge by building, wiring, and programming a miniature XRP Starter Bot, which perfectly mirrors the control systems of our full-size FRC machines. Once you pass Phase 1, you unlock the rest of the shop!
+### A
+* **[Adobe Illustrator](../media/illustrator.md):** Vector design guidelines for pit banners, apparel, and sponsor packets.
+* **[Adobe Photoshop](../media/photoshop.md):** Photo editing, color correction, and social media asset creation.
+* **[Alliance Selection Theory](../strategy/alliance-selection.md):** Calculating EPA, OPR, and building pick-lists for playoffs.
+* **[Autonomous Routines](../engineering/autonomous.md):** Path planning, odometry, and trajectory following in Java.
+* **[Awards](../leadership/awards.md):** Review of FRC awards and steps to align team efforts to win them.
 
-??? info "Click to view Phase 1 Modules & Skills"
+### B
+* **[Bandsaw Operations](../fabrication/bandsaw.md):** Safe cutting techniques for aluminum and polycarbonate.
+* **[Bot Basics](../frc/botbasics.md):** Overview of common parts and anatomy of an FRC robot.
+* **[Branding Guidelines](../media/branding.md):** Official fonts, hex codes, logo usage, and uniform standards.
+* **[Budgeting & POs](../leadership/budget.md):** Researching COTS parts, requesting quotes, and managing subteam budgets.
+* **[Build Season](../frc/buildseason.md):** What to expect during the intensive 6-week FRC build season.
+* **[Bumpers](../engineering/bumpers.md):** Rules, wood cutting, fabric wrapping, and mounting competition bumpers.
+* **[Button Maker](../media/buttonmaker.md):** Designing templates, printing, and pressing team buttons for events.
 
-    ??? abstract "🛡️ Module 1.1: Safety Certification"
-        *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
-        
-        * **[1.1.1 - General Safety Guidelines](../safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
-        * **[1.1.2 - Certification Quiz](../safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
+### C
+* **[CNC Router](../fabrication/cncrouter.md):** CAM setup, feeds/speeds, and cutting custom aluminum chassis plates.
+* **[Closet Organization](../fabrication/Closet.md):** Shop management, battery care, and maintaining a clean workspace.
+* **[Command-Based Drive](../xrprobotics/module1/basicdriveXRP.md):** Writing your first Java code to drive the XRP starter bot.
+* **[Core Values (Rubric)](../resources/rubric.md):** The behavioral and work-ethic standards for all Team 2064 members.
+* **[Cricut Vinyl Cutter](../media/cricut.md):** Preparing SVG files, cutting decals, and applying transfer tape.
+* **[Crimping & Wiring](../fabrication/crimping.md):** Creating secure electrical connections and using Anderson powerpoles.
 
-    ??? abstract "🤖 Module 1.2: XRP Starter Bot"
-        *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
-        
-        * **[1.2.1 - XRP Build Guide](../xrprobotics/module1/Build.md):** Chassis assembly and basic wiring.
-        * **[1.2.2 - WPILib Installation](../xrprobotics/module1/gettingtoknow.md):** Setting up VS Code and the FRC programming environment.
-        * **[1.2.3 - Command-Based Drive](../xrprobotics/module1/basicdriveXRP.md):** Writing your first Java code to drive the XRP.
-        * **[1.2.4 - Ping Pong Launcher Assembly](../xrprobotics/module2/PingPongAssemble.md):** Building the custom 3D-printed add-on.
-        * **[1.2.5 - High-RPM Motor Bridge](../xrprobotics/module2/wiringpingpongxrp.md):** Advanced Arduino sub-controller wiring.
+### D
+* **[Data Visualization](../strategy/data-viz.md):** Using Tableau or Excel to create pit dashboards for the Drive Team.
+* **[Design Process (Engineering)](../engineering/designprocess.md):** Brainstorming, prototyping, and documenting robot design decisions.
+* **[Design Review](../leadership/design-review.md):** How to lead collaborative meetings and lock in robot dimensions.
 
-    ??? abstract "🔨 Module 1.3: Basic Shop Skills"
-        *Master the fundamentals of hand tools, electrical connections, and workspace organization.*
-        
-        * **[1.3.1 - Hand Tools Overview](../fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
-        * **[1.3.2 - Wiring & Crimping](../fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
-        * **[1.3.3 - Workspace Organization](../fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
+### F
+* **[Fasteners](../fabrication/fasteners.md):** A guide to the specific bolts, nuts, and rivets used on our robots.
+* **[Field Connectivity](../competition/field-checks.md):** Verifying the driver station, radio bridging, and pre-match staging.
+* **[FIRST (Intro to)](../frc/FIRST.md):** Overview of FRC, its place in FIRST, and how competitions work.
+
+### G
+* **[Game Analysis](../frc/gameanalysis.md):** How to analyze past games and understand FRC rule limits.
+* **[Game Manual Deep Dive](../strategy/game-manual.md):** How to read, interpret, and exploit the rules for strategic advantage.
+
+### H
+* **[Hand Tools Overview](../fabrication/Handtools.md):** Proper use of wrenches, drills, drivers, and basic hand tools.
+
+### I
+* **[Inspection Process](../competition/inspection.md):** Navigating the sizing box, weight limits, and hardware checks at events.
+
+### J
+* **[Java & WPILib Basics](../engineering/WPIlib.md):** Subsystems, commands, and motor controller APIs (Spark MAX/Talon FX).
+
+### L
+* **[Laser Engraver](../fabrication/laserengraver.md):** Vector cutting acrylic and etching team branding.
+* **[Lathe Operations](../fabrication/lathe.md):** Turning shafts, cutting retaining ring grooves, and facing parts.
+
+### M
+* **[Mentorship (The Art of)](../leadership/mentorship.md):** How veteran members should effectively teach rookies.
+* **[Milling Machine](../fabrication/millingmachine.md):** Squaring stock, drilling precise hole patterns, and edge finding.
+
+### O
+* **[Onshape Stage 0 (Basics)](../engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
+* **[Onshape Stage 1A (Fundamentals)](../engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
+* **[Onshape Stage 1B (Power)](../engineering/stage1B.md):** Fundamentals of modeling power transmissions and gearboxes.
+* **[Onshape Stage 1C (Mechanisms)](../engineering/stage1C.md):** Modeling practice mechanisms to refine small details.
+* **[Onshape Stage 1D (Methodology)](../engineering/stage1D.md):** Top-down design and advanced assembly management.
+* **[Onshape Stage 1E (Subsystems)](../engineering/stage1E.md):** The typical workflow when modeling a complete FRC subsystem.
+
+### P
+* **[Packing Manifest](../competition/packing.md):** Managing battery carts, spare parts crates, and pit construction checklists.
+* **[Pathfinder Assessment](../resources/quiz.md):** The interactive quiz to help you choose your team specialization.
+* **[PID Control & Tuning](../engineering/advancedjava.md):** Making mechanisms move quickly and stop accurately without oscillating.
+* **[Ping Pong Code](../xrprobotics/module2/pingpongcode.md):** Advanced Arduino code for the XRP Ping Pong Launcher.
+* **[Ping Pong Launcher Assembly](../xrprobotics/module2/PingPongAssemble.md):** Building the custom 3D-printed add-on for the XRP.
+* **[Ping Pong Motor Bridge](../xrprobotics/module2/wiringpingpongxrp.md):** Wiring the advanced Arduino sub-controller.
+* **[Power On](../frc/poweron.md):** Basic demonstration on how to power on and safely operate Team 2064's robot.
+* **[Public Speaking](../media/publicspeaking.md):** Crafting the team narrative, presentation prep, and pit speaking for Impact Award.
+
+### S
+* **[Safety (General Guidelines)](../safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
+* **[Safety (Machine Specific)](../safety/machinesafety.md):** Specific safety guidelines for operating heavy machinery.
+* **[Safety Practical](../safety/safetypractical.md):** The mandatory hands-on assessment for appropriate tool usage.
+* **[Safety Quiz](../safety/Safetyquiz.md):** The mandatory written assessment required to work in the shop.
+* **[Scouting Architecture](../strategy/scouting.md):** Designing digital scouting apps to collect reliable match data.
+* **[Sensors Integration](../engineering/sensors.md):** Reading encoders, gyros (NavX/Pigeon), and limit switches in Java.
+* **[Soldering](../fabrication/soldering.md):** Tips and techniques for basic FRC electronics soldering.
+
+### T
+* **[Timeline (FRC Season)](../leadership/timeline.md):** Managing Gantt charts and the 6-week build season milestones.
+* **[Triage & Troubleshooting](../competition/triage.md):** The 8-minute turnaround: diagnosing and patching broken mechanisms.
+
+### V
+* **[Vision Processing](../engineering/vision.md):** Tuning pipelines using PhotonVision or Limelight for target tracking.
+
+### W
+* **[WPILib Installation](../xrprobotics/module1/gettingtoknow.md):** Setting up VS Code and the FRC programming environment.
+
+### X
+* **[XRP Build Guide](../xrprobotics/module1/Build.md):** Chassis assembly and basic wiring for the starter bot.
 
 ---
-
-## 🚀 Phase 2: Specialization Pathways
-An FRC team is built like a small engineering firm—it is simply too massive for one person to do everything. Phase 2 is where you choose your specialty and master it. Whether you want to design mechanisms in CAD, operate heavy precision machinery, write autonomous code, or manage the team's brand and media, this phase gives you the deep, focused training you need. You will generally pick one primary pathway to focus on, turning you into a highly skilled contributor to the competition robot.
-
-??? info "Click to view Phase 2 Pathways & Skills"
-
-    ??? abstract "📐 Pathway 2.1: Mechanical & CAD"
-        *Design the machine. Master Onshape, mechanisms, and the Engineering Design Process.*
-        
-        * **[2.1.1 - Onshape Stage 0 (The Basics)](../engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
-        * **[2.1.2 - Onshape Stage 1 (Fundamentals)](../engineering/stage1.md):** Sketching, extruding, and multi-part studios.
-        * **[2.1.3 - Onshape Stage 2 (Mechanisms)](../engineering/stage2.md):** Designing FRC-specific pivots, elevators, and intakes.
-        * **[2.1.4 - Onshape Stage 3 (Robot Integration)](../engineering/stage3.md):** Master layout sketches and top-down subsystem integration.
-        * **[2.1.5 - The Engineering Design Process](../engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
-        * **[2.1.6 - Bumper Construction](../engineering/bumpers.md):** Rules, wood cutting, fabric wrapping, and mounting.
-
-    ??? abstract "🏭 Pathway 2.2: Advanced Fabrication"
-        *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
-        
-        * **[2.2.1 - 3D Printing Workflow](../fabrication/3dprinting.md):** Slicing models, changing filament, and maintaining the Bambu/Formlabs printers.
-        * **[2.2.2 - Bandsaw Operations](../fabrication/bandsaw.md):** Safe cutting techniques for aluminum and polycarb.
-        * **[2.2.3 - Lathe Operations](../fabrication/lathe.md):** Turning shafts, cutting retaining ring grooves, and facing parts.
-        * **[2.2.4 - Milling Machine Basics](../fabrication/millingmachine.md):** Squaring stock, drilling precise hole patterns, and edge finding.
-        * **[2.2.5 - CNC Router Operations](../fabrication/cncrouter.md):** CAM setup, feeds/speeds, and cutting custom chassis plates.
-        * **[2.2.6 - Laser Engraver Workflow](../fabrication/laserengraver.md):** Vector cutting acrylic and etching team branding.
-
-    ??? abstract "💻 Pathway 2.3: Software & Controls"
-        *Bring the robot to life. Master Java, autonomous routines, and advanced sensor integration.*
-        
-        * **[2.3.1 - Advanced Java & WPILib](../engineering/WPIlib.md):** Subsystems, commands, and motor controller APIs (Spark MAX/Talon FX).
-        * **[2.3.2 - Sensor Integration](../engineering/sensors.md):** Reading encoders, gyros (NavX/Pigeon), and limit switches.
-        * **[2.3.3 - Autonomous Routines](../engineering/autonomous.md):** Path planning, odometry, and trajectory following.
-        * **[2.3.4 - Vision Processing](../engineering/vision.md):** Tuning pipelines using PhotonVision or Limelight.
-        * **[2.3.5 - PID Control & Tuning](../engineering/advancedjava.md):** Making mechanisms move quickly and stop accurately without oscillating.
-
-    ??? abstract "📸 Pathway 2.4: Media & NEMO"
-        *Build the brand. Create team media, manage public relations, and prepare for the Impact Award.*
-        
-        * **[2.4.1 - Team Branding Standards](../media/branding.md):** Official fonts, hex codes, logo usage, and uniform guidelines.
-        * **[2.4.2 - Adobe Photoshop](../media/photoshop.md):** Photo editing, color correction, and social media asset creation.
-        * **[2.4.3 - Adobe Illustrator](../media/illustrator.md):** Vector design for pit banners, apparel, and sponsor packets.
-        * **[2.4.4 - Cricut Vinyl Cutter](../media/cricut.md):** Preparing SVG files, cutting decals, and applying transfer tape.
-        * **[2.4.5 - Button Maker Operations](../media/buttonmaker.md):** Designing templates, printing, and pressing team buttons for events.
-        * **[2.4.6 - Public Speaking & Impact Award](../media/publicspeaking.md):** Crafting the team narrative, presentation prep, and pit speaking.
-
----
-
-## 🏆 Phase 3: Advanced Competition & Leadership Mastery
-Building the robot is only half the battle. Phase 3 is reserved for veteran members, subteam leads, and the drive team. These modules zoom out from individual part creation to macro-level team operations and event execution. You will learn how to read a game manual to find strategic loopholes, design scouting apps to track opponent data, manage a high-stress pit crew during the 8-minute turnaround between matches, and lead engineering design reviews. This is where you learn to manage projects, lead peers, and ultimately win events.
-
-??? info "Click to view Phase 3 Modules & Skills"
-
-    ??? abstract "📊 Module 3.1: Strategy & Data Analytics"
-        *Taking the game from the shop to the field. Master the data required to win events.*
-        
-        * **[3.1.1 - The Game Manual Deep Dive](../strategy/game-manual.md):** How to read, interpret, and exploit the rules.
-        * **[3.1.2 - Scouting System Architecture](../strategy/scouting.md):** Designing digital scouting apps to collect data.
-        * **[3.1.3 - Data Visualization](../strategy/data-viz.md):** Creating pit dashboards for the Drive Team.
-        * **[3.1.4 - Alliance Selection Theory](../strategy/alliance-selection.md):** Calculating EPA, OPR, and building pick-lists.
-
-    ??? abstract "🏎️ Module 3.2: Pit Crew & Event Operations"
-        *Executing under pressure. These classes train the elite members who keep the robot alive during competition.*
-        
-        * **[3.2.1 - The Packing Manifest](../competition/packing.md):** Managing battery carts and pit checklists.
-        * **[3.2.2 - Rapid Triage & Troubleshooting](../competition/triage.md):** The 8-minute turnaround between matches.
-        * **[3.2.3 - The Inspection Process](../competition/inspection.md):** Navigating sizing, weight, and hardware checks.
-        * **[3.2.4 - Field Connectivity & System Checks](../competition/field-checks.md):** Verifying the driver station and staging protocols.
-
-    ??? abstract "📋 Module 3.3: Project Management & Leadership"
-        *Running the team like an engineering firm. Required for all Captains and Subteam Leads.*
-        
-        * **[3.3.1 - The FRC Timeline](../leadership/timeline.md):** Managing the 6-week build season milestones.
-        * **[3.3.2 - Running a Design Review](../leadership/design-review.md):** Leading meetings and locking in dimensions.
-        * **[3.3.3 - Budgeting & Purchase Orders](../leadership/budget.md):** Researching COTS parts and requesting quotes.
-        * **[3.3.4 - The Art of Mentorship](../leadership/mentorship.md):** How to teach Rookies without "doing the work for them."
+*Can't find what you're looking for? Ask a mentor or Subteam Lead!*
