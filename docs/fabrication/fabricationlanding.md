@@ -12,7 +12,7 @@
 
     ---
 
-    Learn shop organization, basic hand tool operation, and how to properly crimp and route electrical wires.
+    Learn shop organization, advanced hand tool operations, and how to properly follow safe practices to become a leader in hand tool operation.
     
     [Start Advanced Hand Tools](advancedhandtools.md){ .md-button .md-button--primary }
 
