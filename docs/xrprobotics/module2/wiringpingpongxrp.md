@@ -9,6 +9,12 @@
 
 ---
 
+<div align="center">
+  <img src="img/IMG_0527.png" alt="Description" width="300">
+</div>
+
+---
+
 ## 🧠 Method & Reasoning
 The standard XRP motors are too slow for shooting a ping pong ball, and the XRP board doesn't have enough motor ports for our design. We solve this by adding custom electronics:
 
