@@ -30,6 +30,7 @@ Work through the three sections below in order. Make sure you read the instructi
 Welcome back! By the end of those three sections, you should have a solid grasp on the absolute basics of CAD. 
 
 **Verify that you understand how to:**
+
 - [ ] Start a new Sketch on a specific plane (Top, Front, or Right).
 - [ ] Use basic constraints (like making a line perfectly horizontal or vertical).
 - [ ] Use the Dimension tool (`D` on your keyboard) to give a line an exact measurement.
@@ -51,4 +52,4 @@ To prove you have mastered these fundamentals, you must submit your completed On
 ### 🎉 Module Complete!
 Once your mentor has checked your sketches and approved your work, you are ready to learn about designing moving parts!
 
-[Go to Next Module: Stage 1B (Power Transmissions)](stage1B.md){ .md-button .md-button--primary style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
+[Go to Next Module: Stage 1B (Power Transmissions)](stage1B.md){ .md-button .md-button--primary }
