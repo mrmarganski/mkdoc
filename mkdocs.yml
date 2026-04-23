@@ -67,7 +67,7 @@ nav:
   
   - "Phase 1: Rookie Foundations":
       - "Rookie Home":
-          - Welcome!: rookielanding.md
+          - Welcome!: frc/rookielanding.md
       - "Module 1.1: FRC Basics":
           - Intro to FIRST: frc/FIRST.md
           - Bot Basics: frc/botbasics.md
