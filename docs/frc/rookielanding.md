@@ -20,7 +20,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Learn the culture.* Get an overview of FIRST, understand robot anatomy, analyze past games, and learn what to expect during Build Season.
     
-    [Start FRC Basics](frc/FIRST.md){ .md-button .md-button--primary }
+    [Start FRC Basics](../frc/FIRST.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-monitor-dashboard:</span> **Module 1.2: Basic CAD**
 
@@ -28,7 +28,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Learn to think in 3D.* Master the Engineering Design Process and get your Onshape account set up for basic mechanism modeling.
     
-    [Start Basic CAD](engineering/designprocess.md){ .md-button .md-button--primary }
+    [Start Basic CAD](../engineering/designprocess.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-shield-check:</span> **Module 1.3: Safety Certification**
 
@@ -36,7 +36,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Mandatory to advance.* Learn our core shop rules, machine safety, and pass your written quiz and practical assessment.
     
-    [Start Safety Training](safety/Safety.md){ .md-button .md-button--primary }
+    [Start Safety Training](../safety/Safety.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **Module 1.4: Basic Hand Tools**
 
@@ -44,7 +44,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Get hands-on.* Learn how to organize the workspace, use hand tools, identify fasteners, and safely crimp/solder electronics.
     
-    [Start Hand Tools](fabrication/Closet.md){ .md-button .md-button--primary }
+    [Start Hand Tools](../fabrication/Closet.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-car-cog:</span> **Module 1.5: XRP Starter Bot**
 
@@ -52,7 +52,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Put it all together.* Assemble, wire, and program a functional mini-robot using WPILib and Java to prove your baseline engineering skills.
     
-    [Start XRP Starter Bot](xrprobotics/module1/Build.md){ .md-button .md-button--primary }
+    [Start XRP Starter Bot](../xrprobotics/module1/Build.md){ .md-button .md-button--primary }
 
 </div>
 
