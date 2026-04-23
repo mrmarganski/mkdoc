@@ -20,7 +20,7 @@ In this phase, you will zoom out from individual part creation to focus on macro
 
     *Take the game from the shop to the field.* Master the Game Manual, design scouting architectures, and learn alliance selection theory.
     
-    [Start Strategy Pathway](strategy/game-manual.md){ .md-button .md-button--primary }
+    [Start Strategy Pathway](../strategy/game-manual.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-car-pitstop:</span> **Pathway 3.2: Pit Crew & Event Ops**
 
@@ -28,7 +28,7 @@ In this phase, you will zoom out from individual part creation to focus on macro
 
     *Execute under pressure.* Train for the 8-minute turnaround, manage the packing manifest, and navigate the robot inspection process.
     
-    [Start Pit Crew Pathway](competition/packing.md){ .md-button .md-button--primary }
+    [Start Pit Crew Pathway](../competition/packing.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-clipboard-text-outline:</span> **Pathway 3.3: Project Management**
 
@@ -36,7 +36,7 @@ In this phase, you will zoom out from individual part creation to focus on macro
 
     *Run the team like a firm.* Required for all Captains and Leads. Master the 6-week timeline, budgeting, and the art of mentorship.
     
-    [Start Leadership Pathway](leadership/timeline.md){ .md-button .md-button--primary }
+    [Start Leadership Pathway](../leadership/timeline.md){ .md-button .md-button--primary }
 
 </div>
 
