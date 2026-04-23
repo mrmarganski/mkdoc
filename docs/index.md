@@ -18,7 +18,8 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
     ??? abstract "🛡️ Module 1.1: Safety Certification"
         *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
         
-        * **[1.1.1 - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
+        * **[1.1.1.A - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
+        * **[1.1.1.B - Specific Machine Safety Guidelines](Safety/machinesafety.md):** Specific Machine Safety for general machines used.
         * **[1.1.2 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
 
     ??? abstract "🤖 Module 1.2: XRP Starter Bot"
@@ -29,14 +30,16 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         * **[1.2.3 - Command-Based Drive](xrprobotics/module1/basicdriveXRP.md):** Writing your first Java code to drive the XRP.
         * **[1.2.4 - Ping Pong Launcher Assembly](xrprobotics/module2/PingPongAssemble.md):** Building the custom 3D-printed add-on.
         * **[1.2.5 - High-RPM Motor Bridge](xrprobotics/module2/wiringpingpongxrp.md):** Advanced Arduino sub-controller wiring.
+        * **[1.2.6 - Coding The Arduino for XRP](xrprobotics/module2/pingpongcode.md):** Advanced Code for XRP to operate Arduino.
 
     ??? abstract "🔨 Module 1.3: Basic Shop Skills"
         *Master the fundamentals of hand tools, electrical connections, and workspace organization.*
-        
-        * **[1.3.1 - Hand Tools Overview](fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
-        * **[1.3.2 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
-        * **[1.3.3 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
 
+        * **[1.3.1 - Workspace Organization](fabrication/Closet.md):** Closet management, battery care, and pit maintenance.
+        * **[1.3.2 - Hand Tools Overview](fabrication/Handtools.md):** Proper use of wrenches, drills, and drivers.
+        * **[1.3.3 - Wiring & Crimping](fabrication/crimping.md):** Creating secure electrical connections and using Anderson connectors.
+        * **[1.3.4 - Soldering](fabrication/soldering.md):** Learn soldering tips and techniques for basic FRC use. 
+        
 ---
 
 ## 🧭 The Crossroads: Find Your Pathway
