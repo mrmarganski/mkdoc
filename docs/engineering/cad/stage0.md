@@ -9,7 +9,7 @@ CAD is used to create a 3D model from various kinds of steps and tools to help p
     This learning course uses Onshape because of its community-made resources, collaboration capabilities, and workflow. However, much of the design process, mechanism fundamentals, and design handbook will apply no matter what software you use. If you choose to use a different software while going through the guide, be aware that the CAD workflow may be different and that you will have significantly less support. 
 
 <figure>
-    <center><img src="/img/learning-course/course-setup/introcad/formula.webp" style="width:100%; border:5px solid #ADADAD; border-radius: 2%"></center>
+    <center><img src="/img/formula.webp" style="width:100%; border:5px solid #ADADAD; border-radius: 2%"></center>
     <figcaption>Formula 1 race cars are an example of something that is modeled in CAD.</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ CAD is the intermediary between an idea and a built product. There are multiple 
 6. **Weight Management**: Allows teams to track robot weight throughout the design process
 7. **Efficiency**: A good robot can be designed and manufactured faster, leaving room for software testing and drive practice
 
-<center><img src="/img/learning-course/course-setup/introcad/bread.webp" style="width:80%"></center>
+<center><img src="/img/bread.webp" style="width:80%"></center>
 
 **CAD skills are used in the real world all the time**, when designing and testing anything from simple product design to large feats of engineering like planes or cars. Learning CAD with any CAD software can equip you with useful skills you can put on your resume, and it will allow you to learn other CAD software a little easier.
 
