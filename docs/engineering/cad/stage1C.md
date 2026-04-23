@@ -1,4 +1,3 @@
-
 # 🛠️ Onshape Stage 1C: Practice Mechanisms
 > **Objective:** Put your skills to the test! Model a variety of isolated FRC mechanisms to master layout sketches, consistent origins, and COTS integration.
 
@@ -12,10 +11,13 @@ These exercises are designed to help you practice execution and small details. K
 
 Before you start modeling, you must read the introduction. It covers two critical Team 2064 standards: **Layout Sketches** (driving your whole model from one master sketch) and **Consistent Origins** (using the Origin Cube).
 
+!!! tip "Navigating the Course"
+    All links below will open in a new browser tab so you don't lose your place on this page!
+
 * [Read: Layout Sketches & Origins :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1C/introduction/){ target="_blank" }
 
 ### 🏆 The Mechanism Challenges
-Work through as many of these exercises as your Subteam Lead requires. Each one teaches a unique FRC mechanical concept. *(All links open in a new tab).*
+Work through as many of these exercises as your Subteam Lead requires. Each one teaches a unique FRC mechanical concept. 
 
 * **[Exercise 1: Flat Intake :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1C/exercise1/){ target="_blank" }** - *Practice modeling over-the-bumper intakes.*
 * **[Exercise 2: Dead Axle Rollers :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1C/exercise2/){ target="_blank" }** - *Learn how to make rollers spin around stationary tubes.*
@@ -42,23 +44,17 @@ Welcome back! If you can model these mechanisms, you are officially ready to sta
 
 ## 📸 Step 3: Pathway Deliverable
 
-To prove you have completed the Basic CAD pathway, you need to submit your Onshape document containing your mechanisms.
+To prove you have completed the Basic CAD pathway, you must submit your Onshape document containing your mechanisms for a mentor to review.
 
-1. Ensure your Onshape Document is named clearly (e.g., `FirstLast_Stage1C_Mechanisms`).
-2. Submit to your onshape course assignment for 2064.
+1. **Name your file:** Ensure your Onshape Document is named clearly (e.g., `FirstLast_Stage1C_Mechanisms`).
+2. **Submit your work:** Attach and submit your completed document to the designated assignment location within the Team 2064 Onshape Training Course.
+3. **Notify a Mentor:** Let a CAD mentor or your Subteam Lead know your final portfolio is ready for review.
 
 ---
 
-### 🎉 Pathway Complete!
-You have successfully reached the end of Pathway 1.2: Basic CAD. Return to the master dashboard to view your next required step.
+### 🎉 Pathway 1.2 Complete!
+You have successfully reached the end of Pathway 1.2: Basic CAD. Choose your next step below:
 
-[Return to Home Dashboard](../../index.md){ .md-button .md-button--primary style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
+[Go to Next Module: 1.3 Safety Certification](../safety/safetylanding.md){ .md-button .md-button--primary style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px; margin-bottom: 10px;" }
 
-### 🎉 Module Complete!
-You have reached the end of this module. 
-
-[Go to Next Module 1.3](../../safety/safetylanding.md){ .md-button .md-button--primary style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
-
-Or return to the master dashboard to view your next required step.
-
-[Return to Home Dashboard](../index.md){ .md-button .md-button--primary style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
+[Return to Home Dashboard](../index.md){ .md-button style="width: 100%; text-align: center; font-size: 1.2em; padding: 15px;" }
