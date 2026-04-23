@@ -68,13 +68,10 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
     ??? abstract "📐 Pathway 2.1: Mechanical & CAD"
         *Design the machine. Master Onshape, mechanisms, and the Engineering Design Process.*
         
+        * **[2.1.3 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
         * **[2.1.1 - Onshape Stage 0 (The Basics)](engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
         * **[2.1.2 - Onshape Stage 1 (Fundamentals)](engineering/stage1.md):** Sketching, extruding, and multi-part studios.
-        * **[2.1.3 - Onshape Stage 2 (Mechanisms)](engineering/stage2.md):** Designing FRC-specific pivots, elevators, and intakes.
-        * **[2.1.4 - Onshape Stage 3 (Robot Integration)](engineering/stage3.md):** Master layout sketches and top-down subsystem integration.
-        * **[2.1.5 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting design decisions.
-        * **[2.1.6 - Bumper Construction](engineering/bumpers.md):** Rules, wood cutting, fabric wrapping, and mounting.
-
+        
     ??? abstract "🏭 Pathway 2.2: Advanced Fabrication"
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
         
@@ -126,6 +123,7 @@ Building the robot is only half the battle. Phase 3 is reserved for veteran memb
         * **[3.2.2 - Rapid Triage & Troubleshooting](competition/triage.md):** The 8-minute turnaround between matches.
         * **[3.2.3 - The Inspection Process](competition/inspection.md):** Navigating sizing, weight, and hardware checks.
         * **[3.2.4 - Field Connectivity & System Checks](competition/field-checks.md):** Verifying the driver station and staging protocols.
+        * **[3.2.5 - Bumper Construction](engineering/bumpers.md):** Rules, wood cutting, fabric wrapping, and mounting.
 
     ??? abstract "📋 Pathway 3.3: Project Management & Leadership"
         *Running the team like an engineering firm. Required for all Captains and Subteam Leads.*
