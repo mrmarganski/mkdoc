@@ -92,8 +92,8 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
         * **[2.3.4 - Vision Processing](engineering/programming/vision.md):** Tuning pipelines using PhotonVision or Limelight.
         * **[2.3.5 - PID Control & Tuning](engineering/programming/advancedjava.md):** Making mechanisms move quickly and stop accurately without oscillating.
 
-    ??? abstract "📸 Pathway 2.4: Media & NEMO"
-        *Build the brand. Create team media, manage public relations, and prepare for the Impact Award.*
+    ??? abstract "📸 Pathway 2.4: NEMO"
+        *Known as Non-Engineering Member Opportunities, this group builds the brand. Create team media, manage public relations, and prepare for the Impact Award.*
         
         * **[2.4.1 - Team Branding Standards](media/branding.md):** Official fonts, hex codes, logo usage, and uniform guidelines.
         * **[2.4.2 - Adobe Photoshop](media/photoshop.md):** Photo editing, color correction, and social media asset creation.
