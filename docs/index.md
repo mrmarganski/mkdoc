@@ -138,7 +138,7 @@ Access the FRC glossary, Core Values, and general reference materials anytime.
 
 * **Team Resources:** [View Core Values & Glossary](resources/resourceslanding.md)
 * **Current Season:** REBUILT (2026)
-* **Team Repository:** [GitHub - The Panther Project](https://github.com/mrmarganski/mkdoc)
+* **Team Repository:** [GitHub - The Panther Project](https://github.com/FRC-2064)
 * **Social Media:** [Instagram @frc2064](https://www.instagram.com/frc2064/)
 
 !!! quote "Core Value Check"
