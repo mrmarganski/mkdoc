@@ -124,13 +124,18 @@ nav:
           - Skill Check - CAD Course: engineering/cad/cadonshapecourse.md
       - "Pathway 2.2: Advanced Fabrication":
           - Fabrication Advanced: fabrication/fabricationlanding2.md
-          - 3D Printing Workflow: fabrication/3dprinting2.md
-          - Bandsaw Operations: fabrication/bandsaw.md
-          - Lathe Operations: fabrication/lathe.md
-          - Milling Machine Basics: fabrication/millingmachine.md
-          - CNC Router Operations: fabrication/cncrouter.md
-          - Laser Engraver Workflow: fabrication/laserengraver.md
-          - Skill Check - Machining: fabrication/machinelessons.md
+          - "Level 3 Overview":
+              - Level 3 Overview: fabrication/level3/level3.md
+              - 3D Printing Workflow: fabrication/3dprinting2.md
+              - Bandsaw Operations: fabrication/bandsaw.md
+              - Lathe Operations: fabrication/lathe.md
+              - Milling Machine Basics: fabrication/millingmachine.md
+              - Skill Check - Level 3: fabrication/machinelessons.md
+          - "Level 4 Overview":    
+              - Level 4 Overview: fabrication/level4/level4.md
+              - CNC Router Operations: fabrication/cncrouter.md
+              - Laser Engraver Workflow: fabrication/laserengraver.md
+              - Skill Check - Level 4: fabrication/machinelessonsadvanced.md
       - "Pathway 2.3: Software & Controls":
           - Java & WPILib Basics: engineering/programming/WPIlib.md
           - Sensor Integration: engineering/programming/sensors.md
