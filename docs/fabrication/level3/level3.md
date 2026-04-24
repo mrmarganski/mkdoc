@@ -18,6 +18,7 @@ This level is designed to teach you the physics of cutting hard materials and th
 * 🪵 **The Table Saw:** The critical safety protocols, physics of cutting, and operational zones of the most dangerous, yet essential, tool in our shop.
 * ⚙️ **Precision Machining:** The foundations of manual metalworking. You will learn how to operate the **Manual Mill** and **Metal Lathe** to produce high-precision custom shafts, bearing blocks, and spacers.
 * 🧪 **Advanced 3D Printing (SLA):** Moving beyond simple plastic melting, you will learn the chemical safety, PPE requirements, and post-processing workflows necessary to operate our high-resolution **Formlabs Resin Printer**.
+* 📝 **Skill Check - Level 3:** A required assessment to prove you know your proficiency in stationary power equipment before moving on the computer controled systems.
 
 ---
 
