@@ -1,4 +1,4 @@
-# 📐 FRC CAD Curriculum: Onshape Mastery
+# 📐 FRC CAD Curriculum: Onshape Basics
 > **Duration:** 18 Weeks (1 Semester) | **Prerequisites:** None
 
 Welcome to the Team 2064 CAD Curriculum! This semester-long course will take you from absolute zero to being able to model a full, competition-ready FRC robot using Onshape. 
