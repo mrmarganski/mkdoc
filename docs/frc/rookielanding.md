@@ -38,7 +38,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
     
     [Start Safety Training](../safety/safetylanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **Module 1.4: Basic Hand Tools**
+-   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **Module 1.4: Basic Fabrication**
 
     ---
 
