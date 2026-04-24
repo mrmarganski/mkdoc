@@ -96,7 +96,7 @@ nav:
           - "Level 01 - Measuring":
               - 1.4.3 - Measuring Devices: fabrication/level1/measuring/measuringtools.md
           - "Level 01 - Hand Tools":
-              - 1.4.4 - Hand Tools Overview: fabrication/level1/handtools/Handtools.md
+              - 1.4.4 - Wrenches: fabrication/level1/handtools/Handtools.md
               - 1.4.5 - Pliers: fabrication/level1/handtools/pliers.md
               - 1.4.6 - Wiring & Crimping: fabrication/level1/handtools/crimping.md
           - "Level 01 - 3D Printer":
@@ -106,9 +106,9 @@ nav:
           - "Level 02 Overview":
               - Level 02 - Power Tools Overview: fabrication/level2/level2.md
           - "Level 02 - Powered Hand Tools":
-              - 1.4.8 - Powered Hand Tools: fabrication/level2/poweredhandtools/poweredtools.md
+              - 1.4.8 - Cordless Drill: fabrication/level2/poweredhandtools/poweredtools.md
               - 1.4.9 - Cordless Saw: fabrication/level2/poweredhandtools/cordlesssaw.md
-              - 1.4.10 - Soldering: fabrication/level2/powertools/soldering.md
+              - 1.4.10 - Soldering Iron: fabrication/level2/powertools/soldering.md
           - "Level 02 - Stationary Powered Equipment":    
               - 1.4.11 - Horizontal Bandsaw: fabrication/level2/stationary/horizontalsaw.md
               - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
