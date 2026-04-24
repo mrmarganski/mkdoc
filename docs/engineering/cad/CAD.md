@@ -28,7 +28,7 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 3:** Part Design (Extrude, Revolve)
     * **Week 4:** Multi-Part Studios
     
-    [View Stage 0 Assignments](../stage0/.md){ .md-button }
+    [View Stage 0 Assignments](../stage0.md){ .md-button }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-numeric-1-box:</span> **Stage 1: Putting It Together (Weeks 5-7)**
     
