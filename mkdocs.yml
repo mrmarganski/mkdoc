@@ -87,7 +87,8 @@ nav:
           - Machine Safety: safety/machinesafety.md
           - Certification Quiz: safety/Safetyquiz.md
           - Safety Practical: safety/safetypractical.md
-      - "Module 1.4: Basic Hand Tools":
+      - "Module 1.4: Basic Fabrication":
+          - Fabrication Basic: fabrication/fabricationlanding.md
           - Workspace Organization: fabrication/Closet.md
           - Hand Tools Overview: fabrication/Handtools.md
           - Fasteners: fabrication/fasteners.md
@@ -114,7 +115,7 @@ nav:
           - Stage 1E (Subsystem Workflow): engineering/cad/stage1E.md
           - Skill Check - CAD Course: engineering/cad/cadonshapecourse.md
       - "Pathway 2.2: Advanced Fabrication":
-          - Fabrication Overview: fabrication/fabricationlanding.md
+          - Fabrication Advanced: fabrication/fabricationlanding2.md
           - 3D Printing Workflow: fabrication/3dprinting2.md
           - Bandsaw Operations: fabrication/bandsaw.md
           - Lathe Operations: fabrication/lathe.md
