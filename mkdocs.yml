@@ -76,6 +76,7 @@ nav:
           - Build Season: frc/buildseason.md
           - Power On: frc/poweron.md
       - "Module 1.2: Basic CAD":
+          - CAD Overview: engineering/cad/CAD.md
           - Stage 0 (New to CAD): engineering/cad/stage0.md
           - Stage 1A (Fundamentals): engineering/cad/stage1A.md
           - Stage 1B (Power Transmissions): engineering/cad/stage1B.md
