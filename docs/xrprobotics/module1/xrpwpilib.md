@@ -13,5 +13,6 @@
 
 [View the WPILib Installation Guide ↗️](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html){ .md-button .md-button--primary target="_blank" }
 
-Once you have VScode installed, we can download/create/deploy JAVA code to XRP just like our competition FRC robot!!  Go to the next step to download the premade command based template to get your XRP driving!!
+!!! success
+    Once you have VScode installed, we can download/create/deploy JAVA code to XRP just like our competition FRC robot!!  Go to the next step to download the premade command based template to get your XRP driving!!
 
