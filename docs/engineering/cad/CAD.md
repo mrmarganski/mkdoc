@@ -25,10 +25,10 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     
     Learn how to think in 3D. We start with drawing flat shapes and pulling them into the real world.
     
-    * **Week 1:** UI Navigation & Account Setup
-    * **Week 2:** Sketching Basics & Constraints
-    * **Week 3:** Part Design (Extrude, Revolve)
-    * **Week 4:** Multi-Part Studios
+    * **Stage 0:** UI Navigation & Account Setup
+    * **Stage 0:** Onshape Overview
+    * **Stage 0:** Part Library
+    * **Stage 0:** Featurescripts
     
     [View Stage 0 Assignments](stage0.md){ .md-button }
 
@@ -38,9 +38,8 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     
     Parts are useless if they don't connect. Learn how to snap pieces together and build complex geometries.
     
-    * **Week 5:** Basic Assemblies & Mates
-    * **Week 6:** Intermediate Sketching & Patterns
-    * **Week 7:** Sweeps, Lofts, and Fillets
+    * **Stage 1A:** Basic Assemblies & Mates
+    * **Stage 1A:** Intermediate Sketching & Patterns
     
     [View Stage 1A Assignments](stage1A.md){ .md-button }
 
@@ -50,10 +49,8 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     
     Start designing for the competition field. Learn how to make things spin, pivot, and adjust.
     
-    * **Week 8:** Subassemblies & Mate Connectors
-    * **Week 9:** FRC Concepts (Pivot Mechanisms)
-    * **Week 10:** **Midterm Project** (Design a Subsystem)
-    * **Week 11:** Advanced Configurations & Variables
+    * **Stage 1B:** Subassemblies & Mate Connectors
+    * **Stage 1B:** FRC Concepts (Power Transmissions)
     
     [View Stage 1B Assignments](stage1B.md){ .md-button }
 
@@ -63,9 +60,7 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     
     Learn the secrets of the pros: making the robot lighter, faster, and easier to manufacture.
     
-    * **Week 12:** Motion Studies & Exploded Views
-    * **Week 13:** FRC Robot Chassis Design
-    * **Week 14:** Weight Reduction & Design Optimization
+    * **Stage 1C:** Practice Mechanisms
     
     [View Stage 1C Assignments](stage1C.md){ .md-button }
 
