@@ -102,7 +102,7 @@ nav:
           - "Level 2 Overview":
               - Level 2 Overview: fabrication/level2/level2.md
               - 1.4.5 - Soldering: fabrication/level2/powertools/soldering.md
-              - 1.4.6 - Skill Check - Level 2: fabrication/level1/powertoolsquiz.md
+              - 1.4.6 - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
           - Build Guide: xrprobotics/module1/Build.md
@@ -126,15 +126,15 @@ nav:
           - Fabrication Advanced: fabrication/fabricationlanding2.md
           - "Level 3 Overview":
               - Level 3 Overview: fabrication/level3/level3.md
-              - 3D Printing Workflow: fabrication/3dprinting2.md
-              - Bandsaw Operations: fabrication/bandsaw.md
-              - Lathe Operations: fabrication/lathe.md
-              - Milling Machine Basics: fabrication/millingmachine.md
-              - Skill Check - Level 3: fabrication/machinelessons.md
+              - 3D Printing Workflow: fabrication/level3/3dprinting2.md
+              - Bandsaw Operations: fabrication/level3/bandsaw.md
+              - Lathe Operations: fabrication/level3/lathe.md
+              - Milling Machine Basics: fabrication/level3/millingmachine.md
+              - Skill Check - Level 3: fabrication/level3/machinelessons.md
           - "Level 4 Overview":    
               - Level 4 Overview: fabrication/level4/level4.md
-              - CNC Router Operations: fabrication/cncrouter.md
-              - Laser Engraver Workflow: fabrication/laserengraver.md
+              - Laser Engraver Workflow: fabrication/level4/laserengraver.md
+              - CNC Router Operations: fabrication/level4/cncrouter.md
               - Skill Check - Level 4: fabrication/machinelessonsadvanced.md
       - "Pathway 2.3: Software & Controls":
           - Java & WPILib Basics: engineering/programming/WPIlib.md
