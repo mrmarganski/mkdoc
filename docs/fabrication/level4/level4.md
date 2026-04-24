@@ -16,7 +16,7 @@ In this level, you will translate digital CAD models into physical parts using C
 By the end of this level, you will be a Master Fabricator, capable of producing the most complex parts on our robot:
 
 * ⚡ **Laser Cutting & Engraving:** Operating the Full Spectrum Hobby 40W laser. You will learn to quickly iterate 2D prototypes, compensate for "kerf" (the width of the laser beam), and learn the strict chemistry of what you can and *cannot* cut. *(Spoiler: Cutting polycarbonate or PVC with a laser creates deadly chlorine gas and destroys the machine!)*
-* ⚙️ **CNC Routing:** Operating the Stepcraft Q.408 and Lowrider LR4. You will learn how to write 2.5D toolpaths in CAM, set feeds and speeds for aluminum, secure stock to the spoilboard, zero your work coordinates, and cut custom chassis plates and intake arms.
+* ⚙️ **CNC Routing:** Operating the Stepcraft Q.408. You will learn how to write 2.5D toolpaths in CAM, set feeds and speeds for aluminum, secure stock to the spoilboard, zero your work coordinates, and cut custom chassis plates and intake arms.
 * 🛠️ **Advanced Mill & Lathe (FRC Specific):** Taking your Level 3 skills to the extreme. You will learn how to use a boring head on the mill to create perfect bearing holes, how to use a rotary indexer, and how to precision-bore tubing on the lathe for custom standoffs and rollers.
 
 ---
