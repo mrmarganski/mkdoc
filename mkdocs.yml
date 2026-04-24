@@ -88,13 +88,16 @@ nav:
           - Certification Quiz: safety/Safetyquiz.md
           - Safety Practical: safety/safetypractical.md
       - "Module 1.4: Basic Fabrication":
-          - Fabrication Basic: fabrication/fabricationlanding.md
-          - Workspace Organization: fabrication/Closet.md
-          - Hand Tools Overview: fabrication/Handtools.md
-          - Fasteners: fabrication/fasteners.md
-          - Wiring & Crimping: fabrication/crimping.md
-          - Soldering: fabrication/soldering.md
-          - Skill Check - Hand Tools: fabrication/handtoolsquiz.md
+          - Fabrication Basic: fabrication/fabricationbasic.md
+          - Level 1 Overview: fabrication/level1/level1.md
+              - Workspace Organization: fabrication/level1/Closet.md
+              - Fasteners: fabrication/level1/fasteners.md
+              - Hand Tools Overview: fabrication//level1/handtools/Handtools.md
+              - Wiring & Crimping: fabrication/level1/handtools/crimping.md
+              - Skill Check - Level 1: fabrication/level1/handtoolsquiz.md
+          - Level 2 Overview: fabrication/level2/level2.md
+              - Soldering: fabrication/level2/powertools/soldering.md
+              - Skill Check - Level 2: fabrication/level1/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
           - Build Guide: xrprobotics/module1/Build.md
