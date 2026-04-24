@@ -1,7 +1,7 @@
 # 📐 FRC CAD Curriculum: Onshape Basics
 > **Duration:** 18 Weeks (1 Semester) | **Prerequisites:** None
 
-Welcome to the Team 2064 CAD Foundations! This semester-long course will take you from absolute zero to being able to particpate and contribute when we design a full, competition-ready FRC robot using Onshape during Build Season. 
+Welcome to the Team 2064 CAD Foundations! While you technically can finish this incredibly fast since you can work on it anywhere with Onshape, This is a semester-long expectation that will take you from absolute zero : to being able to particpate and contribute when we design a full, competition-ready FRC robot using Onshape during Build Season in January.  **ALL ROOKIE Members MUST complete this Module 1.2 by JANUARY 1st of their season** To be on the travel team in March.  Veteran members should have completed this and are working on their specializations.
 
 !!! abstract "Course Attribution"
     This curriculum is adapted from the incredible [FRCDesign.org Learning Course](https://www.frcdesign.org/). We highly recommend referencing their site for deep dives into specific FRC modeling strategies!
