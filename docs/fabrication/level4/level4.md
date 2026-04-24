@@ -24,5 +24,5 @@ By the end of this level, you will be a Master Fabricator, capable of producing 
 
 ## 👑 Looking Ahead: The Master Fabricator
 
-Completing Level 4 means you have reached the top of the Fabrication Pathway. As a Level 4 Fabricator, your role will shift from just *building* to *leading*. You will be responsible for mentoring the Phase 1 rookies, helping the Engineering team design parts that are actually manufacturable, and running the shop floor during the intense weeks of build season.
+Completing Level 4 means you have reached the top of the Fabrication Pathway. As a Level 4 Fabricator, your role will shift from just *building* to *leading*. You will be responsible for mentoring the Phase 1 rookies, helping the Engineering team design parts that are actually manufacturable, and running the shop floor during the intense weeks of build season.  **You will now move to PHASE 3 and follow a LEADERSHIP Pathway**
 
