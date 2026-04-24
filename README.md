@@ -5,6 +5,8 @@ The Panther Project documentation is a living resource. As our team learns new t
 
 Follow this guide to ensure your new page looks professional and actually shows up on the website.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_PPWWRV6gbA?si=5USOvARXGd6vqaTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 
 ## 🚦 Step 1: Create the `.md` File
