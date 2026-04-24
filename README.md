@@ -7,7 +7,7 @@ Follow this guide to ensure your new page looks professional and actually shows 
 
 After watching this video you should have an idea of what mkdoc can allow you to do with design of the page.
 
-### Standard Text Link
+### Markdown Tutorial Video
 [The Only Markdown Crash Course You Will Ever Need](https://www.youtube.com/watch?v=_PPWWRV6gbA&t=60s)
 
 ---
