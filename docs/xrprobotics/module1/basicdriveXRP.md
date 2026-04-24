@@ -22,7 +22,7 @@ Next step, click the WPI logo at the top of the VSCode screen, and search for "S
     It will take some time to compile the code (1-3min) - So rule of thumb is - If it has not failed, it is still compiling!
 
 !!! success
-    Once driver station is loaded, choose teleop, and test controls.  Robot should drive.  If you can't check your controller is connected over bluetooth and is assigned on the simulation dashboard in the controller Joystick slot (0) by deafult - or whichever you assigned in code. Drag and drop joystick from the window into the joystick (0) slot to assign.
+    Once driver station is loaded, Select Driver State: **Teleoperated** and test controls.  Robot should drive.  If you can't check your controller is connected over bluetooth and is assigned on the simulation dashboard in the controller Joystick slot (0) by deafult - or whichever you assigned in code. Drag and drop joystick from the window into the joystick (0) slot to assign.
 
 ![XRP Dashboard](../../img/simulationscreen.png)
 
