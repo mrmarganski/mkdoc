@@ -12,6 +12,7 @@ Getting inspected early and passing on the first try is a massive competitive ad
 Robot Inspectors are volunteers who want you to play, but they are obligated to enforce the rules. Your job is to make their job as easy as possible. 
 
 **The "Big Four" Reasons Teams Fail Inspection:**
+
 1. **Overweight:** The robot (without battery and bumpers) exceeds the 125.0 lb limit.
 2. **Oversize:** The frame perimeter extends beyond the max dimensions, or the robot is too tall.
 3. **Illegal Bumpers:** Plywood is too thin, noodles are the wrong type, gaps are too large, or the mounting brackets are flimsy.
