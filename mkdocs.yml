@@ -107,9 +107,10 @@ nav:
               - Level 02 - Power Tools Overview: fabrication/level2/level2.md
           - "Level 02 - Powered Hand Tools":
               - 1.4.8 - Powered Hand Tools: fabrication/level2/poweredhandtools/poweredtools.md
-              - 1.4.9 - Soldering: fabrication/level2/powertools/soldering.md
+              - 1.4.9 - Cordless Saw: fabrication/level2/poweredhandtools/cordlesssaw.md
+              - 1.4.10 - Soldering: fabrication/level2/powertools/soldering.md
           - "Level 02 - Stationary Powered Equipment":    
-              - 1.4.10 - Cordless Saw: fabrication/level2/poweredhandtools/cordlesssaw.md
+              - 1.4.11 - Horizontal Bandsaw: fabrication/level2/stationary/horizontalsaw.md
               - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
