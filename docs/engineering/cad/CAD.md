@@ -30,7 +30,7 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 3:** Part Design (Extrude, Revolve)
     * **Week 4:** Multi-Part Studios
     
-    [View Stage 0 Assignments](assignments/stage0-assignments.md){ .md-button }
+    [View Stage 0 Assignments](stage0/.md){ .md-button }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-numeric-1-box:</span> **Stage 1: Putting It Together (Weeks 5-7)**
     
@@ -42,7 +42,7 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 6:** Intermediate Sketching & Patterns
     * **Week 7:** Sweeps, Lofts, and Fillets
     
-    [View Stage 1 Assignments](assignments/stage1-assignments.md){ .md-button }
+    [View Stage 1A Assignments](stage1A.md){ .md-button }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-numeric-2-box:</span> **Stage 2: FRC Mechanics & Midterm (Weeks 8-11)**
     
@@ -55,7 +55,7 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 10:** **Midterm Project** (Design a Subsystem)
     * **Week 11:** Advanced Configurations & Variables
     
-    [View Stage 2 Assignments](assignments/stage2-assignments.md){ .md-button }
+    [View Stage 1B Assignments](stage1B.md){ .md-button }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-numeric-3-box:</span> **Stage 3: Advanced Systems (Weeks 12-14)**
     
@@ -67,35 +67,13 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 13:** FRC Robot Chassis Design
     * **Week 14:** Weight Reduction & Design Optimization
     
-    [View Stage 3 Assignments](assignments/stage3-assignments.md){ .md-button }
+    [View Stage 1C Assignments](assignments/stage1C.md){ .md-button }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-numeric-4-box:</span> **Stage 4: The Final Build (Weeks 15-18)**
     
     ---
-    
-    The ultimate test. Integrate everything you've learned to build a fully functional virtual robot.
-    
-    * **Week 15:** Full Robot Assembly Draft
-    * **Week 16:** Technical Drawings & BOMs
-    * **Week 17:** **Final Robot Project**
-    * **Week 18:** Peer Review & Showcase
-    
-    [View Stage 4 Assignments](assignments/stage4-assignments.md){ .md-button }
-
-</div>
 
 ---
-
-## 📝 How This Will Work
-Every assignment in this course follows a strict structure to ensure you know exactly what is expected of you.
-
-??? info "Click to view the standard Assignment Structure"
-    **1. Objective:** The specific CAD skill or FRC concept you need to master.  
-    **2. Instructions:** Step-by-step tasks, often referencing FRCDesign.org exercises or Onshape learning tutorials.  
-    **3. Deliverables:** What you actually turn in (e.g., an Onshape document link, a screenshot, or an exported `.STEP` file).  
-    **4. Due Date:** When the mentor needs to see your progress.
-
-    **Example Deliverable:** *For Assignment 1, you will submit a project on your Onshape dashboard with MKCAD successfully installed on the left-hand menu.*
 
 !!! quote "Core Value Check: Inclusion"
     "Every great mechanism requires different parts working together; our team is no different. Everyone has a place in the assembly."
