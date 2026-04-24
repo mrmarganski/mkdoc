@@ -67,10 +67,6 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     
     [View Stage 1C Assignments](assignments/stage1C.md){ .md-button }
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-4-box:</span> **Stage 4: The Final Build (Weeks 15-18)**
-    
-    ---
-
 ---
 
 !!! quote "Core Value Check: Inclusion"
