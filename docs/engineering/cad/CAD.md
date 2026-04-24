@@ -1,7 +1,9 @@
 # 📐 FRC CAD Curriculum: Onshape Basics
 > **Duration:** 18 Weeks (1 Semester) | **Prerequisites:** None
 
-Welcome to the Team 2064 CAD Foundations! While you technically can finish this incredibly fast since you can work on it anywhere with Onshape, This is a semester-long expectation that will take you from absolute zero : to being able to particpate and contribute when we design a full, competition-ready FRC robot using Onshape during Build Season in January.  **ALL ROOKIE Members MUST complete this Module 1.2 by JANUARY 1st of their season** To be on the travel team in March.  Veteran members should have completed this and are working on their specializations.
+Welcome to the Team 2064 CAD Foundations! While you technically can finish this incredibly fast since you can work on it anywhere with Onshape, this is a semester-long expectation that will take you from absolute zero to being able to participate and contribute when we design a full, competition-ready FRC robot using Onshape during Build Season in January.  
+
+**ALL ROOKIE Members MUST complete this Module 1.2 by JANUARY 1st of their season** to be on the travel team in March. Veteran members should have completed this and are working on their specializations.
 
 !!! abstract "Course Attribution"
     This curriculum is adapted from the incredible [FRCDesign.org Learning Course](https://www.frcdesign.org/). We highly recommend referencing their site for deep dives into specific FRC modeling strategies!
@@ -13,7 +15,7 @@ Welcome to the Team 2064 CAD Foundations! While you technically can finish this 
 ---
 
 ## 🏆 The Method to Completion
-How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through 4 Stages. At the end of each section, you will submit an Onshape document link to our 2064 Onshape classroom.  Stage 0 will set you up with your access and account.
+How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through 4 Stages. At the end of each section, you will submit an Onshape document link to our 2064 Onshape classroom. Stage 0 will set you up with your access and account.
 
 <div class="grid cards" markdown>
 
@@ -28,7 +30,7 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 3:** Part Design (Extrude, Revolve)
     * **Week 4:** Multi-Part Studios
     
-    [View Stage 0 Assignments](../stage0.md){ .md-button }
+    [View Stage 0 Assignments](stage0.md){ .md-button }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-numeric-1-box:</span> **Stage 1: Putting It Together (Weeks 5-7)**
     
@@ -40,7 +42,7 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 6:** Intermediate Sketching & Patterns
     * **Week 7:** Sweeps, Lofts, and Fillets
     
-    [View Stage 1A Assignments](../stage1A.md){ .md-button }
+    [View Stage 1A Assignments](stage1A.md){ .md-button }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-numeric-2-box:</span> **Stage 2: FRC Mechanics & Midterm (Weeks 8-11)**
     
@@ -53,7 +55,7 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 10:** **Midterm Project** (Design a Subsystem)
     * **Week 11:** Advanced Configurations & Variables
     
-    [View Stage 1B Assignments](../stage1B.md){ .md-button }
+    [View Stage 1B Assignments](stage1B.md){ .md-button }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-numeric-3-box:</span> **Stage 3: Advanced Systems (Weeks 12-14)**
     
@@ -65,7 +67,9 @@ How do you pass this course? It is simple: **Project-Based Mastery.** There are 
     * **Week 13:** FRC Robot Chassis Design
     * **Week 14:** Weight Reduction & Design Optimization
     
-    [View Stage 1C Assignments](../stage1C.md){ .md-button }
+    [View Stage 1C Assignments](stage1C.md){ .md-button }
+
+</div>
 
 ---
 
