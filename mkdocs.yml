@@ -90,12 +90,17 @@ nav:
       - "Module 1.4: Basic Fabrication":
           - Fabrication Basic: fabrication/fabricationbasic.md
           - Level 1 Overview: fabrication/level1/level1.md
+      - "Module 1.4: Basic Fabrication":
+          - Fabrication Basic: fabrication/fabricationbasic.md
+          - "Level 1 Overview":
+              - Level 1 Overview: fabrication/level1/level1.md
               - 1.4.1 - Workspace Organization: fabrication/level1/Closet.md
               - 1.4.2 - Fasteners: fabrication/level1/fasteners.md
-              - 1.4.3 - Hand Tools Overview: fabrication//level1/handtools/Handtools.md
+              - 1.4.3 - Hand Tools Overview: fabrication/level1/handtools/Handtools.md
               - 1.4.4 - Wiring & Crimping: fabrication/level1/handtools/crimping.md
               - Skill Check - Level 1: fabrication/level1/handtoolsquiz.md
-          - Level 2 Overview: fabrication/level2/level2.md
+          - "Level 2 Overview":
+              - Level 2 Overview: fabrication/level2/level2.md
               - 1.4.5 - Soldering: fabrication/level2/powertools/soldering.md
               - 1.4.6 - Skill Check - Level 2: fabrication/level1/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
