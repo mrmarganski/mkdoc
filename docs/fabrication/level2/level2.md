@@ -24,9 +24,12 @@ By the end of this level, you will be cleared to operate the fundamental powered
 
 ## 🔒 Looking Ahead: The Advanced Pathway
 
-Completing Level 2 means you have officially passed your Phase 1 Rookie Fabrication requirements! You will be fully cleared to help build and assemble the competition robot. 
+Completing Level 2 means you have officially passed your Phase 1 Rookie Fabrication requirements! You will be fully cleared to help build and assemble the competition robot with these tools in **Level 1 & 2**.   
 
-Once you pass this level, you will unlock **Phase 2: Advanced Fabrication (Levels 3 & 4)**, which introduces heavy stationary equipment like the **Band Saw**, **Table Saw**, and our Level 4 for our computer-controlled CNC/Laser machines.
+Once you pass this level, you will unlock the Specialization Pathway **Phase 2: Advanced Fabrication (Levels 3 & 4)**, which introduces heavy stationary equipment like the **Band Saw**, **Table Saw**, and our Level 4 for our computer-controlled CNC/Laser machines.
+
+!!! warning
+    You will **NOT** be able to use **Level 3 and/or 4** machines at any time, regardless of prior experience, until you successfully complete Level 3 and/or Level 4 modules.
 
 ---
 
