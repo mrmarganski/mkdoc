@@ -13,7 +13,7 @@ Level 1 is all about the fundamentals. You will learn how to navigate the worksp
 
 * 🧹 **Workspace Organization:** Learning the closet management system, battery care, and how to keep the shop clean.
 * 🔩 **Fasteners:** Identifying the specific bolts, nuts, and rivets used on our robots so you use the right hardware for the job.
-* 🔧 **Hand Tools Overview:** Proper use of wrenches, screwdrivers, Allen keys, and basic mechanical assembly techniques.
+* 🔧 **Hand Tools Overview:** Proper use of measuring tools, wrenches, screwdrivers, Allen keys, and basic mechanical assembly techniques.
 * ⚡ **Wiring & Crimping:** Stripping wires and creating secure electrical connections using our standard crimpers.
 * 📝 **Skill Check - Level 1:** A required assessment to prove you know your hand tools before moving to power tools.
 
