@@ -87,7 +87,7 @@ Once your file is written and your `mkdocs.yml` is updated, you need to save you
 3. Select **Commit directly to the main branch** (or submit a Pull Request if your subteam requires review).
 4. Click **Commit changes**.
 
-Within about 1 minute, GitHub Actions will automatically rebuild the site and your new page will be live!
+Within about 1 minute, GitHub Actions will automatically rebuild the site and your new page will be live at frc2064.com/mkdoc!
 
 ---
 
