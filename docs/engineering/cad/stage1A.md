@@ -16,17 +16,17 @@ Work through the three sections below in order. Make sure you read the instructi
 
 ### 🚀 Stage 1A: Learning Modules
 
--   <span style="color: var(--md-primary-fg-color);">:material-cog:</span> **Part 1: Studio Fundamentals & Setup**
+- <span style="color: var(--md-primary-fg-color);">:material-cog:</span> **Part 1: Studio Fundamentals & Setup**
     Before you draw, you need to understand how Onshape handles sketches, planes, and document organization.
-    [Go to Section 1: Setup :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section1-setup/){ .md-button target="_blank" }
+    <br>[Go to Section 1: Setup :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section1-setup/){ .md-button target="_blank" }
 
--   <span style="color: var(--md-primary-fg-color);">:material-layers:</span> **Part 2: Designing Plates**
+- <span style="color: var(--md-primary-fg-color);">:material-layers:</span> **Part 2: Designing Plates**
     Learn the techniques for creating 2D plates, which are the most common custom-manufactured parts on an FRC robot.
-    [Go to Section 2: Plates :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section2-exercise1/){ .md-button target="_blank" }
+    <br>[Go to Section 2: Plates :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section2-exercise1/){ .md-button target="_blank" }
 
--   <span style="color: var(--md-primary-fg-color);">:material-link-variant:</span> **Part 3: Assemblies & Mates**
+- <span style="color: var(--md-primary-fg-color);">:material-link-variant:</span> **Part 3: Assemblies & Mates**
     Master the art of connecting individual parts together using mates to create a functional, moving mechanism.
-    [Go to Section 3: Assemblies :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section3-exercise1/){ .md-button target="_blank" }
+    <br>[Go to Section 3: Assemblies :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section3-exercise1/){ .md-button target="_blank" }
 
 ---
 
