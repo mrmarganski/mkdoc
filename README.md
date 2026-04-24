@@ -15,7 +15,7 @@ All of our documentation is written in **Markdown** (files ending in `.md`). You
 3. Click the **Add file** button in the top right, then select **Create new file**.
 4. Name your file in the top text box. 
 
-!!! warning "Strict Naming Convention"
+"Strict Naming Convention"
     Your file name **must** end in `.md`. It should be all lowercase and have **no spaces**. Use hyphens instead of spaces. 
     * ❌ `Bad File Name.md`
     * ✅ `good-file-name.md`
