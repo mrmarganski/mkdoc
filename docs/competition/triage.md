@@ -1,7 +1,7 @@
 # ⏱️ Triage & Troubleshooting: The 8-Minute Turnaround
 > **Objective:** Master the high-pressure environment of the FRC Pit by learning how to prioritize repairs, execute pre-planned checklists, and successfully turn a damaged robot around for the next match in under 8 minutes.
 
-During qualification matches, you might have hours between field times. But during playoffs, or when the schedule compresses, you might have as little as **8 minutes** from the time the robot enters the pit to the time it must be queuing for the next match. 
+During qualification matches, you might an hour or two between field times. But during playoffs, or when the schedule compresses and we are on double deck, you might have as little as **8 minutes** from the time the robot enters the pit to the time it must be queuing for the next match. 
 
 In the pits, panic is your worst enemy. Preparation is your only defense. This module will teach you how the Pit Crew operates and what you must do *before* we ever leave for a competition to prove you are ready for the chaos.
 
