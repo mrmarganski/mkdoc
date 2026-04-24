@@ -98,8 +98,9 @@ nav:
               - Skill Check - Level 1: fabrication/level1/handtoolsquiz.md
           - "Level 2 Overview":
               - Level 2 Overview: fabrication/level2/level2.md
-              - 1.4.5 - Soldering: fabrication/level2/powertools/soldering.md
-              - 1.4.6 - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
+              - 1.4.5 - 3D Printing: fabrication/level2/3dprinting.md
+              - 1.4.6 - Soldering: fabrication/level2/powertools/soldering.md
+              - 1.4.7 - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
           - Build Guide: xrprobotics/module1/Build.md
