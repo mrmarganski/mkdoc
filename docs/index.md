@@ -49,37 +49,34 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
         *Master the fundamentals of hand tools, power tools, and shop organization.*
 
         * **Level 1: General Shop (Unpowered)**
-            * **[Level 1 Overview](fabrication/level1/level1.md)**
             * **[Workspace Organization](fabrication/level1/Closet.md):** Closet management and battery care.
             * **[Fasteners](fabrication/level1/fasteners.md):** Learn about the hardware used on the robot. 
             * **[Measuring Devices](fabrication/level1/measuring/measuringtools.md):** Calipers and tape measures.
             * **[Hand Tools: Wrenches](fabrication/level1/handtools/Handtools.md) & [Pliers](fabrication/level1/handtools/pliers.md)**
             * **[Wiring & Crimping](fabrication/level1/handtools/crimping.md):** Secure electrical connections.
-            * **[3D Printer Fundamentals](fabrication/level1/3dprinter.md)**
-            * **[Skill Check - Level 1](fabrication/level1/handtoolsquiz.md)**
+            * **[3D Printer Fundamentals](fabrication/level1/3dprinter.md)** Learn to export STEP files and prepare for 3D Printing basic models.
+            * **[Skill Check - Level 1](fabrication/level1/handtoolsquiz.md)** Show your understanding of Level 1 skills. 
         * **Level 2: Power Tools**
-            * **[Level 2 Overview](fabrication/level2/level2.md)**
             * **[Cordless Drill](fabrication/level2/poweredhandtools/poweredtools.md) & [Cordless Saw](fabrication/level2/poweredhandtools/cordlesssaw.md)**
             * **[Soldering Iron](fabrication/level2/powertools/soldering.md):** Permanent FRC electrical connections.
             * **[Horizontal Bandsaw](fabrication/level2/stationary/horizontalsaw.md):** Basic stationary cutting.
-            * **[Skill Check - Level 2](fabrication/level2/powertoolsquiz.md)**
+            * **[Skill Check - Level 2](fabrication/level2/powertoolsquiz.md)** Finish your level 2 Rookie fabrication pathway with this skill practical.
     
     ??? abstract "🤖 Module 1.5: XRP Starter Bot"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
         
-        * **[1.5.1 - XRP Introduction](xrprobotics/xrplanding.md):** Welcome to the XRP program.
         * **XRP Start (The Basics):**
             * **[Build Guide](xrprobotics/module1/Build.md):** Chassis assembly.
-            * **[Firmware Installation](xrprobotics/module1/gettingtoknow.md)**
+            * **[Firmware Installation](xrprobotics/module1/gettingtoknow.md)** Make your robot connect to VScode wirelessly for deploying JAVA.
             * **[VSCode and WPILib](xrprobotics/module1/xrpwpilib.md):** Setting up the FRC programming environment.
             * **[Command-Based Code](xrprobotics/module1/basicdriveXRP.md):** Writing Java to drive the XRP.
-            * **[Drive Challenge Skill Check](xrprobotics/module1/XRPdrivechallenge.md)**
+            * **[Drive Challenge Skill Check](xrprobotics/module1/XRPdrivechallenge.md)** Demo your XRP can drive with and perform a simple auto you created!
         * **XRP Advanced (Ping Pong Launcher):**
-            * **[Launcher Game Concepts](xrprobotics/module2/Ping-Pong-Launcher-Challenge.md)**
-            * **[Ping Pong Assembly](xrprobotics/module2/PingPongAssemble.md)**
-            * **[Launcher Wiring](xrprobotics/module2/wiringpingpongxrp.md)**
-            * **[Launcher Code](xrprobotics/module2/pingpongcode.md)**
-            * **[Launcher Competition](xrprobotics/module2/PingPongCompetition.md)**
+            * **[Launcher Game Concepts](xrprobotics/module2/Ping-Pong-Launcher-Challenge.md)** Advanced ping pong challenge, simulating REBUILT season game small scale!
+            * **[Ping Pong Assembly](xrprobotics/module2/PingPongAssemble.md)** Steps to create ping pong bot.
+            * **[Launcher Wiring](xrprobotics/module2/wiringpingpongxrp.md)** Wiring Ping Pong Bot
+            * **[Launcher Code](xrprobotics/module2/pingpongcode.md)** Ping Pong robot code with Arduino
+            * **[Launcher Competition](xrprobotics/module2/PingPongCompetition.md)** Game rules and game manual.
 
 ---
 
@@ -101,14 +98,12 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
         
         * **Level 3: Stationary Equipment:**
-            * **[Level 3 Overview](fabrication/level3/level3.md)**
             * **[3D Printing Workflow](fabrication/level3/3dprinting2.md):** Slicing, filaments, and SLA.
-            * **[Bandsaw Operations](fabrication/level3/bandsaw.md)**
+            * **[Bandsaw Operations](fabrication/level3/bandsaw.md)** Cut contours out of raw material and learn what to do and what not to do with this tool.
             * **[Lathe Operations](fabrication/level3/lathe.md):** Turning shafts and cutting grooves.
             * **[Milling Machine Basics](fabrication/level3/millingmachine.md):** Squaring stock and edge finding.
             * **[Skill Check - Level 3](fabrication/level3/machinelessons.md)**
         * **Level 4: Digital Fabrication:**
-            * **[Level 4 Overview](fabrication/level4/level4.md)**
             * **[Laser Engraver Workflow](fabrication/level4/laserengraver.md):** Vector cutting and etching.
             * **[CNC Router Operations](fabrication/level4/cncrouter.md):** CAM setups, feeds, and speeds.
             * **[Skill Check - Level 4](fabrication/level4/machinelessonsadvanced.md)**
