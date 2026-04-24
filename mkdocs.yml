@@ -104,7 +104,7 @@ nav:
           - "Level 02 - Powered Hand Tools":
               - 1.4.7 - Powered Hand Tools: fabrication/level2/poweredhandtools/poweredtools.md
               - 1.4.9 - Soldering: fabrication/level2/powertools/soldering.md
-          - "Level 01 - Stationary Powered Equipment":    
+          - "Level 02 - Stationary Powered Equipment":    
               - 1.4.8 - 3D Printing: fabrication/level2/stationary/3dprinting.md
               - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
