@@ -16,7 +16,8 @@ Once BUILD is complete, you have to switch your computers wifi to the XRP signal
 
 Next step, click the WPI logo at the top of the VSCode screen, and search for "SIMULATE" - Which will deploy the code and open a virtual Driver Station to control the robot like a real FRC bot!
 
-Once driver station is loaded, choose teleop, and test controls.  Robot should drive 
+!!! success
+    Once driver station is loaded, choose teleop, and test controls.  Robot should drive.  If you can't check your controller is connected over bluetooth and is assigned on the simulation dashboard in the control slot.
 
 !!! danger 
     Don't test on a table, or the robot may jump off!!
