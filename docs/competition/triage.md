@@ -82,6 +82,7 @@ Once you are at the competition, every single time the robot touches the cart, t
 To complete this module, you must physically demonstrate your readiness to the Pit Boss or Lead Engineering Mentor.
 
 **Before submitting for review, ensure you have:**
+
 - [ ] Passed the Tool Location Test.
 - [ ] Written and submitted a 5-point rapid checklist for at least one robot subsystem.
 - [ ] Participated in a successful timed Mock Pit Stop.
