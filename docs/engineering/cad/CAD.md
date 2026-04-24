@@ -1,21 +1,19 @@
 # 📐 FRC CAD Curriculum: Onshape Basics
 > **Duration:** 18 Weeks (1 Semester) | **Prerequisites:** None
 
-Welcome to the Team 2064 CAD Curriculum! This semester-long course will take you from absolute zero to being able to model a full, competition-ready FRC robot using Onshape. 
+Welcome to the Team 2064 CAD Foundations! This semester-long course will take you from absolute zero to being able to particpate and contribute when we design a full, competition-ready FRC robot using Onshape during Build Season. 
 
 !!! abstract "Course Attribution"
     This curriculum is adapted from the incredible [FRCDesign.org Learning Course](https://www.frcdesign.org/). We highly recommend referencing their site for deep dives into specific FRC modeling strategies!
 
 !!! warning "Required Setup (Do This First!)"
-    Before starting Week 1, you must:
-    1. Create a free [Onshape Education Account](https://www.onshape.com/en/education/).
-    2. Add the [MKCAD Parts Library](stage0/0B/MKCad.md) to your Onshape.
-    3. Install the Team 2064 [Required FeatureScripts](stage0/0B/featurescripts.md).
+    Before starting any FRC Design work, you must:
+    1. Complete Stage 0
 
 ---
 
 ## 🏆 The Method to Completion
-How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through 5 Stages. At the end of each week, you will submit an Onshape document link or a screenshot of your 3D model for review. You will face a Midterm (designing a single mechanism) and a Final Project (designing a complete robot).
+How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through 4 Stages. At the end of each section, you will submit an Onshape document link or a screenshot of your 3D model for review. 
 
 <div class="grid cards" markdown>
 
