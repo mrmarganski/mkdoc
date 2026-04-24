@@ -48,7 +48,6 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
     ??? abstract "🔨 Module 1.4: Basic Fabrication (Levels 1 & 2)" 
         *Master the fundamentals of hand tools, power tools, and shop organization.*
 
-        * **[1.4.1 - Basic Fabrication Intro](fabrication/fabricationbasic.md):** Getting started in the shop.
         * **Level 1: General Shop (Unpowered)**
             * **[Level 1 Overview](fabrication/level1/level1.md)**
             * **[Workspace Organization](fabrication/level1/Closet.md):** Closet management and battery care.
