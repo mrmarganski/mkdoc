@@ -99,12 +99,14 @@ nav:
               - 1.4.4 - Hand Tools Overview: fabrication/level1/handtools/Handtools.md
               - 1.4.5 - Pliers: fabrication/level1/handtools/pliers.md
               - 1.4.6 - Wiring & Crimping: fabrication/level1/handtools/crimping.md
+          - "Level 01 - Powered Hand Tools":
+              - 1.4.7 - Powered Hand Tools: fabrication/level1/poweredhandtools/poweredtools.md
               - Skill Check - Level 1: fabrication/level1/handtoolsquiz.md
           - "Level 02 Overview":
               - Level 02 - Power Tools Overview: fabrication/level2/level2.md
-              - 1.4.7 - 3D Printing: fabrication/level2/stationary/3dprinting.md
-              - 1.4.8 - Soldering: fabrication/level2/powertools/soldering.md
-              - 1.4.9 - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
+              - 1.4.8 - 3D Printing: fabrication/level2/stationary/3dprinting.md
+              - 1.4.9 - Soldering: fabrication/level2/powertools/soldering.md
+              - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
           - "XRP Start":
