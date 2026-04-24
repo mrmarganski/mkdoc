@@ -121,7 +121,7 @@ nav:
           - Stage 1E (Subsystem Workflow): engineering/cad/stage1E.md
           - Skill Check - CAD Course: engineering/cad/cadonshapecourse.md
       - "Pathway 2.2: Advanced Fabrication":
-          - Fabrication Advanced: fabrication/fabricationlanding2.md
+          - Fabrication Advanced: fabrication/fabricationadvanced.md
           - "Level 3 Overview":
               - Level 3 Overview: fabrication/level3/level3.md
               - 3D Printing Workflow: fabrication/level3/3dprinting2.md
