@@ -33,13 +33,3 @@ Level 2 is where the shop really opens up. You will learn how to safely operate:
 * Soldering irons for permanent electrical connections
 
 ---
-
-## ✅ Your First Assignment
-
-To earn your Level 1 certification, you must complete the pages in this section in order, finishing with the Level 1 Skill Check. 
-
-Your first lesson is learning how to navigate the shop and keep the workspace organized so we never lose our tools.
-
-[Start 1.4.1: Workspace Organization](Closet.md){ .md-button .md-button--primary }
-
-[Return to Basic Fabrication](../fabricationbasic.md){ .md-button }
