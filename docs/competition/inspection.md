@@ -71,6 +71,7 @@ When the pits open on Thursday morning, this is our exact playbook:
 To complete this module, you must physically participate in preparing the robot for inspection.
 
 **Before submitting for review, ensure you have:**
+
 - [ ] Participated in the Weight & Size Audit and recorded the numbers.
 - [ ] Verified the bumpers meet all manual requirements and mount securely.
 - [ ] Acted as the "Mock Inspector" using the official FIRST checklist on our robot.
