@@ -105,7 +105,8 @@ nav:
           - XRP Introduction: xrprobotics/xrplanding.md
           - "XRP Start":
               - Build Guide: xrprobotics/module1/Build.md
-              - WPILib Installation: xrprobotics/module1/gettingtoknow.md
+              - XRP Firmware Installation: xrprobotics/module1/gettingtoknow.md
+              - VSCode and WPIlib: xrprobotics/module1/xrpwpilib.md
               - Command-Based Code: xrprobotics/module1/basicdriveXRP.md
               - Skill Check - Drive Challenge: xrprobotics/module1/XRPdrivechallenge.md
           - "XRP Advanced":
