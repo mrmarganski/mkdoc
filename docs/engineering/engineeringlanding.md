@@ -13,7 +13,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 ??? abstract "Unsure where to start? Take the Pathfinder Assessment!"
     If you aren't sure which pathway fits your skills and interests best, take our interactive quiz to get a personalized recommendation based on your problem-solving style.
     
-    [Take the Pathfinder Assessment](resources/quiz.md){ .md-button }
+    [Take the Pathfinder Assessment](../resources/quiz.md){ .md-button }
 
 ---
 
