@@ -13,7 +13,7 @@ Welcome to the Team 2064 CAD Foundations! While you technically can finish this 
 ---
 
 ## 🏆 The Method to Completion
-How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through 4 Stages. At the end of each section, you will submit an Onshape document link or a screenshot of your 3D model for review. 
+How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through 4 Stages. At the end of each section, you will submit an Onshape document link to our 2064 Onshape classroom.  Stage 0 will set you up with your access and account.
 
 <div class="grid cards" markdown>
 
