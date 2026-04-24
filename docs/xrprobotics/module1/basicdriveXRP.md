@@ -24,7 +24,7 @@ Next step, click the WPI logo at the top of the VSCode screen, and search for "S
 !!! success
     Once driver station is loaded, choose teleop, and test controls.  Robot should drive.  If you can't check your controller is connected over bluetooth and is assigned on the simulation dashboard in the control slot.
 
-![XRP Dashboard](../../img/simlulationscreen.png)
+![XRP Dashboard](../../img/simulationscreen.png)
 
 !!! danger 
     Don't test on a table, or the robot may jump off!!
