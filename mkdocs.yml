@@ -133,7 +133,7 @@ nav:
               - Level 4 Overview: fabrication/level4/level4.md
               - Laser Engraver Workflow: fabrication/level4/laserengraver.md
               - CNC Router Operations: fabrication/level4/cncrouter.md
-              - Skill Check - Level 4: fabrication/machinelessonsadvanced.md
+              - Skill Check - Level 4: fabrication/level4/machinelessonsadvanced.md
       - "Pathway 2.3: Software & Controls":
           - Java & WPILib Basics: engineering/programming/WPIlib.md
           - Sensor Integration: engineering/programming/sensors.md
