@@ -40,4 +40,4 @@ For every machine in this pathway:
 ### 🎉 Ready to make some chips?
 Begin your advanced training by learning the rules of the metal and wood cutting saws.
 
-[Start Level 3: Band Saw & Miter Saw](level-3/saws.md){ .md-button .md-button--primary }
+[Start Level 3: Level 3 Overview](level3/level3.md){ .md-button .md-button--primary }
