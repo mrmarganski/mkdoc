@@ -103,15 +103,17 @@ nav:
               - 1.4.7 - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
-          - Build Guide: xrprobotics/module1/Build.md
-          - WPILib Installation: xrprobotics/module1/gettingtoknow.md
-          - Command-Based Code: xrprobotics/module1/basicdriveXRP.md
-          - Skill Check - Drive Challenge: xrprobotics/module1/XRPdrivechallenge.md
-          - Launcher Game Concepts: xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
-          - Ping Pong Assembly: xrprobotics/module2/PingPongAssemble.md
-          - Launcher Wiring: xrprobotics/module2/wiringpingpongxrp.md
-          - Launcher Code: xrprobotics/module2/pingpongcode.md
-          - Launcher Competition: xrprobotics/module2/PingPongCompetition.md
+          - "XRP Start":
+              - Build Guide: xrprobotics/module1/Build.md
+              - WPILib Installation: xrprobotics/module1/gettingtoknow.md
+              - Command-Based Code: xrprobotics/module1/basicdriveXRP.md
+              - Skill Check - Drive Challenge: xrprobotics/module1/XRPdrivechallenge.md
+          - "XRP Advanced":
+              - Launcher Game Concepts: xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
+              - Ping Pong Assembly: xrprobotics/module2/PingPongAssemble.md
+              - Launcher Wiring: xrprobotics/module2/wiringpingpongxrp.md
+              - Launcher Code: xrprobotics/module2/pingpongcode.md
+              - Launcher Competition: xrprobotics/module2/PingPongCompetition.md
 
   - "Phase 2: Specialization Pathways":
       - "Specialization Paths":
