@@ -19,6 +19,7 @@ By the end of this level, you will be proficient in the following core areas:
 * 🔩 **Fasteners & Hardware:** The difference between a 10-32 and a 1/4-20 bolt, when to use nylock nuts, and how to identify rivets.
 * 🔧 **Mechanical Hand Tools:** Proper technique for using Measuring Tools and Allen keys (hex wrenches), combination wrenches, ratchets, and screwdrivers without damaging the hardware.
 * ⚡ **Wiring & Crimping:** Stripping wires to the exact right length, using WAGO tools, and crimping Anderson power connectors so they never pull apart on the field.
+* 📝 **Skill Check - Level 1:** A required assessment to prove you know your hand tools before moving to power tools.
 
 ---
 
