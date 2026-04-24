@@ -82,11 +82,9 @@ Once your file is written and your `mkdocs.yml` is updated, you need to save you
 3. Select **Commit directly to the main branch** (or submit a Pull Request if your subteam requires review).
 4. Click **Commit changes**.
 
-Within about 2-3 minutes, GitHub Actions will automatically rebuild the site and your new page will be live!
+Within about 1 minute, GitHub Actions will automatically rebuild the site and your new page will be live!
 
 ---
 
 ### 🎉 Ready to contribute?
-Return to the dashboard to find a pathway to study, or talk to your Subteam Lead about what documentation needs to be written next!
-
-[Return to Home Dashboard](../index.md){ .md-button .md-button--primary }
+Talk to your Subteam Lead about what documentation needs to be written next!
