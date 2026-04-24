@@ -35,10 +35,10 @@ To drive the XRP, we use the WPILib Simulation GUI, which acts as a virtual Driv
 1. Click the **WPI Logo** in the top right corner of VSCode (or press `Ctrl+Shift+P` / `Cmd+Shift+P`).
 2. Type and select **"Simulate Robot Code"**.
 
+![Simulate XRP](../../img/simluatexrp.png)
+
 !!! info "Be Patient!"
     It will take some time to compile the code the first time (1 to 3 minutes). As a rule of thumb: If it hasn't thrown a red error in the terminal, it is still compiling!
-
-![Simulate XRP](../../img/simluatexrp.png)
 
 ---
 
