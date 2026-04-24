@@ -100,7 +100,6 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
     ??? abstract "🏭 Pathway 2.2: Advanced Fabrication (Levels 3 & 4)"
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
         
-        * **[2.2.1 - Advanced Fabrication Intro](fabrication/fabricationadvanced.md)**
         * **Level 3: Stationary Equipment:**
             * **[Level 3 Overview](fabrication/level3/level3.md)**
             * **[3D Printing Workflow](fabrication/level3/3dprinting2.md):** Slicing, filaments, and SLA.
