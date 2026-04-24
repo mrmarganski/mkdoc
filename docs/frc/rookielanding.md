@@ -28,7 +28,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Learn to think in 3D.* Master the Engineering Design Process and get your Onshape account set up for basic mechanism modeling.
     
-    [Start Basic CAD](../engineering/cad/stage0.md){ .md-button .md-button--primary }
+    [Start Basic CAD](../engineering/cad/CAD.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-shield-check:</span> **Module 1.3: Safety Certification**
 
