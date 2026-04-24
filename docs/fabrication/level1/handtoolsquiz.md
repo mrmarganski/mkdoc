@@ -5,7 +5,7 @@ Students will show an understanding of tools used and demonstrate their understa
 ### 🎉 Module Complete!
 You have reached the end of this module. 
 
-[Go to Next Module 1.5](../xrprobotics/xrplanding.md){ .md-button .md-button--primary }
+[Go to Level 2](../level2/level2.md){ .md-button .md-button--primary }
 
 Or return to the master dashboard to view your next required step.
 
