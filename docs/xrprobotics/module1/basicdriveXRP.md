@@ -18,6 +18,9 @@ Next step, click the WPI logo at the top of the VSCode screen, and search for "S
 
 ![Simulate XRP](../../img/simluatexrp.png)
 
+!!! note
+    It will take some time to compile the code (1-3min) - So rule of thumb is - If it has not failed, it is still compiling!
+
 !!! success
     Once driver station is loaded, choose teleop, and test controls.  Robot should drive.  If you can't check your controller is connected over bluetooth and is assigned on the simulation dashboard in the control slot.
 
