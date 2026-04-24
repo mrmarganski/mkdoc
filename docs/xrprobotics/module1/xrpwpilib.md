@@ -13,7 +13,9 @@ The video above walks you through these steps to install WPIlib for XRP, but if 
 The Computers in Room 124 will have VScode with the WPIlib libraires installed, so you are free to use them and can skip this step - but if you would like to use a personal computer or update WPIlib this step will help you with that.
 
 !!! info "WPILib Installation Documentation"
-    Link to site for installing VSCode/WPILib onto a personal computer - this is required to be a Macbook or Windows machine, check link for further requirements on Version support and updates.
+    Having difficulty getting vscode installed? Check this link for further requirements on Version support and updates and more detailed installtion instructions.
 
 [View the WPILib Installation Guide ↗️](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html){ .md-button .md-button--primary target="_blank" }
+
+Once you have VScode installed, we can download/create/deploy JAVA code to XRP just like our competition FRC robot!!
 
