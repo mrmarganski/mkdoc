@@ -15,6 +15,7 @@ Our Milwaukee Packout stacks are the heart of our competition workspace. If a to
     Never throw loose tools into a random drawer. Every wrench, Allen key, and crimper must be placed in its specific Packout drawer, foam cutout, or labeled bin. If there is an empty slot, *find the missing tool before we lock the stacks.*
 
 **Core Packout Manifest:**
+
 * Complete standard and metric Allen key sets (T-handles and L-keys).
 * Wrench sets and socket sets (Standard & Metric).
 * Impact drivers, power drills, and spare lithium batteries.
@@ -29,6 +30,7 @@ Our Milwaukee Packout stacks are the heart of our competition workspace. If a to
 Power and control. Without these, the robot is a statue. The Electrical Lead is primarily responsible for signing off on this section.
 
 **Power & Control Manifest:**
+
 * **Competition Batteries:** Minimum of 6-8 fully tested and charged 12V SLA batteries.
 * **Battery Chargers:** Multi-bank chargers with their power cables.
 * **Driver Station:** The primary driver laptop, power supply, and Xbox/joystick controllers.
@@ -42,6 +44,7 @@ Power and control. Without these, the robot is a statue. The Electrical Lead is 
 Things break. When a 3D printed intake bracket shatters or a swerve wheel wears down, we need exact replacements ready to swap in. 
 
 **Spare Parts Manifest:**
+
 * **Swerve Maintenance:** Spare swerve treads, bevel gears, and at least one fully assembled spare swerve module.
 * **Fabricated Spares:** Backup CNC-routed chassis plates, polycarb intake arms, and laser-cut gussets.
 * **3D Printed Parts:** Backup limelight mounts, pulleys, and sensor brackets (printed beforehand and packed safely in the designated Packout bins).
@@ -54,6 +57,7 @@ Things break. When a 3D printed intake bracket shatters or a swerve wheel wears 
 The big stuff. This usually goes into the trailer last so it comes out first.
 
 **Heavy Logistics Manifest:**
+
 * **The Robot:** Secured to its travel cart, battery removed, main breaker off.
 * **Bumpers:** Both Red and Blue bumper sets (or the reversible covers) and their mounting hardware.
 * **Pit Structure:** The metal framing, zip ties, team banner, and lighting for our 10x10 pit area.
