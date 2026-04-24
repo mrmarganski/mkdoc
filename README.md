@@ -69,7 +69,7 @@ If you need to show code or a specific file path, use backticks to make it look 
           - My New Tool Guide: fabrication/my-new-tool.md  # <--- You add this line!
 ```
 
-!!! failure "YAML Spacing is Strict!"
+"YAML Spacing is Strict!"
     YAML files use spaces, **never tabs**. Make sure your new line lines up perfectly with the ones above it. If it is off by even one space, the website will fail to build.
 
 ---
