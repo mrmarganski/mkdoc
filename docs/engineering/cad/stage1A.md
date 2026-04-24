@@ -14,14 +14,19 @@ Work through the three sections below in order. Make sure you read the instructi
 !!! tip "Navigating the Course"
     All links below will open in a new browser tab so you don't lose your place on this page!
 
-* **Part 1: The Setup** Before you draw, you need to understand how Onshape handles sketches and planes.  
-  [Go to Section 1: Setup :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section1-setup/){ .md-button target="_blank" }
+### 🚀 Stage 1A: Learning Modules
 
-* **Part 2: The First Exercise** Time to draw! You will learn how to use the Sketch tool, lines, and dimensions.  
-  [Go to Section 2: Exercise 1 :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section2-exercise1/){ .md-button target="_blank" }
+-   <span style="color: var(--md-primary-fg-color);">:material-cog:</span> **Part 1: Studio Fundamentals & Setup**
+    Before you draw, you need to understand how Onshape handles sketches, planes, and document organization.
+    [Go to Section 1: Setup :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section1-setup/){ .md-button target="_blank" }
 
-* **Part 3: The Second Exercise** Turn those flat lines into real objects using the Extrude tool and learn how multi-part studios work.  
-  [Go to Section 3: Exercise 2 :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section3-exercise1/){ .md-button target="_blank" }
+-   <span style="color: var(--md-primary-fg-color);">:material-layers:</span> **Part 2: Designing Plates**
+    Learn the techniques for creating 2D plates, which are the most common custom-manufactured parts on an FRC robot.
+    [Go to Section 2: Plates :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section2-exercise1/){ .md-button target="_blank" }
+
+-   <span style="color: var(--md-primary-fg-color);">:material-link-variant:</span> **Part 3: Assemblies & Mates**
+    Master the art of connecting individual parts together using mates to create a functional, moving mechanism.
+    [Go to Section 3: Assemblies :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section3-exercise1/){ .md-button target="_blank" }
 
 ---
 
@@ -31,11 +36,7 @@ Welcome back! By the end of those three sections, you should have a solid grasp 
 
 **Verify that you understand how to:**
 
-- [ ] Start a new Sketch on a specific plane (Top, Front, or Right).
-- [ ] Use basic constraints (like making a line perfectly horizontal or vertical).
-- [ ] Use the Dimension tool (`D` on your keyboard) to give a line an exact measurement.
-- [ ] Use the Extrude tool (`Shift + E`) to turn a closed sketch into a 3D part.
-- [ ] Create multiple parts within the same Part Studio.
+- [ ] Submitted X to onshape class in 2064 folder...
 
 ---
 
