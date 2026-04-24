@@ -89,9 +89,6 @@ nav:
           - Safety Practical: safety/safetypractical.md
       - "Module 1.4: Basic Fabrication":
           - Fabrication Basic: fabrication/fabricationbasic.md
-          - Level 1 Overview: fabrication/level1/level1.md
-      - "Module 1.4: Basic Fabrication":
-          - Fabrication Basic: fabrication/fabricationbasic.md
           - "Level 1 Overview":
               - Level 1 Overview: fabrication/level1/level1.md
               - 1.4.1 - Workspace Organization: fabrication/level1/Closet.md
