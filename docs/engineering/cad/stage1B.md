@@ -14,22 +14,8 @@ Work through the four sections below in order. Make sure you read the theory sec
 !!! tip "Navigating the Course"
     All links below will open in a new browser tab so you don't lose your place on this page!
 
-* **Part 1: Power Transmission Theory** Read these four short sections to understand how FRC robots generate and transfer power.
-    * [Read: Motors :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/motors/){ target="_blank" }
-    * [Read: Shafts & Bearings :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/shafts-bearings/){ target="_blank" }
-    * [Read: Torque & Speed :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/torque-speed/){ target="_blank" }
-    * [Read: Gear Basics :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/gears/){ target="_blank" }
-
-* **Part 2: Exercise 1 (Simple Gearbox)** Follow the tutorial to build your first single-reduction gearbox using Onshape.  
-  [Go to Exercise 1 :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/exercise1/){ .md-button target="_blank" }
-
-* **Part 3: Exercise 2 (Two-Stage Gearbox)** Learn how to create a larger reduction by compounding gears.  
-  [Go to Exercise 2 :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/exercise2/){ .md-button target="_blank" }
-
-* **Part 4: Belts, Chains, and Exercise 3** Read up on belts and chains, then model a gearbox that uses both gears and a timing belt.  
-    * [Read: Belt & Pulley Basics :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/belt-basics/){ target="_blank" }
-    * [Read: Chain & Sprocket Basics :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/chain-basics/){ target="_blank" }
-    * [**Go to Exercise 3: Gear & Belt Gearbox :material-open-in-new:**](https://www.frcdesign.org/learning-course/stage1/1B/exercise3/){ .md-button target="_blank" }
+* **Part 1: Power Transmissions Introduction** Learn the fundamentals of motors, gears, belts, and chains, and how they are modeled within an FRC context.  
+  [Go to Stage 1B: Introduction :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1B/introduction/){ .md-button target="_blank" }
 
 ---
 
@@ -39,10 +25,7 @@ Welcome back! That was a massive module, but you just learned the core mechanics
 
 **Verify that you understand how to:**
 
-- [ ] Identify a 1/2" Hex Shaft and explain why FRC uses them instead of round shafts.
-- [ ] Understand the trade-off between Torque and Speed in a gearbox.
-- [ ] Use MKCAD to import COTS (Commercial Off-The-Shelf) parts like Falcons, NEOs, and bearings.
-- [ ] Calculate Center-to-Center (C-to-C) distances for gears and belts.
+- [ ] Completed 1B
 
 ---
 
