@@ -35,7 +35,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
     *Build the machine.* Master heavy precision machinery including the CNC Router, Lathe, Milling Machine, and 3D Printers.
     
-    [Start Fabrication Pathway](../fabrication/fabricationlanding.md){ .md-button .md-button--primary }
+    [Start Fabrication Pathway](../fabrication/fabricationadvanced.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-code-braces:</span> **Pathway 2.3: Software & Controls**
 
