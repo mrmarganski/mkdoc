@@ -18,6 +18,7 @@ By the end of this level, you will be cleared to operate the fundamental powered
 * 🗜️ **Benchtop Machinery:** Safe operation of the Drill Press, Bench Grinder, and Belt Sander. You will learn how to secure your workpieces tightly so they don't become spinning projectiles.
 * 🖨️ **FDM 3D Printing:** How to slice files, load filament, and operate the Bambu Lab X1C and Flashforge printers to create custom plastic parts.
 * 🔌 **Soldering & Electronics:** Safely using a soldering iron to splice wires, tin leads, and make secure electrical connections without burning yourself or the workbench.
+* 📝 **Skill Check - Level 2:** A required assessment to prove you know your hand power tools before moving to stationary power tools.
 
 ---
 
