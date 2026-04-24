@@ -27,4 +27,4 @@ Next step, click the WPI logo at the top of the VSCode screen, and search for "S
 ![XRP Dashboard](../../img/simulationscreen.png)
 
 !!! danger 
-    Select TeleOP and move your joysticks! Don't test on a table, or the robot may jump off!!
+    Select Teleoperated driver state and move your joysticks! Don't test on a table, or the robot may jump off!!
