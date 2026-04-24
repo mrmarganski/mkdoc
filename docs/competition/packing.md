@@ -1,4 +1,3 @@
-
 # 📦 The Packing Manifest: Load In & Load Out
 > **Objective:** Learn how to systematically pack the team trailer so we never arrive at a competition without a critical tool, battery, or spare part.
 
@@ -8,14 +7,14 @@ This module covers how the Pit Crew and Logistics Team divide and conquer the pa
 
 ---
 
-## 🚦 Step 1: The Pit Cart & Hand Tools
+## 🚦 Step 1: The Milwaukee Packouts & Hand Tools
 
-The rolling pit tool chest is the heart of our competition workspace. If a tool doesn't make it into the chest before the trailer doors close, we don't have it for the weekend.
+Our Milwaukee Packout stacks are the heart of our competition workspace. If a tool doesn't make it into the Packout system before the trailer doors close, we don't have it for the weekend.
 
 !!! tip "The Golden Rule of Packing Tools"
-    Never throw loose tools into a drawer. Every wrench, Allen key, and crimper must be placed in its specific foam cutout or labeled bin. If there is an empty slot, *find the missing tool before we load the chest.*
+    Never throw loose tools into a random drawer. Every wrench, Allen key, and crimper must be placed in its specific Packout drawer, foam cutout, or labeled bin. If there is an empty slot, *find the missing tool before we lock the stacks.*
 
-**Core Tool Chest Manifest:**
+**Core Packout Manifest:**
 * Complete standard and metric Allen key sets (T-handles and L-keys).
 * Wrench sets and socket sets (Standard & Metric).
 * Impact drivers, power drills, and spare lithium batteries.
@@ -45,7 +44,7 @@ Things break. When a 3D printed intake bracket shatters or a swerve wheel wears 
 **Spare Parts Manifest:**
 * **Swerve Maintenance:** Spare swerve treads, bevel gears, and at least one fully assembled spare swerve module.
 * **Fabricated Spares:** Backup CNC-routed chassis plates, polycarb intake arms, and laser-cut gussets.
-* **3D Printed Parts:** Backup limelight mounts, pulleys, and sensor brackets (printed beforehand and packed safely).
+* **3D Printed Parts:** Backup limelight mounts, pulleys, and sensor brackets (printed beforehand and packed safely in the designated Packout bins).
 * **COTS Spares:** Bearings, hex shafts, chains, belts, and gears.
 
 ---
@@ -68,7 +67,7 @@ You must demonstrate your ability to execute a packing operation before we leave
 
 **Before submitting for review, ensure you have:**
 
-- [ ] Verified that every tool in your subteam's jurisdiction is returned to its proper home in the travel cart.
+- [ ] Verified that every tool in your subteam's jurisdiction is returned to its proper home in the Milwaukee Packouts.
 - [ ] Counted and logged the battery health for all travel batteries.
 - [ ] Checked that the Red and Blue bumpers are loaded alongside the robot cart.
 - [ ] Signed off on the physical paper manifest with the Pit Boss.
