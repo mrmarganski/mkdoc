@@ -25,16 +25,8 @@ By the end of this level, you will be cleared to operate the fundamental powered
 
 Completing Level 2 means you have officially passed your Phase 1 Rookie Fabrication requirements! You will be fully cleared to help build and assemble the competition robot. 
 
-Once you pass this level, you will unlock **Phase 2: Advanced Fabrication (Levels 3 & 4)**, which introduces heavy stationary equipment like the **Band Saw**, **Table Saw**, and our computer-controlled CNC/Laser machines.
+Once you pass this level, you will unlock **Phase 2: Advanced Fabrication (Levels 3 & 4)**, which introduces heavy stationary equipment like the **Band Saw**, **Table Saw**, and our Level 4 for our computer-controlled CNC/Laser machines.
 
 ---
 
-## ✅ Your First Assignment
 
-To earn your Level 2 certification, work through the modules below and complete your Level 2 Skill Check. 
-
-Let's start by learning how to make permanent electrical connections using heat.
-
-[Start 1.4.5: Soldering](powertools/soldering.md){ .md-button .md-button--primary }
-
-[Return to Basic Fabrication](../fabricationbasic.md){ .md-button }
