@@ -1,6 +1,10 @@
 # 🧭 The Panther Project: Specialization Pathfinder
 > Completed your Phase 1 Rookie Foundations? Take this 20-question assessment to help identify which specialization track aligns best with your natural instincts, hobbies, and problem-solving style. Be honest—there are no wrong answers, only different ways to build a robot.  This is not an official placement, but a fun activity to help you identify your learning style and interests and how they may fit into the team as a member.
 
+!!! quote "Core Value Check:"
+    *"The only way to do great work is to love what you do." ~ Steve Jobs*
+
+
 <style>
   #quiz-container {
     background-color: var(--md-default-bg-color);
