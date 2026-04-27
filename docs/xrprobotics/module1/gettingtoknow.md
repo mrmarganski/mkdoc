@@ -1,6 +1,6 @@
 # {{ m1_5_2 }}
 
-## Installing the Firmware and Booting up the XRP
+Installing the Firmware and Booting up the XRP
 
 !!! note
     You should already have an assembled XRP bot with the correct firmware installed - but this video is a good reference in case troubleshooting or repairs are needed - Watch if this is your first time using XRP.
