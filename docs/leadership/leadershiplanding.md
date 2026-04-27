@@ -1,4 +1,4 @@
-# 🏆 Phase 3: Advanced Competition & Leadership
+# {{ phase_3_title }}
 > **Prerequisite:** Veteran status, Subteam Lead role, or Mentor approval.
 
 Building the robot is only half the battle. Phase 3 is reserved for veteran members, subteam leads, and the drive team. 
@@ -10,7 +10,7 @@ In this phase, you will zoom out from individual part creation to focus on macro
 
 ---
 
-## 🗺️ Select Your Leadership Pathway
+## {{ p3_lead-ov }}
 
 <div class="grid cards" markdown>
 
