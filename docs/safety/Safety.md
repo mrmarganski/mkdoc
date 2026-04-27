@@ -1,4 +1,4 @@
-# 🛡️ Safety & Certification
+# {{ m1_3_1 }}
 > **The Panther Project Standard:** We don't just build robots; we build a safe professional environment. This page covers the essential protocols for FRC Team 2064.
 
 ---
