@@ -14,7 +14,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-robot-excited-outline:</span> **Module 1.1: FRC Basics**
+-   <span style="color: var(--md-primary-fg-color);">:material-robot-excited-outline:</span> **{{ mod_1_1 }}**
 
     ---
 
@@ -22,7 +22,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
     
     [Start {{ m1_1_1 | replace("1.1.1 - ", "") }}](../frc/FIRST.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-monitor-dashboard:</span> **Module 1.2: Basic CAD**
+-   <span style="color: var(--md-primary-fg-color);">:material-monitor-dashboard:</span> **{{ mod_1_2 }}**
 
     ---
 
@@ -30,7 +30,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
     
     [Start {{ m1_2_1 | replace("1.2.1 - ", "") }}](../engineering/cad/CAD.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-shield-check:</span> **Module 1.3: Safety Certification**
+-   <span style="color: var(--md-primary-fg-color);">:material-shield-check:</span> **{{ mod_1_3 }}**
 
     ---
 
@@ -38,7 +38,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
     
     [Start {{ m1_3_1 | replace("1.3.1 - ", "") }}](../safety/safetylanding.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **Module 1.4: Basic Fabrication**
+-   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **{{ mod_1_4 }}**
 
     ---
 
@@ -46,7 +46,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
     
     [Start {{ m1_4_1 | replace("1.4.1 - ", "") }}](../fabrication/fabricationbasic.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-car-cog:</span> **Module 1.5: XRP Starter Bot**
+-   <span style="color: var(--md-primary-fg-color);">:material-car-cog:</span> **{{ mod_1_5 }}**
 
     ---
 
