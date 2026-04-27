@@ -65,7 +65,9 @@ markdown_extensions:
 
 plugins:
   - search
-  - macros
+  - macros:
+      include_yaml: 
+        - variables.yml
 
 nav:
   - Home: index.md
