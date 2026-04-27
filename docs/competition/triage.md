@@ -93,5 +93,3 @@ To complete this module, you must physically demonstrate your readiness to the P
 
 🎉 Module Complete!
 Once you have proven you can handle the pressure, you are ready to manage the rest of the competition workflow.
-
-[Return to Home Dashboard](../index.md){ .md-button }
