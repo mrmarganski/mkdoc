@@ -10,7 +10,7 @@ In this phase, you will zoom out from individual part creation to focus on macro
 
 ---
 
-## {{ p3_lead_ov }}
+{{ p3_lead_ov }}
 
 <div class="grid cards" markdown>
 
