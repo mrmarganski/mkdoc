@@ -14,29 +14,29 @@ In this phase, you will zoom out from individual part creation to focus on macro
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-poll:</span> **Pathway 3.1: Strategy & Data Analytics**
+-   <span style="color: var(--md-primary-fg-color);">:material-poll:</span> {{ path_3_1 }}
 
     ---
 
     *Take the game from the shop to the field.* Master the Game Manual, design scouting architectures, and learn alliance selection theory.
     
-    [Start Strategy Pathway](../strategy/game-manual.md){ .md-button .md-button--primary }
+    [Start {{ path_3_1 }}](../strategy/game-manual.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-tools:</span> **Pathway 3.2: Pit Crew & Event Ops**
+-   <span style="color: var(--md-primary-fg-color);">:material-tools:</span> {{ path_3_2 }}
 
     ---
 
     *Execute under pressure.* Train for the 8-minute turnaround, manage the packing manifest, and navigate the robot inspection process.
     
-    [Start Pit Crew Pathway](../competition/packing.md){ .md-button .md-button--primary }
+    [Start {{ path_3_2 }}](../competition/packing.md){ .md-button .md-button--primary }
 
--   <span style="color: var(--md-primary-fg-color);">:material-clipboard-text-outline:</span> **Pathway 3.3: Project Management**
+-   <span style="color: var(--md-primary-fg-color);">:material-clipboard-text-outline:</span> {{ path_3_3 }}
 
     ---
 
     *Run the team like a firm.* Required for all Captains and Leads. Master the 6-week timeline, budgeting, and the art of mentorship.
     
-    [Start Leadership Pathway](../leadership/timeline.md){ .md-button .md-button--primary }
+    [Start {{ path_3_3 }}](../leadership/timeline.md){ .md-button .md-button--primary }
 
 </div>
 
