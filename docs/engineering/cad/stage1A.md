@@ -63,5 +63,3 @@ To finalize this module:
 
 🎉 Module Complete!
 Once your work is approved, you are ready to learn about power transmissions and moving mechanisms.
-
-[Go to Next Module: {{ m1_2_3 | replace("1.2.3 - ", "") }}](stage1B.md){ .md-button .md-button--primary }
