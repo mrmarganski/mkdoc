@@ -7,7 +7,7 @@ For this module, you will use the **Team 2064 Onshape Classroom** as your workbe
 
 ---
 
-## 🛠️ Step 1: Open Your Workbench
+🛠️ Step 1: Open Your Workbench
 
 Before looking at the instructions, you must initialize your working document. This ensures your mates and constraints are saved in the team folder where mentors can provide real-time feedback.
 
@@ -18,14 +18,14 @@ Before looking at the instructions, you must initialize your working document. T
 
 ---
 
-## 🚦 Step 2: Complete the Training Exercises
+🚦 Step 2: Complete the Training Exercises
 
 Now that your Onshape document is open, work through the three sections below in order. Read the instructions carefully on the FRCDesign site and execute the steps inside your Onshape Workbench.
 
 !!! tip "Navigating the Course"
     All links below will open in a new browser tab so you don't lose your place on this page!
 
-### 🚀 Stage 1A: Learning Modules
+🚀 Stage 1A: Learning Modules
 
 - <span style="color: var(--md-primary-fg-color);">:material-cog:</span> **Part 1: Studio Fundamentals & Setup**
     Understand how Onshape handles sketches, planes, and document organization.
@@ -41,7 +41,7 @@ Now that your Onshape document is open, work through the three sections below in
 
 ---
 
-## ✅ Step 3: The Return Checklist
+✅ Step 3: The Return Checklist
 
 Welcome back! Once you have finished the exercises in your workbench, verify that you have mastered the following skills:
 
@@ -53,7 +53,7 @@ Welcome back! Once you have finished the exercises in your workbench, verify tha
 
 ---
 
-## 📸 Step 4: Submission
+📸 Step 4: Submission
 
 To finalize this module:
 1. **Submit in Onshape:** Click the **Submit** button inside the Onshape Classroom interface.
@@ -61,7 +61,7 @@ To finalize this module:
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 Once your work is approved, you are ready to learn about power transmissions and moving mechanisms.
 
 [Go to Next Module: {{ m1_2_3 | replace("1.2.3 - ", "") }}](stage1B.md){ .md-button .md-button--primary }
