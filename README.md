@@ -1,11 +1,7 @@
 # ✍️ How to Add & Edit Documentation
-> **Objective:** Learn the standard workflow for creating a new page, formatting it correctly, and adding it to the site's navigation menu.
+> **Objective:** Learn the standard workflow for creating a new page, using the variable system, and maintaining cross-site compatibility.
 
-The Panther Project documentation is a living resource. As our team learns new techniques, we need members to document them! Because our site is built using **MkDocs** and hosted on **GitHub**, adding a new page is a very specific three-step process.
-
-Follow this guide to ensure your new page looks professional and actually shows up on the website.
-
-After watching this video you should have an idea of what mkdoc can allow you to do with design of the page.
+The Panther Project documentation is a living resource. To keep the site manageable as we grow, we use a **Single Source of Truth** system. This means instead of typing names like "Module 1.1: FRC Basics" fifty times, we define them once in a variable file and reference them everywhere else.
 
 ### Markdown Tutorial Video
 [The Only Markdown Crash Course You Will Ever Need](https://www.youtube.com/watch?v=_PPWWRV6gbA&t=60s)
@@ -13,83 +9,85 @@ After watching this video you should have an idea of what mkdoc can allow you to
 ---
 
 ## 🚦 Step 1: Create the `.md` File
-All of our documentation is written in **Markdown** (files ending in `.md`). You must create your new file inside the correct folder.
+All of our documentation is written in **Markdown** (files ending in `.md`). 
 
-1. Navigate to the Team 2064 GitHub Repository in your web browser.
-2. Open the `docs/` folder, and click into the specific subfolder where your page belongs (e.g., `fabrication/` or `engineering/`).
-3. Click the **Add file** button in the top right, then select **Create new file**.
-4. Name your file in the top text box. 
-
-"Strict Naming Convention"
-    Your file name **must** end in `.md`. It should be all lowercase and have **no spaces**. Use hyphens instead of spaces. 
-    * ❌ `Bad File Name.md`
-    * ✅ `good-file-name.md`
+1. Navigate to the Team 2064 GitHub Repository.
+2. Open the `docs/` folder, and click into the specific subfolder (e.g., `fabrication/`).
+3. Click **Add file** -> **Create new file**.
+4. Name your file in lowercase with hyphens (e.g., `drill-press-guide.md`).
 
 ---
 
-## 📝 Step 2: Format Your Page
-MkDocs Material requires a specific layout to look good. We always start our pages with a main Heading 1 (`#`), an emoji, and a blockquote (`>`) objective.
+## 🔧 Step 2: Define Your Variable (The "Control Panel")
+Before writing your page content, you must give your page a unique ID in the variable system. This ensures your page title is consistent across the Sidebar, the Index, and the Page Header.
 
-Copy the template below and paste it directly into your new file on GitHub:
+1. Open `variables.yml` in the root directory.
+2. Find the correct Phase or Module section.
+3. Add a new unique ID and the title of your page:
+   ```yaml
+   # Inside variables.yml
+   m1_4_14: "1.4.14 - Drill Press Operations"
+   ```
+
+---
+
+## 📝 Step 3: Format Your Page with Variables
+When you write your page, **do not type the title manually.** Use the variable you just created.
+
+Copy this template into your new `.md` file:
 
 ```text
-# 🚀 Your Page Title Here
-> **Objective:** Write one sentence explaining what the reader will learn by reading this page.
+# {{ m1_4_14 }}
+> **Objective:** Learn the safe operation and setup of the shop drill press.
 
-Write your introduction here. Keep it brief and explain why this skill or concept is important to Team 2064.
-
----
-
-## 🚦 Step 1: First Main Topic
-Here is where you put your actual instructions. You can use **bold text** or *italic text* to emphasize important points.
-
-* Use bullet points for lists.
-* They are easy to read.
+This guide covers the basics of...
 
 ---
 
-## ✅ Step 2: Next Topic
-If you need to show code or a specific file path, use backticks to make it look like `this`.
-
-!!! tip "Helpful Tips"
-    You can use callout boxes like this by typing `!!! tip "Title"` and indenting the text below it!
+## 🚦 Safety Check
+Before touching the {{ m1_4_14 | replace("1.4.14 - ", "") }}, you must have passed your Safety Practical.
 ```
 
 ---
 
-## 🗺️ Step 3: Add it to the Navigation (`mkdocs.yml`)
-**CRITICAL:** Just creating the file is not enough. If you do not tell MkDocs where the file belongs in the menu, *it will not show up on the website!*
+## 🗺️ Step 4: Update the Navigation (`mkdocs.yml`)
+To make the page show up in the sidebar, add it to `mkdocs.yml`. **Note:** We do not provide a title here; MkDocs will automatically pull the title from the variable header you wrote in Step 3.
 
-1. Go back to the main page of the GitHub repository.
-2. Click on the `mkdocs.yml` file to open it.
-3. Click the **✏️ Pencil Icon** (Edit) in the top right corner.
-4. Scroll down to the `nav:` section. Find the category where your page belongs, and add it using the exact format: `Title of Link: folder/file-name.md`.
-
-**Example of how to add it:**
 ```yaml
-  - "Fabrication Pathways":
-      - "Machine Tools":
-          - Lathe Operations: fabrication/lathe.md
-          - CNC Router: fabrication/cncrouter.md
-          - My New Tool Guide: fabrication/my-new-tool.md  # <--- You add this line!
+      - "Module 1.4: Basic Fabrication":
+          - fabrication/fabricationbasic.md
+          - fabrication/level2/drill-press.md  # No title needed!
 ```
 
-"YAML Spacing is Strict!"
-    YAML files use spaces, **never tabs**. Make sure your new line lines up perfectly with the ones above it. If it is off by even one space, the website will fail to build.
+---
+
+## 🏗️ Variable Maintenance & Structure
+To ensure "Cross-Site Compatibility" (meaning your change doesn't break someone else's page), follow this maintenance structure:
+
+### 1. The Hierarchy of Variables
+* **`variables.yml`**: Controls **Content**. (Lesson names, software versions, room numbers).
+* **`mkdocs.yml` (Extra Section)**: Controls **Structure**. (Phase titles and Pathway names).
+* **`.md` Files**: Use variables for any text that might change next season.
+
+### 2. Step-by-Step Maintenance Workflow
+When you need to rename a module or update a version number, follow this "Golden Path":
+
+1.  **Identify the Scope:** Is it a lesson title? Go to `variables.yml`. Is it a major Phase title? Go to `mkdocs.yml`.
+2.  **Edit the Variable:** Change the text string inside the quotes. 
+    * *Example:* Change `season_year: "2026"` to `"2027"`.
+3.  **Check Filters:** If you see `| replace(...)` in the code, ensure the numbers in the filter match the numbers in your variable.
+4.  **Verify via Local Build:** If possible, run `mkdocs serve` to ensure no "Brackets" `{{ }}` appear on the live preview. If brackets appear, it means there is a typo in your variable name.
+
+### 3. Rule of Thumb for Compatibility
+* **NEVER** change a variable ID (like `m1_1_1`) once it is created. Other pages might be linked to it.
+* **ALWAYS** wrap variables in quotes when using them in `.yml` files: `"{{ variable_name }}"`.
+* **ONLY** use standard hyphens or underscores in variable names.
 
 ---
 
-## 💾 Step 4: Commit Your Changes
-Once your file is written and your `mkdocs.yml` is updated, you need to save your work.
+## 💾 Step 5: Commit Your Changes
+1. Click **Commit changes...**
+2. Write a message: *"Added 1.4.14 Drill Press guide and updated variables."*
+3. Commit to `main`. 
 
-1. Click the green **Commit changes...** button in the top right.
-2. Write a short message explaining what you did (e.g., *"Added guide for the new bandsaw"*).
-3. Select **Commit directly to the main branch** (or submit a Pull Request if your subteam requires review).
-4. Click **Commit changes**.
-
-Within about 1 minute, GitHub Actions will automatically rebuild the site and your new page will be live at frc2064.com/mkdoc!
-
----
-
-### 🎉 Ready to contribute?
-Talk to your Subteam Lead about what documentation needs to be written next!
+**The site will rebuild in ~60 seconds. Check the sidebar and the page header to ensure the title rendered correctly!**
