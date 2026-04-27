@@ -7,7 +7,7 @@ In the pits, panic is your worst enemy. Preparation is your only defense. This m
 
 ---
 
-## 🚦 Step 1: The Triage Mindset
+🚦 Step 1: The Triage Mindset
 
 "Triage" is a medical term for assigning degrees of urgency to wounds. In FRC, it means fixing what actually matters to win the next match, not what makes the robot look pretty.
 
@@ -24,11 +24,11 @@ If the robot comes back shattered, you must fix things in this exact order of pr
 
 ---
 
-## 📝 Step 2: Pre-Competition Deliverables
+📝 Step 2: Pre-Competition Deliverables
 
 You cannot learn how to handle an 8-minute turnaround *during* an actual 8-minute turnaround. You must prove you are ready in our shop beforehand. Complete the following three deliverables with your Subteam Lead.
 
-### 🎯 Deliverable 1: The "Blindfold" Tool Test
+🎯 Deliverable 1: The "Blindfold" Tool Test
 When a drive chain snaps and the queueing volunteer is yelling for our robot, you do not have time to ask, *"Hey, where are the 5/32 Allen keys?"*
 
 * **The Task:** You must be able to locate the following items in the travel pit tool chest within 10 seconds each (metaphorically blindfolded):
@@ -39,7 +39,7 @@ When a drive chain snaps and the queueing volunteer is yelling for our robot, yo
     * Spare Anderson powerpole connectors and the crimper
 * **Sign-off:** Have the Pit Boss or a Mentor time you finding these items in the packed pit cart.
 
-### 📋 Deliverable 2: Create the Subsystem Checklist
+📋 Deliverable 2: Create the Subsystem Checklist
 Every subsystem (Drivebase, Intake, Shooter, etc.) needs a rapid-fire checklist that takes less than 60 seconds to complete.
 
 * **The Task:** Write a 5-point physical checklist for your specific subsystem. 
@@ -51,7 +51,7 @@ Every subsystem (Drivebase, Intake, Shooter, etc.) needs a rapid-fire checklist 
     5. Check the mounting gussets—are any rivets sheared or loose?
 * **Sign-off:** Submit this checklist to the Pit Boss to be laminated and hung in the pit.
 
-### 🏎️ Deliverable 3: The Mock Pit Stop
+🏎️ Deliverable 3: The Mock Pit Stop
 This is your final exam. We will simulate a catastrophic match breakdown in the shop.
 
 * **The Task:** The drive team will bring the robot to the cart. A mentor will have secretly un-plugged one motor, loosened one bumper bracket, and thrown a drive belt off its pulley. 
@@ -64,7 +64,7 @@ This is your final exam. We will simulate a catastrophic match breakdown in the 
 
 ---
 
-## 🔄 Step 3: The Actual Workflow
+🔄 Step 3: The Actual Workflow
 
 Once you are at the competition, every single time the robot touches the cart, the Pit Crew executes this exact dance:
 
@@ -77,7 +77,7 @@ Once you are at the competition, every single time the robot touches the cart, t
 
 ---
 
-## ✅ Step 4: Pathway Deliverable
+✅ Step 4: Pathway Deliverable
 
 To complete this module, you must physically demonstrate your readiness to the Pit Boss or Lead Engineering Mentor.
 
@@ -91,7 +91,7 @@ To complete this module, you must physically demonstrate your readiness to the P
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 Once you have proven you can handle the pressure, you are ready to manage the rest of the competition workflow.
 
 [Go to Next Module: The Inspection Process](inspection.md){ .md-button .md-button--primary }
