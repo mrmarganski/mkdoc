@@ -16,7 +16,7 @@ By completing these stages, you will gain the skills necessary to help design ou
 
 ---
 
-## 🏆 The Method to Completion
+🏆 The Method to Completion
 How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through four stages of increasing complexity. At the end of each section, you will submit your Onshape document link to the 2064 Onshape Classroom for review.
 
 <div class="grid cards" markdown>
