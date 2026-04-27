@@ -7,7 +7,7 @@ For this module, you will be completing the Swerve Drivebase project on FRCDesig
 
 ---
 
-## 🚦 Step 1: Complete the Training Project
+🚦 Step 1: Complete the Training Project
 
 Work through the sections below in order. Make sure you read the theory sections carefully before jumping into the CAD—Top-Down design is the most important CAD skill you will learn!
 
@@ -29,7 +29,7 @@ Work through the sections below in order. Make sure you read the theory sections
 
 ---
 
-## ✅ Step 2: The Return Checklist
+✅ Step 2: The Return Checklist
 
 Welcome back! You just modeled the foundation of a highly competitive modern FRC robot using professional design techniques. 
 
@@ -42,7 +42,7 @@ Welcome back! You just modeled the foundation of a highly competitive modern FRC
 
 ---
 
-## 📸 Step 3: Module Deliverable
+📸 Step 3: Module Deliverable
 
 To prove you have mastered Top-Down Design, you must submit your completed Swerve Drivebase document for a mentor to review.
 
@@ -52,7 +52,7 @@ To prove you have mastered Top-Down Design, you must submit your completed Swerv
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 Once your mentor has checked your constraints and approved your drivebase, you are ready to learn the final subsystem workflow!
 
 [Go to Next Module: Stage 1E (Subsystem Workflow)](stage1E.md){ .md-button .md-button--primary }
