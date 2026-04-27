@@ -24,6 +24,7 @@ theme:
     - navigation.path
     - navigation.footer
     - toc.integrate
+    - navigation.expand
 
 extra:
   phase_1_title: "Phase 1: Rookie Foundations"
