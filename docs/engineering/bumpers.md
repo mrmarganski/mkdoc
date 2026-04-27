@@ -3,7 +3,7 @@
 
 ---
 
-## Section 1: Core Rules & Purpose
+Section 1: Core Rules & Purpose
 *Understanding why we build them and the strict rules we must follow.*
 
 * **Why Bumpers Matter** <span style="color: var(--md-primary-fg-color);">:material-shield-half-full:</span>
@@ -29,7 +29,7 @@
 
 ---
 
-## Section 2: Materials & Tools
+Section 2: Materials & Tools
 *Gather everything needed before starting the build. This acts as your official Bill of Materials.*
 
 <div class="grid cards" markdown>
@@ -65,7 +65,7 @@
 
 ---
 
-## Section 3: Step-by-Step Construction
+Section 3: Step-by-Step Construction
 *Measure twice, cut once. Follow these steps in order.*
 
 * **1. The Wood Backing** <span style="color: var(--md-primary-fg-color);">:material-saw-blade:</span>
@@ -94,7 +94,7 @@
 
 ---
 
-## Section 4: Mounting Strategies
+Section 4: Mounting Strategies
 *How we attach them to the chassis is just as important as how we build them.*
 
 ??? info "Method A: Two Sets of Bumpers (Standard)"
