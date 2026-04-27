@@ -1,4 +1,4 @@
-# 🛑 FRC Bumpers: Construction & Rules
+# {{ m3_2_5 }}
 > **The First Line of Defense:** Bumpers aren't just an aesthetic requirement; they are a critical engineering component. A well-built set of bumpers protects our robot, complies with strict FIRST rules, and makes Team 2064 look professional on the field.
 
 ---
