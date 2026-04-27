@@ -1,7 +1,7 @@
 # 🏁 Phase 1: Rookie Foundations
-> **Target Audience:** Mandatory for all new Team 2064 members.
+> **Target Audience:** Mandatory for all new {{ team_name }} members.
 
-Welcome to The Panther Project! Before you can build a 125-pound competition robot, you need to master the basics. Phase 1 is your onboarding bootcamp. 
+Welcome to {{ team_name }}! Before you can build a 125-pound competition robot, you need to master the basics. Phase 1 is your onboarding bootcamp. 
 
 In this phase, you will learn the culture of FIRST Robotics, how to safely navigate our machine shop, basic CAD principles, and how to use core hand tools. You will cap it all off by building and programming a miniature XRP Starter Bot. 
 
@@ -20,7 +20,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Learn the culture.* Get an overview of FIRST, understand robot anatomy, analyze past games, and learn what to expect during Build Season.
     
-    [Start FRC Basics](../frc/FIRST.md){ .md-button .md-button--primary }
+    [Start {{ m1_1_1 | replace("1.1.1 - ", "") }}](../frc/FIRST.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-monitor-dashboard:</span> **Module 1.2: Basic CAD**
 
@@ -28,15 +28,15 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Learn to think in 3D.* Master the Engineering Design Process and get your Onshape account set up for basic mechanism modeling.
     
-    [Start Basic CAD](../engineering/cad/CAD.md){ .md-button .md-button--primary }
+    [Start {{ m1_2_1 | replace("1.2.1 - ", "") }}](../engineering/cad/CAD.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-shield-check:</span> **Module 1.3: Safety Certification**
 
     ---
 
-    *Mandatory to advance.* Learn our core shop rules, machine safety, and pass your written quiz and practical assessment.
+    *Mandatory to advance.* Learn our core shop rules, machine safety, and pass your written quiz and {{ m1_3_4 }}.
     
-    [Start Safety Training](../safety/safetylanding.md){ .md-button .md-button--primary }
+    [Start {{ m1_3_1 | replace("1.3.1 - ", "") }}](../safety/safetylanding.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-hammer-wrench:</span> **Module 1.4: Basic Fabrication**
 
@@ -44,7 +44,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Get hands-on.* Learn how to organize the workspace, use hand tools, identify fasteners, and safely crimp/solder electronics.
     
-    [Start Basic Fabrication](../fabrication/fabricationbasic.md){ .md-button .md-button--primary }
+    [Start {{ m1_4_1 | replace("1.4.1 - ", "") }}](../fabrication/fabricationbasic.md){ .md-button .md-button--primary }
 
 -   <span style="color: var(--md-primary-fg-color);">:material-car-cog:</span> **Module 1.5: XRP Starter Bot**
 
@@ -52,7 +52,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     *Put it all together.* Assemble, wire, and program a functional mini-robot using WPILib and Java to prove your baseline engineering skills.
     
-    [Start XRP Starter Bot](../xrprobotics/xrplanding.md){ .md-button .md-button--primary }
+    [Start {{ m1_5_1 | replace("1.5.1 - ", "") }}](../xrprobotics/xrplanding.md){ .md-button .md-button--primary }
 
 </div>
 
