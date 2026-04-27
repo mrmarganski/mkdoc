@@ -8,7 +8,7 @@
 
 ---
 
-## 🛑 Prerequisites
+🛑 Prerequisites
 Before downloading the code, ensure your environment is set up:
 
 * **WPILib VSCode:** You must have the official FRC WPILib version of VSCode installed. Do not proceed until this step is complete.
@@ -17,19 +17,19 @@ Before downloading the code, ensure your environment is set up:
 
 ---
 
-## 🚀 Step-by-Step Deployment
+🚀 Step-by-Step Deployment
 
-### Step 1: Download and Prepare the Code
+Step 1: Download and Prepare the Code
 1. Download the repository as a ZIP file from the link above and unpack the folder.
 2. Open the unpacked folder using **VSCode**.
 3. **Stay connected to your normal Wi-Fi.** VSCode must download necessary WPILib dependencies from the internet the first time you open the project.
 
-### Step 2: Connect to the XRP
+Step 2: Connect to the XRP
 1. Turn on the XRP robot and wait for it to boot.
 2. Switch your computer's Wi-Fi network from your home/school internet to the XRP's broadcasted signal.
 3. **Password:** `xrp-wpilib`
 
-### Step 3: Build and Simulate
+Step 3: Build and Simulate
 To drive the XRP, we use the WPILib Simulation GUI, which acts as a virtual Driver Station.
 
 1. Click the **WPI Logo** in the top right corner of VSCode (or press `Ctrl+Shift+P` / `Cmd+Shift+P`).
@@ -42,7 +42,7 @@ To drive the XRP, we use the WPILib Simulation GUI, which acts as a virtual Driv
 
 ---
 
-## 🎮 Step 4: Time to Drive
+🎮 Step 4: Time to Drive
 
 Once the simulation GUI loads, you are ready to connect your controller and enable the robot.
 
