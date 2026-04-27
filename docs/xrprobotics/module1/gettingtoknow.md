@@ -1,3 +1,5 @@
+# {{ m1_5_2 }}
+
 ## Installing the Firmware and Booting up the XRP
 
 !!! note
