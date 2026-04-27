@@ -29,10 +29,10 @@ extra:
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/frc2064/
-  variables:
-    season_year: "2026"
-    team_name: "The Panther Project - FRC Team 2064"
-    lead_mentor: "Mr. Marganski"
+  # Variables placed below here
+  season_year: "2026"
+  team_name: "The Panther Project - FRC Team 2064"
+  lead_mentor: "Mr. Marganski"
 
 extra_javascript:
   - js/mermaid.min.js
