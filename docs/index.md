@@ -5,7 +5,7 @@
 Welcome to the official documentation and training hub for {{ team_name }}. Whether you are a rookie stepping into the shop for the very first time, or a veteran drive-team member looking up a CAD standard, everything you need to build great robots is right here.
 
 !!! success "New Member? Start Here!"
-    If you are new to the team, your journey begins with **Phase 1**. You must complete all sections of Module 1.3 (Safety) before you can touch any tools in the shop. 
+    If you are new to the team, your journey begins with **Phase 1**. You must complete all sections of {{ m1_3_1 }} before you can touch any tools in the shop. 
 
 !!! info "Flexible Learning"
     While working within a *PHASE* you may complete modules in any order that suits your schedule. However, **check the Prerequisites** at the top of each page to ensure you are eligible to complete the assignment.
@@ -16,7 +16,7 @@ Welcome to the official documentation and training hub for {{ team_name }}. Whet
 ---
 
 ## 🏁 Phase 1: Rookie Foundations
-Welcome to The Panther Project! Before you can build a 125-pound competition robot, you need to master the basics. Phase 1 is mandatory for all new members, regardless of prior experience. You will learn how to safely navigate the shop, use core hand tools, and build a miniature XRP Starter Bot to prove your baseline knowledge. Once you pass Phase 1, you unlock the rest of the shop!
+Welcome to {{ team_name }}! Before you can build a 125-pound competition robot, you need to master the basics. Phase 1 is mandatory for all new members, regardless of prior experience. You will learn how to safely navigate the shop, use core hand tools, and build a miniature XRP Starter Bot to prove your baseline knowledge. Once you pass Phase 1, you unlock the rest of the shop!
 
 **[Start Here: Welcome to Team 2064!](frc/rookielanding.md){ .md-button }**
 
@@ -25,70 +25,70 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
     ??? abstract "🤖 Module 1.1: FRC Basics" 
         *Learn basic tasks required for FRC involvement and understanding.*
 
-        * **[1.1.1 - Intro to FIRST](frc/FIRST.md):** Overview of FRC, its place in FIRST, and how competitions work.
-        * **[1.1.2 - Bot Basics](frc/botbasics.md):** Common parts of an FRC robot.
-        * **[1.1.3 - Game Analysis](frc/gameanalysis.md):** Analyze a past game and pass a quiz on the game content to show rule understanding.
-        * **[1.1.4 - The Engineering Design Process](engineering/designprocess.md):** Brainstorming, prototyping, and documenting decisions.
-        * **[1.1.5 - Build Season](frc/buildseason.md):** The FRC Build Season timeline and what to expect.
-        * **[1.1.6 - Power On](frc/poweron.md):** Basic demonstration on how to power Team 2064's competition robot on and operate it.
+        * **[{{ m1_1_1 }}](frc/FIRST.md):** Overview of FRC, its place in FIRST, and how competitions work.
+        * **[{{ m1_1_2 }}](frc/botbasics.md):** Common parts of an FRC robot.
+        * **[{{ m1_1_3 }}](frc/gameanalysis.md):** Analyze a past game and pass a quiz on the game content.
+        * **[{{ m1_1_4 }}](engineering/designprocess.md):** Brainstorming, prototyping, and documenting decisions.
+        * **[{{ m1_1_5 }}](frc/buildseason.md):** The FRC Build Season timeline and what to expect.
+        * **[{{ m1_1_6 }}](frc/poweron.md):** Basic demonstration on how to power and operate the robot.
 
     ??? abstract "📐 Module 1.2: Basic CAD"
         *Gain an understanding of the Onshape software for designing parts of a robot.*
         
         * **[CAD Overview](engineering/cad/CAD.md):** Welcome to mechanical design.
-        * **[1.2.1 - Onshape Stage 0 (What is CAD)](engineering/cad/stage0.md):** General information on CAD and Onshape setup.
-        * **[1.2.2 - Onshape Stage 1A (Fundamentals)](engineering/cad/stage1A.md):** Sketching, extruding, and multi-part studios.
-        * **[1.2.3 - Onshape Stage 1B (Power Transmissions)](engineering/cad/stage1B.md):** Fundamentals of power transmissions in CAD.
-        * **[1.2.4 - Onshape Stage 1C (Practice Mechanisms)](engineering/cad/stage1C.md):** Model different mechanisms to practice execution.
+        * **[{{ m1_2_1 }}](engineering/cad/stage0.md):** General information on CAD and Onshape setup.
+        * **[{{ m1_2_2 }}](engineering/cad/stage1A.md):** Sketching, extruding, and multi-part studios.
+        * **[{{ m1_2_3 }}](engineering/cad/stage1B.md):** Fundamentals of power transmissions in CAD.
+        * **[{{ m1_2_4 }}](engineering/cad/stage1C.md):** Model different mechanisms to practice execution.
 
     ??? abstract "🛡️ Module 1.3: Safety Certification"
         *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
         
         * **[Safety Introduction](safety/safetylanding.md):** Welcome to the shop.
-        * **[1.3.1 - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
-        * **[1.3.2 - Machine Safety Guidelines](safety/machinesafety.md):** Specific safety rules for general machines.
-        * **[1.3.3 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
-        * **[1.3.4 - Safety Practical](safety/safetypractical.md):** Physical demonstration of appropriate safety usage.
+        * **[{{ m1_3_1 }}](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
+        * **[{{ m1_3_2 }}](safety/machinesafety.md):** Specific safety rules for general machines.
+        * **[{{ m1_3_3 }}](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
+        * **[{{ m1_3_4 }}](safety/safetypractical.md):** Physical demonstration of appropriate safety usage.
     
     ??? abstract "🔨 Module 1.4: Basic Fabrication (Levels 1 & 2)" 
         *Master the fundamentals of hand tools, power tools, and shop organization.*
 
         * **Level 1: General Shop (Unpowered)**
-            * **[1.4.1 - Workspace Organization](fabrication/level1/Closet.md):** Closet management and battery care.
-            * **[1.4.2 - Fasteners](fabrication/level1/fasteners.md):** Learn about the hardware used on the robot. 
-            * **[1.4.3 - Measuring Devices](fabrication/level1/measuring/measuringtools.md):** Calipers and tape measures.
-            * **[1.4.4 - Hand Tools: Wrenches](fabrication/level1/handtools/Handtools.md):** Wrenches and allen wrenches
-            * **[1.4.5 - Pliers](fabrication/level1/handtools/pliers.md):** Pliers and other tools
-            * **[1.4.6 - Wiring & Crimping](fabrication/level1/handtools/crimping.md):** Secure electrical connections.
-            * **[1.4.7 - 3D Printer Fundamentals](fabrication/level1/3dprinter.md):** Learn to export STEP files and prepare for 3D Printing basic models.
-            * **[1.4.8 - Skill Check - Level 1](fabrication/level1/handtoolsquiz.md):** Show your understanding of Level 1 skills. 
+            * **[{{ m1_4_1 }}](fabrication/level1/Closet.md):** Closet management and battery care.
+            * **[{{ m1_4_2 }}](fabrication/level1/fasteners.md):** Learn about the hardware used on the robot. 
+            * **[{{ m1_4_3 }}](fabrication/level1/measuring/measuringtools.md):** Calipers and tape measures.
+            * **[{{ m1_4_4 }}](fabrication/level1/handtools/Handtools.md):** Wrenches and allen wrenches.
+            * **[{{ m1_4_5 }}](fabrication/level1/handtools/pliers.md):** Pliers and other tools.
+            * **[{{ m1_4_6 }}](fabrication/level1/handtools/crimping.md):** Secure electrical connections.
+            * **[{{ m1_4_7 }}](fabrication/level1/3dprinter.md):** Exporting STEP files and basic 3D Printing.
+            * **[{{ m1_4_8 }}](fabrication/level1/handtoolsquiz.md):** Show your understanding of Level 1 skills. 
         * **Level 2: Power Tools**
-            * **[1.4.9 - Cordless Drill](fabrication/level2/poweredhandtools/poweredtools.md):** Cordless drill explanation
-            * **[1.4.10 - Cordless Saw](fabrication/level2/poweredhandtools/cordlesssaw.md):** Overview of the cordless bandsaw
-            * **[1.4.11 - Soldering Iron](fabrication/level2/powertools/soldering.md):** Permanent FRC electrical connections.
-            * **[1.4.12 - Horizontal Bandsaw](fabrication/level2/stationary/horizontalsaw.md):** Basic stationary cutting.
-            * **[1.4.13 - Skill Check - Level 2](fabrication/level2/powertoolsquiz.md):** Finish your level 2 Rookie fabrication pathway with this skill practical.
+            * **[{{ m1_4_9 }}](fabrication/level2/poweredhandtools/poweredtools.md):** Cordless drill explanation.
+            * **[{{ m1_4_10 }}](fabrication/level2/poweredhandtools/cordlesssaw.md):** Overview of the cordless bandsaw.
+            * **[{{ m1_4_11 }}](fabrication/level2/powertools/soldering.md):** Permanent FRC electrical connections.
+            * **[{{ m1_4_12 }}](fabrication/level2/stationary/horizontalsaw.md):** Basic stationary cutting.
+            * **[{{ m1_4_13 }}](fabrication/level2/powertoolsquiz.md):** Finish your level 2 Rookie pathway.
     
     ??? abstract "🤖 Module 1.5: XRP Starter Bot"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
         
         * **XRP Start (The Basics):**
-            * **[1.5.1 - Build Guide](xrprobotics/module1/Build.md):** Chassis assembly.
-            * **[1.5.2 - Firmware Installation](xrprobotics/module1/gettingtoknow.md)** Make your robot connect to VScode wirelessly for deploying JAVA.
-            * **[1.5.3 - VSCode and WPILib](xrprobotics/module1/xrpwpilib.md):** Setting up the FRC programming environment.
-            * **[1.5.4 - Command-Based Code](xrprobotics/module1/basicdriveXRP.md):** Writing Java to drive the XRP.
-            * **[1.5.5 - Drive Challenge Skill Check](xrprobotics/module1/XRPdrivechallenge.md)** Demo your XRP can drive with and perform a simple auto you created!
+            * **[{{ m1_5_1 }}](xrprobotics/module1/Build.md):** Chassis assembly.
+            * **[{{ m1_5_2 }}](xrprobotics/module1/gettingtoknow.md):** Connection and firmware setup.
+            * **[{{ m1_5_3 }}](xrprobotics/module1/xrpwpilib.md):** Setting up the FRC programming environment.
+            * **[{{ m1_5_4 }}](xrprobotics/module1/basicdriveXRP.md):** Writing Java to drive the XRP.
+            * **[{{ m1_5_5 }}](xrprobotics/module1/XRPdrivechallenge.md):** Driving and autonomous skill check.
         * **XRP Advanced (Ping Pong Launcher):**
-            * **[1.5.6 - Launcher Game Concepts](xrprobotics/module2/Ping-Pong-Launcher-Challenge.md)** Advanced ping pong challenge, simulating REBUILT season game small scale!
-            * **[1.5.7 - Ping Pong Assembly](xrprobotics/module2/PingPongAssemble.md)** Steps to create ping pong bot.
-            * **[1.5.8 - Launcher Wiring](xrprobotics/module2/wiringpingpongxrp.md)** Wiring Ping Pong Bot
-            * **[1.5.9 - Launcher Code](xrprobotics/module2/pingpongcode.md)** Ping Pong robot code with Arduino
-            * **[1.5.10 - Launcher Competition](xrprobotics/module2/PingPongCompetition.md)** Game rules and game manual.
+            * **[{{ m1_5_6 }}](xrprobotics/module2/Ping-Pong-Launcher-Challenge.md):** Advanced small-scale game simulation.
+            * **[{{ m1_5_7 }}](xrprobotics/module2/PingPongAssemble.md):** Steps to create ping pong bot.
+            * **[{{ m1_5_8 }}](xrprobotics/module2/wiringpingpongxrp.md):** Wiring the Ping Pong Bot.
+            * **[{{ m1_5_9 }}](xrprobotics/module2/pingpongcode.md):** Ping Pong robot code with Arduino.
+            * **[{{ m1_5_10 }}](xrprobotics/module2/PingPongCompetition.md):** Game rules and competition guidelines.
 
 ---
 
 ## 🚀 Phase 2: Specialization Pathways
-An FRC team is built like a small engineering firm—it is simply too massive for one person to do everything. Phase 2 is where you choose your specialty and master it. Whether you want to design mechanisms in CAD, operate heavy precision machinery, write autonomous code, or manage the team's brand and media, this phase gives you the deep, focused training you need.
+An FRC team is built like a small engineering firm. Phase 2 is where you choose your specialty and master it. Whether you want to design mechanisms in CAD, operate heavy machinery, write autonomous code, or build the brand, this phase gives you the deep, focused training you need.
 
 **[Choose Your Specialty](engineering/engineeringlanding.md){ .md-button }**
 
@@ -97,48 +97,48 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
     ??? abstract "📐 Pathway 2.1: Advanced Mechanical & CAD"
         *Design the machine. Master Onshape, mechanisms, and the Engineering Design Process.*
         
-        * **[2.1.1 - Stage 1D (Design Methodology)](engineering/cad/stage1D.md):** Top-down design and advanced assemblies.
-        * **[2.1.2 - Stage 1E (Subsystem Workflow)](engineering/cad/stage1E.md):** Typical workflow when modeling a subsystem.
-        * **[2.1.3 - CAD Course Skill Check](engineering/cad/cadonshapecourse.md):** Your final CAD assessment.
+        * **[{{ m2_1_1 }}](engineering/cad/stage1D.md):** Top-down design and advanced assemblies.
+        * **[{{ m2_1_2 }}](engineering/cad/stage1E.md):** Typical workflow when modeling a subsystem.
+        * **[{{ m2_1_3 }}](engineering/cad/cadonshapecourse.md):** Your final CAD assessment.
         
     ??? abstract "🏭 Pathway 2.2: Advanced Fabrication (Levels 3 & 4)"
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
         
         * **Level 3: Stationary Equipment:**
-            * **[2.2.1 - 3D Printing Workflow](fabrication/level3/3dprinting2.md):** Slicing, filaments, and SLA.
-            * **[2.2.2 - Bandsaw Operations](fabrication/level3/bandsaw.md)** Cut contours out of raw material and learn what to do and what not to do with this tool.
-            * **[2.2.3 - Lathe Operations](fabrication/level3/lathe.md):** Turning shafts and cutting grooves.
-            * **[2.2.4 - Milling Machine Basics](fabrication/level3/millingmachine.md):** Squaring stock and edge finding.
-            * **[2.2.5 - Skill Check - Level 3](fabrication/level3/machinelessons.md)**
+            * **[{{ m2_2_1 }}](fabrication/level3/3dprinting2.md):** Slicing, filaments, and SLA.
+            * **[{{ m2_2_2 }}](fabrication/level3/bandsaw.md):** Manual contour cutting.
+            * **[{{ m2_2_3 }}](fabrication/level3/lathe.md):** Turning shafts and cutting grooves.
+            * **[{{ m2_2_4 }}](fabrication/level3/millingmachine.md):** Squaring stock and edge finding.
+            * **[{{ m2_2_5 }}](fabrication/level3/machinelessons.md):** Level 3 Skill Check.
         * **Level 4: Digital Fabrication:**
-            * **[2.2.6 - Laser Engraver Workflow](fabrication/level4/laserengraver.md):** Vector cutting and etching.
-            * **[2.2.7 - CNC Router Operations](fabrication/level4/cncrouter.md):** CAM setups, feeds, and speeds.
-            * **[2.2.8 - Skill Check - Level 4](fabrication/level4/machinelessonsadvanced.md)**
+            * **[{{ m2_2_6 }}](fabrication/level4/laserengraver.md):** Vector cutting and etching.
+            * **[{{ m2_2_7 }}](fabrication/level4/cncrouter.md):** CAM setups, feeds, and speeds.
+            * **[{{ m2_2_8 }}](fabrication/level4/machinelessonsadvanced.md):** Level 4 Skill Check.
 
     ??? abstract "💻 Pathway 2.3: Software & Controls"
         *Bring the robot to life. Master Java, autonomous routines, and advanced sensor integration.*
         
-        * **[2.3.1 - Java & WPILib Basics](engineering/programming/WPIlib.md):** Subsystems, commands, and motor controller APIs.
-        * **[2.3.2 - Sensor Integration](engineering/programming/sensors.md):** Reading encoders, gyros, and limit switches.
-        * **[2.3.3 - Autonomous Routines](engineering/programming/autonomous.md):** Path planning and trajectory following.
-        * **[2.3.4 - Vision Processing](engineering/programming/vision.md):** Tuning pipelines using PhotonVision or Limelight.
-        * **[2.3.5 - PID Control & Tuning](engineering/programming/advancedjava.md):** Making mechanisms move quickly and stop accurately.
+        * **[{{ m2_3_1 }}](engineering/programming/WPIlib.md):** Subsystems, commands, and motor controller APIs.
+        * **[{{ m2_3_2 }}](engineering/programming/sensors.md):** Reading encoders, gyros, and limit switches.
+        * **[{{ m2_3_3 }}](engineering/programming/autonomous.md):** Path planning and trajectory following.
+        * **[{{ m2_3_4 }}](engineering/programming/vision.md):** Tuning pipelines using PhotonVision or Limelight.
+        * **[{{ m2_3_5 }}](engineering/programming/advancedjava.md):** Making mechanisms move quickly and stop accurately.
 
     ??? abstract "📸 Pathway 2.4: NEMO & Media"
-        *Non-Engineering Member Opportunities (NEMO). Create media, manage PR, and build the brand.*
+        *Non-Engineering Member Opportunities. Create media, manage PR, and build the brand.*
         
         * **[NEMO Overview](media/medialanding.md):** Welcome to the media and business team.
-        * **[2.4.1 - Branding Guidelines](media/branding.md):** Official fonts, hex codes, and uniform guidelines.
-        * **[2.4.2 - Adobe Photoshop](media/photoshop.md):** Photo editing and social media asset creation.
-        * **[2.4.3 - Adobe Illustrator](media/illustrator.md):** Vector design for banners and apparel.
-        * **[2.4.4 - Cricut Vinyl Cutter](media/cricut.md):** Cutting decals and applying transfer tape.
-        * **[2.4.5 - Button Maker Operations](media/buttonmaker.md):** Designing and pressing team buttons.
-        * **[2.4.6 - Public Speaking](media/publicspeaking.md):** Presentation prep and pit speaking for the Impact Award.
+        * **[{{ m2_4_1 }}](media/branding.md):** Official fonts, hex codes, and uniform guidelines.
+        * **[{{ m2_4_2 }}](media/photoshop.md):** Photo editing and social media asset creation.
+        * **[{{ m2_4_3 }}](media/illustrator.md):** Vector design for banners and apparel.
+        * **[{{ m2_4_4 }}](media/cricut.md):** Cutting decals and applying transfer tape.
+        * **[{{ m2_4_5 }}](media/buttonmaker.md):** Designing and pressing team buttons.
+        * **[{{ m2_4_6 }}](media/publicspeaking.md):** Impact Award presentation and pit speaking.
 
 ---
 
 ## 🏆 Phase 3: Leadership & Competition Mastery
-Building the robot is only half the battle. Phase 3 is reserved for veteran members, subteam leads, and the drive team. These modules zoom out from individual part creation to macro-level team operations and event execution. This is where you learn to manage projects, lead peers, and ultimately win events.
+Phase 3 is reserved for veteran members, subteam leads, and the drive team. These modules zoom out from individual part creation to macro-level team operations and event execution.
 
 **[Explore Leadership Pathways](leadership/leadershiplanding.md){ .md-button }**
 
@@ -147,28 +147,28 @@ Building the robot is only half the battle. Phase 3 is reserved for veteran memb
     ??? abstract "📊 Pathway 3.1: Strategy & Data Analytics"
         *Taking the game from the shop to the field. Master the data required to win events.*
         
-        * **[3.1.1 - Game Manual Deep Dive](strategy/game-manual.md):** How to read, interpret, and exploit the rules.
-        * **[3.1.2 - Scouting Architecture](strategy/scouting.md):** Designing digital scouting apps to collect data.
-        * **[3.1.3 - Data Visualization](strategy/data-viz.md):** Creating pit dashboards for the Drive Team.
-        * **[3.1.4 - Alliance Selection Theory](strategy/alliance-selection.md):** Calculating EPA, OPR, and building pick-lists.
+        * **[{{ m3_1_1 }}](strategy/game-manual.md):** How to read, interpret, and exploit the rules.
+        * **[{{ m3_1_2 }}](strategy/scouting.md):** Designing digital scouting apps to collect data.
+        * **[{{ m3_1_3 }}](strategy/data-viz.md):** Creating pit dashboards for the Drive Team.
+        * **[{{ m3_1_4 }}](strategy/alliance-selection.md):** Calculating EPA, OPR, and building pick-lists.
 
     ??? abstract "🏎️ Pathway 3.2: Pit Crew & Event Operations"
         *Executing under pressure. These classes train the elite members who keep the robot alive.*
         
-        * **[3.2.1 - Packing Manifest](competition/packing.md):** Managing battery carts and pit checklists.
-        * **[3.2.2 - Triage & Troubleshooting](competition/triage.md):** The 8-minute turnaround between matches.
-        * **[3.2.3 - Inspection Process](competition/inspection.md):** Navigating sizing, weight, and hardware checks.
-        * **[3.2.4 - Field Connectivity](competition/field-checks.md):** Verifying the driver station and staging protocols.
-        * **[3.2.5 - Bumper Construction](engineering/bumpers.md):** Rules, wood cutting, fabric wrapping, and mounting.
+        * **[{{ m3_2_1 }}](competition/packing.md):** Managing battery carts and pit checklists.
+        * **[{{ m3_2_2 }}](competition/triage.md):** The 8-minute turnaround between matches.
+        * **[{{ m3_2_3 }}](competition/inspection.md):** Navigating sizing, weight, and hardware checks.
+        * **[{{ m3_2_4 }}](competition/field-checks.md):** Verifying the driver station and staging protocols.
+        * **[{{ m3_2_5 }}](engineering/bumpers.md):** Rules, fabric wrapping, and mounting.
 
     ??? abstract "📋 Pathway 3.3: Project Management & Leadership"
         *Running the team like an engineering firm. Required for all Captains and Subteam Leads.*
         
-        * **[3.3.1 - FRC Timeline](leadership/timeline.md):** Managing the 6-week build season milestones.
-        * **[3.3.2 - Awards](leadership/awards.md):** FRC awards and how to align towards them in a season. 
-        * **[3.3.3 - Design Review](leadership/design-review.md):** Leading meetings and locking in dimensions.
-        * **[3.3.4 - Budgeting & POs](leadership/budget.md):** Researching COTS parts and requesting quotes.
-        * **[3.3.5 - The Art of Mentorship](leadership/mentorship.md):** How to teach Rookies without "doing the work for them."
+        * **[{{ m3_3_1 }}](leadership/timeline.md):** Managing build season milestones.
+        * **[{{ m3_3_2 }}](leadership/awards.md):** FRC awards and season alignment. 
+        * **[{{ m3_3_3 }}](leadership/design-review.md):** Leading meetings and locking in dimensions.
+        * **[{{ m3_3_4 }}](leadership/budget.md):** COTS research and subteam budgeting.
+        * **[{{ m3_3_5 }}](leadership/mentorship.md):** The art of peer teaching.
 
 ---
 
@@ -176,8 +176,8 @@ Building the robot is only half the battle. Phase 3 is reserved for veteran memb
 Access the FRC glossary, Core Values, and general reference materials anytime.
 
 * **Team Resources:** [View Core Values & Glossary](resources/resourceslanding.md)
-* **Current Season:** [REBUILT (2026)](https://www.firstinspires.org/programs/frc/game-and-season)
-* **Team Repository:** [GitHub - The Panther Project](https://github.com/FRC-2064)
+* **Current Season:** [REBUILT ({{ season_year }})](https://www.firstinspires.org/programs/frc/game-and-season)
+* **Team Repository:** [GitHub - {{ team_name }}](https://github.com/FRC-2064)
 * **Social Media:** [Instagram @frc2064](https://www.instagram.com/frc2064/)
 * **Discord:** [2064 Member Discord Channel](https://discord.com/invite/svfrdGXrEe)
 
