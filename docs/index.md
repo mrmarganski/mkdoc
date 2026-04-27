@@ -56,13 +56,13 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
             * **[1.4.5 - Pliers](fabrication/level1/handtools/pliers.md):** Pliers and other tools
             * **[1.4.6 - Wiring & Crimping](fabrication/level1/handtools/crimping.md):** Secure electrical connections.
             * **[1.4.7 - 3D Printer Fundamentals](fabrication/level1/3dprinter.md):** Learn to export STEP files and prepare for 3D Printing basic models.
-            * **[Skill Check - Level 1](fabrication/level1/handtoolsquiz.md):** Show your understanding of Level 1 skills. 
+            * **[1.4.8 - Skill Check - Level 1](fabrication/level1/handtoolsquiz.md):** Show your understanding of Level 1 skills. 
         * **Level 2: Power Tools**
-            * **[1.4.8 - Cordless Drill](fabrication/level2/poweredhandtools/poweredtools.md):** Cordless drill explanation
-            * **[1.4.9 - Cordless Saw](fabrication/level2/poweredhandtools/cordlesssaw.md):** Overview of the cordless bandsaw
-            * **[1.4.10 - Soldering Iron](fabrication/level2/powertools/soldering.md):** Permanent FRC electrical connections.
-            * **[1.4.11 - Horizontal Bandsaw](fabrication/level2/stationary/horizontalsaw.md):** Basic stationary cutting.
-            * **[Skill Check - Level 2](fabrication/level2/powertoolsquiz.md):** Finish your level 2 Rookie fabrication pathway with this skill practical.
+            * **[1.4.9 - Cordless Drill](fabrication/level2/poweredhandtools/poweredtools.md):** Cordless drill explanation
+            * **[1.4.10 - Cordless Saw](fabrication/level2/poweredhandtools/cordlesssaw.md):** Overview of the cordless bandsaw
+            * **[1.4.11 - Soldering Iron](fabrication/level2/powertools/soldering.md):** Permanent FRC electrical connections.
+            * **[1.4.12 - Horizontal Bandsaw](fabrication/level2/stationary/horizontalsaw.md):** Basic stationary cutting.
+            * **[1.4.13 - Skill Check - Level 2](fabrication/level2/powertoolsquiz.md):** Finish your level 2 Rookie fabrication pathway with this skill practical.
     
     ??? abstract "🤖 Module 1.5: XRP Starter Bot"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
