@@ -10,7 +10,7 @@ In this level, **nothing plugs into a wall and nothing takes a battery.** Every 
 
 ---
 
-## 🛠️ What You Will Learn in Level 1
+🛠️ What You Will Learn in Level 1
 
 By the end of this level, you will be proficient in the following core areas:
 
@@ -22,7 +22,7 @@ By the end of this level, you will be proficient in the following core areas:
 
 ---
 
-## 🔒 Looking Ahead: What Comes Next?
+🔒 Looking Ahead: What Comes Next?
 
 Once you complete this level, pass your written skill check, and demonstrate your hand-tool proficiency to a Mentor, you will officially unlock **Level 2: Power Tools**. 
 
