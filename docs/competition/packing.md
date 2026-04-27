@@ -7,7 +7,7 @@ This module covers how the Pit Crew and Logistics Team divide and conquer the pa
 
 ---
 
-## 🚦 Step 1: The Milwaukee Packouts & Hand Tools
+🚦 Step 1: The Milwaukee Packouts & Hand Tools
 
 Our Milwaukee Packout stacks are the heart of our competition workspace. If a tool doesn't make it into the Packout system before the trailer doors close, we don't have it for the weekend.
 
@@ -25,7 +25,7 @@ Our Milwaukee Packout stacks are the heart of our competition workspace. If a to
 
 ---
 
-## 🔋 Step 2: The Battery Cart & Driver Station
+🔋 Step 2: The Battery Cart & Driver Station
 
 Power and control. Without these, the robot is a statue. The Electrical Lead is primarily responsible for signing off on this section.
 
@@ -39,7 +39,7 @@ Power and control. Without these, the robot is a statue. The Electrical Lead is 
 
 ---
 
-## ⚙️ Step 3: Custom Spares & 3D Printed Parts
+⚙️ Step 3: Custom Spares & 3D Printed Parts
 
 Things break. When a 3D printed intake bracket shatters or a swerve wheel wears down, we need exact replacements ready to swap in. 
 
@@ -52,7 +52,7 @@ Things break. When a 3D printed intake bracket shatters or a swerve wheel wears 
 
 ---
 
-## 🛡️ Step 4: The Robot, Bumpers & Pit Structure
+🛡️ Step 4: The Robot, Bumpers & Pit Structure
 
 The big stuff. This usually goes into the trailer last so it comes out first.
 
@@ -65,7 +65,7 @@ The big stuff. This usually goes into the trailer last so it comes out first.
 
 ---
 
-## ✅ Step 5: Pathway Deliverable
+✅ Step 5: Pathway Deliverable
 
 You must demonstrate your ability to execute a packing operation before we leave for a regional event.
 
