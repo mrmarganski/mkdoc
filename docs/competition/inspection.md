@@ -1,4 +1,4 @@
-# 📋 The Inspection Process: Legal to Play
+# {{ m3_2_3 }}
 > **Objective:** Learn how to navigate the official FRC Robot Inspection, understand the most common reasons robots fail, and execute a complete "Mock Inspection" in our shop to ensure we get our competition sticker on Thursday morning.
 
 A robot that hasn't passed inspection is just a very expensive paperweight. Before we are allowed to play in a single Qualification match, volunteer Robot Inspectors (RIs) will tear through our machine to ensure it complies with every rule in the manual. 
