@@ -18,7 +18,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     ---
 
-    *Learn the culture.* Get an overview of FIRST, understand robot anatomy, analyze past games, and learn what to expect during Build Season.
+    **SELF PACED** *Learn the culture.* Get an overview of FIRST, understand robot anatomy, analyze past games, and learn what to expect during Build Season.
     
     [Start {{ m1_1_1 | replace("1.1.1 - ", "") }}](../frc/FIRST.md){ .md-button .md-button--primary }
 
@@ -26,7 +26,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     ---
 
-    *Learn to think in 3D.* Master the Engineering Design Process and get your Onshape account set up for basic mechanism modeling.
+    **SELF PACED** *Learn to think in 3D.* Master the Engineering Design Process and get your Onshape account set up for basic mechanism modeling.
     
     [Start {{ m1_2_1 | replace("1.2.1 - ", "") }}](../engineering/cad/CAD.md){ .md-button .md-button--primary }
 
@@ -34,7 +34,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     ---
 
-    *Mandatory to advance.* Learn our core shop rules, machine safety, and pass your written quiz and {{ m1_3_4 }}.
+    **MUST HAVE COMPLETED MODULE 1** Learn our core shop rules, machine safety, and pass your written quiz and {{ m1_3_4 }}.
     
     [Start {{ m1_3_1 | replace("1.3.1 - ", "") }}](../safety/safetylanding.md){ .md-button .md-button--primary }
 
@@ -42,7 +42,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     ---
 
-    *Get hands-on.* Learn how to organize the workspace, use hand tools, identify fasteners, and safely crimp/solder electronics.
+    **MUST HAVE COMPLETE MODULE 3** *Get hands-on.* Learn how to organize the workspace, use hand tools, identify fasteners, and safely crimp/solder electronics.
     
     [Start {{ m1_4_1 | replace("1.4.1 - ", "") }}](../fabrication/fabricationbasic.md){ .md-button .md-button--primary }
 
@@ -50,7 +50,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     ---
 
-    *Put it all together.* Assemble, wire, and program a functional mini-robot using WPILib and Java to prove your baseline engineering skills.
+    **MUST HAVE COMPLETE MODULE 2/STAGE 1A & MODULE 3** *Put it all together.* Assemble, wire, and program a functional mini-robot using WPILib and Java to prove your baseline engineering skills.
     
     [Start {{ m1_5_1 | replace("1.5.1 - ", "") }}](../xrprobotics/xrplanding.md){ .md-button .md-button--primary }
 
