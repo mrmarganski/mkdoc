@@ -7,7 +7,7 @@ For this very first step, we partner with the incredible curriculum over at **FR
 
 ---
 
-## 🚦 Step 1: Complete the Setup Guide
+🚦 Step 1: Complete the Setup Guide
 
 Please keep this tab open! Click the button below to open the FRCDesign setup guide in a new window. Read through their page carefully and complete all the steps they list in the "Course Setup" Section Only.
 
@@ -18,7 +18,7 @@ Please keep this tab open! Click the button below to open the FRCDesign setup gu
 
 ---
 
-## ✅ Step 2: The Return Checklist
+✅ Step 2: The Return Checklist
 
 Welcome back! Before you move on to learning how to actually sketch and design parts, verify that you successfully completed everything in the external guide. 
 
@@ -32,7 +32,7 @@ Welcome back! Before you move on to learning how to actually sketch and design p
 
 ---
 
-## 📸 Step 3: Module Deliverable
+📸 Step 3: Module Deliverable
 
 To prove you have set up your workspace correctly and to prepare for the next stages, you need to access your official assignment document in the 2064 Onshape Classroom. 
 
@@ -44,5 +44,5 @@ To prove you have set up your workspace correctly and to prepare for the next st
 
 ---
 
-### 🎉 Ready to start drawing?
+🎉 Ready to start drawing?
 Once your mentor has approved your setup, you are ready to move on to your first actual CAD lesson!
