@@ -80,7 +80,7 @@ You must demonstrate your ability to execute a packing operation before we leave
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 Once the trailer is packed, it's time to mentally prepare for the 8-minute turnarounds at the event.
 
 [Go to Next Module: Triage & Troubleshooting](triage.md){ .md-button .md-button--primary }
