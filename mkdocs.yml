@@ -102,16 +102,16 @@ nav:
           - "Level 01 - 3D Printer":
               - 1.4.7 - 3D Printer: fabrication/level1/3dprinter.md
           - "Skill Check - Level 01":
-              - Skill Check - Level 01: fabrication/level1/handtoolsquiz.md
+              - 1.4.8 - Skill Check - Level 01: fabrication/level1/handtoolsquiz.md
           - "Level 02 Overview":
               - Level 02 - Power Tools Overview: fabrication/level2/level2.md
           - "Level 02 - Powered Hand Tools":
-              - 1.4.8 - Cordless Drill: fabrication/level2/poweredhandtools/poweredtools.md
-              - 1.4.9 - Cordless Saw: fabrication/level2/poweredhandtools/cordlesssaw.md
-              - 1.4.10 - Soldering Iron: fabrication/level2/powertools/soldering.md
+              - 1.4.9 - Cordless Drill: fabrication/level2/poweredhandtools/poweredtools.md
+              - 1.4.10 - Cordless Saw: fabrication/level2/poweredhandtools/cordlesssaw.md
+              - 1.4.11 - Soldering Iron: fabrication/level2/powertools/soldering.md
           - "Level 02 - Stationary Powered Equipment":    
-              - 1.4.11 - Horizontal Bandsaw: fabrication/level2/stationary/horizontalsaw.md
-              - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
+              - 1.4.12 - Horizontal Bandsaw: fabrication/level2/stationary/horizontalsaw.md
+              - 1.4.13 - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
           - "XRP Start":
