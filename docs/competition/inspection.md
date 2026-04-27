@@ -83,7 +83,3 @@ To complete this module, you must physically participate in preparing the robot 
 
 🎉 Module Complete!
 You now know how to get the robot legally approved for play. Next, you need to learn how to connect it to the official FIRST Field Management System (FMS).
-
-[Go to Next Module: Field Connectivity & System Checks](field-checks.md){ .md-button .md-button--primary }
-
-[Return to Home Dashboard](../index.md){ .md-button }
