@@ -7,7 +7,7 @@ This module teaches the Software and Pit Crew leads how to transition the robot'
 
 ---
 
-## 🚦 Step 1: Pre-Event Firmware & Software Updates
+🚦 Step 1: Pre-Event Firmware & Software Updates
 
 Before we ever pack the trailer, the programming and electrical leads must ensure every piece of silicon on the robot is running the exact same, legal version of the software.
 
@@ -24,7 +24,7 @@ Before we ever pack the trailer, the programming and electrical leads must ensur
 
 ---
 
-## 📻 Step 2: Radio Configuration (Shop Mode)
+📻 Step 2: Radio Configuration (Shop Mode)
 
 To drive the robot safely at Pomperaug High School, we must act as our own field. For the best 6GHz, low-latency performance, Team 2064 utilizes a **Dual-Radio Setup** for practice.
 
@@ -44,7 +44,7 @@ To drive the robot safely at Pomperaug High School, we must act as our own field
 
 ---
 
-## 🏟️ Step 3: At the Event (FMS Mode)
+🏟️ Step 3: At the Event (FMS Mode)
 
 When we arrive at a regional, the very first task for the Software Lead is getting the robot radio flashed for the official Field Management System (FMS). 
 
@@ -59,7 +59,7 @@ When we arrive at a regional, the very first task for the Software Lead is getti
 
 ---
 
-## 🔄 Step 4: Post-Event (Returning to the Shop)
+🔄 Step 4: Post-Event (Returning to the Shop)
 
 **When to do this:** The Monday after a competition.
 **Why:** The robot radio is still locked with the encrypted competition FMS key! It will be completely dead wirelessly until we reset it.
@@ -71,7 +71,7 @@ When we arrive at a regional, the very first task for the Software Lead is getti
 
 ---
 
-## ✅ Step 5: Pathway Deliverable
+✅ Step 5: Pathway Deliverable
 
 You must physically demonstrate your ability to manage the robot's network state to the Software Lead or Lead Mentor.
 
@@ -86,7 +86,7 @@ You must physically demonstrate your ability to manage the robot's network state
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 You now know how to get the robot legally approved, connected to the field, and ready to play.
 
 [Go to Next Module: Phase 3 Dashboard](../phase3.md){ .md-button .md-button--primary }
