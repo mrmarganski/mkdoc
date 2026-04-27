@@ -27,30 +27,6 @@ theme:
     - navigation.expand
 
 extra:
-  # Top Navigation Tabs
-  phase_1_title: "Phase 1: Rookie Foundations"
-  phase_2_title: "Phase 2: Specialization Pathways"
-  phase_3_title: "Phase 3: Leadership & Competition"
-  res_title: "Team Resources"
-
-  # Phase 1 Sidebar Folders
-  p1_home: "Rookie Home"
-  mod_1_1: "Module 1.1: FRC Basics"
-  mod_1_2: "Module 1.2: Basic CAD"
-  mod_1_3: "Module 1.3: Safety Certification"
-  mod_1_4: "Module 1.4: Basic Fabrication"
-  mod_1_5: "Module 1.5: XRP Starter Bot"
-
-  # Phase 2 Sidebar Folders
-  path_2_1: "Pathway 2.1: Advanced CAD"
-  path_2_2: "Pathway 2.2: Advanced Fabrication"
-  path_2_3: "Pathway 2.3: Software & Controls"
-  path_2_4: "Pathway 2.4: Media & NEMO"
-
-  # Phase 3 Sidebar Folders
-  path_3_1: "Pathway 3.1: Strategy"
-  path_3_2: "Pathway 3.2: Pit Crew"
-  path_3_3: "Pathway 3.3: Project Management"
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/frc2064/
@@ -93,131 +69,124 @@ plugins:
 nav:
   - Home: index.md
   
-  # --- PHASE 1 ---
-  - "{{ phase_1_title }}":
-      - "{{ p1_home }}":
-          - "{{ p1_welcome }}": frc/rookielanding.md
-      - "{{ mod_1_1 }}":
-          - "{{ m1_1_1 }}": frc/FIRST.md
-          - "{{ m1_1_2 }}": frc/botbasics.md
-          - "{{ m1_1_3 }}": frc/gameanalysis.md
-          - "{{ m1_1_4 }}": engineering/designprocess.md
-          - "{{ m1_1_5 }}": frc/buildseason.md
-          - "{{ m1_1_6 }}": frc/poweron.md
-      - "{{ mod_1_2 }}":
-          - "{{ p1_cad_ov }}": engineering/cad/CAD.md
-          - "{{ m1_2_1 }}": engineering/cad/stage0.md
-          - "{{ m1_2_2 }}": engineering/cad/stage1A.md
-          - "{{ m1_2_3 }}": engineering/cad/stage1B.md
-          - "{{ m1_2_4 }}": engineering/cad/stage1C.md
-      - "{{ mod_1_3 }}":
-          - "{{ p1_safe_ov }}": safety/safetylanding.md
-          - "{{ m1_3_1 }}": safety/Safety.md
-          - "{{ m1_3_2 }}": safety/machinesafety.md
-          - "{{ m1_3_3 }}": safety/Safetyquiz.md
-          - "{{ m1_3_4 }}": safety/safetypractical.md
-      - "{{ mod_1_4 }}":
-          - "{{ p1_fab_ov }}": fabrication/fabricationbasic.md
-          - "{{ p1_l1_ov }}":
-              - Level 01 Overview: fabrication/level1/level1.md
-              - "{{ m1_4_1 }}": fabrication/level1/Closet.md
-              - "{{ m1_4_2 }}": fabrication/level1/fasteners.md
-          - "{{ p1_l1_meas }}":
-              - "{{ m1_4_3 }}": fabrication/level1/measuring/measuringtools.md
-          - "{{ p1_l1_hand }}":
-              - "{{ m1_4_4 }}": fabrication/level1/handtools/Handtools.md
-              - "{{ m1_4_5 }}": fabrication/level1/handtools/pliers.md
-              - "{{ m1_4_6 }}": fabrication/level1/handtools/crimping.md
-          - "{{ p1_l1_3d }}":
-              - "{{ m1_4_7 }}": fabrication/level1/3dprinter.md
-          - "{{ p1_l1_skill }}":
-              - "{{ m1_4_8 }}": fabrication/level1/handtoolsquiz.md
-          - "{{ p1_l2_ov }}":
-              - Level 02 Overview: fabrication/level2/level2.md
-          - "{{ p1_l2_power }}":
-              - "{{ m1_4_9 }}": fabrication/level2/poweredhandtools/poweredtools.md
-              - "{{ m1_4_10 }}": fabrication/level2/poweredhandtools/cordlesssaw.md
-              - "{{ m1_4_11 }}": fabrication/level2/powertools/soldering.md
-          - "{{ p1_l2_stat }}":    
-              - "{{ m1_4_12 }}": fabrication/level2/stationary/horizontalsaw.md
-              - "{{ m1_4_13 }}": fabrication/level2/powertoolsquiz.md
-      - "{{ mod_1_5 }}":
-          - "{{ p1_xrp_ov }}": xrprobotics/xrplanding.md
-          - "{{ p1_xrp_start }}":
-              - "{{ m1_5_1 }}": xrprobotics/module1/Build.md
-              - "{{ m1_5_2 }}": xrprobotics/module1/gettingtoknow.md
-              - "{{ m1_5_3 }}": xrprobotics/module1/xrpwpilib.md
-              - "{{ m1_5_4 }}": xrprobotics/module1/basicdriveXRP.md
-              - "{{ m1_5_5 }}": xrprobotics/module1/XRPdrivechallenge.md
-          - "{{ p1_xrp_adv }}":
-              - "{{ m1_5_6 }}": xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
-              - "{{ m1_5_7 }}": xrprobotics/module2/PingPongAssemble.md
-              - "{{ m1_5_8 }}": xrprobotics/module2/wiringpingpongxrp.md
-              - "{{ m1_5_9 }}": xrprobotics/module2/pingpongcode.md
-              - "{{ m1_5_10 }}": xrprobotics/module2/PingPongCompetition.md
+  - "Phase 1: Rookie Foundations":
+      - "Rookie Home": frc/rookielanding.md
+      - "Module 1.1: FRC Basics":
+          - frc/FIRST.md
+          - frc/botbasics.md
+          - frc/gameanalysis.md
+          - engineering/designprocess.md
+          - frc/buildseason.md
+          - frc/poweron.md
+      - "Module 1.2: Basic CAD":
+          - engineering/cad/CAD.md
+          - engineering/cad/stage0.md
+          - engineering/cad/stage1A.md
+          - engineering/cad/stage1B.md
+          - engineering/cad/stage1C.md
+      - "Module 1.3: Safety Certification":
+          - safety/safetylanding.md
+          - safety/Safety.md
+          - safety/machinesafety.md
+          - safety/Safetyquiz.md
+          - safety/safetypractical.md
+      - "Module 1.4: Basic Fabrication":
+          - fabrication/fabricationbasic.md
+          - "Level 01 Overview":
+              - fabrication/level1/level1.md
+              - fabrication/level1/Closet.md
+              - fabrication/level1/fasteners.md
+          - "Level 01 - Measuring":
+              - fabrication/level1/measuring/measuringtools.md
+          - "Level 01 - Hand Tools":
+              - fabrication/level1/handtools/Handtools.md
+              - fabrication/level1/handtools/pliers.md
+              - fabrication/level1/handtools/crimping.md
+          - "Level 01 - 3D Printer":
+              - fabrication/level1/3dprinter.md
+          - "Skill Check - Level 01":
+              - fabrication/level1/handtoolsquiz.md
+          - "Level 02 Overview":
+              - fabrication/level2/level2.md
+          - "Level 02 - Powered Hand Tools":
+              - fabrication/level2/poweredhandtools/poweredtools.md
+              - fabrication/level2/poweredhandtools/cordlesssaw.md
+              - fabrication/level2/powertools/soldering.md
+          - "Level 02 - Stationary Powered Equipment":    
+              - fabrication/level2/stationary/horizontalsaw.md
+              - fabrication/level2/powertoolsquiz.md
+      - "Module 1.5: XRP Starter Bot":
+          - xrprobotics/xrplanding.md
+          - "XRP Start":
+              - xrprobotics/module1/Build.md
+              - xrprobotics/module1/gettingtoknow.md
+              - xrprobotics/module1/xrpwpilib.md
+              - xrprobotics/module1/basicdriveXRP.md
+              - xrprobotics/module1/XRPdrivechallenge.md
+          - "XRP Advanced":
+              - xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
+              - xrprobotics/module2/PingPongAssemble.md
+              - xrprobotics/module2/wiringpingpongxrp.md
+              - xrprobotics/module2/pingpongcode.md
+              - xrprobotics/module2/PingPongCompetition.md
 
-  # --- PHASE 2 ---
-  - "{{ phase_2_title }}":
-      - "{{ p2_home }}":
-          - "{{ p2_select }}": engineering/engineeringlanding.md
-      - "{{ path_2_1 }}":
-          - "{{ m2_1_1 }}": engineering/cad/stage1D.md
-          - "{{ m2_1_2 }}": engineering/cad/stage1E.md
-          - "{{ m2_1_3 }}": engineering/cad/cadonshapecourse.md
-      - "{{ path_2_2 }}":
-          - Fabrication Advanced: fabrication/fabricationadvanced.md
-          - "{{ p2_l3_ov }}":
-              - Level 3 Overview: fabrication/level3/level3.md
-              - "{{ m2_2_1 }}": fabrication/level3/3dprinting2.md
-              - "{{ m2_2_2 }}": fabrication/level3/bandsaw.md
-              - "{{ m2_2_3 }}": fabrication/level3/lathe.md
-              - "{{ m2_2_4 }}": fabrication/level3/millingmachine.md
-              - "{{ m2_2_5 }}": fabrication/level3/machinelessons.md
-          - "{{ p2_l4_ov }}":    
-              - Level 4 Overview: fabrication/level4/level4.md
-              - "{{ m2_2_6 }}": fabrication/level4/laserengraver.md
-              - "{{ m2_2_7 }}": fabrication/level4/cncrouter.md
-              - "{{ m2_2_8 }}": fabrication/level4/machinelessonsadvanced.md
-      - "{{ path_2_3 }}":
-          - "{{ m2_3_1 }}": engineering/programming/WPIlib.md
-          - "{{ m2_3_2 }}": engineering/programming/sensors.md
-          - "{{ m2_3_3 }}": engineering/programming/autonomous.md
-          - "{{ m2_3_4 }}": engineering/programming/vision.md
-          - "{{ m2_3_5 }}": engineering/programming/advancedjava.md
-      - "{{ path_2_4 }}":
-          - NEMO Overview: media/medialanding.md
-          - "{{ m2_4_1 }}": media/branding.md
-          - "{{ m2_4_2 }}": media/photoshop.md
-          - "{{ m2_4_3 }}": media/illustrator.md
-          - "{{ m2_4_4 }}": media/cricut.md
-          - "{{ m2_4_5 }}": media/buttonmaker.md
-          - "{{ m2_4_6 }}": media/publicspeaking.md
+  - "Phase 2: Specialization Pathways":
+      - "Specialization Paths": engineering/engineeringlanding.md
+      - "Pathway 2.1: Advanced CAD":
+          - engineering/cad/stage1D.md
+          - engineering/cad/stage1E.md
+          - engineering/cad/cadonshapecourse.md
+      - "Pathway 2.2: Advanced Fabrication":
+          - fabrication/fabricationadvanced.md
+          - "Level 3 Overview":
+              - fabrication/level3/level3.md
+              - fabrication/level3/3dprinting2.md
+              - fabrication/level3/bandsaw.md
+              - fabrication/level3/lathe.md
+              - fabrication/level3/millingmachine.md
+              - fabrication/level3/machinelessons.md
+          - "Level 4 Overview":    
+              - fabrication/level4/level4.md
+              - fabrication/level4/laserengraver.md
+              - fabrication/level4/cncrouter.md
+              - fabrication/level4/machinelessonsadvanced.md
+      - "Pathway 2.3: Software & Controls":
+          - engineering/programming/WPIlib.md
+          - engineering/programming/sensors.md
+          - engineering/programming/autonomous.md
+          - engineering/programming/vision.md
+          - engineering/programming/advancedjava.md
+      - "Pathway 2.4: Media & NEMO":
+          - media/medialanding.md
+          - media/branding.md
+          - media/photoshop.md
+          - media/illustrator.md
+          - media/cricut.md
+          - media/buttonmaker.md
+          - media/publicspeaking.md
 
-  # --- PHASE 3 ---
-  - "{{ phase_3_title }}":
-      - "{{ p3_home }}":
-          - "{{ p3_lead_ov }}": leadership/leadershiplanding.md
-      - "{{ path_3_1 }}":
-          - "{{ m3_1_1 }}": strategy/game-manual.md
-          - "{{ m3_1_2 }}": strategy/scouting.md
-          - "{{ m3_1_3 }}": strategy/data-viz.md
-          - "{{ m3_1_4 }}": strategy/alliance-selection.md
-      - "{{ path_3_2 }}":
-          - "{{ m3_2_1 }}": competition/packing.md
-          - "{{ m3_2_2 }}": competition/triage.md
-          - "{{ m3_2_3 }}": competition/inspection.md
-          - "{{ m3_2_4 }}": competition/field-checks.md
-          - "{{ m3_2_5 }}": engineering/bumpers.md
-      - "{{ path_3_3 }}":
-          - "{{ m3_3_1 }}": leadership/timeline.md
-          - "{{ m3_3_2 }}": leadership/awards.md
-          - "{{ m3_3_3 }}": leadership/design-review.md
-          - "{{ m3_3_4 }}": leadership/budget.md
-          - "{{ m3_3_5 }}": leadership/mentorship.md
+  - "Phase 3: Leadership & Competition":
+      - "Advanced Pathways": leadership/leadershiplanding.md
+      - "Pathway 3.1: Strategy":
+          - strategy/game-manual.md
+          - strategy/scouting.md
+          - strategy/data-viz.md
+          - strategy/alliance-selection.md
+      - "Pathway 3.2: Pit Crew":
+          - competition/packing.md
+          - competition/triage.md
+          - competition/inspection.md
+          - competition/field-checks.md
+          - engineering/bumpers.md
+      - "Pathway 3.3: Project Management":
+          - leadership/timeline.md
+          - leadership/awards.md
+          - leadership/design-review.md
+          - leadership/budget.md
+          - leadership/mentorship.md
 
-  # --- RESOURCES ---
-  - "{{ res_title }}":
-      - "{{ res_ov }}": resources/resourceslanding.md
-      - "{{ res_catalog }}": resources/outline.md
-      - "{{ res_glossary }}": resources/frckeywords.md
-      - "{{ res_values }}": resources/rubric.md
+  - "Team Resources":
+      - resources/resourceslanding.md
+      - resources/outline.md
+      - resources/frckeywords.md
+      - resources/rubric.md
