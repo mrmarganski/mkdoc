@@ -24,6 +24,7 @@
 </div>
 
 XRP vs. FRC: Comparison Table
+
 ---
 
 | Key Component | XRP Robot (The Prototype) | FRC Robot (The Competition Machine) |
