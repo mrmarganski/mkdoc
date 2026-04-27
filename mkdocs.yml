@@ -72,121 +72,126 @@ nav:
       - "Rookie Home":
           - Welcome!: frc/rookielanding.md
       - "Module 1.1: FRC Basics":
-          - 1.1.1 - Intro to FIRST: frc/FIRST.md
-          - 1.1.2 - Bot Basics: frc/botbasics.md
-          - 1.1.3 - Game Analysis: frc/gameanalysis.md
-          - 1.1.4 - Engineering Design Process: engineering/designprocess.md
-          - 1.1.5 - Build Season: frc/buildseason.md
-          - 1.1.6 - Power On: frc/poweron.md
+          - "{{ m1_1_1 }}": frc/FIRST.md
+          - "{{ m1_1_2 }}": frc/botbasics.md
+          - "{{ m1_1_3 }}": frc/gameanalysis.md
+          - "{{ m1_1_4 }}": engineering/designprocess.md
+          - "{{ m1_1_5 }}": frc/buildseason.md
+          - "{{ m1_1_6 }}": frc/poweron.md
       - "Module 1.2: Basic CAD":
           - CAD Overview: engineering/cad/CAD.md
-          - 1.2.1 - Stage 0 (New to CAD): engineering/cad/stage0.md
-          - 1.2.2. - Stage 1A (Fundamentals): engineering/cad/stage1A.md
-          - 1.2.3 - Stage 1B (Power Transmissions): engineering/cad/stage1B.md
-          - 1.2.4 - Stage 1C (Practice Mechanisms): engineering/cad/stage1C.md
+          - "{{ m1_2_1 }}": engineering/cad/stage0.md
+          - "{{ m1_2_2 }}": engineering/cad/stage1A.md
+          - "{{ m1_2_3 }}": engineering/cad/stage1B.md
+          - "{{ m1_2_4 }}": engineering/cad/stage1C.md
       - "Module 1.3: Safety Certification":
           - Module Introduction: safety/safetylanding.md
-          - 1.3.1 - General Safety: safety/Safety.md
-          - 1.3.2 - Machine Safety: safety/machinesafety.md
-          - 1.3.3 - Certification Quiz: safety/Safetyquiz.md
-          - 1.3.4 - Safety Practical: safety/safetypractical.md
+          - "{{ m1_3_1 }}": safety/Safety.md
+          - "{{ m1_3_2 }}": safety/machinesafety.md
+          - "{{ m1_3_3 }}": safety/Safetyquiz.md
+          - "{{ m1_3_4 }}": safety/safetypractical.md
       - "Module 1.4: Basic Fabrication":
           - Fabrication Basic: fabrication/fabricationbasic.md
           - "Level 01 Overview":
               - Level 01 Overview: fabrication/level1/level1.md
-              - 1.4.1 - Workspace Organization: fabrication/level1/Closet.md
-              - 1.4.2 - Fasteners: fabrication/level1/fasteners.md
+              - "{{ m1_4_1 }}": fabrication/level1/Closet.md
+              - "{{ m1_4_2 }}": fabrication/level1/fasteners.md
           - "Level 01 - Measuring":
-              - 1.4.3 - Measuring Devices: fabrication/level1/measuring/measuringtools.md
+              - "{{ m1_4_3 }}": fabrication/level1/measuring/measuringtools.md
           - "Level 01 - Hand Tools":
-              - 1.4.4 - Wrenches: fabrication/level1/handtools/Handtools.md
-              - 1.4.5 - Pliers: fabrication/level1/handtools/pliers.md
-              - 1.4.6 - Wiring & Crimping: fabrication/level1/handtools/crimping.md
+              - "{{ m1_4_4 }}": fabrication/level1/handtools/Handtools.md
+              - "{{ m1_4_5 }}": fabrication/level1/handtools/pliers.md
+              - "{{ m1_4_6 }}": fabrication/level1/handtools/crimping.md
           - "Level 01 - 3D Printer":
-              - 1.4.7 - 3D Printer: fabrication/level1/3dprinter.md
+              - "{{ m1_4_7 }}": fabrication/level1/3dprinter.md
           - "Skill Check - Level 01":
-              - 1.4.8 - Skill Check - Level 01: fabrication/level1/handtoolsquiz.md
+              - "{{ m1_4_8 }}": fabrication/level1/handtoolsquiz.md
           - "Level 02 Overview":
               - Level 02 - Power Tools Overview: fabrication/level2/level2.md
           - "Level 02 - Powered Hand Tools":
-              - 1.4.9 - Cordless Drill: fabrication/level2/poweredhandtools/poweredtools.md
-              - 1.4.10 - Cordless Saw: fabrication/level2/poweredhandtools/cordlesssaw.md
-              - 1.4.11 - Soldering Iron: fabrication/level2/powertools/soldering.md
+              - "{{ m1_4_9 }}": fabrication/level2/poweredhandtools/poweredtools.md
+              - "{{ m1_4_10 }}": fabrication/level2/poweredhandtools/cordlesssaw.md
+              - "{{ m1_4_11 }}": fabrication/level2/powertools/soldering.md
           - "Level 02 - Stationary Powered Equipment":    
-              - 1.4.12 - Horizontal Bandsaw: fabrication/level2/stationary/horizontalsaw.md
-              - 1.4.13 - Skill Check - Level 2: fabrication/level2/powertoolsquiz.md
+              - "{{ m1_4_12 }}": fabrication/level2/stationary/horizontalsaw.md
+              - "{{ m1_4_13 }}": fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
           - XRP Introduction: xrprobotics/xrplanding.md
           - "XRP Start":
-              - 1.5.1 - Build Guide: xrprobotics/module1/Build.md
-              - 1.5.2 - XRP Firmware Installation: xrprobotics/module1/gettingtoknow.md0
-              - 1.5.3 - VSCode and WPIlib: xrprobotics/module1/xrpwpilib.md
-              - 1.5.4 - Command-Based Code: xrprobotics/module1/basicdriveXRP.md
-              - 1.5.5 - Skill Check - Drive Challenge: xrprobotics/module1/XRPdrivechallenge.md
+              - "{{ m1_5_1 }}": xrprobotics/module1/Build.md
+              - "{{ m1_5_2 }}": xrprobotics/module1/gettingtoknow.md
+              - "{{ m1_5_3 }}": xrprobotics/module1/xrpwpilib.md
+              - "{{ m1_5_4 }}": xrprobotics/module1/basicdriveXRP.md
+              - "{{ m1_5_5 }}": xrprobotics/module1/XRPdrivechallenge.md
           - "XRP Advanced":
-              - 1.5.6 - Launcher Game Concepts: xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
-              - 1.5.7 - Ping Pong Assembly: xrprobotics/module2/PingPongAssemble.md
-              - 1.5.8 - Launcher Wiring: xrprobotics/module2/wiringpingpongxrp.md
-              - 1.5.9 - Launcher Code: xrprobotics/module2/pingpongcode.md
-              - 1.5.10 - Launcher Competition: xrprobotics/module2/PingPongCompetition.md
+              - "{{ m1_5_6 }}": xrprobotics/module2/Ping-Pong-Launcher-Challenge.md
+              - "{{ m1_5_7 }}": xrprobotics/module2/PingPongAssemble.md
+              - "{{ m1_5_8 }}": xrprobotics/module2/wiringpingpongxrp.md
+              - "{{ m1_5_9 }}": xrprobotics/module2/pingpongcode.md
+              - "{{ m1_5_10 }}": xrprobotics/module2/PingPongCompetition.md
 
   - "Phase 2: Specialization Pathways":
       - "Specialization Paths":
           - Specialization Selections: engineering/engineeringlanding.md
       - "Pathway 2.1: Advanced CAD":
-          - 2.1.1 - Stage 1D (Design Methodology): engineering/cad/stage1D.md
-          - 2.1.2 - Stage 1E (Subsystem Workflow): engineering/cad/stage1E.md
-          - 2.1.3 - Skill Check - CAD Course: engineering/cad/cadonshapecourse.md
+          - "{{ m2_1_1 }}": engineering/cad/stage1D.md
+          - "{{ m2_1_2 }}": engineering/cad/stage1E.md
+          - "{{ m2_1_3 }}": engineering/cad/cadonshapecourse.md
       - "Pathway 2.2: Advanced Fabrication":
           - Fabrication Advanced: fabrication/fabricationadvanced.md
           - "Level 3 Overview":
               - Level 3 Overview: fabrication/level3/level3.md
-              - 2.2.1 - 3D Printing Workflow: fabrication/level3/3dprinting2.md
-              - 2.2.2 - Bandsaw Operations: fabrication/level3/bandsaw.md
-              - 2.2.3 - Lathe Operations: fabrication/level3/lathe.md
-              - 2.2.4 - Milling Machine Basics: fabrication/level3/millingmachine.md
-              - 2.2.5 - Skill Check - Level 3: fabrication/level3/machinelessons.md
+              - "{{ m2_2_1 }}": fabrication/level3/3dprinting2.md
+              - "{{ m2_2_2 }}": fabrication/level3/bandsaw.md
+              - "{{ m2_2_3 }}": fabrication/level3/lathe.md
+              - "{{ m2_2_4 }}": fabrication/level3/millingmachine.md
+              - "{{ m2_2_5 }}": fabrication/level3/machinelessons.md
           - "Level 4 Overview":    
               - Level 4 Overview: fabrication/level4/level4.md
-              - 2.2.6 - Laser Engraver Workflow: fabrication/level4/laserengraver.md
-              - 2.2.7 - CNC Router Operations: fabrication/level4/cncrouter.md
-              - 2.2.8 - Skill Check - Level 4: fabrication/level4/machinelessonsadvanced.md
+              - "{{ m2_2_6 }}": fabrication/level4/laserengraver.md
+              - "{{ m2_2_7 }}": fabrication/level4/cncrouter.md
+              - "{{ m2_2_8 }}": fabrication/level4/machinelessonsadvanced.md
       - "Pathway 2.3: Software & Controls":
-          - 2.3.1 - Java & WPILib Basics: engineering/programming/WPIlib.md
-          - 2.3.2 - Sensor Integration: engineering/programming/sensors.md
-          - 2.3.3 - Autonomous Routines: engineering/programming/autonomous.md
-          - 2.3.4 - Vision Processing: engineering/programming/vision.md
-          - 2.3.5 - PID Control & Tuning: engineering/programming/advancedjava.md
+          - "{{ m2_3_1 }}": engineering/programming/WPIlib.md
+          - "{{ m2_3_2 }}": engineering/programming/sensors.md
+          - "{{ m2_3_3 }}": engineering/programming/autonomous.md
+          - "{{ m2_3_4 }}": engineering/programming/vision.md
+          - "{{ m2_3_5 }}": engineering/programming/advancedjava.md
       - "Pathway 2.4: Media & NEMO":
           - NEMO Overview: media/medialanding.md
-          - 2.4.1 - Branding Guideline: media/branding.md
-          - 2.4.2 - Adobe Photoshop: media/photoshop.md
-          - 2.4.3 - Adobe Illustrator: media/illustrator.md
-          - 2.4.4 - Cricut Vinyl Cutter: media/cricut.md
-          - 2.4.5 - Button Maker Operations: media/buttonmaker.md
-          - 2.4.6 - Public Speaking: media/publicspeaking.md
+          - "{{ m2_4_1 }}": media/branding.md
+          - "{{ m2_4_2 }}": media/photoshop.md
+          - "{{ m2_4_3 }}": media/illustrator.md
+          - "{{ m2_4_4 }}": media/cricut.md
+          - "{{ m2_4_5 }}": media/buttonmaker.md
+          - "{{ m2_4_6 }}": media/publicspeaking.md
 
   - "Phase 3: Leadership & Competition":
       - "Advanced Pathways":
           - Leadership Pathways: leadership/leadershiplanding.md
       - "Pathway 3.1: Strategy":
-          - 3.1.1 - Game Manual Deep Dive: strategy/game-manual.md
-          - 3.1.2 - Scouting Architecture: strategy/scouting.md
-          - 3.1.3 - Data Visualization: strategy/data-viz.md
-          - 3.1.4 - Alliance Selection Theory: strategy/alliance-selection.md
+          - "{{ m3_1_1 }}": strategy/game-manual.md
+          - "{{ m3_1_2 }}": strategy/scouting.md
+          - "{{ m3_1_3 }}": strategy/data-viz.md
+          - "{{ m3_1_4 }}": strategy/alliance-selection.md
       - "Pathway 3.2: Pit Crew":
-          - 3.2.1 - Packing Manifest: competition/packing.md
-          - 3.2.2 - Triage & Troubleshooting: competition/triage.md
-          - 3.2.3 - The Inspection Process: competition/inspection.md
-          - 3.2.4 - Field Connectivity: competition/field-checks.md
-          - 3.2.5 - Bumper Construction: engineering/bumpers.md
+          - "{{ m3_2_1 }}": competition/packing.md
+          - "{{ m3_2_2 }}": competition/triage.md
+          - "{{ m3_2_3 }}": competition/inspection.md
+          - "{{ m3_2_4 }}": competition/field-checks.md
+          - "{{ m3_2_5 }}": engineering/bumpers.md
       - "Pathway 3.3: Project Management":
-          - 3.3.1 - FRC Timeline: leadership/timeline.md
-          - 3.3.2 - Awards: leadership/awards.md
-          - 3.3.3 - Design Review: leadership/design-review.md
-          - 3.3.4 - Budgeting & POs: leadership/budget.md
-          - 3.3.5 - The Art of Mentorship: leadership/mentorship.md
+          - "{{ m3_3_1 }}": leadership/timeline.md
+          - "{{ m3_3_2 }}": leadership/awards.md
+          - "{{ m3_3_3 }}": leadership/design-review.md
+          - "{{ m3_3_4 }}": leadership/budget.md
+          - "{{ m3_3_5 }}": leadership/mentorship.md
 
+  - "Team Resources":
+      - Team Resources Overview: resources/resourceslanding.md
+      - Course Catalog: resources/outline.md
+      - FRC Glossary: resources/frckeywords.md
+      - 2064 Core Values: resources/rubric.md
   - "Team Resources":
       - Team Resources Overview: resources/resourceslanding.md
       - Course Catalog: resources/outline.md
