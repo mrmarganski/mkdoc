@@ -1,4 +1,4 @@
-# ⚙️ Onshape Stage 1B: Power Transmissions
+# {{ m1_2_3 }}
 > **Objective:** Learn the fundamentals of FRC power transmissions—including motors, shafts, gears, belts, and chains—and model three different custom gearboxes in Onshape.
 
 So far, you have only designed structural components. But to make a robot move, we need power. In this module, you are going to learn how to transfer rotational motion from a motor to a mechanism using gears, belts, and chains.
