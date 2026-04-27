@@ -1,68 +1,74 @@
 # {{ p1_cad_ov }}
-> **Duration:** 18 Weeks (1 Semester) | **Prerequisites:** None
+> **Target Audience:** All Rookie Members | **Deadline:** January 1st
 
-Welcome to the Team 2064 CAD Foundations! While you technically can finish this incredibly fast since you can work on it anywhere with Onshape, this is a semester-long expectation that will take you from absolute zero to being able to participate and contribute when we design a full, competition-ready FRC robot using Onshape during Build Season in January.  
+Welcome to the Team 2064 CAD Foundations! This is a self-paced, project-based module designed to take you from absolute zero to being a contributing member of our design subteam. 
 
-**ALL ROOKIE Members MUST complete this Module 1.2 by JANUARY 1st of their season** to be on the travel team in March. Veteran members should have completed this and are working on their specializations.
+By completing these stages, you will gain the skills necessary to help design our full, competition-ready FRC robot in Onshape during the Build Season. 
+
+!!! danger "Hard Deadline"
+    **ALL ROOKIE Members MUST complete this Module 1.2 by JANUARY 1st** to be eligible for the travel team in March. Veteran members should use this as a refresher or jump straight into their Phase 2 specializations.
 
 !!! abstract "Course Attribution"
-    This curriculum is adapted from the incredible [FRCDesign.org Learning Course](https://www.frcdesign.org/). We highly recommend referencing their site for deep dives into specific FRC modeling strategies!
+    This curriculum is adapted from the [FRCDesign.org Learning Course](https://www.frcdesign.org/). We highly recommend referencing their site for deep dives into specific FRC modeling strategies!
 
-!!! warning "Required Setup (Do This First!)"
-    Before starting any FRC Design work, you must:
-    1. Complete Stage 0
+!!! info "Prerequisites & Requirements"
+    Each stage below contains a specific **Prerequisite Outline** at the start of the module. You must demonstrate mastery of the current stage before moving to the next.
 
 ---
 
 ## 🏆 The Method to Completion
-How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through 4 Stages. At the end of each section, you will submit an Onshape document link to our 2064 Onshape classroom. Stage 0 will set you up with your access and account.
+How do you pass this course? It is simple: **Project-Based Mastery.** There are no multiple-choice tests here. You will advance through four stages of increasing complexity. At the end of each section, you will submit your Onshape document link to the 2064 Onshape Classroom for review.
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-0-box:</span> **Stage 0: The Fundamentals (Weeks 1-4)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-0-box:</span> **{{ m1_2_1 | replace("1.2.1 - ", "") }}**
     
     ---
     
-    Learn how to think in 3D. We start with drawing flat shapes and pulling them into the real world.
+    Learn how to think in 3D. We start with setting up your workspace and understanding the Onshape ecosystem.
     
-    * **Stage 0:** UI Navigation & Account Setup
-    * **Stage 0:** Onshape Overview
-    * **Stage 0:** Part Library
-    * **Stage 0:** Featurescripts
+    * UI Navigation & Account Setup
+    * Onshape Overview
+    * Part Library & Standard Parts
+    * Loading Team FeatureScripts
     
-    [View Stage 0 Assignments](stage0.md){ .md-button }
+    [Start Stage 0](stage0.md){ .md-button }
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-1-box:</span> **Stage 1: Putting It Together (Weeks 5-7)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-1-box:</span> **{{ m1_2_2 | replace("1.2.2 - ", "") }}**
     
     ---
     
     Parts are useless if they don't connect. Learn how to snap pieces together and build complex geometries.
     
-    * **Stage 1A:** Basic Assemblies & Mates
-    * **Stage 1A:** Intermediate Sketching & Patterns
+    * Basic Assemblies & Mates
+    * Intermediate Sketching & Constraints
+    * Patterns and Mirroring
     
-    [View Stage 1A Assignments](stage1A.md){ .md-button }
+    [Start Stage 1A](stage1A.md){ .md-button }
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-2-box:</span> **Stage 2: FRC Mechanics & Midterm (Weeks 8-11)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-2-box:</span> **{{ m1_2_3 | replace("1.2.3 - ", "") }}**
     
     ---
     
-    Start designing for the competition field. Learn how to make things spin, pivot, and adjust.
+    Start designing for the competition field. Learn how to make things spin, pivot, and transfer power.
     
-    * **Stage 1B:** Subassemblies & Mate Connectors
-    * **Stage 1B:** FRC Concepts (Power Transmissions)
+    * Subassemblies & Mate Connectors
+    * FRC Concepts (Power Transmissions)
+    * Sprockets, Pulleys, and Gearboxes
     
-    [View Stage 1B Assignments](stage1B.md){ .md-button }
+    [Start Stage 1B](stage1B.md){ .md-button }
 
--   <span style="color: var(--md-primary-fg-color);">:material-numeric-3-box:</span> **Stage 3: Advanced Systems (Weeks 12-14)**
+-   <span style="color: var(--md-primary-fg-color);">:material-numeric-3-box:</span> **{{ m1_2_4 | replace("1.2.4 - ", "") }}**
     
     ---
     
-    Learn the secrets of the pros: making the robot lighter, faster, and easier to manufacture.
+    Put your skills to the test by modeling real FRC subsystems used in previous games.
     
-    * **Stage 1C:** Practice Mechanisms
+    * Practice Mechanisms
+    * Design for Manufacturability
+    * Documenting Assemblies
     
-    [View Stage 1C Assignments](stage1C.md){ .md-button }
+    [Start Stage 1C](stage1C.md){ .md-button }
 
 </div>
 
