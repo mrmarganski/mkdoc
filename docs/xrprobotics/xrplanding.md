@@ -1,4 +1,4 @@
-# 🤖 XRP Robotics
+# {{ p1_xrp_ov }}
 > Welcome to the Experiential Robotics Platform (XRP) training module. Choose your path below to get started!
 
 ---
