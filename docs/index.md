@@ -11,6 +11,9 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
 !!! info "Flexible Learning"
     While working within a *PHASE* you may complete modules in any order that suits your schedule. However, **check the Prerequisites** at the top of each page to ensure you are eligible to complete the assignment.
 
+!!! tip "📅 Stay on Schedule"
+    Skill-training seminars for specific modules are scheduled throughout the season. Check the [Team Google Calendar](https://calendar.google.com/calendar/embed?src=c_a246400a88a21fe4e3b65cc96f43ae4020788d8410fe2a1c572ab632d872a20a%40group.calendar.google.com&ctz=America%2FNew_York) frequently—missing a seminar may delay your ability to complete a module!
+
 ---
 
 ## 🏁 Phase 1: Rookie Foundations
