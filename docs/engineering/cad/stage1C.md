@@ -7,7 +7,7 @@ These exercises are designed to help you practice execution and small details. K
 
 ---
 
-## 🚦 Step 1: The Practice Challenges
+🚦 Step 1: The Practice Challenges
 
 Before you start modeling, you must read the introduction. It covers two critical Team 2064 standards: **Layout Sketches** (driving your whole model from one master sketch) and **Consistent Origins** (using the Origin Cube).
 
@@ -19,7 +19,7 @@ Before you start modeling, you must read the introduction. It covers two critica
 
 ---
 
-## ✅ Step 2: The Return Checklist
+✅ Step 2: The Return Checklist
 
 Welcome back! If you can model these mechanisms, you are officially ready to start designing parts for the real competition robot.
 
@@ -29,7 +29,7 @@ Welcome back! If you can model these mechanisms, you are officially ready to sta
 
 ---
 
-## 📸 Step 3: Pathway Deliverable
+📸 Step 3: Pathway Deliverable
 
 To prove you have completed the Basic CAD pathway, you must submit your Onshape document containing your mechanisms for a mentor to review.
 
@@ -39,7 +39,7 @@ To prove you have completed the Basic CAD pathway, you must submit your Onshape 
 
 ---
 
-### 🎉 Pathway 1.2 Complete!
+🎉 Pathway 1.2 Complete!
 You have successfully reached the end of Pathway 1.2: Basic CAD. Choose your next step below:
 
 [Go to Next Module: 1.3 Safety Certification](../../safety/safetylanding.md){ .md-button .md-button--primary }
