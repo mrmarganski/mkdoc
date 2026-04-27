@@ -138,7 +138,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
 ---
 
-## 🏆 Phase 3: Advanced Competition & Leadership Mastery
+## 🏆 Phase 3: Leadership & Competition Mastery
 Building the robot is only half the battle. Phase 3 is reserved for veteran members, subteam leads, and the drive team. These modules zoom out from individual part creation to macro-level team operations and event execution. This is where you learn to manage projects, lead peers, and ultimately win events.
 
 **[Explore Leadership Pathways](leadership/leadershiplanding.md){ .md-button }**
