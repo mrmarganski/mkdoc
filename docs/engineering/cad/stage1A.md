@@ -12,7 +12,7 @@ For this module, you will use the **Team 2064 Onshape Classroom** as your workbe
 Before looking at the instructions, you must initialize your working document. This ensures your mates and constraints are saved in the team folder where mentors can provide real-time feedback.
 
 1. **Enter the Classroom:** Click the button below to open the Stage 1A Assignment portal.
-2. **Access Starter Files:** Launch your document via the classroom link. This blank workspace is where you will perform all the sketching and assembly exercises for this module.
+2. **Access Starter Files:** Launch your document via the classroom link. This workspace is where you will perform all the sketching and assembly exercises for this module.
 
 [Enter Stage 1A Workbench :material-share-variant:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef931a9b2068bc9afc4c2b){ .md-button .md-button--primary target="_blank" }
 
