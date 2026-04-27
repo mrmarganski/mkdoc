@@ -10,8 +10,7 @@ We will make the shooter concept together, to follow a design process for a phys
   <p style="margin-top: 10px; color: #666; font-style: italic;">Testing Ping Pong Shooter.</p>
 </div>
 
-## Main Components to Create
-
+Main Components to Create
 1. **Magazine/Hopper and Shooter Structure**
     * The primary assembly for ball storage and shooter mounting; includes the feeder mount.
 2. **Pinion Gear**
