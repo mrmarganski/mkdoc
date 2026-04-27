@@ -7,7 +7,7 @@ In Stage 1E, you are going to practice the "detailing" phase of the workflow. Ke
 
 ---
 
-## 🚦 Step 1: Complete the Training Project
+🚦 Step 1: Complete the Training Project
 
 Work through the sections below in order. Make sure you read the theory sections before starting the CAD—FRC has strict rules about how batteries and bumpers must be mounted!
 
@@ -33,7 +33,7 @@ Work through the sections below in order. Make sure you read the theory sections
 
 ---
 
-## ✅ Step 2: The Return Checklist
+✅ Step 2: The Return Checklist
 
 Welcome back! Look at that drivebase—you have officially designed a robot foundation that could compete at an FRC Regional. 
 
@@ -46,7 +46,7 @@ Welcome back! Look at that drivebase—you have officially designed a robot foun
 
 ---
 
-## 📸 Step 3: Module Deliverable
+📸 Step 3: Module Deliverable
 
 To prove you have mastered the complete subsystem workflow, you must submit your detailed drivebase for a mentor to review.
 
@@ -56,7 +56,7 @@ To prove you have mastered the complete subsystem workflow, you must submit your
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 You have successfully completed the Advanced CAD guided tutorials! Now it is time to put everything you've learned to the test in your final Skill Check.
 
 [Go to Next Module: Skill Check - CAD Course](cadonshapecourse.md){ .md-button .md-button--primary }
