@@ -32,15 +32,15 @@ Welcome back! Before you move on to learning how to actually sketch and design p
 
 ---
 
-📸 Step 3: Module Deliverable
+📸 Step 3: Access Your Workbench
 
-To prove you have set up your workspace correctly and to prepare for the next stages, you need to access your official assignment document in the 2064 Onshape Classroom. 
+To begin your work, you must access the official workspace in the 2064 Onshape Classroom. This ensures your documents are organized in the team folder and that mentors can see your progress in real-time.
 
-1. **Access the Assignment:** Click the button below to open the Onshape Assignment portal.
-2. **Open Your Working Document:** Use the interface to open or generate your specific working document for this lesson. You will use this exact document alongside the FRCDesign tutorials to complete your CAD tasks.
-3. **Submit Your Progress:** Once your workspace is verified and your FeatureScripts are loaded, submit the assignment through the Onshape classroom to notify a mentor.
+1. **Enter the Classroom:** Click the button below to open the Stage 0 portal.
+2. **Launch Your Workspace:** Use the portal to open or generate your specific working document. You will use this exact document to verify your account setup and load your FeatureScripts.
+3. **Mentor Review:** Once your workspace is live, a mentor will check your interface settings directly through the classroom link.
 
-[Open Onshape Assignment :material-cube-outline:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef9260a120849efc8bbfa0){ .md-button .md-button--primary target="_blank" }
+[Enter Stage 0 Workbench :material-cube-outline:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef9260a120849efc8bbfa0){ .md-button .md-button--primary target="_blank" }
 
 ---
 
