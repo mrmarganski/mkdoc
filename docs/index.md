@@ -9,7 +9,7 @@ Welcome to the official documentation and training hub for Team 2064. Whether yo
     If you are new to the team, your journey begins with **Phase 1**. You must complete all sections of Module 1.3 (Safety) before you can touch any tools in the shop. 
 
 !!! info "Flexible Learning"
-    You may complete modules in any order that suits your schedule. However, **check the Prerequisites** at the top of each page to ensure you are eligible to complete the assignment.
+    While working within a *PHASE* you may complete modules in any order that suits your schedule. However, **check the Prerequisites** at the top of each page to ensure you are eligible to complete the assignment.
 
 ---
 
