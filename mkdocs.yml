@@ -24,7 +24,6 @@ theme:
     - navigation.path
     - navigation.footer
     - toc.integrate
-    - navigation.expand
 
 extra:
   social:
