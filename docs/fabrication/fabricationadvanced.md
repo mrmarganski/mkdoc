@@ -10,7 +10,7 @@ The tools in this pathway are the workhorses of The Panther Project. They are lo
 
 ---
 
-## 🟠 What to Expect: Level 3 (Stationary Machinery)
+🟠 What to Expect: Level 3 (Stationary Machinery)
 Level 3 moves you away from hand-held tools and onto heavy, stationary equipment. You will learn to process raw stock (wood, aluminum, polycarbonate) safely and handle toxic chemicals.
 
 * 🪚 **Band Saw & Miter Saw:** Safe techniques for cutting raw extrusion and polycarb down to manageable sizes without binding the blade.
@@ -19,7 +19,7 @@ Level 3 moves you away from hand-held tools and onto heavy, stationary equipment
 
 ---
 
-## 🔴 What to Expect: Level 4 (Digital Fabrication)
+🔴 What to Expect: Level 4 (Digital Fabrication)
 Level 4 is the pinnacle of the fabrication pathway. You will learn to take CAD files from the engineering team and turn them into physical parts using computer-aided manufacturing (CAM).
 
 * ⚡ **Laser Engraving:** Operating the Full Spectrum Hobby 40W laser. You will learn focusing techniques, ventilation, and the strict rules on what materials are safe to cut (and which ones emit toxic gas).
@@ -27,7 +27,7 @@ Level 4 is the pinnacle of the fabrication pathway. You will learn to take CAD f
 
 ---
 
-## ✅ The Path to Mastery
+✅ The Path to Mastery
 Unlike Levels 1 and 2, which you can learn relatively quickly, mastering a CNC router or Table Saw takes time and practice. 
 
 For every machine in this pathway:
@@ -37,7 +37,7 @@ For every machine in this pathway:
 
 ---
 
-### 🎉 Ready to make some chips?
+🎉 Ready to make some chips?
 Begin your advanced training by learning the rules of the metal and wood cutting saws.
 
 [Start Level 3: Level 3 Overview](level3/level3.md){ .md-button .md-button--primary }
