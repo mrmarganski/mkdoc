@@ -5,5 +5,5 @@ How to power on a robot here:
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 You have reached the end of this module. 
