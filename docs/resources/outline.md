@@ -1,104 +1,94 @@
 # 🗂️ Master Site Index & Glossary
 > **The Panther Project Directory**
 
-Looking for something specific? Use this A-Z alphabetical directory to jump straight to any lesson, guide, or resource on the Team 2064 hub.
+Looking for something specific? Use this alphabetical directory to jump straight to any lesson on the Team 2064 hub.
 
 ---
 
 ### A
-* **[Adobe Illustrator](../media/illustrator.md):** Vector design guidelines for pit banners, apparel, and sponsor packets.
-* **[Adobe Photoshop](../media/photoshop.md):** Photo editing, color correction, and social media asset creation.
-* **[Alliance Selection Theory](../strategy/alliance-selection.md):** Calculating EPA, OPR, and building pick-lists for playoffs.
-* **[Autonomous Routines](../engineering/autonomous.md):** Path planning, odometry, and trajectory following in Java.
-* **[Awards](../leadership/awards.md):** Review of FRC awards and steps to align team efforts to win them.
+* **[Adobe Illustrator](../media/illustrator.md):** Vector design guidelines for team branding.
+* **[Adobe Photoshop](../media/photoshop.md):** Photo editing and social media asset creation.
+* **[Alliance Selection Theory](../strategy/alliance-selection.md):** Data-driven playoff strategy.
+* **[Autonomous Routines](../engineering/programming/autonomous.md):** Path planning and odometry in Java.
+* **[Awards](../leadership/awards.md):** Aligning team efforts with FIRST Impact and technical awards.
 
 ### B
-* **[Bandsaw Operations](../fabrication/bandsaw.md):** Safe cutting techniques for aluminum and polycarbonate.
-* **[Bot Basics](../frc/botbasics.md):** Overview of common parts and anatomy of an FRC robot.
-* **[Branding Guidelines](../media/branding.md):** Official fonts, hex codes, logo usage, and uniform standards.
-* **[Budgeting & POs](../leadership/budget.md):** Researching COTS parts, requesting quotes, and managing subteam budgets.
-* **[Build Season](../frc/buildseason.md):** What to expect during the intensive 6-week FRC build season.
-* **[Bumpers](../engineering/bumpers.md):** Rules, wood cutting, fabric wrapping, and mounting competition bumpers.
-* **[Button Maker](../media/buttonmaker.md):** Designing templates, printing, and pressing team buttons for events.
+* **[Bandsaw Operations](../fabrication/level3/bandsaw.md):** Safe cutting for aluminum and polycarb.
+* **[Bot Basics](../frc/botbasics.md):** Anatomy of an FRC robot.
+* **[Branding Guidelines](../media/branding.md):** Official 2064 fonts, hex codes, and logos.
+* **[Budgeting & POs](../leadership/budget.md):** Managing subteam finances and part requests.
+* **[Build Season](../frc/buildseason.md):** The intensive 6-week schedule.
+* **[Bumpers](../engineering/bumpers.md):** Construction, fabric wrapping, and mounting.
+* **[Button Maker](../media/buttonmaker.md):** Pressing team buttons for competitions.
 
 ### C
-* **[CNC Router](../fabrication/cncrouter.md):** CAM setup, feeds/speeds, and cutting custom aluminum chassis plates.
-* **[Closet Organization](../fabrication/Closet.md):** Shop management, battery care, and maintaining a clean workspace.
-* **[Command-Based Drive](../xrprobotics/module1/basicdriveXRP.md):** Writing your first Java code to drive the XRP starter bot.
-* **[Core Values (Rubric)](../resources/rubric.md):** The behavioral and work-ethic standards for all Team 2064 members.
-* **[Cricut Vinyl Cutter](../media/cricut.md):** Preparing SVG files, cutting decals, and applying transfer tape.
-* **[Crimping & Wiring](../fabrication/crimping.md):** Creating secure electrical connections and using Anderson powerpoles.
+* **[CNC Router](../fabrication/level4/cncrouter.md):** Digital fabrication and CAM setup.
+* **[Closet Organization](../fabrication/level1/Closet.md):** Shop hygiene and battery care.
+* **[Command-Based Drive](../xrprobotics/module1/basicdriveXRP.md):** Writing Java code for the XRP.
+* **[Core Values (Rubric)](../resources/rubric.md):** Behavioral standards for members.
+* **[Cricut Vinyl Cutter](../media/cricut.md):** Custom decals and mask creation.
+* **[Crimping & Wiring](../fabrication/level1/handtools/crimping.md):** Anderson Powerpoles and electrical security.
 
 ### D
-* **[Data Visualization](../strategy/data-viz.md):** Using Tableau or Excel to create pit dashboards for the Drive Team.
-* **[Design Process (Engineering)](../engineering/designprocess.md):** Brainstorming, prototyping, and documenting robot design decisions.
-* **[Design Review](../leadership/design-review.md):** How to lead collaborative meetings and lock in robot dimensions.
+* **[Data Visualization](../strategy/data-viz.md):** Creating dashboards for match strategy.
+* **[Design Process (Engineering)](../engineering/designprocess.md):** The iterative cycle of robot design.
+* **[Design Review](../leadership/design-review.md):** Leading subsystem technical reviews.
 
 ### F
-* **[Fasteners](../fabrication/fasteners.md):** A guide to the specific bolts, nuts, and rivets used on our robots.
-* **[Field Connectivity](../competition/field-checks.md):** Verifying the driver station, radio bridging, and pre-match staging.
-* **[FIRST (Intro to)](../frc/FIRST.md):** Overview of FRC, its place in FIRST, and how competitions work.
+* **[Fasteners](../fabrication/level1/fasteners.md):** The nuts, bolts, and rivets of Team 2064.
+* **[Field Connectivity](../competition/field-checks.md):** Driver Station and Radio diagnostics.
+* **[FIRST (Intro to)](../frc/FIRST.md):** What is FRC and how does it work?
 
 ### G
-* **[Game Analysis](../frc/gameanalysis.md):** How to analyze past games and understand FRC rule limits.
-* **[Game Manual Deep Dive](../strategy/game-manual.md):** How to read, interpret, and exploit the rules for strategic advantage.
+* **[Game Analysis](../frc/gameanalysis.md):** Breaking down the rules for competitive advantage.
+* **[Game Manual Deep Dive](../strategy/game-manual.md):** Strategic interpretation of the season rules.
 
 ### H
-* **[Hand Tools Overview](../fabrication/Handtools.md):** Proper use of wrenches, drills, drivers, and basic hand tools.
+* **[Hand Tools Overview](../fabrication/level1/handtools/Handtools.md):** Proper use of wrenches, pliers, and drivers.
 
 ### I
-* **[Inspection Process](../competition/inspection.md):** Navigating the sizing box, weight limits, and hardware checks at events.
+* **[Inspection Process](../competition/inspection.md):** Weight, size, and bumper rule compliance.
 
 ### J
-* **[Java & WPILib Basics](../engineering/WPIlib.md):** Subsystems, commands, and motor controller APIs (Spark MAX/Talon FX).
+* **[Java & WPILib Basics](../engineering/programming/WPIlib.md):** Commands, Subsystems, and motor APIs.
 
 ### L
-* **[Laser Engraver](../fabrication/laserengraver.md):** Vector cutting acrylic and etching team branding.
-* **[Lathe Operations](../fabrication/lathe.md):** Turning shafts, cutting retaining ring grooves, and facing parts.
+* **[Laser Engraver](../fabrication/level4/laserengraver.md):** Rapid prototyping and branding.
+* **[Lathe Operations](../fabrication/level3/lathe.md):** Turning shafts and cutting ring grooves.
 
 ### M
-* **[Mentorship (The Art of)](../leadership/mentorship.md):** How veteran members should effectively teach rookies.
-* **[Milling Machine](../fabrication/millingmachine.md):** Squaring stock, drilling precise hole patterns, and edge finding.
+* **[Measuring Devices](../fabrication/level1/measuring/measuringtools.md):** Using calipers and tape measures accurately.
+* **[Mentorship (The Art of)](../leadership/mentorship.md):** Veteran-to-Rookie training standards.
+* **[Milling Machine](../fabrication/level3/millingmachine.md):** Manual precision metalworking.
 
 ### O
-* **[Onshape Stage 0 (Basics)](../engineering/stage0.md):** Account setup, UI navigation, and MKCAD library installation.
-* **[Onshape Stage 1A (Fundamentals)](../engineering/stage1A.md):** Sketching, extruding, and multi-part studios.
-* **[Onshape Stage 1B (Power)](../engineering/stage1B.md):** Fundamentals of modeling power transmissions and gearboxes.
-* **[Onshape Stage 1C (Mechanisms)](../engineering/stage1C.md):** Modeling practice mechanisms to refine small details.
-* **[Onshape Stage 1D (Methodology)](../engineering/stage1D.md):** Top-down design and advanced assembly management.
-* **[Onshape Stage 1E (Subsystems)](../engineering/stage1E.md):** The typical workflow when modeling a complete FRC subsystem.
+* **[Onshape Stage 0 (Basics)](../engineering/cad/stage0.md):** UI navigation and account setup.
+* **[Onshape Stage 1A (Fundamentals)](../engineering/cad/stage1A.md):** Sketching and Extruding.
+* **[Onshape Stage 1B (Power)](../engineering/cad/stage1B.md):** Gearboxes and transmissions.
+* **[Onshape Stage 1C (Mechanisms)](../engineering/cad/stage1C.md):** Modeling complex robot subsystems.
+* **[Onshape Stage 1D (Methodology)](../engineering/cad/stage1D.md):** Top-down design strategies.
+* **[Onshape Stage 1E (Subsystems)](../engineering/cad/stage1E.md):** Full robot integration workflow.
 
 ### P
-* **[Packing Manifest](../competition/packing.md):** Managing battery carts, spare parts crates, and pit construction checklists.
-* **[Pathfinder Assessment](../resources/quiz.md):** The interactive quiz to help you choose your team specialization.
-* **[PID Control & Tuning](../engineering/advancedjava.md):** Making mechanisms move quickly and stop accurately without oscillating.
-* **[Ping Pong Code](../xrprobotics/module2/pingpongcode.md):** Advanced Arduino code for the XRP Ping Pong Launcher.
-* **[Ping Pong Launcher Assembly](../xrprobotics/module2/PingPongAssemble.md):** Building the custom 3D-printed add-on for the XRP.
-* **[Ping Pong Motor Bridge](../xrprobotics/module2/wiringpingpongxrp.md):** Wiring the advanced Arduino sub-controller.
-* **[Power On](../frc/poweron.md):** Basic demonstration on how to power on and safely operate Team 2064's robot.
-* **[Public Speaking](../media/publicspeaking.md):** Crafting the team narrative, presentation prep, and pit speaking for Impact Award.
+* **[Packing Manifest](../competition/packing.md):** Road-trip and pit readiness.
+* **[PID Control & Tuning](../engineering/programming/advancedjava.md):** Precise mechanism control.
+* **[Ping Pong Launcher Assembly](../xrprobotics/module2/PingPongAssemble.md):** XRP Advanced mechanism.
+* **[Power On](../frc/poweron.md):** Starting and operating the 125lb competition robot.
+* **[Public Speaking](../media/publicspeaking.md):** Impact Award presentation and pit talking.
 
 ### S
-* **[Safety (General Guidelines)](../safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
-* **[Safety (Machine Specific)](../safety/machinesafety.md):** Specific safety guidelines for operating heavy machinery.
-* **[Safety Practical](../safety/safetypractical.md):** The mandatory hands-on assessment for appropriate tool usage.
-* **[Safety Quiz](../safety/Safetyquiz.md):** The mandatory written assessment required to work in the shop.
-* **[Scouting Architecture](../strategy/scouting.md):** Designing digital scouting apps to collect reliable match data.
-* **[Sensors Integration](../engineering/sensors.md):** Reading encoders, gyros (NavX/Pigeon), and limit switches in Java.
-* **[Soldering](../fabrication/soldering.md):** Tips and techniques for basic FRC electronics soldering.
+* **[Safety (General)](../safety/Safety.md):** Core shop rules and PPE.
+* **[Safety (Machine Specific)](../safety/machinesafety.md):** Power tool safety.
+* **[Scouting Architecture](../strategy/scouting.md):** Designing match-data collection systems.
+* **[Sensors Integration](../engineering/programming/sensors.md):** Encoders, Gyros, and Limit switches.
+* **[Soldering](../fabrication/level2/powertools/soldering.md):** FRC-spec electrical soldering.
 
 ### T
-* **[Timeline (FRC Season)](../leadership/timeline.md):** Managing Gantt charts and the 6-week build season milestones.
-* **[Triage & Troubleshooting](../competition/triage.md):** The 8-minute turnaround: diagnosing and patching broken mechanisms.
+* **[Timeline (FRC Season)](../leadership/timeline.md):** Milestone management for build season.
+* **[Triage & Troubleshooting](../competition/triage.md):** Fixing the robot between matches.
 
 ### V
-* **[Vision Processing](../engineering/vision.md):** Tuning pipelines using PhotonVision or Limelight for target tracking.
-
-### W
-* **[WPILib Installation](../xrprobotics/module1/gettingtoknow.md):** Setting up VS Code and the FRC programming environment.
+* **[Vision Processing](../engineering/programming/vision.md):** Limelight and PhotonVision tracking.
 
 ### X
-* **[XRP Build Guide](../xrprobotics/module1/Build.md):** Chassis assembly and basic wiring for the starter bot.
-
----
-*Can't find what you're looking for? Ask a mentor or Subteam Lead!*
+* **[XRP Build Guide](../xrprobotics/module1/Build.md):** Assembly for the mini starter bot.
