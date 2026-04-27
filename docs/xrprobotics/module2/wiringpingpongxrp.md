@@ -1,4 +1,4 @@
-# ⚡ XRP High-RPM Motor Bridge
+# {{ m1_5_8 }}
 > **Custom Electronics:** This manifest defines the wiring for an **Arduino Pro Micro** acting as a sub-controller for the **XRP**.
 
 !!! info "Prerequisites"
