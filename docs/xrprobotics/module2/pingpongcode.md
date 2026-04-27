@@ -1,4 +1,4 @@
-# Adding a Mirrored Dual-Servo Mechanism
+# {{ m1_5_9 }}
 
 If you are building a symmetrical mechanism like a grabbing claw or a dual-sided lifting arm, you will need two servos to work together.
 
