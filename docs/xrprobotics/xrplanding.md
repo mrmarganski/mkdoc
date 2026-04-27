@@ -23,7 +23,7 @@
 
 </div>
 
-## XRP vs. FRC: Comparison Table
+XRP vs. FRC: Comparison Table
 ---
 
 | Key Component | XRP Robot (The Prototype) | FRC Robot (The Competition Machine) |
@@ -35,7 +35,7 @@
 | **Sensors** | Built-in **Encoders, Gyro, and Ultrasonic**. | Industrial **Encoders, NAVX Gyros**, and **Limelight/AprilTag** cameras. |
 | **Actuators** | Hobby-grade **DC Motors** and 9g **Servos**. | Powerful **Brushless Motors** (NEOs/Kraken's) and pneumatic pistons. |
 
-> ### 💡 Why are they so similar?
+> 💡 Why are they so similar?
 > We use the XRP because the **logic** is identical. If you can code an autonomous path on the XRP using WPILib, you have already learned 90% of what it takes to code the 125lb competition robot.
 
 !!! quote "Core Value Check: Discovery"
