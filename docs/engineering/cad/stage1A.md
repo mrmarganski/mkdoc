@@ -36,21 +36,25 @@ Welcome back! By the end of those three sections, you should have a solid grasp 
 
 **Verify that you understand how to:**
 
-- [ ] Submitted X to onshape class in 2064 folder...
+- [ ] Create a sketch on a specific plane.
+- [ ] Use **Constraints** (Coincident, Vertical, Horizontal) to "lock" your drawing.
+- [ ] Dimension a part using the **D** key.
+- [ ] Perform a "Solid" Extrude to turn a 2D shape into a 3D part.
+- [ ] Use **Fastened** and **Revolute** mates in an assembly.
 
 ---
 
 ## 📸 Step 3: Module Deliverable
 
-To prove you have mastered these fundamentals, you must submit your completed Onshape document to your designated training folder for a mentor to review.
+To prove you have mastered these fundamentals, you must submit your work through the official 2064 Onshape Classroom assignment.
 
-1. **Name your file:** Ensure your Onshape Document is named clearly (e.g., `FirstLast_Stage1A`).
-2. **Move to your folder:** Navigate to the Team 2064 Onshape Training workspace. Move or copy your completed document into your assigned individual student folder.
-3. **Notify a Mentor:** Let a CAD mentor or your Subteam Lead know your assignment is ready for review.
+1. **Access the Portal:** Click the button below to open the Stage 1A Assignment in the Onshape Classroom.
+2. **Link Your Document:** Ensure your exercise document from Step 1 is correctly linked or created within this assignment.
+3. **Submit for Review:** Click the **Submit** button in Onshape. This notifies the CAD mentors that your sketches and assemblies are ready for a design review.
+
+[Submit Stage 1A Assignment :material-share-variant:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef931a9b2068bc9afc4c2b){ .md-button .md-button--primary target="_blank" }
 
 ---
 
 ### 🎉 Module Complete!
 Once your mentor has checked your sketches and approved your work, you are ready to learn about designing moving parts!
-
-[Go to Next Module: Stage 1B (Power Transmissions)](stage1B.md){ .md-button .md-button--primary }
