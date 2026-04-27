@@ -1,6 +1,6 @@
 # {{ m1_3_4 }}
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 You have reached the end of this module. 
 
 [Go to Next Module 1.4: Basic Fabrication](../fabrication/fabricationbasic.md){ .md-button .md-button--primary }
