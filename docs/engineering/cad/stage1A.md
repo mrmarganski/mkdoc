@@ -7,14 +7,14 @@ For this module, you will be completing a three-part exercise on FRCDesign.org. 
 
 ---
 
-## 🚦 Step 1: Complete the Training Exercises
+🚦 Step 1: Complete the Training Exercises
 
 Work through the three sections below in order. Make sure you read the instructions carefully and follow along in your own Onshape window. 
 
 !!! tip "Navigating the Course"
     All links below will open in a new browser tab so you don't lose your place on this page!
 
-### 🚀 Stage 1A: Learning Modules
+🚀 Stage 1A: Learning Modules
 
 - <span style="color: var(--md-primary-fg-color);">:material-cog:</span> **Part 1: Studio Fundamentals & Setup**
     Before you draw, you need to understand how Onshape handles sketches, planes, and document organization.
@@ -30,7 +30,7 @@ Work through the three sections below in order. Make sure you read the instructi
 
 ---
 
-## ✅ Step 2: The Return Checklist
+✅ Step 2: The Return Checklist
 
 Welcome back! By the end of those three sections, you should have a solid grasp on the absolute basics of CAD. 
 
@@ -44,7 +44,7 @@ Welcome back! By the end of those three sections, you should have a solid grasp 
 
 ---
 
-## 📸 Step 3: Module Deliverable
+📸 Step 3: Module Deliverable
 
 To prove you have mastered these fundamentals, you must submit your work through the official 2064 Onshape Classroom assignment.
 
@@ -56,5 +56,5 @@ To prove you have mastered these fundamentals, you must submit your work through
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 Once your mentor has checked your sketches and approved your work, you are ready to learn about designing moving parts!
