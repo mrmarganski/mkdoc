@@ -1,5 +1,5 @@
 # 🐾 Welcome to The Panther Project
-**FRC Team 2064**
+**{{ team_name }}**
 
 ![Team 2064 Logo](img/LogoWith2064.png){ align=left width="200" }
 
