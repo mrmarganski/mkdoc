@@ -12,6 +12,17 @@ mod_1_3: "Module 1.3: Safety Certification"
 mod_1_4: "Module 1.4: Basic Fabrication"
 mod_1_5: "Module 1.5: XRP Starter Bot"
 
+# Phase 2 Pathway Headers
+path_2_1: "Pathway 2.1: Advanced CAD"
+path_2_2: "Pathway 2.2: Advanced Fabrication"
+path_2_3: "Pathway 2.3: Software & Controls"
+path_2_4: "Pathway 2.4: Media & NEMO"
+
+# Phase 3 Pathway Headers
+path_3_1: "Pathway 3.1: Strategy"
+path_3_2: "Pathway 3.2: Pit Crew"
+path_3_3: "Pathway 3.3: Project Management"
+
 # Phase 1: Rookie Foundations
 m1_1_1: "1.1.1 - Intro to FIRST"
 m1_1_2: "1.1.2 - Bot Basics"
