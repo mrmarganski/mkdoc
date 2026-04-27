@@ -1,4 +1,4 @@
-# 🏭 Pathway 2.2: Advanced Fabrication (Levels 3 & 4)
+# {{ path_2_2 }}
 > **Objective:** Master heavy stationary machinery and computer-controlled digital fabrication tools to produce complex, precision parts for the competition robot.
 
 Welcome to Phase 2: Advanced Fabrication. If you are reading this, you have successfully passed your Rookie onboarding (Levels 1 & 2) and have chosen to specialize in building the machine. 
