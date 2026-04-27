@@ -10,7 +10,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
 ---
 
-## 🗺️ Your Training Modules
+🗺️ Your Training Modules
 
 <div class="grid cards" markdown>
 
