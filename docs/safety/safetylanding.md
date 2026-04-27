@@ -1,4 +1,4 @@
-# 🛡️ Safety & Certification
+# {{ p1_safe_ov }}
 > Your safety is our #1 priority. Complete these modules to earn your shop credentials.
 
 !!!danger
