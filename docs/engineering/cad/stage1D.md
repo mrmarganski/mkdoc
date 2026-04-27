@@ -3,56 +3,59 @@
 
 So far, you have only modeled isolated parts and simple gearboxes. In this stage, you will dive right into designing for a real robot. You will learn the exact workflow Team 2064 uses to manage complex, multi-part assemblies without the CAD model breaking. 
 
-For this module, you will be completing the Swerve Drivebase project on FRCDesign.org. Keep this tab open, work through the sections below, and then return here to submit your work!
+---
+
+🛠️ Step 1: Access Your Workbench
+
+This project requires a specific set of master layout templates and pre-modeled scoring mechanisms (elevators/intakes). You must work within the official classroom workbench to ensure these external assets load correctly.
+
+1. **Enter the Classroom:** Click the button below to open the Stage 1D Workbench.
+2. **Launch Your Workspace:** Use the portal to open or generate your specific project document. This document will serve as your "Master Assembly" for the entire drivebase project.
+
+[Enter Stage 1D Workbench :material-truck-fast-outline:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69efb4132cc81a32f19fa461){ .md-button .md-button--primary target="_blank" }
 
 ---
 
-🚦 Step 1: Complete the Training Project
+🚦 Step 2: Complete the Training Project
 
-Work through the sections below in order. Make sure you read the theory sections carefully before jumping into the CAD—Top-Down design is the most important CAD skill you will learn!
+Now that your project document is open, work through the sections below in order. Read the theory sections carefully before jumping into the CAD—Top-Down design is the most important CAD skill you will learn for competition season.
 
 !!! tip "Navigating the Course"
     All links below will open in a new browser tab so you don't lose your place on this page!
 
-* **Part 1: The Theory** Read these two sections to understand what Top-Down Design is and what you will be building.
+* **Part 1: The Theory** Read these to understand the "Master Sketch" philosophy.
     * [Read: Top Down Design :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1D/top-down-design/){ target="_blank" }
     * [Read: Project Overview :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1D/project-overview/){ target="_blank" }
 
-* **Part 2: The Drivebase Project** Follow the tutorials to model the chassis tubes, add the swerve modules, and assemble the base.
+* **Part 2: The Drivebase Project** Follow the tutorials to model the chassis tubes and assemble the base inside your Step 1 document.
     * [Go to Step 1: Layout Sketch :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1D/layout-sketch/){ .md-button target="_blank" }
     * [Go to Step 2: Part Studio :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1D/part-studio/){ .md-button target="_blank" }
     * [Go to Step 3: Assembly :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1D/assembly/){ .md-button target="_blank" }
 
-* **Part 3: Final Integration** Add the bellypan, bumpers, and a massive pre-modeled elevator mechanism to your drivebase.
+* **Part 3: Final Integration** Add the bellypan, bumpers, and the scoring mechanism to your drivebase.
     * [Go to Step 4: Adding Components :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1D/adding-components/){ .md-button target="_blank" }
     * [Go to Step 5: Top Level Assembly :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1D/top-level-assembly/){ .md-button target="_blank" }
 
 ---
 
-✅ Step 2: The Return Checklist
+✅ Step 3: The Return Checklist
 
-Welcome back! You just modeled the foundation of a highly competitive modern FRC robot using professional design techniques. 
+Welcome back! You just modeled the foundation of a modern FRC robot. Verify your work against our team standards:
 
-**Verify your CAD standards before submitting:**
-
-- [ ] Do you understand why we sketch the entire robot layout in one Part Studio before making individual parts?
-- [ ] Is your drivetrain completely driven by your master Layout Sketch?
-- [ ] Did you properly group and mate the COTS swerve modules to your frame?
-- [ ] Is your Top-Level Assembly organized and free of mating errors?
+- [ ] My drivetrain frame is 100% driven by the master **Layout Sketch**.
+- [ ] If I change one dimension in the Layout Sketch, the tubes and module positions update automatically.
+- [ ] The COTS Swerve Modules are properly mated and organized in sub-assemblies.
+- [ ] The Top-Level Assembly is free of red/yellow mating errors.
 
 ---
 
-📸 Step 3: Module Deliverable
+📸 Step 4: Submission & Review
 
-To prove you have mastered Top-Down Design, you must submit your completed Swerve Drivebase document for a mentor to review.
-
-1. **Name your file:** Ensure your Onshape Document is named clearly (e.g., `FirstLast_Stage1D_Swerve`).
-2. **Submit your work:** Attach and submit your completed document to the designated assignment location within the Team 2064 Onshape Training Course.
-3. **Notify a Mentor:** Let a CAD mentor or your Subteam Lead know your drivebase is ready for review.
+To finalize this module:
+1. **Submit in Onshape:** Click the **Submit** button inside the Onshape Classroom interface.
+2. **Design Review:** Notify a CAD mentor. They will check your layout constraints and verify that the elevator mechanism is correctly integrated into your chassis.
 
 ---
 
 🎉 Module Complete!
-Once your mentor has checked your constraints and approved your drivebase, you are ready to learn the final subsystem workflow!
-
-[Go to Next Module: Stage 1E (Subsystem Workflow)](stage1E.md){ .md-button .md-button--primary }
+Once your drivebase is approved, you are ready to learn the final workflow for specific subsystems.
