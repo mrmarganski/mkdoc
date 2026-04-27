@@ -34,13 +34,13 @@ Welcome back! Before you move on to learning how to actually sketch and design p
 
 ## 📸 Step 3: Module Deliverable
 
-To prove you have set up your workspace correctly, you need to create a document in the FRC 2064 Team folder for your work.
+To prove you have set up your workspace correctly and to prepare for the next stages, you need to access your official assignment document in the 2064 Onshape Classroom. 
 
-1. **Find the Team Folder:** Navigate to the 2064 Team Onshape account. *(Ask a mentor to add you if you cannot locate it).*
-2. **Locate your Cohort:** Find the main folder that matches your high school graduation year.
-3. **Create your Folder:** Create a new folder with your name inside your graduation year folder.
-4. **Create a Document:** Create a new blank Onshape Document inside your personal folder. You will use this location to create any FRC-related documents for the team.
-5. **Notify a Mentor:** Show this blank document to a mentor to ensure it was created in the correct place.
+1. **Access the Assignment:** Click the button below to open the Onshape Assignment portal.
+2. **Open Your Working Document:** Use the interface to open or generate your specific working document for this lesson. You will use this exact document alongside the FRCDesign tutorials to complete your CAD tasks.
+3. **Submit Your Progress:** Once your workspace is verified and your FeatureScripts are loaded, submit the assignment through the Onshape classroom to notify a mentor.
+
+[Open Onshape Assignment :material-cube-outline:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef9260a120849efc8bbfa0){ .md-button .md-button--primary target="_blank" }
 
 ---
 
