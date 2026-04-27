@@ -31,4 +31,4 @@ jobs:
           REMOTE_USER: brimar70
           SOURCE: "site/"
           TARGET: "/home/brimar70/frc2064.com/mkdoc"
-          ARGS: "-rlgoDzvc --delete"
+          ARGS: "-rlgoDzvc --delete -o IdentitiesOnly=yes"
