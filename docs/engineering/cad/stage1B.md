@@ -36,15 +36,15 @@ Welcome back! That was a massive module, but you just learned the core mechanics
 
 ---
 
-📸 Step 3: Module Deliverable
+📸 Step 3: Access Your Workbench
 
-To prove you have mastered power transmissions, you must submit your completed gearbox exercises through the official 2064 Onshape Classroom.
+Modeling gearboxes requires specific library parts (motors, hex shafts, and gears). Use the classroom workbench to access the document where these parts are pre-loaded or organized for your sub-assembly work.
 
-1. **Access the Assignment:** Click the button below to open the Stage 1B Assignment portal.
-2. **Link Your Working Doc:** Ensure the document containing your three gearbox models (Gear, Belt, and Chain) is attached to the assignment.
-3. **Submit for Design Review:** Click **Submit**. A mentor will review your gear ratios, belt tensioning, and shaft spacing to ensure they are competition-ready.
+1. **Enter the Classroom:** Click the button below to open the Stage 1B Workbench.
+2. **Model Your Systems:** Use this document to build your Gear, Belt, and Chain drive systems. 
+3. **Design Review:** When you finish a gearbox, leave it in this document. Mentors will use this link to check your gear ratios and center-to-center distances during the next design review.
 
-[Submit Stage 1B Assignment :material-engine-outline:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef9353a120849efc8c7285){ .md-button .md-button--primary target="_blank" }
+[Enter Stage 1B Workbench :material-engine-outline:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef9353a120849efc8c7285){ .md-button .md-button--primary target="_blank" }
 
 ---
 
