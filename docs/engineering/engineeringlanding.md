@@ -21,7 +21,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
 <div class="grid cards" markdown>
 
--   <span style="color: var(--md-primary-fg-color);">:material-cube-outline:</span> **Pathway 2.1: Mechanical & CAD**
+-   <span style="color: var(--md-primary-fg-color);">:material-cube-outline:</span> {{ path_2_1 }}
 
     ---
 
