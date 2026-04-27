@@ -1,4 +1,4 @@
-# 📸 Media & Non-Engineering Pathways (NEMO)
+# {{ path_2_4 }}
 > Our team is more than just a robot. Master the tools and skills needed to build the Team 2064 brand.
 
 ---
