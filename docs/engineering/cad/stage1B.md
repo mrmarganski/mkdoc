@@ -7,7 +7,7 @@ For this module, keep this tab open and work your way through the FRCDesign.org 
 
 ---
 
-## 🚦 Step 1: Complete the Training Exercises
+🚦 Step 1: Complete the Training Exercises
 
 Work through the four sections below in order. Make sure you read the theory sections carefully before attempting the exercises—FRC uses very specific hardware (like hex shafts) that you need to understand!
 
@@ -19,7 +19,7 @@ Work through the four sections below in order. Make sure you read the theory sec
 
 ---
 
-## ✅ Step 2: The Return Checklist
+✅ Step 2: The Return Checklist
 
 Welcome back! That was a massive module, but you just learned the core mechanics of how almost every FRC robot works.
 
@@ -29,7 +29,7 @@ Welcome back! That was a massive module, but you just learned the core mechanics
 
 ---
 
-## 📸 Step 3: Module Deliverable
+📸 Step 3: Module Deliverable
 
 To prove you have mastered power transmissions, you must submit your completed gearboxes for a mentor to review.
 
@@ -39,7 +39,7 @@ To prove you have mastered power transmissions, you must submit your completed g
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 Once your mentor has checked your gear ratios and approved your work, you are ready to model practice mechanisms!
 
 [Go to Next Module: Stage 1C (Practice Mechanisms)](stage1C.md){ .md-button .md-button--primary }
