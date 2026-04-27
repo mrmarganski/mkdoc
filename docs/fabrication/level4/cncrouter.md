@@ -1,4 +1,4 @@
-# 🛠️ Stepcraft Q.408 CNC: Beginner's Guide
+# {{ m2_2_7 }}
 *A step-by-step tutorial for Full-Sheet Machining.*
 
 !!! info "Target Audience"
