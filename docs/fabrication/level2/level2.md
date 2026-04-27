@@ -1,4 +1,4 @@
-# 🟡 Level 2: Power Tools & Basics Overview
+# {{ p1_l2_ov }}
 > **Objective:** Transition from hand tools to electrically powered equipment, including handheld power tools, benchtop machinery, and 3D printers, with a strict focus on operational safety.
 
 Welcome to Level 2 Fabrication. You have proven you know how to measure twice, turn a wrench, and respect the workspace in Level 1. Now, we add electricity. 
