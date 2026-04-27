@@ -30,53 +30,55 @@ Welcome to The Panther Project! Before you can build a 125-pound competition rob
     ??? abstract "📐 Module 1.2: Basic CAD"
         *Gain an understanding of the Onshape software for designing parts of a robot.*
         
-        * **[1.2.1 - CAD Overview](engineering/cad/CAD.md):** Welcome to mechanical design.
-        * **[1.2.2 - Onshape Stage 0 (What is CAD)](engineering/cad/stage0.md):** General information on CAD and Onshape setup.
-        * **[1.2.3 - Onshape Stage 1A (Fundamentals)](engineering/cad/stage1A.md):** Sketching, extruding, and multi-part studios.
-        * **[1.2.4 - Onshape Stage 1B (Power Transmissions)](engineering/cad/stage1B.md):** Fundamentals of power transmissions in CAD.
-        * **[1.2.5 - Onshape Stage 1C (Practice Mechanisms)](engineering/cad/stage1C.md):** Model different mechanisms to practice execution.
+        * **[CAD Overview](engineering/cad/CAD.md):** Welcome to mechanical design.
+        * **[1.2.1 - Onshape Stage 0 (What is CAD)](engineering/cad/stage0.md):** General information on CAD and Onshape setup.
+        * **[1.2.2 - Onshape Stage 1A (Fundamentals)](engineering/cad/stage1A.md):** Sketching, extruding, and multi-part studios.
+        * **[1.2.3 - Onshape Stage 1B (Power Transmissions)](engineering/cad/stage1B.md):** Fundamentals of power transmissions in CAD.
+        * **[1.2.4 - Onshape Stage 1C (Practice Mechanisms)](engineering/cad/stage1C.md):** Model different mechanisms to practice execution.
 
     ??? abstract "🛡️ Module 1.3: Safety Certification"
         *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
         
-        * **[1.3.1 - Safety Introduction](safety/safetylanding.md):** Welcome to the shop.
-        * **[1.3.2 - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
-        * **[1.3.3 - Machine Safety Guidelines](safety/machinesafety.md):** Specific safety rules for general machines.
-        * **[1.3.4 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
-        * **[1.3.5 - Safety Practical](safety/safetypractical.md):** Physical demonstration of appropriate safety usage.
+        * **[Safety Introduction](safety/safetylanding.md):** Welcome to the shop.
+        * **[1.3.1 - General Safety Guidelines](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
+        * **[1.3.2 - Machine Safety Guidelines](safety/machinesafety.md):** Specific safety rules for general machines.
+        * **[1.3.3 - Certification Quiz](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
+        * **[1.3.4 - Safety Practical](safety/safetypractical.md):** Physical demonstration of appropriate safety usage.
     
     ??? abstract "🔨 Module 1.4: Basic Fabrication (Levels 1 & 2)" 
         *Master the fundamentals of hand tools, power tools, and shop organization.*
 
         * **Level 1: General Shop (Unpowered)**
-            * **[Workspace Organization](fabrication/level1/Closet.md):** Closet management and battery care.
-            * **[Fasteners](fabrication/level1/fasteners.md):** Learn about the hardware used on the robot. 
-            * **[Measuring Devices](fabrication/level1/measuring/measuringtools.md):** Calipers and tape measures.
-            * **[Hand Tools: Wrenches](fabrication/level1/handtools/Handtools.md) & [Pliers](fabrication/level1/handtools/pliers.md)**
-            * **[Wiring & Crimping](fabrication/level1/handtools/crimping.md):** Secure electrical connections.
-            * **[3D Printer Fundamentals](fabrication/level1/3dprinter.md)** Learn to export STEP files and prepare for 3D Printing basic models.
-            * **[Skill Check - Level 1](fabrication/level1/handtoolsquiz.md)** Show your understanding of Level 1 skills. 
+            * **[1.4.1 - Workspace Organization](fabrication/level1/Closet.md):** Closet management and battery care.
+            * **[1.4.2 - Fasteners](fabrication/level1/fasteners.md):** Learn about the hardware used on the robot. 
+            * **[1.4.3 - Measuring Devices](fabrication/level1/measuring/measuringtools.md):** Calipers and tape measures.
+            * **[1.4.4 - Hand Tools: Wrenches](fabrication/level1/handtools/Handtools.md):** Wrenches and allen wrenches
+            * **[1.4.5 - Pliers](fabrication/level1/handtools/pliers.md):** Pliers and other tools
+            * **[1.4.6 - Wiring & Crimping](fabrication/level1/handtools/crimping.md):** Secure electrical connections.
+            * **[1.4.7 - 3D Printer Fundamentals](fabrication/level1/3dprinter.md):** Learn to export STEP files and prepare for 3D Printing basic models.
+            * **[Skill Check - Level 1](fabrication/level1/handtoolsquiz.md):** Show your understanding of Level 1 skills. 
         * **Level 2: Power Tools**
-            * **[Cordless Drill](fabrication/level2/poweredhandtools/poweredtools.md) & [Cordless Saw](fabrication/level2/poweredhandtools/cordlesssaw.md)**
-            * **[Soldering Iron](fabrication/level2/powertools/soldering.md):** Permanent FRC electrical connections.
-            * **[Horizontal Bandsaw](fabrication/level2/stationary/horizontalsaw.md):** Basic stationary cutting.
-            * **[Skill Check - Level 2](fabrication/level2/powertoolsquiz.md)** Finish your level 2 Rookie fabrication pathway with this skill practical.
+            * **[1.4.8 - Cordless Drill](fabrication/level2/poweredhandtools/poweredtools.md):** Cordless drill explanation
+            * **[1.4.9 - Cordless Saw](fabrication/level2/poweredhandtools/cordlesssaw.md):** Overview of the cordless bandsaw
+            * **[1.4.10 - Soldering Iron](fabrication/level2/powertools/soldering.md):** Permanent FRC electrical connections.
+            * **[1.4.11 - Horizontal Bandsaw](fabrication/level2/stationary/horizontalsaw.md):** Basic stationary cutting.
+            * **[Skill Check - Level 2](fabrication/level2/powertoolsquiz.md):** Finish your level 2 Rookie fabrication pathway with this skill practical.
     
     ??? abstract "🤖 Module 1.5: XRP Starter Bot"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
         
         * **XRP Start (The Basics):**
-            * **[Build Guide](xrprobotics/module1/Build.md):** Chassis assembly.
-            * **[Firmware Installation](xrprobotics/module1/gettingtoknow.md)** Make your robot connect to VScode wirelessly for deploying JAVA.
-            * **[VSCode and WPILib](xrprobotics/module1/xrpwpilib.md):** Setting up the FRC programming environment.
-            * **[Command-Based Code](xrprobotics/module1/basicdriveXRP.md):** Writing Java to drive the XRP.
-            * **[Drive Challenge Skill Check](xrprobotics/module1/XRPdrivechallenge.md)** Demo your XRP can drive with and perform a simple auto you created!
+            * **[1.5.1 - Build Guide](xrprobotics/module1/Build.md):** Chassis assembly.
+            * **[1.5.2 - Firmware Installation](xrprobotics/module1/gettingtoknow.md)** Make your robot connect to VScode wirelessly for deploying JAVA.
+            * **[1.5.3 - VSCode and WPILib](xrprobotics/module1/xrpwpilib.md):** Setting up the FRC programming environment.
+            * **[1.5.4 - Command-Based Code](xrprobotics/module1/basicdriveXRP.md):** Writing Java to drive the XRP.
+            * **[1.5.5 - Drive Challenge Skill Check](xrprobotics/module1/XRPdrivechallenge.md)** Demo your XRP can drive with and perform a simple auto you created!
         * **XRP Advanced (Ping Pong Launcher):**
-            * **[Launcher Game Concepts](xrprobotics/module2/Ping-Pong-Launcher-Challenge.md)** Advanced ping pong challenge, simulating REBUILT season game small scale!
-            * **[Ping Pong Assembly](xrprobotics/module2/PingPongAssemble.md)** Steps to create ping pong bot.
-            * **[Launcher Wiring](xrprobotics/module2/wiringpingpongxrp.md)** Wiring Ping Pong Bot
-            * **[Launcher Code](xrprobotics/module2/pingpongcode.md)** Ping Pong robot code with Arduino
-            * **[Launcher Competition](xrprobotics/module2/PingPongCompetition.md)** Game rules and game manual.
+            * **[1.5.6 - Launcher Game Concepts](xrprobotics/module2/Ping-Pong-Launcher-Challenge.md)** Advanced ping pong challenge, simulating REBUILT season game small scale!
+            * **[1.5.7 - Ping Pong Assembly](xrprobotics/module2/PingPongAssemble.md)** Steps to create ping pong bot.
+            * **[1.5.8 - Launcher Wiring](xrprobotics/module2/wiringpingpongxrp.md)** Wiring Ping Pong Bot
+            * **[1.5.9 - Launcher Code](xrprobotics/module2/pingpongcode.md)** Ping Pong robot code with Arduino
+            * **[1.5.10 - Launcher Competition](xrprobotics/module2/PingPongCompetition.md)** Game rules and game manual.
 
 ---
 
@@ -98,15 +100,15 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
         
         * **Level 3: Stationary Equipment:**
-            * **[3D Printing Workflow](fabrication/level3/3dprinting2.md):** Slicing, filaments, and SLA.
-            * **[Bandsaw Operations](fabrication/level3/bandsaw.md)** Cut contours out of raw material and learn what to do and what not to do with this tool.
-            * **[Lathe Operations](fabrication/level3/lathe.md):** Turning shafts and cutting grooves.
-            * **[Milling Machine Basics](fabrication/level3/millingmachine.md):** Squaring stock and edge finding.
-            * **[Skill Check - Level 3](fabrication/level3/machinelessons.md)**
+            * **[2.2.1 - 3D Printing Workflow](fabrication/level3/3dprinting2.md):** Slicing, filaments, and SLA.
+            * **[2.2.2 - Bandsaw Operations](fabrication/level3/bandsaw.md)** Cut contours out of raw material and learn what to do and what not to do with this tool.
+            * **[2.2.3 - Lathe Operations](fabrication/level3/lathe.md):** Turning shafts and cutting grooves.
+            * **[2.2.4 - Milling Machine Basics](fabrication/level3/millingmachine.md):** Squaring stock and edge finding.
+            * **[2.2.5 - Skill Check - Level 3](fabrication/level3/machinelessons.md)**
         * **Level 4: Digital Fabrication:**
-            * **[Laser Engraver Workflow](fabrication/level4/laserengraver.md):** Vector cutting and etching.
-            * **[CNC Router Operations](fabrication/level4/cncrouter.md):** CAM setups, feeds, and speeds.
-            * **[Skill Check - Level 4](fabrication/level4/machinelessonsadvanced.md)**
+            * **[2.2.6 - Laser Engraver Workflow](fabrication/level4/laserengraver.md):** Vector cutting and etching.
+            * **[2.2.7 - CNC Router Operations](fabrication/level4/cncrouter.md):** CAM setups, feeds, and speeds.
+            * **[2.2.8 - Skill Check - Level 4](fabrication/level4/machinelessonsadvanced.md)**
 
     ??? abstract "💻 Pathway 2.3: Software & Controls"
         *Bring the robot to life. Master Java, autonomous routines, and advanced sensor integration.*
@@ -120,13 +122,13 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
     ??? abstract "📸 Pathway 2.4: NEMO & Media"
         *Non-Engineering Member Opportunities (NEMO). Create media, manage PR, and build the brand.*
         
-        * **[2.4.1 - NEMO Overview](media/medialanding.md):** Welcome to the media and business team.
-        * **[2.4.2 - Branding Guidelines](media/branding.md):** Official fonts, hex codes, and uniform guidelines.
-        * **[2.4.3 - Adobe Photoshop](media/photoshop.md):** Photo editing and social media asset creation.
-        * **[2.4.4 - Adobe Illustrator](media/illustrator.md):** Vector design for banners and apparel.
-        * **[2.4.5 - Cricut Vinyl Cutter](media/cricut.md):** Cutting decals and applying transfer tape.
-        * **[2.4.6 - Button Maker Operations](media/buttonmaker.md):** Designing and pressing team buttons.
-        * **[2.4.7 - Public Speaking](media/publicspeaking.md):** Presentation prep and pit speaking for the Impact Award.
+        * **[NEMO Overview](media/medialanding.md):** Welcome to the media and business team.
+        * **[2.4.1 - Branding Guidelines](media/branding.md):** Official fonts, hex codes, and uniform guidelines.
+        * **[2.4.2 - Adobe Photoshop](media/photoshop.md):** Photo editing and social media asset creation.
+        * **[2.4.3 - Adobe Illustrator](media/illustrator.md):** Vector design for banners and apparel.
+        * **[2.4.4 - Cricut Vinyl Cutter](media/cricut.md):** Cutting decals and applying transfer tape.
+        * **[2.4.5 - Button Maker Operations](media/buttonmaker.md):** Designing and pressing team buttons.
+        * **[2.4.6 - Public Speaking](media/publicspeaking.md):** Presentation prep and pit speaking for the Impact Award.
 
 ---
 
