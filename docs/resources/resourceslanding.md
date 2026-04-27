@@ -26,9 +26,9 @@
 
     ---
 
-    Review the outline of modules for you to train on skills and identify next steps.
+    Review all of the available training materials at a glance.
     
-    [Modules Overview](outline.md){ .md-button }
+    [Quick Lookup](outline.md){ .md-button }
 
 </div>
 
