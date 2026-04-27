@@ -1,4 +1,4 @@
-# 🛠️ Onshape Stage 1C: Practice Mechanisms
+# {{ m1_2_4 }}
 > **Objective:** Put your skills to the test! Model a variety of isolated FRC mechanisms to master layout sketches, consistent origins, and COTS integration.
 
 Welcome to the final stage of your basic CAD training. You know how to sketch, extrude, and transfer power. Now, you are going to practice modeling real robot mechanisms. 
