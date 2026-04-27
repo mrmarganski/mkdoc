@@ -44,15 +44,15 @@ Welcome back! By the end of those three sections, you should have a solid grasp 
 
 ---
 
-📸 Step 3: Module Deliverable
+📸 Step 3: Access Your Workbench
 
-To prove you have mastered these fundamentals, you must submit your work through the official 2064 Onshape Classroom assignment.
+This module requires a specific set of starter planes and parts. You must work within the official classroom document to ensure your mates and constraints are visible to the design leads.
 
-1. **Access the Portal:** Click the button below to open the Stage 1A Assignment in the Onshape Classroom.
-2. **Link Your Document:** Ensure your exercise document from Step 1 is correctly linked or created within this assignment.
-3. **Submit for Review:** Click the **Submit** button in Onshape. This notifies the CAD mentors that your sketches and assemblies are ready for a design review.
+1. **Enter the Classroom:** Click the button below to open the Stage 1A Assignment portal.
+2. **Access Starter Files:** Launch your document via the classroom link. This document is where you will perform the sketching and assembly exercises from Step 1.
+3. **Real-Time Feedback:** Working in this file allows mentors to drop comments directly on your sketches as you build them.
 
-[Submit Stage 1A Assignment :material-share-variant:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef931a9b2068bc9afc4c2b){ .md-button .md-button--primary target="_blank" }
+[Enter Stage 1A Workbench :material-share-variant:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef931a9b2068bc9afc4c2b){ .md-button .md-button--primary target="_blank" }
 
 ---
 
