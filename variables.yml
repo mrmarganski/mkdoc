@@ -1,5 +1,98 @@
 team_name: "The Panther Project - FRC Team 2064"
-season_year: "2026"
+season_year: "2026-2027"
+game_name: "REBUILT"
 lead_mentor: "Mr. Marganski"
-wpilib_version: "2026.1.1"
-shop_room: "Room 124"
+shop_room: "Room 121"
+tech_room: "Room 124"
+
+# Phase 1: Rookie Foundations
+m1_1_1: "1.1.1 - Intro to FIRST"
+m1_1_2: "1.1.2 - Bot Basics"
+m1_1_3: "1.1.3 - Game Analysis"
+m1_1_4: "1.1.4 - Engineering Design Process"
+m1_1_5: "1.1.5 - Build Season"
+m1_1_6: "1.1.6 - Power On"
+
+# Module 1.2: Basic CAD
+m1_2_1: "1.2.1 - Stage 0 (New to CAD)"
+m1_2_2: "1.2.2 - Stage 1A (Fundamentals)"
+m1_2_3: "1.2.3 - Stage 1B (Power Transmissions)"
+m1_2_4: "1.2.4 - Stage 1C (Practice Mechanisms)"
+
+# Module 1.3: Safety
+m1_3_1: "1.3.1 - General Safety"
+m1_3_2: "1.3.2 - Machine Safety"
+m1_3_3: "1.3.3 - Certification Quiz"
+m1_3_4: "1.3.4 - Safety Practical"
+
+# Module 1.4: Fabrication
+m1_4_1: "1.4.1 - Workspace Organization"
+m1_4_2: "1.4.2 - Fasteners"
+m1_4_3: "1.4.3 - Measuring Devices"
+m1_4_4: "1.4.4 - Wrenches"
+m1_4_5: "1.4.5 - Pliers"
+m1_4_6: "1.4.6 - Wiring & Crimping"
+m1_4_7: "1.4.7 - 3D Printer"
+m1_4_8: "1.4.8 - Skill Check - Level 01"
+m1_4_9: "1.4.9 - Cordless Drill"
+m1_4_10: "1.4.10 - Cordless Saw"
+m1_4_11: "1.4.11 - Soldering Iron"
+m1_4_12: "1.4.12 - Horizontal Bandsaw"
+m1_4_13: "1.4.13 - Skill Check - Level 02"
+
+# Module 1.5: XRP
+m1_5_1: "1.5.1 - Build Guide"
+m1_5_2: "1.5.2 - XRP Firmware Installation"
+m1_5_3: "1.5.3 - VSCode and WPIlib"
+m1_5_4: "1.5.4 - Command-Based Code"
+m1_5_5: "1.5.5 - Skill Check - Drive Challenge"
+m1_5_6: "1.5.6 - Launcher Game Concepts"
+m1_5_7: "1.5.7 - Ping Pong Assembly"
+m1_5_8: "1.5.8 - Launcher Wiring"
+m1_5_9: "1.5.9 - Launcher Code"
+m1_5_10: "1.5.10 - Launcher Competition"
+
+# Phase 2: Specialization
+m2_1_1: "2.1.1 - Stage 1D (Design Methodology)"
+m2_1_2: "2.1.2 - Stage 1E (Subsystem Workflow)"
+m2_1_3: "2.1.3 - Skill Check - CAD Course"
+
+m2_2_1: "2.2.1 - 3D Printing Workflow"
+m2_2_2: "2.2.2 - Bandsaw Operations"
+m2_2_3: "2.2.3 - Lathe Operations"
+m2_2_4: "2.2.4 - Milling Machine Basics"
+m2_2_5: "2.2.5 - Skill Check - Level 3"
+m2_2_6: "2.2.6 - Laser Engraver Workflow"
+m2_2_7: "2.2.7 - CNC Router Operations"
+m2_2_8: "2.2.8 - Skill Check - Level 4"
+
+m2_3_1: "2.3.1 - Java & WPILib Basics"
+m2_3_2: "2.3.2 - Sensor Integration"
+m2_3_3: "2.3.3 - Autonomous Routines"
+m2_3_4: "2.3.4 - Vision Processing"
+m2_3_5: "2.3.5 - PID Control & Tuning"
+
+m2_4_1: "2.4.1 - Branding Guidelines"
+m2_4_2: "2.4.2 - Adobe Photoshop"
+m2_4_3: "2.4.3 - Adobe Illustrator"
+m2_4_4: "2.4.4 - Cricut Vinyl Cutter"
+m2_4_5: "2.4.5 - Button Maker Operations"
+m2_4_6: "2.4.6 - Public Speaking"
+
+# Phase 3: Leadership
+m3_1_1: "3.1.1 - Game Manual Deep Dive"
+m3_1_2: "3.1.2 - Scouting Architecture"
+m3_1_3: "3.1.3 - Data Visualization"
+m3_1_4: "3.1.4 - Alliance Selection Theory"
+
+m3_2_1: "3.2.1 - Packing Manifest"
+m3_2_2: "3.2.2 - Triage & Troubleshooting"
+m3_2_3: "3.2.3 - The Inspection Process"
+m3_2_4: "3.2.4 - Field Connectivity"
+m3_2_5: "3.2.5 - Bumper Construction"
+
+m3_3_1: "3.3.1 - FRC Timeline"
+m3_3_2: "3.3.2 - Awards"
+m3_3_3: "3.3.3 - Design Review"
+m3_3_4: "3.3.4 - Budgeting & POs"
+m3_3_5: "3.3.5 - The Art of Mentorship"
