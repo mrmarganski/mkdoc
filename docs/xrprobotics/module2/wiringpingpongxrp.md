@@ -17,7 +17,7 @@
 
 ---
 
-## 🧠 Method & Reasoning
+🧠 Method & Reasoning
 The standard XRP motors are too slow for shooting a ping pong ball, and the XRP board doesn't have enough motor ports for our design. We solve this by adding custom electronics:
 
 * **1. The "Smart Controller" (Arduino Pro Micro):** The Arduino takes the single command from WPILib (e.g., "Shoot at 80% speed"), does the math, and translates it into the specific dual-pin hardware signals needed by the motor driver.
@@ -30,7 +30,7 @@ The standard XRP motors are too slow for shooting a ping pong ball, and the XRP 
 
 ---
 
-## 🔌 Master Wiring Table
+🔌 Master Wiring Table
 *Follow this table precisely. Ensure your robot is powered OFF and the battery is unplugged before making these connections.*
 
 | Connection Group | From (Component : Pin) | To (Component : Pin) | Logic/Voltage | Purpose |
