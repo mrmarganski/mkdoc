@@ -46,5 +46,3 @@ To prove you have set up your workspace correctly, you need to create a document
 
 ### 🎉 Ready to start drawing?
 Once your mentor has approved your setup, you are ready to move on to your first actual CAD lesson!
-
-[Go to Next Module: Stage 1A (Fundamentals)](stage1A.md){ .md-button .md-button--primary }
