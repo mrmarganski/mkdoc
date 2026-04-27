@@ -20,7 +20,7 @@ Welcome to {{ team_name }}! Before you can build a 125-pound competition robot, 
 
 **[Start Here: Welcome to Team 2064!](frc/rookielanding.md){ .md-button }**
 
-??? info "Click to view Phase 1 Modules & Skills"
+??? info "Click to view {{ phase_1_title }} Modules & Skills"
 
     ??? abstract "{{ mod_1_1 }}" 
         *Learn basic tasks required for FRC involvement and understanding.*
@@ -72,13 +72,13 @@ Welcome to {{ team_name }}! Before you can build a 125-pound competition robot, 
     ??? abstract "{{ mod_1_5 }}"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
         
-        * **XRP Start (The Basics):**
+        * **{{ p1_xrp_start }}:**
             * **[{{ m1_5_1 }}](xrprobotics/module1/Build.md):** Chassis assembly.
             * **[{{ m1_5_2 }}](xrprobotics/module1/gettingtoknow.md):** Connection and firmware setup.
             * **[{{ m1_5_3 }}](xrprobotics/module1/xrpwpilib.md):** Setting up the FRC programming environment.
             * **[{{ m1_5_4 }}](xrprobotics/module1/basicdriveXRP.md):** Writing Java to drive the XRP.
             * **[{{ m1_5_5 }}](xrprobotics/module1/XRPdrivechallenge.md):** Driving and autonomous skill check.
-        * **XRP Advanced (Ping Pong Launcher):**
+        * **{{ p1_xrp_adv }}:**
             * **[{{ m1_5_6 }}](xrprobotics/module2/Ping-Pong-Launcher-Challenge.md):** Advanced small-scale game simulation.
             * **[{{ m1_5_7 }}](xrprobotics/module2/PingPongAssemble.md):** Steps to create ping pong bot.
             * **[{{ m1_5_8 }}](xrprobotics/module2/wiringpingpongxrp.md):** Wiring the Ping Pong Bot.
@@ -94,28 +94,28 @@ An FRC team is built like a small engineering firm. Phase 2 is where you choose 
 
 ??? info "Click to view {{ phase_2_title }}"
 
-    ??? abstract "📐 Pathway 2.1: Advanced Mechanical & CAD"
+    ??? abstract "📐 {{ path_2_1 }}"
         *Design the machine. Master Onshape, mechanisms, and the Engineering Design Process.*
         
         * **[{{ m2_1_1 }}](engineering/cad/stage1D.md):** Top-down design and advanced assemblies.
         * **[{{ m2_1_2 }}](engineering/cad/stage1E.md):** Typical workflow when modeling a subsystem.
         * **[{{ m2_1_3 }}](engineering/cad/cadonshapecourse.md):** Your final CAD assessment.
         
-    ??? abstract "🏭 Pathway 2.2: Advanced Fabrication (Levels 3 & 4)"
+    ??? abstract "🏭 {{ path_2_2 }}"
         *Build the machine. Safely operate heavy precision machinery and digital fabrication tools.*
         
-        * **Level 3: Stationary Equipment:**
+        * **{{ p2_l3_ov }}:**
             * **[{{ m2_2_1 }}](fabrication/level3/3dprinting2.md):** Slicing, filaments, and SLA.
             * **[{{ m2_2_2 }}](fabrication/level3/bandsaw.md):** Manual contour cutting.
             * **[{{ m2_2_3 }}](fabrication/level3/lathe.md):** Turning shafts and cutting grooves.
             * **[{{ m2_2_4 }}](fabrication/level3/millingmachine.md):** Squaring stock and edge finding.
             * **[{{ m2_2_5 }}](fabrication/level3/machinelessons.md):** Level 3 Skill Check.
-        * **Level 4: Digital Fabrication:**
+        * **{{ p2_l4_ov }}:**
             * **[{{ m2_2_6 }}](fabrication/level4/laserengraver.md):** Vector cutting and etching.
             * **[{{ m2_2_7 }}](fabrication/level4/cncrouter.md):** CAM setups, feeds, and speeds.
             * **[{{ m2_2_8 }}](fabrication/level4/machinelessonsadvanced.md):** Level 4 Skill Check.
 
-    ??? abstract "💻 Pathway 2.3: Software & Controls"
+    ??? abstract "💻 {{ path_2_3 }}"
         *Bring the robot to life. Master Java, autonomous routines, and advanced sensor integration.*
         
         * **[{{ m2_3_1 }}](engineering/programming/WPIlib.md):** Subsystems, commands, and motor controller APIs.
@@ -124,10 +124,10 @@ An FRC team is built like a small engineering firm. Phase 2 is where you choose 
         * **[{{ m2_3_4 }}](engineering/programming/vision.md):** Tuning pipelines using PhotonVision or Limelight.
         * **[{{ m2_3_5 }}](engineering/programming/advancedjava.md):** Making mechanisms move quickly and stop accurately.
 
-    ??? abstract "📸 Pathway 2.4: NEMO & Media"
+    ??? abstract "📸 {{ path_2_4 }}"
         *Non-Engineering Member Opportunities. Create media, manage PR, and build the brand.*
         
-        * **[NEMO Overview](media/medialanding.md):** Welcome to the media and business team.
+        * **[{{ p2_home }}](media/medialanding.md):** Welcome to the media and business team.
         * **[{{ m2_4_1 }}](media/branding.md):** Official fonts, hex codes, and uniform guidelines.
         * **[{{ m2_4_2 }}](media/photoshop.md):** Photo editing and social media asset creation.
         * **[{{ m2_4_3 }}](media/illustrator.md):** Vector design for banners and apparel.
@@ -144,7 +144,7 @@ Phase 3 is reserved for veteran members, subteam leads, and the drive team. Thes
 
 ??? info "Click to view {{ phase_3_title }}"
 
-    ??? abstract "📊 Pathway 3.1: Strategy & Data Analytics"
+    ??? abstract "📊 {{ path_3_1 }}"
         *Taking the game from the shop to the field. Master the data required to win events.*
         
         * **[{{ m3_1_1 }}](strategy/game-manual.md):** How to read, interpret, and exploit the rules.
@@ -152,7 +152,7 @@ Phase 3 is reserved for veteran members, subteam leads, and the drive team. Thes
         * **[{{ m3_1_3 }}](strategy/data-viz.md):** Creating pit dashboards for the Drive Team.
         * **[{{ m3_1_4 }}](strategy/alliance-selection.md):** Calculating EPA, OPR, and building pick-lists.
 
-    ??? abstract "🏎️ Pathway 3.2: Pit Crew & Event Operations"
+    ??? abstract "🏎️ {{ path_3_2 }}"
         *Executing under pressure. These classes train the elite members who keep the robot alive.*
         
         * **[{{ m3_2_1 }}](competition/packing.md):** Managing battery carts and pit checklists.
@@ -161,7 +161,7 @@ Phase 3 is reserved for veteran members, subteam leads, and the drive team. Thes
         * **[{{ m3_2_4 }}](competition/field-checks.md):** Verifying the driver station and staging protocols.
         * **[{{ m3_2_5 }}](engineering/bumpers.md):** Rules, fabric wrapping, and mounting.
 
-    ??? abstract "📋 Pathway 3.3: Project Management & Leadership"
+    ??? abstract "📋 {{ path_3_3 }}"
         *Running the team like an engineering firm. Required for all Captains and Subteam Leads.*
         
         * **[{{ m3_3_1 }}](leadership/timeline.md):** Managing build season milestones.
@@ -172,7 +172,7 @@ Phase 3 is reserved for veteran members, subteam leads, and the drive team. Thes
 
 ---
 
-## 📚 Team Library & Links
+## 📚 {{ res_title }} & Links
 Access the FRC glossary, Core Values, and general reference materials anytime.
 
 * **Team Resources:** [View Core Values & Glossary](resources/resourceslanding.md)
