@@ -1,60 +1,67 @@
 # {{ m1_2_2 }}
 > **Objective:** Learn the core building blocks of 3D modeling: creating 2D sketches, applying constraints, and pulling those sketches into 3D parts using the Extrude tool.
 
-Now that your workspace is set up, it is time to actually start designing. Almost every complex robot mechanism starts the exact same way: drawing a flat 2D shape and pulling it into the 3D world.
+Now that your workspace is set up, it is time to start designing. Almost every robot mechanism begins with a 2D sketch that is "extruded" into a 3D part. 
 
-For this module, you will be completing a three-part exercise on FRCDesign.org. Keep this tab open, work through all three sections below, and then return here to submit your work!
-
----
-
-🚦 Step 1: Complete the Training Exercises
-
-Work through the three sections below in order. Make sure you read the instructions carefully and follow along in your own Onshape window. 
-
-!!! tip "Navigating the Course"
-    All links below will open in a new browser tab so you don't lose your place on this page!
-
-🚀 Stage 1A: Learning Modules
-
-- <span style="color: var(--md-primary-fg-color);">:material-cog:</span> **Part 1: Studio Fundamentals & Setup**
-    Before you draw, you need to understand how Onshape handles sketches, planes, and document organization.
-    <br>[Go to Section 1: Setup :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section1-setup/){ .md-button target="_blank" }
-
-- <span style="color: var(--md-primary-fg-color);">:material-layers:</span> **Part 2: Designing Plates**
-    Learn the techniques for creating 2D plates, which are the most common custom-manufactured parts on an FRC robot.
-    <br>[Go to Section 2: Plates :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section2-exercise1/){ .md-button target="_blank" }
-
-- <span style="color: var(--md-primary-fg-color);">:material-link-variant:</span> **Part 3: Assemblies & Mates**
-    Master the art of connecting individual parts together using mates to create a functional, moving mechanism.
-    <br>[Go to Section 3: Assemblies :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section3-exercise1/){ .md-button target="_blank" }
+For this module, you will use the **Team 2064 Onshape Classroom** as your workbench while following the industry-standard tutorials from **FRCDesign.org**.
 
 ---
 
-✅ Step 2: The Return Checklist
+## 🛠️ Step 1: Open Your Workbench
 
-Welcome back! By the end of those three sections, you should have a solid grasp on the absolute basics of CAD. 
-
-**Verify that you understand how to:**
-
-- [ ] Create a sketch on a specific plane.
-- [ ] Use **Constraints** (Coincident, Vertical, Horizontal) to "lock" your drawing.
-- [ ] Dimension a part using the **D** key.
-- [ ] Perform a "Solid" Extrude to turn a 2D shape into a 3D part.
-- [ ] Use **Fastened** and **Revolute** mates in an assembly.
-
----
-
-📸 Step 3: Access Your Workbench
-
-This module requires a specific set of starter planes and parts. You must work within the official classroom document to ensure your mates and constraints are visible to the design leads.
+Before looking at the instructions, you must initialize your working document. This ensures your mates and constraints are saved in the team folder where mentors can provide real-time feedback.
 
 1. **Enter the Classroom:** Click the button below to open the Stage 1A Assignment portal.
-2. **Access Starter Files:** Launch your document via the classroom link. This document is where you will perform the sketching and assembly exercises from Step 1.
-3. **Real-Time Feedback:** Working in this file allows mentors to drop comments directly on your sketches as you build them.
+2. **Access Starter Files:** Launch your document via the classroom link. This blank workspace is where you will perform all the sketching and assembly exercises for this module.
 
 [Enter Stage 1A Workbench :material-share-variant:](https://cad.onshape.com/classes/69ef9246c70581c5f4ff7cbd/assignment/69ef931a9b2068bc9afc4c2b){ .md-button .md-button--primary target="_blank" }
 
 ---
 
-🎉 Module Complete!
-Once your mentor has checked your sketches and approved your work, you are ready to learn about designing moving parts!
+## 🚦 Step 2: Complete the Training Exercises
+
+Now that your Onshape document is open, work through the three sections below in order. Read the instructions carefully on the FRCDesign site and execute the steps inside your Onshape Workbench.
+
+!!! tip "Navigating the Course"
+    All links below will open in a new browser tab so you don't lose your place on this page!
+
+### 🚀 Stage 1A: Learning Modules
+
+- <span style="color: var(--md-primary-fg-color);">:material-cog:</span> **Part 1: Studio Fundamentals & Setup**
+    Understand how Onshape handles sketches, planes, and document organization.
+    <br>[Go to Section 1: Setup :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section1-setup/){ .md-button target="_blank" }
+
+- <span style="color: var(--md-primary-fg-color);">:material-layers:</span> **Part 2: Designing Plates**
+    Learn the techniques for creating 2D plates, the most common custom parts on an FRC robot.
+    <br>[Go to Section 2: Plates :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section2-exercise1/){ .md-button target="_blank" }
+
+- <span style="color: var(--md-primary-fg-color);">:material-link-variant:</span> **Part 3: Assemblies & Mates**
+    Master the art of connecting individual parts together to create a functional mechanism.
+    <br>[Go to Section 3: Assemblies :material-open-in-new:](https://www.frcdesign.org/learning-course/stage1/1A/section3-exercise1/){ .md-button target="_blank" }
+
+---
+
+## ✅ Step 3: The Return Checklist
+
+Welcome back! Once you have finished the exercises in your workbench, verify that you have mastered the following skills:
+
+- [ ] I can create a sketch on a specific plane (Top, Front, or Right).
+- [ ] I can use **Constraints** (Coincident, Vertical, Horizontal) to "lock" my drawing.
+- [ ] I can dimension a part using the **D** key.
+- [ ] I can perform a "Solid" Extrude to turn a 2D shape into a 3D part.
+- [ ] I can use **Fastened** and **Revolute** mates to connect parts in an assembly.
+
+---
+
+## 📸 Step 4: Submission
+
+To finalize this module:
+1. **Submit in Onshape:** Click the **Submit** button inside the Onshape Classroom interface.
+2. **Design Review:** Notify a CAD mentor or your Subteam Lead. They will open your workbench file to review your mate logic and sketch constraints.
+
+---
+
+### 🎉 Module Complete!
+Once your work is approved, you are ready to learn about power transmissions and moving mechanisms.
+
+[Go to Next Module: {{ m1_2_3 | replace("1.2.3 - ", "") }}](stage1B.md){ .md-button .md-button--primary }
