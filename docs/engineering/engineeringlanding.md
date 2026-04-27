@@ -17,7 +17,7 @@ An FRC team is built like a small engineering firm—it is simply too massive fo
 
 ---
 
-## {{ p2_select }}
+{{ p2_select }}
 
 <div class="grid cards" markdown>
 
