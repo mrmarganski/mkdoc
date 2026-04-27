@@ -1,4 +1,4 @@
-# 🛠️ Laser Engraver: Beginner's Guide
+# {{ m2_2_6 }}
 *A step-by-step tutorial from Zero to Laser.*
 
 !!! info "Target Audience"
