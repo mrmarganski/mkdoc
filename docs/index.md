@@ -2,7 +2,7 @@
 
 ![Team 2064 Logo](img/LogoWith2064.png){ align=left width="200" }
 
-Welcome to the official documentation and training hub for Team 2064. Whether you are a rookie stepping into the shop for the very first time, or a veteran drive-team member looking up a CAD standard, everything you need to build great robots is right here.
+Welcome to the official documentation and training hub for {{ team_name }}. Whether you are a rookie stepping into the shop for the very first time, or a veteran drive-team member looking up a CAD standard, everything you need to build great robots is right here.
 
 !!! success "New Member? Start Here!"
     If you are new to the team, your journey begins with **Phase 1**. You must complete all sections of Module 1.3 (Safety) before you can touch any tools in the shop. 
