@@ -15,14 +15,14 @@ Welcome to the official documentation and training hub for {{ team_name }}. Whet
 
 ---
 
-## 🏁 Phase 1: Rookie Foundations
+## {{ phase_1_title }}
 Welcome to {{ team_name }}! Before you can build a 125-pound competition robot, you need to master the basics. Phase 1 is mandatory for all new members, regardless of prior experience. You will learn how to safely navigate the shop, use core hand tools, and build a miniature XRP Starter Bot to prove your baseline knowledge. Once you pass Phase 1, you unlock the rest of the shop!
 
 **[Start Here: Welcome to Team 2064!](frc/rookielanding.md){ .md-button }**
 
 ??? info "Click to view Phase 1 Modules & Skills"
 
-    ??? abstract "🤖 Module 1.1: FRC Basics" 
+    ??? abstract "{{ mod_1_1 }}" 
         *Learn basic tasks required for FRC involvement and understanding.*
 
         * **[{{ m1_1_1 }}](frc/FIRST.md):** Overview of FRC, its place in FIRST, and how competitions work.
@@ -32,25 +32,25 @@ Welcome to {{ team_name }}! Before you can build a 125-pound competition robot, 
         * **[{{ m1_1_5 }}](frc/buildseason.md):** The FRC Build Season timeline and what to expect.
         * **[{{ m1_1_6 }}](frc/poweron.md):** Basic demonstration on how to power and operate the robot.
 
-    ??? abstract "📐 Module 1.2: Basic CAD"
+    ??? abstract "{{ mod_1_2 }}"
         *Gain an understanding of the Onshape software for designing parts of a robot.*
         
-        * **[CAD Overview](engineering/cad/CAD.md):** Welcome to mechanical design.
+        * **[{{ p1_cad_ov }}](engineering/cad/CAD.md):** Welcome to mechanical design.
         * **[{{ m1_2_1 }}](engineering/cad/stage0.md):** General information on CAD and Onshape setup.
         * **[{{ m1_2_2 }}](engineering/cad/stage1A.md):** Sketching, extruding, and multi-part studios.
         * **[{{ m1_2_3 }}](engineering/cad/stage1B.md):** Fundamentals of power transmissions in CAD.
         * **[{{ m1_2_4 }}](engineering/cad/stage1C.md):** Model different mechanisms to practice execution.
 
-    ??? abstract "🛡️ Module 1.3: Safety Certification"
+    ??? abstract "{{ mod_1_3 }}"
         *Learn our core shop rules, PPE requirements, and pass the mandatory safety assessment.*
         
-        * **[Safety Introduction](safety/safetylanding.md):** Welcome to the shop.
+        * **[{{ p1_safe_ov }}](safety/safetylanding.md):** Welcome to the shop.
         * **[{{ m1_3_1 }}](safety/Safety.md):** Core shop rules, PPE, and emergency procedures.
         * **[{{ m1_3_2 }}](safety/machinesafety.md):** Specific safety rules for general machines.
         * **[{{ m1_3_3 }}](safety/Safetyquiz.md):** The mandatory assessment required to work in the shop.
         * **[{{ m1_3_4 }}](safety/safetypractical.md):** Physical demonstration of appropriate safety usage.
     
-    ??? abstract "🔨 Module 1.4: Basic Fabrication (Levels 1 & 2)" 
+    ??? abstract "{{ mod_1_4 }}" 
         *Master the fundamentals of hand tools, power tools, and shop organization.*
 
         * **Level 1: General Shop (Unpowered)**
@@ -69,7 +69,7 @@ Welcome to {{ team_name }}! Before you can build a 125-pound competition robot, 
             * **[{{ m1_4_12 }}](fabrication/level2/stationary/horizontalsaw.md):** Basic stationary cutting.
             * **[{{ m1_4_13 }}](fabrication/level2/powertoolsquiz.md):** Finish your level 2 Rookie pathway.
     
-    ??? abstract "🤖 Module 1.5: XRP Starter Bot"
+    ??? abstract "{{ mod_1_5 }}"
         *Assemble, wire, and program a functional mini-robot to prove your baseline engineering skills.*
         
         * **XRP Start (The Basics):**
@@ -87,12 +87,12 @@ Welcome to {{ team_name }}! Before you can build a 125-pound competition robot, 
 
 ---
 
-## 🚀 Phase 2: Specialization Pathways
+## {{ phase_2_title }}
 An FRC team is built like a small engineering firm. Phase 2 is where you choose your specialty and master it. Whether you want to design mechanisms in CAD, operate heavy machinery, write autonomous code, or build the brand, this phase gives you the deep, focused training you need.
 
 **[Choose Your Specialty](engineering/engineeringlanding.md){ .md-button }**
 
-??? info "Click to view Phase 2 Pathways & Skills"
+??? info "Click to view {{ phase_2_title }}"
 
     ??? abstract "📐 Pathway 2.1: Advanced Mechanical & CAD"
         *Design the machine. Master Onshape, mechanisms, and the Engineering Design Process.*
@@ -137,12 +137,12 @@ An FRC team is built like a small engineering firm. Phase 2 is where you choose 
 
 ---
 
-## 🏆 Phase 3: Leadership & Competition Mastery
+## {{ phase_3_title }}
 Phase 3 is reserved for veteran members, subteam leads, and the drive team. These modules zoom out from individual part creation to macro-level team operations and event execution.
 
 **[Explore Leadership Pathways](leadership/leadershiplanding.md){ .md-button }**
 
-??? info "Click to view Phase 3 Modules & Skills"
+??? info "Click to view {{ phase_3_title }}"
 
     ??? abstract "📊 Pathway 3.1: Strategy & Data Analytics"
         *Taking the game from the shop to the field. Master the data required to win events.*
