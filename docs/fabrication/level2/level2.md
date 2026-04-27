@@ -10,7 +10,7 @@ In this level, the tools do the heavy lifting. Because these machines spin at hi
 
 ---
 
-## ⚡ What You Will Learn in Level 2
+⚡ What You Will Learn in Level 2
 
 By the end of this level, you will be cleared to operate the fundamental powered equipment of our shop:
 
@@ -22,7 +22,7 @@ By the end of this level, you will be cleared to operate the fundamental powered
 
 ---
 
-## 🔒 Looking Ahead: The Advanced Pathway
+🔒 Looking Ahead: The Advanced Pathway
 
 Completing Level 2 means you have officially passed your Phase 1 Rookie Fabrication requirements! You will be fully cleared to help build and assemble the competition robot with these tools in **Level 1 & 2**.   
 
