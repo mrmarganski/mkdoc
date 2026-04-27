@@ -8,7 +8,7 @@ Welcome to the Team 2064 machine shop! Before you can build a 125-pound competit
 
 ---
 
-## 🟢 What to Expect: Level 1 (General Shop)
+🟢 What to Expect: Level 1 (General Shop)
 Level 1 is all about the fundamentals. You will learn how to navigate the workspace, keep it organized, and safely use the hand tools that put the robot together.
 
 * 🧹 **Workspace Organization:** Learning the closet management system, battery care, and how to keep the shop clean.
@@ -19,7 +19,7 @@ Level 1 is all about the fundamentals. You will learn how to navigate the worksp
 
 ---
 
-## 🟡 What to Expect: Level 2 (Power Tools & Basics)
+🟡 What to Expect: Level 2 (Power Tools & Basics)
 Once you pass Level 1, you will move up to basic powered equipment and electronics fabrication.
 
 * 🔋 **Basic Power Tools:** Learning to safely operate cordless drills and impact drivers without stripping screw heads.
@@ -28,14 +28,12 @@ Once you pass Level 1, you will move up to basic powered equipment and electroni
 
 ---
 
-## ✅ How to Advance
+✅ How to Advance
 To complete this module, you must work through each lesson in order, read the documentation, and physically demonstrate your skills to the Fabrication Lead or a Mentor. 
 
 Once you pass Level 2, you will officially be cleared to use these tools on the competition robot, and you will unlock the ability to pursue Level 3 and 4 machinery in the Phase 2 Specialization Pathways!
 
 ---
 
-### 🎉 Ready to get started?
+🎉 Ready to get started?
 Dive into the Level 1 Overview to begin your fabrication training.
-
-[Start Level 1 Overview](level1/level1.md){ .md-button .md-button--primary }
