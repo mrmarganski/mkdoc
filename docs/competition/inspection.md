@@ -7,7 +7,7 @@ Getting inspected early and passing on the first try is a massive competitive ad
 
 ---
 
-## 🚦 Step 1: The Inspection Mindset
+🚦 Step 1: The Inspection Mindset
 
 Robot Inspectors are volunteers who want you to play, but they are obligated to enforce the rules. Your job is to make their job as easy as possible. 
 
@@ -23,11 +23,11 @@ Robot Inspectors are volunteers who want you to play, but they are obligated to 
 
 ---
 
-## 📝 Step 2: Pre-Competition Deliverables
+📝 Step 2: Pre-Competition Deliverables
 
 We never go to a competition hoping we pass. We *know* we will pass because we inspect ourselves first. Complete the following three deliverables with the Pit Crew and your Subteam Lead.
 
-### ⚖️ Deliverable 1: The Weight & Size Audit
+⚖️ Deliverable 1: The Weight & Size Audit
 We must know exactly what the robot weighs before it goes into the trailer.
 
 * **The Task:** 1. Strip the robot down to its inspection state (take OFF the bumpers and battery).
@@ -36,7 +36,7 @@ We must know exactly what the robot weighs before it goes into the trailer.
     4. Measure the maximum height of the robot in its starting configuration.
 * **Sign-off:** Show the recorded weight and dimensions to the Lead Engineering Mentor.
 
-### 🛡️ Deliverable 2: The Bumper Audit
+🛡️ Deliverable 2: The Bumper Audit
 Bumpers fail inspection more than anything else in FRC. 
 
 * **The Task:** Audit both the Red and Blue bumpers (or reversible covers) against the current game manual rules:
@@ -46,7 +46,7 @@ Bumpers fail inspection more than anything else in FRC.
     4. Mount the bumpers to the robot. Grab them and pull hard. Do they sag or shift? (If yes, they will fail).
 * **Sign-off:** Have the Pit Boss aggressively test your bumper mounts.
 
-### 📋 Deliverable 3: The Official Mock Inspection
+📋 Deliverable 3: The Official Mock Inspection
 FIRST publishes the official Inspection Checklist online a few weeks before events. We use the exact same sheet the inspectors use.
 
 * **The Task:** Print out the official FRC Inspection Checklist for the current season. Pair up with another student who did *not* work on your subsystem (they will have fresh eyes). Go line-by-line through the checklist and check off every single box. If you cannot check a box, you must tag the issue with a piece of blue painter's tape.
@@ -54,7 +54,7 @@ FIRST publishes the official Inspection Checklist online a few weeks before even
 
 ---
 
-## 🔄 Step 3: The Actual Workflow (At the Event)
+🔄 Step 3: The Actual Workflow (At the Event)
 
 When the pits open on Thursday morning, this is our exact playbook:
 
@@ -67,7 +67,7 @@ When the pits open on Thursday morning, this is our exact playbook:
 
 ---
 
-## ✅ Step 4: Pathway Deliverable
+✅ Step 4: Pathway Deliverable
 
 To complete this module, you must physically participate in preparing the robot for inspection.
 
@@ -81,7 +81,7 @@ To complete this module, you must physically participate in preparing the robot 
 
 ---
 
-### 🎉 Module Complete!
+🎉 Module Complete!
 You now know how to get the robot legally approved for play. Next, you need to learn how to connect it to the official FIRST Field Management System (FMS).
 
 [Go to Next Module: Field Connectivity & System Checks](field-checks.md){ .md-button .md-button--primary }
