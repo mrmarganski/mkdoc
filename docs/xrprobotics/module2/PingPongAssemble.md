@@ -1,4 +1,4 @@
-# 🏓 Ping Pong Launcher Assembly
+# {{ m1_5_7 }}
 > **Custom Mechanism:** This guide covers the physical assembly of the Ping Pong Launcher add-on for your XRP.
 
 !!! info "Before You Begin"
