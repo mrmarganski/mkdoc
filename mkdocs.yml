@@ -27,10 +27,19 @@ theme:
     - navigation.expand
 
 extra:
+  # Top Tabs
   phase_1_title: "Phase 1: Rookie Foundations"
   phase_2_title: "Phase 2: Specialization Pathways"
   phase_3_title: "Phase 3: Leadership & Competition"
   res_title: "Team Resources"
+  
+  # Sidebar Groups
+  p1_home: "Rookie Home"
+  mod_1_1: "Module 1.1: FRC Basics"
+  mod_1_2: "Module 1.2: Basic CAD"
+  mod_1_3: "Module 1.3: Safety Certification"
+  mod_1_4: "Module 1.4: Basic Fabrication"
+  mod_1_5: "Module 1.5: XRP Starter Bot"
   social:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/frc2064/
