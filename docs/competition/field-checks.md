@@ -88,7 +88,3 @@ You must physically demonstrate your ability to manage the robot's network state
 
 🎉 Module Complete!
 You now know how to get the robot legally approved, connected to the field, and ready to play.
-
-[Go to Next Module: Phase 3 Dashboard](../phase3.md){ .md-button .md-button--primary }
-
-[Return to Home Dashboard](../index.md){ .md-button }
