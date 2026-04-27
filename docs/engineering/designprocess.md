@@ -1,4 +1,5 @@
-# ⚙️ The FRC Design Process
+# {{ m1_1_4 }}
+
 > **How We Build:** Whether we are designing a custom XRP ping-pong launcher or a 125lb competition robot, we follow this systematic approach. Great robots aren't built on the first try; they are the result of rigorous engineering.
 
 ---
