@@ -1,4 +1,4 @@
-# {{ m1_1_1_3 }}
+# {{ m1_1_3 }}
 > **Objective:** Break down the current season's challenge to identify scoring priorities, technical constraints, and strategic opportunities for the Panther Project.
 
 ??? info "📋 Prerequisites: Before You Start"
