@@ -160,6 +160,8 @@ nav:
           - engineering/programming/vision.md
           - engineering/programming/advancedjava.md
           - engineering/programming/controlboard.md
+          - engineering/programming/subsystems/statemachines.md
+          - engineering/programming/subsystems/subsystems.md
       - "Pathway 2.4: Media & NEMO":
           - media/medialanding.md
           - media/branding.md
