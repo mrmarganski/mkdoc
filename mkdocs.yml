@@ -112,10 +112,7 @@ nav:
           - "Level 02 - Powered Hand Tools":
               - fabrication/level2/poweredhandtools/poweredtools.md
               - fabrication/level2/poweredhandtools/cordlesssaw.md
-              - fabrication/level2/powertools/soldering.md
-          - "Level 02 - Stationary Powered Equipment":    
-              - fabrication/level2/stationary/horizontalsaw.md
-              - fabrication/level2/stationary/woodbandsaw.md
+              - fabrication/level2/powertools/soldering.md  
           - "Skill Ckeck Level 02":
               - fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
@@ -144,7 +141,8 @@ nav:
           - "Level 3 Overview":
               - fabrication/level3/level3.md
               - fabrication/level3/3dprinting2.md
-              - fabrication/level3/bandsaw.md
+              - fabrication/level2/stationary/horizontalsaw.md
+              - fabrication/level2/stationary/woodbandsaw.md
               - fabrication/level3/lathe.md
               - fabrication/level3/millingmachine.md
               - fabrication/level3/machinelessons.md
