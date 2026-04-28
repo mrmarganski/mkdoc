@@ -97,6 +97,7 @@ nav:
               - fabrication/level1/fasteners.md
           - "Level 01 - Measuring":
               - fabrication/level1/measuring/measuringtools.md
+              - fabrication/level1/measuring/blueprintlayout.md
           - "Level 01 - Hand Tools":
               - fabrication/level1/handtools/Handtools.md
               - fabrication/level1/handtools/pliers.md
