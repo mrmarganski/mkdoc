@@ -1,6 +1,14 @@
 # {{ m1_2_3 }}
 > **Objective:** Learn the fundamentals of FRC power transmissions—including motors, shafts, gears, belts, and chains—and model three different custom gearboxes in Onshape.
 
+??? info "📋 Prerequisites: Before You Start"
+    Ensure you have successfully completed and received mentor sign-off for the following modules:
+
+    - [x] **{{ m1_2_2 }}** 
+
+    !!! failure "STOP"
+        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
+
 So far, you have only designed structural components. But to make a robot move, we need power. In this module, you will learn how to transfer rotational motion from a motor to a mechanism using gears, belts, and chains.
 
 ---
