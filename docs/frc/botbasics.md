@@ -1,6 +1,6 @@
 # {{ m1_1_2 }}
 
-> what are the major components of every robot we build? From the Driver station to the Battery.
+> What are the major components of every robot we build? From the Driver station to the Battery.
 
 ??? info "📋 Prerequisites: Before You Start"
     Ensure you have successfully completed and received mentor sign-off for the following modules:
