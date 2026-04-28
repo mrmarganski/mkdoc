@@ -1,4 +1,4 @@
-
+# {{ m2_3_8 }}
 
 When creating subsystems, 2064 takes the approach of using State Derived Action. A state can be though of as a 'mode' that the subsystem is currently in. By mapping each state to a specific function, using Java's runnable interface, we are able to call a corresponding action when a new state is set.
 
