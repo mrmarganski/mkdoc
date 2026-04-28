@@ -72,8 +72,3 @@ After submitting your Google Form:
 2. **Review:** Be prepared for a 2-minute "elevator pitch" to explain your findings.
 
 ---
-
-### 🎉 Module Complete!
-Once a mentor has reviewed your analysis and form submission, you are ready to move on to technical training!
-
-[Go to Next Module: {{ m1_2_1 | replace("1.2.1 - ", "") }}](../path/to/stage0.md){ .md-button .md-button--primary }
