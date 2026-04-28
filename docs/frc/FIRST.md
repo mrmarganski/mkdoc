@@ -1,21 +1,22 @@
 # {{ m1_1_1 }}
-
-> what is FIRST? What is FRC? What is 2064? Let's investigate these acronyms and the significance of them within Pomperaug Robotics.
+> **Objective:** Understand the mission of *FIRST*, the structure of the Robotics Competition, and the core values that drive Team 2064.
 
 ??? info "📋 Prerequisites: Before You Start"
-    Ensure you have successfully completed and received mentor sign-off for the following modules:
+    Ensure you have addressed the following foundational requirements:
 
-    - [x] This module requires no prerequisites.
+    - [ ] **Safety Foundations** (Module 1.3.1)
+    - [ ] **Team 2064 Code of Conduct** signed and returned
 
     !!! failure "STOP"
-        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
+        If you have not completed your safety training, you do not have clearance to enter the build area for any FRC activities.
+
+---
 
 ## 🚀 What is FIRST?
 
 **FIRST** (For Inspiration and Recognition of Science and Technology) is a global robotics community that prepares young people for the future. It is more than just building robots; it is a "sport for the mind" where every student can turn pro.
 
 ### The FIRST Robotics Competition (FRC)
-
 FRC is often called the "hardest fun you'll ever have." Under strict rules and limited resources, Team 2064 is challenged to:
 * **Design & Build:** Industrial-size robots to play a difficult field game against like-minded competitors.
 * **Innovate:** Utilize professional CAD software like Onshape and advanced fabrication tools.
@@ -35,25 +36,22 @@ On **Team 2064**, we don't just follow the rules; we live the *FIRST* Core Value
 
 ## ✅ Module Deliverable: The "Deep Dive" Activity
 
-To show you understand the scope of the 2064 season, you will complete a **Competition Analysis** task.
+To show you understand the scope of the 2064 season, you will complete a **Competition Analysis** task via our digital portal.
 
 ### 🚦 Step 1: Research
-
 Visit the [official FIRST Robotics Competition page](https://www.firstinspires.org/robotics/frc) and watch the current season's **Game Reveal** video.
 
 ### 🛠️ Step 2: Analysis Activity
+Once you have watched the game reveal, you must complete the analysis questionnaire. 
 
-Create a brief document (Word, Google Doc, or Markdown) answering the following:
-1. **The Challenge:** In your own words, what is the primary way the robot scores points this year?
-2. **The Constraints:** List three specific rules from the manual that limit how the robot can be built (e.g., weight, size, or motor types).
-3. **The Team Impact:** How do "Gracious Professionalism" and "Coopertition" help a team like the Panther Project succeed during a stressful 3-day competition?
+!!! info "Identification Required"
+    You **must** be logged into your **@region15.org** Google account to access and submit this form. This ensures your progress is tracked for your student records.
 
-### 📸 Step 3: Submission
+[Submit Your Game Analysis :material-form-select:](https://forms.gle/PJuHm9MqTbs4jVVs7){ .md-button .md-button--primary target="_blank" }
 
-1. **Name your file:** `FirstLast_FRC_Intro`.
-2. **Upload:** Place your document in your assigned individual student folder within the **Team 2064 Onshape Training** workspace or digital archive.
-3. **Check-off:** Once uploaded, notify your subteam lead or a mentor for a quick discussion and sign-off.
+### 📸 Step 3: Discussion
+After submitting your Google Form:
+1. **Notify a Mentor:** Let a CAD mentor or your Subteam Lead know your analysis is complete.
+2. **Review:** Be prepared for a 2-minute "elevator pitch" explaining how your identified constraints will impact our build season strategy.
 
 ---
-
-
