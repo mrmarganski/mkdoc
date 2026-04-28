@@ -4,8 +4,7 @@
 ??? info "📋 Prerequisites: Before You Start"
     Ensure you have addressed the following foundational requirements:
 
-    - [ ] **Safety Foundations** (Module 1.3.1)
-    - [ ] **Team 2064 Code of Conduct** signed and returned
+    - [ ] **No Prerequisites required for this module.
 
     !!! failure "STOP"
         If you have not completed your safety training, you do not have clearance to enter the build area for any FRC activities.
