@@ -154,6 +154,7 @@ nav:
               - fabrication/level4/machinelessonsadvanced.md
       - "Pathway 2.3: Software & Controls":
           - engineering/programming/WPIlib.md
+          - engineering/programming/filestructure.md
           - engineering/programming/sensors.md
           - engineering/programming/autonomous.md
           - engineering/programming/vision.md
