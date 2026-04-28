@@ -3,6 +3,17 @@
 🛠️ Skill Check: The 3D Print Jig Challenge
 > **Objective:** Demonstrate precision measurement, hand-tool proficiency, and mechanical assembly by creating a matching component for a "blind" 3D printed fixture.
 
+# 📦 Interactive 3D Model
+> **Objective:** Use the interactive viewer below to inspect the assembly, check hole alignments, and understand the internal component layout.
+
+<div class="iframe-container" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://modelembedder.net/embed?did=a6f427b9c4adf76d40feed00&wvm=v&wvmid=50a6f9cd98a109464609d8a7&eid=99c781b076ef6f8a9fe23618&elementType=ASSEMBLY" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+    allowfullscreen>
+  </iframe>
+</div>
+
 !!! danger "⚠️ Restricted Tool List (Mandatory Compliance)"
     To pass this Skill Check, you are **ONLY** permitted to use the following tools. Use of any stationary machinery (Bandsaw, Cold Saw, Mill) or unauthorized power tools will void the assessment.
 
