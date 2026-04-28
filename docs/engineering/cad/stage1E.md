@@ -1,6 +1,14 @@
 # {{ m2_1_2 }}
 > **Objective:** Detail your Swerve Drivebase by modeling a custom battery mount, placing electronics, pocketing the bellypan for weight reduction, and designing competition bumpers.
 
+??? info "📋 Prerequisites: Before You Start"
+    Ensure you have successfully completed and received mentor sign-off for the following modules:
+
+    - [x] **{{ m2_1_1 }}** 
+
+    !!! failure "STOP"
+        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
+
 In the previous section, you learned the Top-Down Design workflow and built the structural frame of a swerve drivebase. But a frame isn't a robot until it has electronics and bumpers! 
 
 In Stage 1E, you will practice the "detailing" phase of the workflow—turning a structural skeleton into a competition-ready machine.
