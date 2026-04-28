@@ -1,6 +1,6 @@
 # {{ m1_1_1 }}
 
-> what is FIRST? What is FRC? Let's investigate these acronyms and the significance of them within Pomperaug Robotics.
+> what is FIRST? What is FRC? What is 2064? Let's investigate these acronyms and the significance of them within Pomperaug Robotics.
 
 ??? info "📋 Prerequisites: Before You Start"
     Ensure you have successfully completed and received mentor sign-off for the following modules:
