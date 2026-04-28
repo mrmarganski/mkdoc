@@ -1,189 +1,132 @@
 
 
-When creating subsystems, 2064 takes the approach of using State Derived Action. A state can be though of as a 'mode' that the subsystem is currently in. By mapping each state to a specific function, using Java's runnable interface, we are able to call a corresponding action when a new state is set.
+## Subsystems
 
-In a state machine, we continuously check certain conditions to decide when to switch to a new state rather than simply calling a `setState` method. This lets the robot automatically transition to desired states without requiring input. This leads to more efficient robot movement and less cognitive load on our drivers.
+Subsystems are how we break up a robot into logical chunks. The best way to decide if something should be its own subsystem is to ask yourself:
 
----
-### State Example:
+> Can this run independently?
 
-In this example, I will go over how we used states in our 2025 End Effector.
+Each subsystem class typically encapsulates the hardware (motors, sensors) and logic needed to control a specific mechanism. This lets us control each part of the robot independently. Examples include:
 
-First we start by defining our states in a Public Enum. This should include all possible / desired states for that subsystem.
-
-```java
-    public enum EndEffectorState {
-        INTAKING_CORAL_GROUND,
-        INTAKING_CORAL_FEEDER,
-        OUTTAKING_TROUGH,
-        OUTTAKING_LEVEL_2_FRONT,
-        OUTTAKING_LEVEL_2_BACK,
-        OUTTAKING_LEVEL_3,
-        INTAKING_ALGAE,
-        OUTTAKING_ALGAE,
-        REMOVING_HIGH_ALGAE,
-        REMOVING_LOW_ALGAE,
-        STOPPED
-    }
-```
-
-After we have our states, we want to create functions in our [[Subsystems|subsystem]] that correspond with the action we want that subsystem to do. In this case, we want to run the End Effector motors at certain speeds and directions for each State.
-
-```java
-    private void stop() {
-        top.set(0.0);
-        left.set(0.0);
-        right.set(0.0);
-    }
-	private void intakeCoralFeeder() {
-		top.set(0.25);
-		left.set(0.25);
-		right.set(0.25);
-    }
-	private void outtakeLevel3()  {
-        top.set(-0.75);
-        left.set(-0.75);
-        right.set(-0.75);
-    }
-   // Functions for all states...
-```
-Its important to make these private, as we never want to call these externally.
-
-Once we have our functions, we need to be able to link them to our states. We do this using a Map[^1] . We set the key as the state, and the value as a runnable[^2] .
-
-```java
-private final EnumMap<EndEffectorState, Runnable> stateActions;
-```
-
-``` java
-stateActions = new EnumMap<>(EndEffectorState.class);
-stateActions.put(EndEffectorState.INTAKING_CORAL_FEEDER, this::intakeCoralFeeder);
-stateActions.put(EndEffectorState.OUTTAKING_LEVEL_3, this::outtakeLevel3);
-stateActions.put(EndEffectorState.STOPPED, this::stop);
-// Continue for all States...
-```
-_stateActions should be filled in the initialization of the subsystem._
-
-We now need to be able to access the End Effectors state from outside of the subsystem. We do this with creating a getter and setter for `state`.
-
-```java
-    private EndEffectorState state = EndEffectorState.STOPPED;
-```
-
-```java
-public void setState(EndEffectorState newState) {
-	if (state == newState) {
-		return;
-	}
-	
-	state = newState;
-	Runnable action = stateActions.get(newState);
-	if (action != null) {
-		action.run();
-	}
-} 
-
-public EndEffectorState getState() {
-	return state;
-}
-```
-_note that we only want to call the runnable if we are actually changing the state. We do this so that we do not make unnecessary calls to motor controllers, which increases our CAN utilization._
+- Arms
+- Wrists
+- End Effectors
+- Elevators
+- Drivebase
+- Swerve Module
 
 ---
-### State Machine Example:
 
-In this example, we'll go over how we use a state machine in our 2024 shooter code. The idea is similar to the End Effector example, but here we continuously check conditions to decide when to switch states.
+### Arm Subsystem Example:
 
-We start by creating an enum of ShooterState.
+In this example, we'll look at the 2025 `ArmSubsystem` class. 
+
+First, we define the class, extending `SubsystemBase`, and declare the hardware components and essential variables. This includes the `TalonFX` motor controllers, configuration objects, control requests (like `MotionMagicVoltage`), and variables to hold the arm's target and current angle/state.
+
 ```java
-  public enum ShooterState {
-    STARTING,
-    FEEDING,
-    STOP,
-  }
+public class ArmSubsystem extends SubsystemBase {
+    // Hardware Objects
+    private TalonFX leader = new TalonFX(ArmConstants.ARM_LEADER_ID);
+    private TalonFX follower = new TalonFX(ArmConstants.ARM_FOLLOWER_ID);
+    
+    // Control Objects
+    private final MotionMagicVoltage armControl = new MotionMagicVoltage(0.0);
+    private final VoltageOut m_voltReq = new VoltageOut(0.0); // For SysId
+
+    // Configuration Objects
+    private TalonFXConfiguration leaderConfig = new TalonFXConfiguration();
+    private TalonFXConfiguration followerConfig = new TalonFXConfiguration();
+    
+    // State Variables
+    private double armTarget;
+    private double armAngle;
+    private ArmState state = ArmState.STATIONARY;
+    private NeutralModeValue neutralMode = NeutralModeValue.Brake;
+
 ```
 
-Instead of directly setting the state though a setter for state, a state machine uses variables to decide when the state is ready to be changed. We use a `manageState` method, called in the [[Subsystems|subsystems periodic]].
+Once we have declared all of our subsystem variables, we need to initialize them. We do this by creating a constructor for the class.
 
 ```java
-  @Override
-  public void periodic() {
-    updateShooterState();
-    // Other periodic logic...
-  }
-```
+public ArmSubsystem(CANdi candi) {
+        // Configure follower motor
+        followerConfig.MotorOutput.NeutralMode = NeutralModeValue.Brake;
+        follower.getConfigurator().apply(followerConfig);
+        follower.setControl(new Follower(ArmConstants.ARM_LEADER_ID, true));
 
-To decide when we update the state, we check certain conditions based on the current state and then trigger a change in state if those conditions are met.
-```java
-  public void updateShooterState() {
-    switch (state) {
-      case STARTING:
-        if (leaderShooterEncoder.getVelocity() 
-        >= ShooterConstants.kShooterTargetSpeed) 
-        {
-		  changeState(ShooterState.FEEDING);
-        }
-        break;
+        // Configure leader motor PID and Feedforward (Slot 0)
+        var slot0 = leaderConfig.Slot0;
+        slot0.kP = 80;
+        slot0.kI = 0;
+        slot0.kD = 0.1;
+        slot0.kS = 0.25; // Feedforward gains
+        slot0.kV = 0.12;
+        slot0.kA = 0.01;
+        slot0.GravityType = GravityTypeValue.Arm_Cosine; // Gravity compensation
+        slot0.StaticFeedforwardSign = StaticFeedforwardSignValue.UseVelocitySign;
 
-      case FEEDING:
-        if (feedTimer.get() >= ShooterConstants.kFeedDuration) {
-          changeState(ShooterState.STOP);
-        }
-        break;
+        // Configure Motion Magic parameters
+        var mmc = leaderConfig.MotionMagic;
+        mmc.MotionMagicCruiseVelocity = 80;
+        mmc.MotionMagicAcceleration = 160;
+        mmc.MotionMagicJerk = 500;
 
-      case STOP:
-        if (shooting) {
-          changeState(ShooterState.STARTING);
-        }
-        break;
+        // Configure leader motor output settings
+        leaderConfig.MotorOutput.Inverted = InvertedValue.Clockwise_Positive;
+        leaderConfig.MotorOutput.NeutralMode = NeutralModeValue.Brake;
+
+        // Configure feedback sensor (via CANdi)
+    leaderConfig.Feedback.withRotorToSensorRatio(ArmConstants.ARM_GEAR_RATIO)
+                             .withFusedCANdiPwm2(candi);
+        
+        // Apply leader configuration
+        leader.getConfigurator().apply(leaderConfig);
+    
+        // Configure the CANdi device
+        PWM2Configs candiConfig = new PWM2Configs();
+        candiConfig.AbsoluteSensorOffset = ArmConstants.ABS_ENCODER_OFFSET;
+        candiConfig.SensorDirection = false;
+        candi.getConfigurator().apply(candiConfig);
     }
-  }
 ```
+*Generally this is where we set PID for the subsystem and CAN ids for the motors within them.*
 
-The `changeState()` method handles the call to the runnable if the state is new.
+The main reason to extend the `SubsystemBase` class is to override the `periodic()`. This is where we have code that we want to run every cycle. This should be where we update values to dashboard and update the current state of the subsystem.
+
 ```java
-private void changeState(ShooterState newState) {
-	if (state == newState) {
-	    return;
+@Override
+    public void periodic() {
+        // Read sensor and convert to degrees
+        armAngle = (leader.getPosition().getValueAsDouble() + 0.5) * 360;
+        
+        // Update internal state based on target
+        if (Math.abs(armAngle - armTarget) < ArmConstants.ALLOWED_ERROR_DEGREES) {
+            state = ArmState.STATIONARY;
+        } else {
+            state = ArmState.MOVING;
+        }
+
+        // Log state and angle to SmartDashboard
+        SmartDashboard.putString("Logging/Arm/State", state.toString());
+        SmartDashboard.putNumber("Logging/Arm/Angle", armAngle);
     }
-	state = newState;
-	
-	Runnable entryAction = stateEntryActions.get(newState);
-	if (entryAction != null) {
-		entryAction.run();
-  }
-}
 ```
 
-We name these runnables with 'Entry' so that we understand that these are run only once on the change to a specific state.  
+We also include public methods that interact with the hardware contains in the subsystem. This will be methods such as:
 ```java
-private void startEntry() {
-    leaderShooterMotor.set(1);
-    feedTimer.reset();
-}
+public void setTargetAngle(double angle) {
+        // Apply physical limits
+        if (angle < 14) {
+            angle = 14;
+        }
+        // Convert degrees to motor controller units (-0.5 to 0.5 rotations)
+        double positionTarget = (angle / 360) - 0.5; 
+        armTarget = angle; // Store the target in degrees
 
-private void feedEntry() {
-    feedTimer.start();
-    feederMotor.set(-1.0);
-}
-
-private void stopEntry() {
-    leaderShooterMotor.set(0);
-    followerShooterMotor.set(0);
-    feederMotor.set(0);
-    shooting = false;
-}
-```
-
-We need some function to start the state machine, which is handled here, in the shoot method.
-```java
-  public void shoot() {
-    if (hasGamePeice){
-      shooting = true;
+        // Prepare and send the Motion Magic control request
+        armControl.withPosition(positionTarget);
+        ControlRequest acr = armControl;
+        leader.setControl(acr);
     }
-  }
 ```
----
-[^1]: A 'Map' is a key-value pair, similar to a dictionary in python
-
-[^2]: A runnable is a reference to a method
+*This method converts the desired angle into a value that we can use to set a target position for the motor. We need to convert it to a control request in this case.*
