@@ -1,6 +1,14 @@
 # {{ m1_2_4 }}
 > **Objective:** Put your skills to the test! Model a variety of isolated FRC mechanisms to master layout sketches, consistent origins, and COTS integration.
 
+??? info "📋 Prerequisites: Before You Start"
+    Ensure you have successfully completed and received mentor sign-off for the following modules:
+
+    - [x] **{{ m1_1_3 }}** 
+
+    !!! failure "STOP"
+        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
+
 Welcome to the final stage of your basic CAD training. You have learned to sketch, extrude, and transfer power; now you will practice modeling real-world robot subsystems.
 
 ---
