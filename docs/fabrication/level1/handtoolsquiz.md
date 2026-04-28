@@ -21,7 +21,7 @@
 
 | Category | Emerging (1 pt) | Proficient (2 pts) | Mastery (3 pts) |
 | :--- | :--- | :--- | :--- |
-| **The Blueprint (Drawing)** | Missing hole diameters or uses vague terms like "middle." | All 4-5 holes have X/Y coordinates from a single datum (corner). | Fully constrained drawing; includes bit sizes (e.g., #21 for 10-32 tap). |
+| **The Blueprint (Drawing)** | Missing info or uses vague terms like "middle." | All 4-5 holes have dimensions, but not measured from datum corner. | Fully constrained drawing; includes bit sizes (e.g., #21 for 10-32 tap). And Dimensions are measured from a single datum corner. |
 | **Precision Cut (1x2 Tube)** | Tube is ±1/8" or cut has a visible "bevel" (not 90°). Holes are too large/small. | Tube is within ±1/16"; cut is square enough to stand on end without tipping.  Holes are not of correct diameter. | Tube is within ±1/32"; cut is perfectly square (checked with a machinist square). And holes are correct diameter. |
 | **Hole Alignment (Y-Axis)** | Holes are "stair-stepped" or drifted off center-line of the tube. | All holes are centered on the 1x2 face; bolts pass through with light pressure. | Holes are perfectly linear; 3D print "drops" onto the tube with zero friction. |
 | **Hardware & Thread Care** | Picked 8-32 or other screw by mistake; stripped threads on the tapped insert. | Correct 10-32 hardware selected; bolts thread into inserts by hand. | Hardware length is optimal (0.25" past nut); washers used to protect the 3D print. |
