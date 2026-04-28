@@ -51,8 +51,6 @@ Based on our shop capabilities at Pomperaug High School, determine which mechani
 | **Indexer** | Storing and moving game pieces internally. | Medium |
 | **Scoring Tool** | Shooter, elevator, or arm mechanism. | High |
 
-
-
 ---
 
 ## ✅ Module Deliverable: Analysis Submission
@@ -62,16 +60,5 @@ To receive credit for your game analysis, you must complete the official 2064 Ga
     You **must** be logged into your **@region15.org** Google account to access and submit this form. This ensures your progress is tracked for your student records.
 
 [Submit Game Analysis Form :material-clipboard-check:](https://forms.gle/KGeb8zhehEopF5oaA){ .md-button .md-button--primary target="_blank" }
-
----
-
-## 📸 Step 4: Game Analysis Review
-Be prepared to answer the following questions during your review with a Mentor or Subteam Lead:
-
-1. **Cycle Time Analysis:** Which scoring objective offers the best "points-per-second" ratio when considering the travel distance across the field?
-2. **Constraint Management:** How does the maximum robot expansion rule (if applicable) limit the design of our primary scoring mechanism?
-3. **Autonomous Strategy:** What is the minimum number of game pieces we need to score during the Autonomous period to remain competitive in our district?
-4. **Reliability vs. Complexity:** Is it more strategic to build a "simple" robot that does one task perfectly or a "complex" robot that attempts every scoring method?
-5. **Defensive Play:** Based on the field layout, where are the "choke points" where our robot might be blocked, and how can our drivetrain design mitigate this?
 
 ---
