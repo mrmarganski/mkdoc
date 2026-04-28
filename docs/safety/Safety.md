@@ -14,6 +14,7 @@
 **Team 2064's Safety Manual**
 
 Table of Contents
+
 1.  [Responsibilities & Roles](#responsibilities-list)
 2.  [Machine Shop & General Safety](#machine-shop-overview-and-general-safety)
 3.  [Checklists & First Aid](#safety-and-health-training-checklist--first-aid-kit)
