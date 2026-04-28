@@ -112,11 +112,12 @@ m2_2_8: "2.2.8 - Skill Check - Level 4"
 
 # Programming Lessons
 m2_3_1: "2.3.1 - Java & WPILib Basics"
-m2_3_2: "2.3.2 - Sensor Integration"
-m2_3_3: "2.3.3 - Autonomous Routines"
-m2_3_4: "2.3.4 - Vision Processing"
-m2_3_5: "2.3.5 - PID Control & Tuning"
-m2_3_6: "2.3.6 - Control Board"
+m2_3_1_2: "2.3.2 - File Structure"
+m2_3_2: "2.3.3 - Sensor Integration"
+m2_3_3: "2.3.4 - Autonomous Routines"
+m2_3_4: "2.3.5 - Vision Processing"
+m2_3_5: "2.3.6 - PID Control & Tuning"
+m2_3_6: "2.3.7 - Control Board"
 
 # NEMO Lessons
 m2_4_1: "2.4.1 - Branding Guideline"
