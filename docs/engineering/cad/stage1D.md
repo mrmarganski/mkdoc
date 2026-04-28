@@ -5,6 +5,10 @@
     Ensure you have successfully completed and received mentor sign-off for the following modules:
 
     - [x] **{{ m1_2_4 }}** 
+    - [x] **{{ m1_3_4 }}** 
+    - [x] **{{ m1_4_14 }}** 
+    - [x] **{{ m1_5_5 }}** 
+    - [x] **{{ m1_5_10 }}**  
 
     !!! failure "STOP"
         If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
