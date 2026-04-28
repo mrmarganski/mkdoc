@@ -15,7 +15,7 @@
 Before starting your analysis, ensure you have reviewed the primary source materials provided by *FIRST*.
 
 * **The Game Manual:** Read the sections on **The Arena**, **The Game**, and **Robot Construction Rules**.
-[View Official FRC Season Calendar :material-calendar-clock:](https://www.firstinspires.org/resources/library/frc/season-materials?view=calendar){ .md-button .md-button--primary target="_blank" }
+[2026 GAME REVEAL :material-calendar-clock:](https://www.firstinspires.org/resources/library/frc/season-materials?view=calendar){ .md-button .md-button--primary target="_blank" }
 * **The Game Reveal:** Watch the official cinematic and game animation to see the scoring flow in motion.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_fybREErgyM?si=KEDZFhGSzjhEXM6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
