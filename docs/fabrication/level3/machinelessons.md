@@ -5,7 +5,7 @@
 
 ---
 
-## 🚦 Phase 1: The Axle (Lathe Operations)
+🚦 Phase 1: The Axle (Lathe Operations)
 **Material:** 1/2" Hex Shaft
 
 1.  **Cut to Length:** Use the **Milwaukee Bandsaw** to cut a ~3" section of hex shaft. 
@@ -16,7 +16,7 @@
 
 ---
 
-## 🏗️ Phase 2: The Hub & Cross-Drill (Milling Operations)
+🏗️ Phase 2: The Hub & Cross-Drill (Milling Operations)
 **Material:** 2" x 2" x 1/2" Aluminum Square
 
 1.  **Square the Block:** Mount the plate in the **Milling Machine** vise with parallel standoffs. Use an endmill to "square" the edges so they are 90° to one another.
@@ -29,14 +29,14 @@
       
 ---
 
-## 🔩 Phase 3: Assembly & Lock
+🔩 Phase 3: Assembly & Lock
 1.  **The Mate:** Slide the lathed end of the shaft into the aluminum hub.
 2.  **The Stand-off:** Use **10-32 Washers** on the backside of the block to ensure the nut does not hit the aluminum block directly.
 3.  **The Lock:** Align the side hole of the shaft with the hub and secure the assembly with a 10-32 bolt.
 
 ---
 
-## 📊 Evaluation Rubric (Mentor Review)
+📊 Evaluation Rubric (Mentor Review)
 
 | Category | Emerging (1 pt) | Proficient (2 pts) | Mastery (3 pts) |
 | :--- | :--- | :--- | :--- |
