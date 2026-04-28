@@ -8,7 +8,8 @@
 
 ---
 
-## 🚦 The Challenge Rules
+🚦 The Challenge Rules
+
 1. **The Observation:** You have **5 minutes** to inspect the 3D printed Jig. You may measure it, but you cannot keep it.
 2. **The Blueprint:** You must create a hand-sketch "drawing" of your tube requirements (length, hole locations, and diameters).
 3. **The Fabrication:** Once the 5 minutes are up, the Jig is taken away. You must cut your 1x2 tube and drill all holes using only your drawing.
@@ -16,7 +17,7 @@
 
 ---
 
-## 📊 Technical Evaluation Matrix
+ 📊 Technical Evaluation Matrix
 
 | Category | Emerging (1 pt) | Proficient (2 pts) | Mastery (3 pts) |
 | :--- | :--- | :--- | :--- |
@@ -28,29 +29,26 @@
 
 ---
 
-## 🔍 Visual Reference for "Mastery"
+🔍 Visual Reference for "Mastery"
 
-### 1. The "Datum" Layout
+1. The "Datum" Layout
 To hit Mastery on the drawing, students should not measure from "hole to hole." They should pick one corner as **(0,0)** and measure every hole from that same point. This prevents "Tolerance Stack-up" where small errors add up to one big mistake at the end.
 
-
-
-### 2. Squaring the Cut
+2. Squaring the Cut
 A "Mastery" cut isn't just the right length; it's perpendicular in both directions. If the student cuts at an angle, the 3D print will sit crookedly on the tube, causing the bolts to bind.
 
-
-
-### 3. Mechanical Sympathy (Torque)
+3. Mechanical Sympathy (Torque)
 Students often think "tighter is better." In this challenge, they must account for the **Compressive Strength** of the 3D print.
 * **Mastery:** The nut is "Snug-plus-a-quarter-turn."
 * **Failure:** Using a drill/driver to "impact" the bolt until the plastic cracks.
 
 ---
 
-## 📝 Final Checkout Checklist
-* [ ] **Deburring:** Did the student file the sharp edges of the tube? (Automatic -1 if sharp).
-* [ ] **Swart Management:** Is the student's work area clean of metal chips?
-* [ ] **Tool Return:** Are the drill bits, calipers, and squares back in their labeled foam cutouts?
+📝 Final Checkout Checklist
+
+* [x] **Deburring:** Did the student file the sharp edges of the tube? (Automatic -1 if sharp).
+* [x] **Swart Management:** Is the student's work area clean of metal chips?
+* [x] **Tool Return:** Are the drill bits, calipers, and squares back in their labeled foam cutouts?
 
 **Total Score: _____ / 15**
 *(12+ required for Level 1 Fabrication Sign-off)*
