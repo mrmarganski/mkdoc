@@ -150,6 +150,7 @@ nav:
               - fabrication/level4/level4.md
               - fabrication/level4/laserengraver.md
               - fabrication/level4/cncrouter.md
+              - fabrication/level4/cam.md
               - fabrication/level4/machinelessonsadvanced.md
       - "Pathway 2.3: Software & Controls":
           - engineering/programming/WPIlib.md
