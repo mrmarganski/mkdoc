@@ -2,6 +2,16 @@
 
 > **How We Build:** Whether we are designing a custom XRP ping-pong launcher or a 125lb competition robot, we follow this systematic approach. Great robots aren't built on the first try; they are the result of rigorous engineering.
 
+> We will review the Engineering Design Process the team follows as a standardized process to build the competitive robot.
+
+??? info "📋 Prerequisites: Before You Start"
+    Ensure you have successfully completed and received mentor sign-off for the following modules:
+
+    - [x] This module requires no prerequisites.
+
+    !!! failure "STOP"
+        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
+
 ---
 
 Kickoff is announced typically the 1st Saturday in January upon return of the School Winter Break - Kickoff will broadcast the new game and distribute the rulebook simultaneously across the world at the designated time.  Upon learning the game, we immediately begin discussing the game and share our thoughts.  To have a bigger picture of the urgency required - see the timeline below for an idea of the FRC design process we try to follow for having a competition robot ready within 6 weeks of learning the rules of the game. 
