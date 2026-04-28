@@ -101,6 +101,7 @@ nav:
           - "Level 01 - Hand Tools":
               - fabrication/level1/handtools/Handtools.md
               - fabrication/level1/handtools/pliers.md
+              - fabrication/level/handtools/centerpunch.md
               - fabrication/level1/handtools/crimping.md
           - "Level 01 - 3D Printer":
               - fabrication/level1/3dprinter.md
