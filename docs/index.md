@@ -180,6 +180,7 @@ Access the FRC glossary, Core Values, and general reference materials anytime.
 * **Team Repository:** [GitHub - {{ team_name }}](https://github.com/FRC-2064)
 * **Social Media:** [Instagram @frc2064](https://www.instagram.com/frc2064/)
 * **Discord:** [2064 Member Discord Channel](https://discord.com/invite/svfrdGXrEe)
+* **Team Google Calendar:** [Google Calendar](https://calendar.google.com/calendar/embed?src=c_a246400a88a21fe4e3b65cc96f43ae4020788d8410fe2a1c572ab632d872a20a%40group.calendar.google.com&ctz=America%2FNew_York)
 
 !!! quote "Core Value Check"
     *"We don't just build robots; we build the students who build the robots."*
