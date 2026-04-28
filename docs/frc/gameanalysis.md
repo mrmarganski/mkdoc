@@ -1,6 +1,6 @@
 # {{ m1_1_3 }}
 
-> After a new game is introduces in January, what are the first steps a successful team takes to prepare for the robot to be comnpetitive?
+> After a new game is introduced in January, what are the first steps every successful team takes to prepare for the robot to be comnpetitive?
 
 ??? info "📋 Prerequisites: Before You Start"
     Ensure you have successfully completed and received mentor sign-off for the following modules:
