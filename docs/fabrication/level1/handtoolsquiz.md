@@ -5,7 +5,7 @@
 
 > **Objective:** Use the interactive viewer below to inspect the assembly, check hole alignments, and understand the internal component layout.
 
-<div class="iframe-container" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+<div class="iframe-container" style="position: relative; width: 100%; max-width: 600px; padding-bottom: 400px; height: 0; overflow: hidden; border: 1px solid #ddd; border-radius: 8px;">
   <iframe 
     src="https://modelembedder.net/embed?did=a6f427b9c4adf76d40feed00&wvm=v&wvmid=50a6f9cd98a109464609d8a7&eid=99c781b076ef6f8a9fe23618&elementType=ASSEMBLY" 
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
