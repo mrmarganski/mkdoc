@@ -10,7 +10,7 @@ Level 3 is all about processing raw stock into usable robot parts. The tools you
 
 ---
 
-## 🏭 What You Will Learn in Level 3
+🏭 What You Will Learn in Level 3
 
 This level is designed to teach you the physics of cutting hard materials and the safety protocols required for high-end fabrication. You will cover four major operational zones:
 
@@ -22,7 +22,7 @@ This level is designed to teach you the physics of cutting hard materials and th
 
 ---
 
-## 🔒 Looking Ahead: Digital Fabrication
+🔒 Looking Ahead: Digital Fabrication
 
 Completing Level 3 means you have mastered the physical manipulation of materials. You understand feeds, speeds, and how cutting tools interact with metal and plastic. 
 
