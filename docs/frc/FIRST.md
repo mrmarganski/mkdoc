@@ -1,1 +1,9 @@
 # {{ m1_1_1 }}
+
+??? info "📋 Prerequisites: Before You Start"
+    Ensure you have successfully completed and received mentor sign-off for the following modules:
+
+    - [ ] This module requires no prerequisites.
+
+    !!! failure "STOP"
+        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
