@@ -11,7 +11,6 @@
     - [x] **{{ m1_1_5 }}**
     - [x] **{{ m1_1_6 }}** 
 
-
     !!! failure "STOP"
         If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
 
