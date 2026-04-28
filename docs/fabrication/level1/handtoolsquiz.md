@@ -3,6 +3,9 @@
 🛠️ Skill Check: The 3D Print Jig Challenge
 > **Objective:** Demonstrate precision measurement, hand-tool proficiency, and mechanical assembly by creating a matching component for a "blind" 3D printed fixture.
 
+!!! note "Safety"
+    You may only use tools you have been "certified" in to this stage, only hand tools and powered hand tools that have been covered can be used.
+
 ---
 
 ## 🚦 The Challenge Rules
