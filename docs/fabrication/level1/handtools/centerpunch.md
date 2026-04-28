@@ -13,7 +13,7 @@
 
 ---
 
-### 🔍 Why use a Center Punch?
+🔍 Why use a Center Punch?
 As shown in the video, drill bits are designed to cut, but their tips can often "skate" or "wander" across smooth metal like our 1x2 aluminum tubes. 
 
 1. **The Problem:** Without a punch, your hole might end up 1/16" or 1/8" away from your intended mark, ruining your alignment with the 3D printed Jig.
