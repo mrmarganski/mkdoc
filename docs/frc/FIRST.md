@@ -29,12 +29,12 @@ The FIRST Robotics Competition is designed to simulate a real-world engineering 
 To show you understand how Team 2064 fits into the broader FIRST ecosystem, you will complete a **Culture & Strategy Analysis** via our digital portal.
 
 ### 🚦 Step 1: Research
-Visit the [official FIRST Robotics Competition page](https://www.firstinspires.org/robotics/frc) and watch the current season's **Game Reveal** video. Pay close attention to the end of the video where the season's "theme" and community impact are discussed.
+Visit the [official FIRST Robotics Competition page](https://www.firstinspires.org/about/impact) and review the information on FIRST and how community impact are discussed.
 
 ### 🛠️ Step 2: Analysis Activity
 Complete the analysis questionnaire at the link below. You will be asked to answer these three culture-focused questions:
 
-1. **Defining the Mission:** How does the current game's theme connect to a real-world problem or industry, and why does *FIRST* choose to frame a "game" around a professional challenge?
+1. **Defining the Mission:** How does FRC relate to a real-world problem or industry, and why does *FIRST* choose to frame a "game" around a professional challenge?
 2. **Coopertition in Action:** Describe a scenario during a 3-day competition where Team 2064 might need to help a rival team. How does this benefit the "Panther Project" in the long run?
 3. **The Professional Standard:** Beyond building a robot, list two non-technical roles (e.g., imagery, scouting, business) that are essential to a team’s success in FRC culture.
 
