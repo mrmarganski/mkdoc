@@ -1,7 +1,5 @@
 # {{ m2_3_9 }}
 
-## Subsystems
-
 Subsystems are how we break up a robot into logical chunks. The best way to decide if something should be its own subsystem is to ask yourself:
 
 > Can this run independently?
