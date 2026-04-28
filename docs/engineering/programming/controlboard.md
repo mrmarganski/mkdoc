@@ -1,14 +1,14 @@
 # {{ m2_3_6 }}
 
 For Reefscape, due to the large number of locations that the robot could score in, we knew that we couldn't just have another controller for our operator. We needed something that had substantially more inputs than a controller. This lead us to look at button boards, that we see many teams using things such as:
-![](../Assets/Pasted%20image%2020250406212605.png)
+![](../../img/Pasted%20image%2020250406212605.png)
 
 A physical button board was an option, but we wanted to explore solutions 'evergreen' solutions. This lead us to creating the app we internally refer to as 'Control Board'
 
 ## What is Control Board?
 Control Board is a desktop app written in the Flutter framework built on Dart that interacts with the robot by pushing named values to network tables[^1] .
 
-![](../Assets/Pasted%20image%2020250406213725.png)
+![](../../img/Pasted%20image%2020250406213725.png)
 
 ## How does the robot use Control Board Values?
 
