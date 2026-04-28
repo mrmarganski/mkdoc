@@ -16,6 +16,7 @@
 **FIRST** (For Inspiration and Recognition of Science and Technology) is a global robotics community that prepares young people for the future. It is more than just building robots; it is a "sport for the mind" where every student can turn pro.
 
 ### The FIRST Robotics Competition (FRC)
+
 FRC is often called the "hardest fun you'll ever have." Under strict rules and limited resources, Team 2064 is challenged to:
 * **Design & Build:** Industrial-size robots to play a difficult field game against like-minded competitors.
 * **Innovate:** Utilize professional CAD software like Onshape and advanced fabrication tools.
@@ -38,9 +39,11 @@ On **Team 2064**, we don't just follow the rules; we live the *FIRST* Core Value
 To show you understand the scope of the 2064 season, you will complete a **Competition Analysis** task via our digital portal.
 
 ### 🚦 Step 1: Research
+
 Visit the [official FIRST Robotics Competition page](https://www.firstinspires.org/robotics/frc) and watch the current season's **Game Reveal** video.
 
 ### 🛠️ Step 2: Analysis Activity
+
 Once you have watched the game reveal, you must complete the analysis questionnaire. 
 
 !!! info "Identification Required"
@@ -49,6 +52,7 @@ Once you have watched the game reveal, you must complete the analysis questionna
 [Submit Your Game Analysis :material-form-select:](https://forms.gle/PJuHm9MqTbs4jVVs7){ .md-button .md-button--primary target="_blank" }
 
 ### 📸 Step 3: Discussion
+
 After submitting your Google Form:
 1. **Notify a Mentor:** Let a CAD mentor or your Subteam Lead know your analysis is complete.
 2. **Review:** Be prepared for a 2-minute "elevator pitch" to explain your findings.
