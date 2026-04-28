@@ -141,8 +141,8 @@ nav:
           - "Level 3 Overview":
               - fabrication/level3/level3.md
               - fabrication/level3/3dprinting2.md
-              - fabrication/level2/stationary/horizontalsaw.md
-              - fabrication/level2/stationary/woodbandsaw.md
+              - fabrication/level3/stationary/horizontalsaw.md
+              - fabrication/level3/stationary/woodbandsaw.md
               - fabrication/level3/lathe.md
               - fabrication/level3/millingmachine.md
               - fabrication/level3/machinelessons.md
