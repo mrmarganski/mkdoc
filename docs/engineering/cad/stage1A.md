@@ -1,6 +1,14 @@
 # {{ m1_2_2 }}
 > **Objective:** Learn the core building blocks of 3D modeling: creating 2D sketches, applying constraints, and pulling those sketches into 3D parts using the Extrude tool.
 
+??? info "📋 Prerequisites: Before You Start"
+    Ensure you have successfully completed and received mentor sign-off for the following modules:
+
+    - [x] **{{ m1_2_1 }}** 
+
+    !!! failure "STOP"
+        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
+
 Now that your workspace is set up, it is time to start designing. Almost every robot mechanism begins with a 2D sketch that is "extruded" into a 3D part. 
 
 For this module, you will use the **Team 2064 Onshape Classroom** as your workbench while following the industry-standard tutorials from **FRCDesign.org**.
