@@ -10,17 +10,6 @@
     !!! failure "STOP"
         If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
 
-# {{ m1_1_1 }}
-> **Objective:** Understand the mission of *FIRST*, the structure of the Robotics Competition, and the core values that drive Team 2064.
-
-??? info "📋 Prerequisites: Before You Start"
-    Ensure you have addressed the following foundational requirements:
-
-    - [x] **No Prerequisites required for this module.**
-
-    !!! failure "STOP"
-        If you have not completed your safety training, you do not have clearance to enter the build area for any FRC activities.
-
 ---
 
 ## 🚀 What is FIRST?
