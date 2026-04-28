@@ -11,52 +11,45 @@
 
 ---
 
-🚀 What is FIRST?
+## 🚀 The Culture of FIRST
 
-**FIRST** (For Inspiration and Recognition of Science and Technology) is a global robotics community that prepares young people for the future. It is more than just building robots; it is a "sport for the mind" where every student can turn pro.
+**FIRST** (For Inspiration and Recognition of Science and Technology) is more than a robotics organization; it is a global community designed to build people, not just machines. In FRC, the "culture" is defined by how we interact with our peers and our rivals.
 
-The FIRST Robotics Competition (FRC)
+### The FRC Experience
+The FIRST Robotics Competition is designed to simulate a real-world engineering firm. Under strict rules and limited resources, Team 2064 must:
 
-FRC is often called the "hardest fun you'll ever have." Under strict rules and limited resources, Team 2064 is challenged to:
-
-* **Design & Build:** Industrial-size robots to play a difficult field game against like-minded competitors.
-* **Innovate:** Utilize professional CAD software like Onshape and advanced fabrication tools.
-* **Brand:** Raise funds and design a team identity (The Panther Project).
-* **Collaborate:** Hone teamwork and project management skills within a professional shop environment.
+* **Practice Gracious Professionalism:** Competing at the highest level while treating everyone with respect and kindness.
+* **Engage in Coopertition:** Helping your opponents even when you want to beat them on the field.
+* **Build a Professional Brand:** Operating the "Panther Project" as a professional entity through fundraising, community outreach, and technical excellence.
 
 ---
 
-🤝 Core Values: The Panther Project Standard
+## ✅ Module Deliverable: Culture & Strategy Analysis
 
-On **Team 2064**, we don't just follow the rules; we live the *FIRST* Core Values in our shop, our school, and at every competition.
+To show you understand how Team 2064 fits into the broader FIRST ecosystem, you will complete a **Culture & Strategy Analysis** via our digital portal.
 
-* **Gracious Professionalism:** This is a way of doing things that encourages high-quality work, emphasizes the value of others, and respects individuals and the community. 
-* **Coopertition:** We compete like crazy, but we treat our opponents with kindness. If another team's robot breaks in the pits, we provide the parts or expertise they need to get back on the field.
+### 🚦 Step 1: Research
+Visit the [official FIRST Robotics Competition page](https://www.firstinspires.org/robotics/frc) and watch the current season's **Game Reveal** video. Pay close attention to the end of the video where the season's "theme" and community impact are discussed.
 
----
+### 🛠️ Step 2: Analysis Activity
+Complete the analysis questionnaire at the link below. You will be asked to answer these three culture-focused questions:
 
-✅ Module Deliverable: The "Deep Dive" Activity
-
-To show you understand the scope of the 2064 season, you will complete a **Competition Analysis** task via our digital portal.
-
-🚦 Step 1: Research
-
-Visit the [official FIRST Robotics Competition page](https://www.firstinspires.org/robotics/frc) and watch the current season's **Game Reveal** video.
-
-🛠️ Step 2: Analysis Activity
-
-Once you have watched the game reveal, you must complete the analysis questionnaire. 
+1. **Defining the Mission:** How does the current game's theme connect to a real-world problem or industry, and why does *FIRST* choose to frame a "game" around a professional challenge?
+2. **Coopertition in Action:** Describe a scenario during a 3-day competition where Team 2064 might need to help a rival team. How does this benefit the "Panther Project" in the long run?
+3. **The Professional Standard:** Beyond building a robot, list two non-technical roles (e.g., imagery, scouting, business) that are essential to a team’s success in FRC culture.
 
 !!! info "Identification Required"
-    You **must** be logged into your **@region15.org** Google account to access and submit this form. This ensures your progress is tracked for your student records.
+    You **must** be logged into your **@region15.org** Google account to access and submit this form.
 
-[Submit Your Game Analysis :material-form-select:](https://forms.gle/PJuHm9MqTbs4jVVs7){ .md-button .md-button--primary target="_blank" }
+[Submit Your Game & Culture Analysis :material-form-select:](https://forms.gle/PJuHm9MqTbs4jVVs7){ .md-button .md-button--primary target="_blank" }
 
-📸 Step 3: Discussion
+---
+
+### 📸 Step 3: Discussion
 
 After submitting your Google Form:
 
 1. **Notify a Mentor:** Let a CAD mentor or your Subteam Lead know your analysis is complete.
-2. **Review:** Be prepared for a 2-minute "elevator pitch" to explain your findings.
+2. **Review:** Be prepared to explain how the "Panther Project" maintains a professional shop environment during the build season.
 
 ---
