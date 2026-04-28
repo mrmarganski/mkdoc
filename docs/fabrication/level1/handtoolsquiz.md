@@ -7,6 +7,7 @@
     To pass this Skill Check, you are **ONLY** permitted to use the following tools. Use of any stationary machinery (Bandsaw, Cold Saw, Mill) or unauthorized power tools will void the assessment.
 
     ### 🛠️ Approved Fabrication Tools
+    * **Sharpie:** For marking layout hole locations on part
     * **Milwaukee M12 Fuel Portable Bandsaw** For all stock cutting (1x2 tube).
     * **Milwaukee Cordless Drill:** For all hole drilling and fastener driving.
     * **Standard Drill Bit Set:** For creating pilot and clearance holes.
