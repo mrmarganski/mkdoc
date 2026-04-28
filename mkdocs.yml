@@ -115,6 +115,7 @@ nav:
               - fabrication/level2/powertools/soldering.md
           - "Level 02 - Stationary Powered Equipment":    
               - fabrication/level2/stationary/horizontalsaw.md
+              - fabrication/level2/stationary/woodbandsaw.md
           - "Skill Ckeck Level 02":
               - fabrication/level2/powertoolsquiz.md
       - "Module 1.5: XRP Starter Bot":
