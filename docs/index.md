@@ -172,7 +172,7 @@ Phase 3 is reserved for veteran members, subteam leads, and the drive team. Thes
 
 ---
 
-## 📚 {{ res_title }} & Links
+## {{ res_title }} & Links
 Access the FRC glossary, Core Values, and general reference materials anytime.
 
 * **Team Resources:** [View Core Values & Glossary](resources/resourceslanding.md)
