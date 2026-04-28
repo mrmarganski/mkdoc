@@ -1,63 +1,72 @@
-# {{ m1_1_3 }}
-
-> After a new game is introduced in January, what are the first steps every successful team takes to prepare for the robot to be comnpetitive?
+# {{ m1_1_1_3 }}
+> **Objective:** Break down the current season's challenge to identify scoring priorities, technical constraints, and strategic opportunities for the Panther Project.
 
 ??? info "📋 Prerequisites: Before You Start"
-    Ensure you have successfully completed and received mentor sign-off for the following modules:
+    Ensure you have completed the following:
 
-    - [x] This module requires no prerequisites.
+    - [x] **No prerequisites for this module required**
 
     !!! failure "STOP"
-        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
+        You must have a basic understanding of FRC culture and safety protocols before participating in strategic game sessions.
 
 ---
 
-## 🚀 What is FIRST?
+## 🚦 Step 1: Resource Review
+Before starting your analysis, ensure you have reviewed the primary source materials provided by *FIRST*.
 
-**FIRST** (For Inspiration and Recognition of Science and Technology) is a global robotics community that prepares young people for the future. It is more than just building robots; it is a "sport for the mind" where every student can turn pro.
-
-### The FIRST Robotics Competition (FRC)
-
-FRC is often called the "hardest fun you'll ever have." Under strict rules and limited resources, Team 2064 is challenged to:
-
-* **Design & Build:** Industrial-size robots to play a difficult field game against like-minded competitors.
-* **Innovate:** Utilize professional CAD software like Onshape and advanced fabrication tools.
-* **Brand:** Raise funds and design a team identity (The Panther Project).
-* **Collaborate:** Hone teamwork and project management skills within a professional shop environment.
+* **The Game Manual:** Read the sections on **The Arena**, **The Game**, and **Robot Construction Rules**.
+* **The Game Reveal:** Watch the official cinematic and game animation to see the scoring flow in motion.
 
 ---
 
-## 🤝 Core Values: The Panther Project Standard
+## 🛠️ Step 2: The "Need/Want" Analysis
+A successful season begins with deciding what the robot **must** do versus what it **might** do. Complete the following breakdown in your digital notebook:
 
-On **Team 2064**, we don't just follow the rules; we live the *FIRST* Core Values in our shop, our school, and at every competition.
+#### 1. Requirements (The "Musts")
+List the non-negotiable rules and basic functions required to play.
+* **Size/Weight:** What are the maximum frame perimeter and weight limits for this season?
+* **Bumpers:** What are the specific height and coverage requirements for competition bumpers?
+* **Movement:** Does the game floor require high-traction wheels, or is the standard Team 2064 Swerve Drivebase preferred?
 
-* **Gracious Professionalism:** This is a way of doing things that encourages high-quality work, emphasizes the value of others, and respects individuals and the community. 
-* **Coopertition:** We compete like crazy, but we treat our opponents with kindness. If another team's robot breaks in the pits, we provide the parts or expertise they need to get back on the field.
+#### 2. Scoring Objectives (The "Wants")
+Rank the scoring methods from highest to lowest priority.
+* **Primary Scoring:** What is the fastest way to score points (e.g., shooting, climbing, placing)?
+* **Autonomous:** What tasks can the robot perform in the first 15 seconds without driver input?
+* **Endgame:** How many points is the final task worth, and does it require a specialized mechanism (e.g., a climber)?
 
 ---
 
-## ✅ Module Deliverable: The "Deep Dive" Activity
+## 📊 Step 3: Mechanical Feasibility
+Based on our shop capabilities at Pomperaug High School, determine which mechanisms are required for this season.
 
-To show you understand the scope of the 2064 season, you will complete a **Competition Analysis** task via our digital portal.
+| Subsystem | Function | Priority |
+| :--- | :--- | :--- |
+| **Drivetrain** | Swerve vs. Tank; speed vs. torque. | High |
+| **Intake** | Ground pickup vs. human player station pickup. | High |
+| **Indexer** | Storing and moving game pieces internally. | Medium |
+| **Scoring Tool** | Shooter, elevator, or arm mechanism. | High |
 
-### 🚦 Step 1: Research
 
-Visit the [official FIRST Robotics Competition page](https://www.firstinspires.org/robotics/frc) and watch the current season's **Game Reveal** video.
 
-### 🛠️ Step 2: Analysis Activity
+---
 
-Once you have watched the game reveal, you must complete the analysis questionnaire. 
+## ✅ Module Deliverable: Analysis Submission
+To receive credit for your game analysis, you must complete the official 2064 Game Analysis Form. 
 
 !!! info "Identification Required"
     You **must** be logged into your **@region15.org** Google account to access and submit this form. This ensures your progress is tracked for your student records.
 
-[Submit Your Game Analysis :material-form-select:](https://forms.gle/W2LSAiiZJKGHb9SXA){ .md-button .md-button--primary target="_blank" }
+[Submit Game Analysis Form :material-clipboard-check:](https://forms.gle/KGeb8zhehEopF5oaA){ .md-button .md-button--primary target="_blank" }
 
-### 📸 Step 3: Discussion
+---
 
-After submitting your Google Form:
+## 📸 Step 4: Game Analysis Review
+Be prepared to answer the following questions during your review with a Mentor or Subteam Lead:
 
-1. **Notify a Mentor:** Let a CAD mentor or your Subteam Lead know your analysis is complete.
-2. **Review:** Be prepared for a 2-minute "elevator pitch" to explain your findings.
+1. **Cycle Time Analysis:** Which scoring objective offers the best "points-per-second" ratio when considering the travel distance across the field?
+2. **Constraint Management:** How does the maximum robot expansion rule (if applicable) limit the design of our primary scoring mechanism?
+3. **Autonomous Strategy:** What is the minimum number of game pieces we need to score during the Autonomous period to remain competitive in our district?
+4. **Reliability vs. Complexity:** Is it more strategic to build a "simple" robot that does one task perfectly or a "complex" robot that attempts every scoring method?
+5. **Defensive Play:** Based on the field layout, where are the "choke points" where our robot might be blocked, and how can our drivetrain design mitigate this?
 
 ---
