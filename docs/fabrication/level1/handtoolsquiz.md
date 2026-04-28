@@ -16,20 +16,44 @@
 
 ---
 
-## 📊 Evaluation Rubric
+## 📊 Technical Evaluation Matrix
 
-| Category | Emerging (1) | Proficient (2) | Mastery (3) |
+| Category | Emerging (1 pt) | Proficient (2 pts) | Mastery (3 pts) |
 | :--- | :--- | :--- | :--- |
-| **Drafting & Layout** | Drawing is missing dimensions or hole locations; relies on "guessing." | Drawing is legible with correct hole patterns and lengths recorded. | Professional sketch with tolerances noted and correct drill bit sizes identified. |
-| **Stock Prep (The Cut)** | Cut is more than 1/8" off or visibly crooked. | Cut is within 1/16" of target length and reasonably square. | Cut is "dead-on" length and perfectly square across both axes. |
-| **Drilling Precision** | Holes are jagged or misaligned (Fasteners do not fit). | Holes align with the Jig; minimal "forcing" required for bolts. | Holes align perfectly; fasteners drop in with zero friction or binding. |
-| **Hardware Selection** | Chosen fasteners are the wrong length, thread, or diameter. | Chosen fasteners fit the holes and allow for secure nut attachment. | Correct 10-32 hardware selected; lengths provide 2-3 threads of clearance. |
-| **Mechanical Sympathy** | Over-tightened (cracked print/crushed tube) or left loose/rattling. | Part is secure; fasteners are snug without visible deformation of the 3D print. | Perfectly torqued; assembly is rigid with no stress marks on the plastic or tube. |
+| **The Blueprint (Drawing)** | Missing hole diameters or uses vague terms like "middle." | All 4-5 holes have X/Y coordinates from a single datum (corner). | Fully constrained drawing; includes bit sizes (e.g., #21 for 10-32 tap). |
+| **Precision Cut (1x2 Tube)** | Tube is ±1/8" or cut has a visible "bevel" (not 90°). | Tube is within ±1/16"; cut is square enough to stand on end without tipping. | Tube is within ±1/32"; cut is perfectly square (checked with a machinist square). |
+| **Hole Alignment (Y-Axis)** | Holes are "stair-stepped" or drifted off center-line of the tube. | All holes are centered on the 1x2 face; bolts pass through with light pressure. | Holes are perfectly linear; 3D print "drops" onto the tube with zero friction. |
+| **Hardware & Thread Care** | Picked 8-32 or 1/4-20 by mistake; stripped threads on the tapped insert. | Correct 10-32 hardware selected; bolts thread into inserts by hand. | Hardware length is optimal (0.25" past nut); washers used to protect the 3D print. |
+| **Fastening Torque** | Fasteners are loose/spinning OR the 3D print shows white stress fractures. | Part is rigid; bolt heads are flush but print shows slight "sink" into plastic. | **Perfect Torque:** Part is immovable; no deformation or "crazing" on the 3D printed Jig. |
 
 ---
 
-## ✅ Final Result: ________ / 15
-**Minimum Score to Pass:** 12/15
+## 🔍 Visual Reference for "Mastery"
+
+### 1. The "Datum" Layout
+To hit Mastery on the drawing, students should not measure from "hole to hole." They should pick one corner as **(0,0)** and measure every hole from that same point. This prevents "Tolerance Stack-up" where small errors add up to one big mistake at the end.
+
+
+
+### 2. Squaring the Cut
+A "Mastery" cut isn't just the right length; it's perpendicular in both directions. If the student cuts at an angle, the 3D print will sit crookedly on the tube, causing the bolts to bind.
+
+
+
+### 3. Mechanical Sympathy (Torque)
+Students often think "tighter is better." In this challenge, they must account for the **Compressive Strength** of the 3D print.
+* **Mastery:** The nut is "Snug-plus-a-quarter-turn."
+* **Failure:** Using a drill/driver to "impact" the bolt until the plastic cracks.
+
+---
+
+## 📝 Final Checkout Checklist
+* [ ] **Deburring:** Did the student file the sharp edges of the tube? (Automatic -1 if sharp).
+* [ ] **Swart Management:** Is the student's work area clean of metal chips?
+* [ ] **Tool Return:** Are the drill bits, calipers, and squares back in their labeled foam cutouts?
+
+**Total Score: _____ / 15**
+*(12+ required for Level 1 Fabrication Sign-off)*
 
 
 !!! quote "Shop Standard"
