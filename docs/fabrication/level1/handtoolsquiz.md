@@ -3,7 +3,6 @@
 🛠️ Skill Check: The 3D Print Jig Challenge
 > **Objective:** Demonstrate precision measurement, hand-tool proficiency, and mechanical assembly by creating a matching component for a "blind" 3D printed fixture.
 
-📦 Interactive 3D Model
 > **Objective:** Use the interactive viewer below to inspect the assembly, check hole alignments, and understand the internal component layout.
 
 <div class="iframe-container" style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
