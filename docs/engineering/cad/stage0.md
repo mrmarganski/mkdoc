@@ -1,6 +1,20 @@
 # {{ m1_2_1 }}
 > **Objective:** Create your Onshape Education account, set up your workspace, and install the required FRC parts libraries.
 
+??? info "📋 Prerequisites: Before You Start"
+    Ensure you have successfully completed and received mentor sign-off for the following modules:
+
+    - [x] **{{ m1_1_1 }}** 
+    - [x] **{{ m1_1_2 }}** 
+    - [x] **{{ m1_1_3 }}** 
+    - [x] **{{ m1_1_4 }}** 
+    - [x] **{{ m1_1_5 }}**
+    - [x] **{{ m1_1_6 }}** 
+
+
+    !!! failure "STOP"
+        If you have not completed the modules above, you do not have the required safety or technical clearance to begin this task.
+
 Welcome to the CAD Pathway! Team 2064 uses Onshape, a cloud-based CAD platform that lets you design robots right in your web browser. 
 
 For this very first step, we partner with the incredible curriculum over at **FRCDesign.org**. You are going to hop over to their site to complete your initial account setup, and then come right back here to submit your progress.
