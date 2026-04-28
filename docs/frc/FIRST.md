@@ -52,6 +52,6 @@ Once you have watched the game reveal, you must complete the analysis questionna
 ### 📸 Step 3: Discussion
 After submitting your Google Form:
 1. **Notify a Mentor:** Let a CAD mentor or your Subteam Lead know your analysis is complete.
-2. **Review:** Be prepared for a 2-minute "elevator pitch" explaining how your identified constraints will impact our build season strategy.
+2. **Review:** Be prepared for a 2-minute "elevator pitch" to explain your findings.
 
 ---
