@@ -3,8 +3,20 @@
 🛠️ Skill Check: The 3D Print Jig Challenge
 > **Objective:** Demonstrate precision measurement, hand-tool proficiency, and mechanical assembly by creating a matching component for a "blind" 3D printed fixture.
 
-!!! note "Safety"
-    You may only use tools you have been "certified" in to this stage, only hand tools and powered hand tools that have been covered can be used.
+!!! danger "⚠️ Restricted Tool List (Mandatory Compliance)"
+    To pass this Skill Check, you are **ONLY** permitted to use the following tools. Use of any stationary machinery (Bandsaw, Cold Saw, Mill) or unauthorized power tools will void the assessment.
+
+    ### 🛠️ Approved Fabrication Tools
+    * **Milwaukee M12 Fuel Portable Bandsaw** For all stock cutting (1x2 tube).
+    * **Milwaukee Cordless Drill:** For all hole drilling and fastener driving.
+    * **Standard Drill Bit Set:** For creating pilot and clearance holes.
+    * **Measurement Tools:** Calipers (for hole precision) and Tape Measure (for length).
+
+    ### 🔧 Approved Assembly Tools
+    * **Allen Wrench Set:** For tightening socket-head fasteners.
+    * **Pliers:** For holding nuts or stabilizing hardware.
+    * **Handheld Fasteners:** Various screws, nuts, and washers as selected from the hardware bins.
+    * **Deburring Tools:** Countersinks, or handheld swivel deburring tool.
 
 ---
 
