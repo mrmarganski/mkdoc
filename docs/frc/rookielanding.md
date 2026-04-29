@@ -26,7 +26,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     ---
 
-    **SELF PACED** ~ *Learn to think in 3D.* Master the Engineering Design Process and get your Onshape account set up for basic mechanism modeling.
+    **MUST COMPLETE MODULE 1.1** ~ *Learn to think in 3D.* Master the Engineering Design Process and get your Onshape account set up for basic mechanism modeling.
     
     [Start {{ m1_2_1 | replace("1.2.1 - ", "") }}](../engineering/cad/CAD.md){ .md-button .md-button--primary }
 
