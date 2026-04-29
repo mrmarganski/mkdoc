@@ -3,7 +3,7 @@
 Installing WPIlib and VScode onto your Personal Computer
 
 !!! info "WPILib Installation"
-    Your workstation must be a have mac os or windows installed.  No linux or chromebooks will work for this without more complicated steps.  The Computers in Room 124 will have VScode with the WPIlib libraires installed, so you are free to use them and can skip this step - but if you would like to use a personal computer or update WPIlib this step will help you with that.
+    Your workstation must be a have mac os or windows installed.  Reference the linked page below for specific architecture required based on your operating system.  Linux could work, but may have issues to troubleshoot with simulation.  **Chromebooks will not work for this**.  The Computers in Room 124 will have VScode with the WPIlib libraires installed, so you are free to use them and can skip this step - but if you would like to use a personal computer or update WPIlib this step will help you with that.
 
 !!! danger
     **STOP** the video at the 14:03 marker: We will **NOT** be coding in Time Based format!
