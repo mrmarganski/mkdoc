@@ -18,7 +18,7 @@ In this phase, you will learn the culture of FIRST Robotics, how to safely navig
 
     ---
 
-    **SELF PACED** ~ *Learn the culture.* Get an overview of FIRST, understand robot anatomy, analyze past games, and learn what to expect during Build Season.
+    **SELF PACED** ~ *Learn the culture.* Get an overview of FIRST, understand robot anatomy, analyze a past game, and learn what to expect during Build Season.
     
     [Start {{ m1_1_1 | replace("1.1.1 - ", "") }}](../frc/FIRST.md){ .md-button .md-button--primary }
 
