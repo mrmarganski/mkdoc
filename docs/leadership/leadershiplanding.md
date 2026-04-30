@@ -1,3 +1,5 @@
+![Team 2064 Logo](../img/2064_logo.png){ align=right width="200" }
+
 # {{ phase_3_title }}
 > **Target Audience:** Veteran Members & Student Leads | **Prerequisite:** Mentor Approval
 
