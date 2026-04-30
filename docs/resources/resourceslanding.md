@@ -2,6 +2,8 @@
 # 📚 Team Resources
 > Your quick-reference library for Team 2064 standards, expectations, and terminology.
 
+![Team 2064 Logo](img/2064_logo.png){ align=left width="200" }
+
 ---
 
 <div class="grid cards" markdown>
