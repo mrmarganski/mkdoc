@@ -126,3 +126,25 @@
         display: none;
     }
 }
+
+/* ============================================================
+   4. IMAGE ALIGNMENT FIX (MOBILE STACKING)
+   Prevents text from squishing against right-aligned images
+   ============================================================ */
+
+@media screen and (max-width: 600px) {
+    /* Target the image alignment attribute used in your Markdown */
+    [align="right"], 
+    .md-content img[align="right"] {
+        float: none !important;      /* Stop the text from wrapping around the logo */
+        display: block !important;   /* Put the logo on its own line */
+        margin: 0 auto 20px auto !important; /* Center the logo and add space below it */
+        width: 150px !important;     /* Slightly shrink it for mobile */
+    }
+
+    /* Ensure the header text doesn't try to fight for space */
+    #phase-2-specialization-pathways {
+        text-align: center;
+        clear: both;
+    }
+}
