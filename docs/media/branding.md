@@ -77,7 +77,7 @@ To show you understand the guidelines, complete the following:
 Download the primary logo and the Roboto font family from the **Team Branding Drive**.
 
 ### 🛠️ Step 2: Identification Activity
-Submit the Game Analysis questionnaire ensuring you have used the correct official team name format as specified in these guidelines.
+Create a team button ensuring you have used the correct official team name format as specified in these guidelines.
 
 [Submit Branding Review :material-check-decagram:](https://forms.gle/PJuHm9MqTbs4jVVs7){ .md-button .md-button--primary target="_blank" }
 
