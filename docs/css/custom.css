@@ -62,49 +62,66 @@
 }
 
 /* ============================================================
-   3. MOBILE HEADER & LOGO FIX (FLEXBOX)
-   Prevents text wrapping and clipping on iOS/Android
+   3. MOBILE HEADER & LOGO FIX (RESPONSIVE FLEXBOX)
+   Prevents text clipping while allowing smart wrapping on iOS
    ============================================================ */
 
 /* Primary layout for the header container */
 .md-header__inner {
     display: flex;
     align-items: center;
-    gap: 12px; /* Fixed gap to prevent clipping */
+    justify-content: space-between; 
+    gap: 12px; /* Protected buffer between text and Panther logo */
 }
 
-/* Ensure the title stays on one line and truncates if too long */
+/* Smart text wrapping: No mid-word breaks, but allows wrapping at spaces */
 .md-header__topic {
     flex: 1;
-    min-width: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    min-width: 0; /* Allows the container to shrink without pushing the logo */
+    
+    /* Logic: Keep words whole, but allow title to use 2 lines if needed */
+    white-space: normal; 
+    word-break: keep-all; 
+    overflow-wrap: break-word;
+    
+    line-height: 1.1;
+    padding-right: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Responsive Scaling for the 2064 Logo */
+/* Protect the 2064 Logo from being squished */
 .md-logo {
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
 }
 
 .md-logo img {
-    height: 1.8rem; /* Default size */
+    height: 1.8rem; /* Standard desktop size */
     width: auto;
 }
 
-/* Adjustments for smaller mobile devices */
-@media screen and (max-width: 450px) {
+/* Mobile Adjustments for iOS (iPhone 12/13/14/15) */
+@media screen and (max-width: 480px) {
     .md-logo img {
-        height: 1.4rem; /* Shrinks logo slightly to give text more room */
+        height: 1.3rem; /* Shrinks logo to prioritize title readability */
     }
 
     .md-header__topic {
-        font-size: 0.85rem; /* Slightly smaller text for Phase titles */
+        font-size: 0.8rem; /* Optimizes long titles like 'Specialization Pathways' */
     }
 }
 
-/* Hide second breadcrumb on extremely small screens to save space */
+/* Extremely small screen fix (e.g., iPhone SE) */
 @media screen and (max-width: 350px) {
+    /* Truncates the title with "..." if space is physically impossible */
+    .md-header__topic {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    /* Hides the secondary breadcrumb to keep the UI clean */
     .md-header__topic + .md-header__topic {
         display: none;
     }
