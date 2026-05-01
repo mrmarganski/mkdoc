@@ -1,5 +1,6 @@
-/* --- 1. Copy Button Styles --- */
-/* This fills the empty ruleset and removes the VS Code warning */
+/* ============================================================
+   1. COPY BUTTON STYLES
+   ============================================================ */
 .copy-button {
     position: absolute;
     right: 0.5rem;
@@ -15,7 +16,9 @@
     opacity: 1;
 }
 
-/* --- 2. Mermaid Diagram Customization (Team 2064 Theme) --- */
+/* ============================================================
+   2. MERMAID DIAGRAM CUSTOMIZATION (TEAM 2064 THEME)
+   ============================================================ */
 
 /* Force all text in the diagram to be white for Dark Mode */
 .mermaid text {
@@ -29,11 +32,11 @@
 .mermaid .node circle, 
 .mermaid .node path {
     fill: #2e2e2e !important;
-    stroke: #ff0000 !important; /* Panther Project Red */
+    stroke: #CD2030 !important; /* Panther Project Red */
     stroke-width: 2px !important;
 }
 
-/* Style the decision diamond (Tool Change Required?) */
+/* Style the decision diamond */
 .mermaid .node.question rect {
     fill: #424242 !important;
 }
@@ -58,20 +61,51 @@
     margin: 30px 0;
 }
 
-/* --- 3. Mobile Header Wrap Fix --- */
+/* ============================================================
+   3. MOBILE HEADER & LOGO FIX (FLEXBOX)
+   Prevents text wrapping and clipping on iOS/Android
+   ============================================================ */
 
-/* Stacks the 2064 logo and title on mobile to prevent text wrapping issues */
-@media screen and (max-width: 600px) {
-    .md-content h1 {
-        display: flex;
-        flex-direction: column-reverse; /* Places logo above the text */
-        align-items: flex-start;
-        white-space: normal; 
+/* Primary layout for the header container */
+.md-header__inner {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Fixed gap to prevent clipping */
+}
+
+/* Ensure the title stays on one line and truncates if too long */
+.md-header__topic {
+    flex: 1;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Responsive Scaling for the 2064 Logo */
+.md-logo {
+    flex-shrink: 0;
+}
+
+.md-logo img {
+    height: 1.8rem; /* Default size */
+    width: auto;
+}
+
+/* Adjustments for smaller mobile devices */
+@media screen and (max-width: 450px) {
+    .md-logo img {
+        height: 1.4rem; /* Shrinks logo slightly to give text more room */
     }
 
-    .md-content h1 img {
-        margin-bottom: 15px; 
-        max-width: 200px;
-        height: auto;
+    .md-header__topic {
+        font-size: 0.85rem; /* Slightly smaller text for Phase titles */
+    }
+}
+
+/* Hide second breadcrumb on extremely small screens to save space */
+@media screen and (max-width: 350px) {
+    .md-header__topic + .md-header__topic {
+        display: none;
     }
 }
